@@ -30,7 +30,23 @@
     },
     "Ashoknagar": {
       "total": 16,
-      "completed": 1
+      "completed": 15
+    },
+    "Tikamgarh": {
+      "total": 16,
+      "completed": 16
+    },
+    "Burhanpur": {
+      "total": 25,
+      "completed": 25
+    },
+    "Rajgarh": {
+      "total": 24,
+      "completed": 24
+    },
+    "Khandwa": {
+      "total": 23,
+      "completed": 0
     }
   }
 }
