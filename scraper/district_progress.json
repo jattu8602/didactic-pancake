@@ -18,6 +18,14 @@
     },
     "Sheopur": {
       "total": 12,
+      "completed": 12
+    },
+    "Mandla": {
+      "total": 14,
+      "completed": 14
+    },
+    "Harda": {
+      "total": 15,
       "completed": 2
     }
   }

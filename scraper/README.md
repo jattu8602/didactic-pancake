@@ -1,155 +1,127 @@
 # College Contact Scraper
 
-Scrape phone numbers, emails, and websites for any college in India using Google Search + Playwright browser automation.
+This directory contains a complete scraping system designed to automatically find and extract phone numbers, email addresses, and website links for colleges in India.
+
+This document provides a **detailed, easy-to-understand guide** covering everything you need to know to run the scraper and the website.
 
 ---
 
-## Requirements
+## 🛠️ How to Install Things
 
-- Python 3.8+
-- Chrome/Chromium browser (Playwright installs its own)
+Before you can run the scraper, you need to install the required tools.
 
-## Quick Install
+**Requirements:**
+- Python 3.8 or higher installed on your computer.
+- A terminal or command prompt.
 
-```bash
-cd scraper
-pip install -r requirements.txt
-playwright install chromium
-```
+**Installation Steps:**
+1. Open your terminal and navigate to the `scraper` folder:
+   ```bash
+   cd scraper
+   ```
+2. Install the necessary Python libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Install Playwright (the browser engine used for scraping):
+   ```bash
+   playwright install chromium
+   ```
 
-## How It Works
+---
 
-For each college in your CSV, the scraper:
+## 🚀 How to Run the Scraper for Any State and Any District
 
-1. **Searches Google** using Playwright (real browser) with stealth patches to avoid detection.
-2. **Visits the top result** (prefers `.ac.in`, `.gov.in`, `.org` domains).
-3. **Extracts phone numbers & emails** from the page body using regex.
-4. **Checks /contact, /about, /contact-us** pages if nothing found on homepage.
-5. **Saves to** `data/scraped/{district}.csv` with progress tracking.
+The scraper reads from a main CSV file (e.g., `mp_colleges.csv` or `colleges.csv`) and allows you to scrape data for specific regions.
 
-### Data Flow
-
-```
-college CSV → Google Search → Visit Website → Extract Contact Info → Save CSV
-                    ↓                                     ↑
-              No results?                          Check /contact
-              Try URL construction                  /about pages
-              (ac.in, .org, .com)                          
-```
-
-## Usage
-
-### List districts in a state
-
+**1. See available districts for a state:**
 ```bash
 python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" list
 ```
 
-### Scrape a specific district
-
+**2. Scrape a specific district in a state:**
 ```bash
 python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" "Bhopal"
 ```
 
-Omit `--state` to search across all states in the CSV:
-
+**3. Scrape across all states (if you omit `--state`):**
 ```bash
 python3 scraper.py --csv ../data/all_colleges.csv "Chennai"
 ```
 
-### Check progress
-
+**4. Check your overall scraping progress:**
 ```bash
 python3 scraper.py summary
 ```
 
----
-
-## IP Blocking & Proxies
-
-### Why IP Blocking Happens
-
-Google detects automated requests and shows a **captcha or "unusual traffic" page**. This scraper uses:
-
-- **Playwright** (real Chromium browser, not HTTP requests)
-- **Stealth JS patches** to hide `navigator.webdriver` and other automation flags
-- **Random delays** (5-10s between searches)
-- **Desktop user-agent** (Chrome 120)
-
-Despite these, if you scrape too aggressively, Google will block your IP.
-
-### How to Bypass
-
-#### 1. Use a Proxy (Recommended)
-
-Pass proxy to Playwright in `scraper.py`:
-
-```python
-context = browser.new_context(
-    proxy={"server": "http://your-proxy:port"},
-    ...
-)
+**5. Combine your scraped data:**
+Once you've scraped your desired districts, merge the newly found data into a final JSON file for the website to use:
+```bash
+python3 combine.py
 ```
-
-Free proxy sources:
-- `https://free-proxy-list.net/`
-- `https://www.proxynova.com/`
-
-#### 2. Rotate User-Agents
-
-The scraper currently uses one UA. Rotate from a list each request:
-
-```python
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ...",
-    "Mozilla/5.0 (X11; Linux x86_64) ...",
-]
-```
-
-#### 3. Increase Delay
-
-Change at the top of `scraper.py`:
-
-```python
-SEARCH_DELAY_S = (10, 20)   # wait 10-20s between searches
-```
-
-Higher delays = slower but safer.
-
-#### 4. Use Residential Proxies (Paid)
-
-Services like **BrightData**, **ScrapingBee**, or **Smartproxy** provide residential IPs that are much harder to detect.
 
 ---
 
-## Refresh Time Estimation
+## 🧠 How This Works (The Basics)
 
-| District Size | Avg Time | Example |
-|--------------|----------|---------|
-| 1-10 colleges | 2-5 min | Alirajpur (4) |
-| 10-50 colleges | 10-45 min | Umaria (11) |
-| 50-100 colleges | 45-90 min | Balaghat (55) |
-| 200-350 colleges | 3-6 hrs | Bhopal (343) |
+The scraper uses **Playwright** to open a real background browser. By acting like a real human, it bypasses basic bot-detection.
 
-Each college takes **~20-30 seconds** total (search + visit + delay).
+1. **Search:** It searches Google for the college name (e.g., `"Govt. College Bhopal official website"`).
+2. **Visit:** It clicks the best official link (preferring `.ac.in`, `.gov.in`).
+3. **Extract:** It reads the webpage text and uses rules (Regular Expressions) to find phone numbers and emails.
+4. **Backup Plan:** If the homepage fails, it checks pages like `/contact` or tries to guess the website URL.
+5. **Save:** It saves the data to a district CSV file and pauses to avoid being detected by Google.
+
+### Refresh Time Estimation
+Scraping isn't instantaneous because we must wait between searches to avoid getting blocked.
+* **1-10 colleges:** ~2 to 5 minutes
+* **10-50 colleges:** ~10 to 45 minutes
+* **200+ colleges:** ~3 to 6 hours
+*(Each college takes roughly 20-30 seconds total, including the random delay).*
 
 ---
 
-## How to Modify the Code
+## 🛡️ IP Blocking and Proxies Explained
 
-### Scrape additional fields
+**What is IP Blocking?**
+Google hates automated bots. If you search too fast, Google will show a CAPTCHA or block your IP address (your internet connection's ID), causing the scraper to fail.
 
-Edit the `visit_and_scrape()` function to save more data:
+**How we prevent it:**
+- **Stealth Code:** We hide browser flags that shout "I am a robot".
+- **Random Delays:** The script pauses for 5-10 seconds between every search.
+
+### How to Bypass IP Blocking & Proxies
+
+If you get blocked, you have a few options to bypass it:
+
+1. **Wait it out (Easiest):** Just wait 1-2 hours and Google will usually unblock you.
+2. **Increase Delays:** Open `scraper.py` and change `SEARCH_DELAY_S = (5, 10)` to something higher, like `(15, 25)`.
+3. **Use a Proxy:** A proxy is a server that hides your real IP address and replaces it with a different one. 
+   - To use one, open `scraper.py` and find where the browser is launched. Add your proxy details like this:
+     ```python
+     context = browser.new_context(
+         proxy={"server": "http://your-proxy-ip:port"},
+         ...
+     )
+     ```
+   - *Note: For serious scraping, you can buy "Residential Proxies" which rotate your IP automatically so you never get blocked.*
+
+---
+
+## 💻 How to Modify Code to Scrape More Data
+
+If you want to extract additional information (like social media links or addresses), you can easily modify `scraper.py`.
+
+1. Open `scraper.py` and find the `visit_and_scrape()` function.
+2. Add your new extraction rules. For example, to scrape the page title and address:
 
 ```python
-# After page loads
+# After page loads...
 text = page.inner_text("body")
-college_name = page.title()           # page title
-address = page.inner_text("address")  # address element
-social_links = page.locator('a[href*="facebook"], a[href*="twitter"]').all()
+college_name = page.title()           # gets the page title
+address = page.inner_text("address")  # gets the <address> element (if it exists)
 
-# Add to output
+# Add it to your output down in the main loop:
 out = {
     **row,
     "website": contact["website"],
@@ -159,82 +131,26 @@ out = {
 }
 ```
 
-### Add new search sources
-
-Add a fallback search function in `search_google()` style:
-
-```python
-def search_bing(page, query):
-    page.goto(f"https://www.bing.com/search?q={quote(query)}")
-    # extract results...
-```
-
-Then call it if Google fails:
-
-```python
-search_results = search_google(page, query)
-if not search_results:
-    search_results = search_bing(page, query)
-```
-
-### Increase phone/email extraction accuracy
-
-Tweak the regex patterns at the top of `scraper.py`:
-
-```python
-PHONE_PATTERNS = [
-    re.compile(r'\+91[-\s]?[6-9]\d{9}'),          # +91 9876543210
-    re.compile(r'0[-\s]?\d{2,4}[-\s]?\d{6,8}'),   # 0755-2554423 (landline)
-    re.compile(r'(?<!\d)[6-9]\d{9}(?!\d)'),        # 9876543210
-]
-
-# Exclude more unwanted emails
-EXCLUDE_EMAILS = re.compile(r'^(noreply|donotreply|no-reply|notifications|nobody|example|test|admin|root|webmaster|info|support|contact|help|facebook|twitter|instagram)@', re.I)
-```
-
 ---
 
-## Website
+## 🌐 How to Run the Website (and Export Features)
 
-The project includes a browse UI:
+This project includes a built-in user interface to browse your scraped data.
 
-```bash
-# Start the Go server
-cd ..
-go build -o server . && ./server
-# → http://localhost:3000
-```
+### Starting the Server
+1. Open your terminal and go to the **root folder** of the project (one folder up from `scraper`).
+   ```bash
+   cd ..
+   ```
+2. Build and run the Go server:
+   ```bash
+   go build -o server . && ./server
+   ```
+3. Open your web browser and go to: `http://localhost:3000/browse.html`
 
-Features:
-- Filter by state and district
-- Search by college name
-- Sortable columns
-- Export filtered data as **CSV** or **Excel**
-- Paginated table view
-
----
-
-## Project Structure
-
-```
-colleges-api-master/
-├── data/
-│   ├── mp_colleges.csv           # Source college data
-│   └── scraped/                  # Per-district scrape output
-│       ├── alirajpur.csv
-│       ├── dindori.csv
-│       └── ...
-├── scraper/
-│   ├── scraper.py                # Scraping engine
-│   ├── district_progress.json    # Resume tracking
-│   ├── requirements.txt          # Python deps
-│   └── README.md                 # This file
-├── public/
-│   ├── browse.html               # Frontend UI
-│   ├── data/colleges.json        # Combined data for frontend
-│   └── style.css
-├── main.go                       # Go server
-├── handlers/                     # API handlers
-├── config/                       # DB config
-└── entities/                     # Data models
-```
+### Website Features
+The website provides a powerful dashboard to view your data, including:
+* **District-wise Filtering:** Quickly view colleges for a specific district.
+* **State-wise Filtering:** Filter colleges by state.
+* **Complete Export as CSV:** A button to export all (or currently filtered) data to a standard CSV format.
+* **Complete Export as Excel:** A built-in feature to download the data as a neatly formatted Microsoft Excel (`.xlsx` or `.xls`) file.
