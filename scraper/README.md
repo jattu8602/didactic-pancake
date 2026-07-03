@@ -154,3 +154,101 @@ The website provides a powerful dashboard to view your data, including:
 * **State-wise Filtering:** Filter colleges by state.
 * **Complete Export as CSV:** A button to export all (or currently filtered) data to a standard CSV format.
 * **Complete Export as Excel:** A built-in feature to download the data as a neatly formatted Microsoft Excel (`.xlsx` or `.xls`) file.
+
+---
+
+## Automation — Scrape Continuously Without Manual Work
+
+The scraper can run in fully automatic mode — no need to sit and type "next" for every district.
+
+### One command: scrape all remaining districts
+
+```bash
+# Scrapes every incomplete district, smallest first, auto-resumes
+python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all
+```
+
+### Continuous loop mode
+
+```bash
+# Keeps retrying failed districts until everything is 100%
+python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --continuous
+```
+
+This will:
+1. Find all districts that aren't 100% complete
+2. Scrape them in size order (smallest first)
+3. Retry any that failed (up to 3 retries by default)
+4. Loop back and retry still-incomplete ones
+5. Only stop when everything is done
+
+### Run in the background (keeps going after closing terminal)
+
+#### Option A: `nohup` (simplest)
+
+```bash
+nohup python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --continuous > scrape.log 2>&1 &
+```
+
+- Check progress: `tail -f scrape.log`
+- Stop it: `kill %1` or `pkill -f scraper.py`
+
+#### Option B: `screen` (recommended)
+
+```bash
+screen -S scrape                    # create session
+python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --continuous
+# Ctrl+A then D to detach
+screen -r scrape                    # re-attach later
+```
+
+#### Option C: `tmux`
+
+```bash
+tmux new -s scrape
+python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --continuous
+# Ctrl+B then D to detach
+tmux attach -t scrape               # re-attach
+```
+
+### Graceful shutdown
+
+Press **Ctrl+C** — the current college finishes, then it stops. Progress is saved after every college, so it resumes exactly where it left off.
+
+### What you need
+
+| Thing | Why |
+|-------|-----|
+| Computer that stays on | Laptop with lid closed = sleep. Use desktop or keep lid open |
+| Disable sleep | System Settings → Battery → turn off "Sleep after X min" |
+| Stable internet | More reliable = fewer Google blocks |
+| Optional: proxies | To avoid IP blocks after ~200+ searches per IP |
+
+### Check progress anytime
+
+```bash
+python3 scraper.py summary
+```
+
+Output:
+```
+  [DONE   ]    4/4    (100%) - Alirajpur
+  [DONE   ]    7/7    (100%) - Dindori
+  [DONE   ]    9/9    (100%) - Jhabua
+  [PARTIAL]    9/11   (82%) - Umaria
+
+  Overall: 29/31 (94%)
+```
+
+### More options
+
+```bash
+# Slower delays (gentler on Google)
+python3 scraper.py --delay 15 --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all
+
+# More retries per district
+python3 scraper.py --max-retries 5 --all --continuous
+
+# Scrape only one state's incomplete districts
+python3 scraper.py --csv ../data/all_india.csv --state "Tamil Nadu" --all
+```

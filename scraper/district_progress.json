@@ -14,7 +14,7 @@
     },
     "Umaria": {
       "total": 11,
-      "completed": 9
+      "completed": 11
     },
     "Sheopur": {
       "total": 12,
@@ -30,7 +30,7 @@
     },
     "Ashoknagar": {
       "total": 16,
-      "completed": 15
+      "completed": 16
     },
     "Tikamgarh": {
       "total": 16,
@@ -46,7 +46,83 @@
     },
     "Khandwa": {
       "total": 23,
-      "completed": 0
+      "completed": 23
+    },
+    "Barwani": {
+      "total": 21,
+      "completed": 21
+    },
+    "Singrauli": {
+      "total": 21,
+      "completed": 21
+    },
+    "Seoni": {
+      "total": 26,
+      "completed": 26
+    },
+    "Shajapur": {
+      "total": 26,
+      "completed": 26
+    },
+    "Anuppur": {
+      "total": 26,
+      "completed": 26
+    },
+    "Shivpuri": {
+      "total": 41,
+      "completed": 12
+    },
+    "Shahdol": {
+      "total": 29,
+      "completed": 29
+    },
+    "Datia": {
+      "total": 27,
+      "completed": 27
+    },
+    "Khargone": {
+      "total": 28,
+      "completed": 28
+    },
+    "Sidhi": {
+      "total": 29,
+      "completed": 29
+    },
+    "Narsimhapur": {
+      "total": 32,
+      "completed": 32
+    },
+    "Dhar": {
+      "total": 31,
+      "completed": 31
+    },
+    "Dewas": {
+      "total": 35,
+      "completed": 35
+    },
+    "Guna": {
+      "total": 33,
+      "completed": 33
+    },
+    "Damoh": {
+      "total": 36,
+      "completed": 36
+    },
+    "Sehore": {
+      "total": 37,
+      "completed": 12
+    },
+    "Gwalior": {
+      "total": 173,
+      "completed": 30
+    },
+    "Neemuch": {
+      "total": 33,
+      "completed": 23
+    },
+    "Ratlam": {
+      "total": 39,
+      "completed": 26
     }
   }
 }
