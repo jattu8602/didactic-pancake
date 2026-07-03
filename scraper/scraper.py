@@ -4,12 +4,12 @@ import json
 import time
 import os
 import sys
+import argparse
 from urllib.parse import urlparse, quote
 from random import randint
 
 from playwright.sync_api import sync_playwright
 
-MP_CSV = "../data/mp_colleges.csv"
 OUTPUT_DIR = "../data/scraped"
 TRACKER_FILE = "district_progress.json"
 BROWSER_HEADLESS = True
@@ -311,19 +311,44 @@ def scrape_district(district, all_rows):
 
 
 def main():
-    with open(MP_CSV, newline="", encoding="utf-8-sig") as f:
+    parser = argparse.ArgumentParser(
+        description="Scrape college contact info (phone, email, website) from any state CSV",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python3 scraper.py --csv ../data/mp_colleges.csv list
+  python3 scraper.py --csv ../data/colleges.csv --state "Madhya Pradesh" "Bhopal"
+  python3 scraper.py --csv ../data/colleges.csv --state "Tamil Nadu" "Chennai"
+  python3 scraper.py --csv ../data/colleges.csv summary
+        """
+    )
+    parser.add_argument("--csv", default="../data/mp_colleges.csv",
+                        help="Path to the college CSV file (default: ../data/mp_colleges.csv)")
+    parser.add_argument("--state", default="",
+                        help="State name to filter by (default: all states)")
+    parser.add_argument("command", nargs="?", default="",
+                        help="'list', 'summary', or a district name to scrape")
+    args = parser.parse_args()
+
+    with open(args.csv, newline="", encoding="utf-8-sig") as f:
         all_rows = list(csv.DictReader(f))
     for r in all_rows:
         r["id"] = r.pop("\ufeffid", r.get("id", ""))
 
-    if len(sys.argv) < 2:
-        print("Usage:")
-        print("  python3 scraper.py <district_name>   Scrape a specific district")
-        print("  python3 scraper.py summary            Show progress across all districts")
-        print("  python3 scraper.py list               List all districts with college counts")
+    state_filter = args.state.strip()
+    if state_filter:
+        rows = [r for r in all_rows if r["state"].strip().lower() == state_filter.lower()]
+        if not rows:
+            print(f"No colleges found for state '{state_filter}'")
+            sys.exit(1)
+    else:
+        rows = all_rows
+
+    if not args.command:
+        parser.print_help()
         sys.exit(1)
 
-    command = sys.argv[1].lower()
+    command = args.command.lower()
 
     if command == "summary":
         print("Progress Tracker:\n")
@@ -333,9 +358,11 @@ def main():
     if command == "list":
         from collections import Counter
         counts = Counter()
-        for r in all_rows:
-            if r["state"] == "Madhya Pradesh":
-                counts[r["district"].strip()] += 1
+        states = set()
+        for r in rows:
+            counts[r["district"].strip()] += 1
+            states.add(r["state"].strip())
+        print(f"State(s): {', '.join(sorted(states))}")
         print(f"{'Count':>5}  District")
         print("-" * 40)
         for d, c in sorted(counts.items(), key=lambda x: -x[1]):
@@ -343,15 +370,18 @@ def main():
         print(f"\nTotal: {len(counts)} districts, {sum(counts.values())} colleges")
         return
 
-    district = sys.argv[1].strip()
-    valid = {r["district"].strip() for r in all_rows if r["state"] == "Madhya Pradesh"}
+    district = args.command.strip()
+    valid = {r["district"].strip() for r in rows}
 
     if district not in valid:
-        print(f"District '{district}' not found in MP districts.")
-        print("Use `python3 scraper.py list` to see available districts.")
+        print(f"District '{district}' not found.")
+        if state_filter:
+            print(f"Use `python3 scraper.py --csv \"{args.csv}\" --state \"{state_filter}\" list` to see available districts.")
+        else:
+            print(f"Use `python3 scraper.py --csv \"{args.csv}\" list` to see available districts.")
         sys.exit(1)
 
-    scrape_district(district, all_rows)
+    scrape_district(district, rows)
 
     print(f"\nDone! Check {OUTPUT_DIR}/{district.lower().replace(' ', '_')}.csv")
     print("\n--- Updated Progress ---")

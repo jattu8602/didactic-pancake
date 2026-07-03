@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Colleges Directory</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -34,6 +35,7 @@
       padding: 16px 20px;
       border-radius: 10px;
       box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      align-items: end;
     }
     .filter-group {
       display: flex;
@@ -61,10 +63,49 @@
       border-color: #2563eb;
       box-shadow: 0 0 0 2px rgba(37,99,235,.15);
     }
+
+    .export-group {
+      display: flex;
+      gap: 8px;
+      margin-left: auto;
+      align-items: end;
+    }
+    .export-btn {
+      padding: 8px 18px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .export-btn.csv {
+      background: #059669;
+      color: #fff;
+    }
+    .export-btn.csv:hover { background: #047857; }
+    .export-btn.excel {
+      background: #2563eb;
+      color: #fff;
+    }
+    .export-btn.excel:hover { background: #1d4ed8; }
+    .export-btn:disabled {
+      opacity: .4;
+      cursor: default;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
     .result-count {
       font-size: 13px;
       color: #666;
-      margin-bottom: 12px;
     }
     .result-count strong { color: #1a1a2e; }
 
@@ -126,28 +167,17 @@
       font-size: 13px;
       transition: all .15s;
     }
-    .pagination button:hover:not(:disabled) {
-      border-color: #2563eb;
-      color: #2563eb;
-    }
-    .pagination button.active {
-      background: #2563eb;
-      border-color: #2563eb;
-      color: #fff;
-    }
-    .pagination button:disabled {
-      opacity: .4;
-      cursor: default;
-    }
-    .page-info {
-      font-size: 13px;
-      color: #666;
-      margin: 0 8px;
-    }
+    .pagination button:hover:not(:disabled) { border-color: #2563eb; color: #2563eb; }
+    .pagination button.active { background: #2563eb; border-color: #2563eb; color: #fff; }
+    .pagination button:disabled { opacity: .4; cursor: default; }
+    .page-info { font-size: 13px; color: #666; margin: 0 8px; }
 
     @media (max-width: 768px) {
       .filters { flex-direction: column; }
       .filter-group select, .filter-group input { min-width: 100%; }
+      .export-group { margin-left: 0; width: 100%; }
+      .export-btn { flex: 1; text-align: center; }
+      .toolbar { flex-direction: column; align-items: start; }
       body { padding: 12px; }
     }
   </style>
@@ -170,9 +200,15 @@
       <label for="search-input">Search College</label>
       <input id="search-input" type="text" placeholder="Type college name...">
     </div>
+    <div class="export-group">
+      <button class="export-btn csv" id="export-csv" onclick="exportCSV()">⬇ CSV</button>
+      <button class="export-btn excel" id="export-excel" onclick="exportExcel()">⬇ Excel</button>
+    </div>
   </div>
 
-  <div class="result-count" id="result-count">Showing <strong>0</strong> colleges</div>
+  <div class="toolbar">
+    <div class="result-count" id="result-count">Showing <strong>0</strong> colleges</div>
+  </div>
 
   <div class="table-wrap">
     <table>
@@ -205,7 +241,6 @@ async function init() {
   const res = await fetch('data/colleges.json');
   const data = await res.json();
   colleges = data.colleges;
-
   populateStates();
   applyFilters();
 }
@@ -279,6 +314,8 @@ function render() {
   }
 
   renderPagination(totalPages);
+  document.getElementById('export-csv').disabled = filtered.length === 0;
+  document.getElementById('export-excel').disabled = filtered.length === 0;
 }
 
 function renderPagination(totalPages) {
@@ -286,36 +323,60 @@ function renderPagination(totalPages) {
   if (totalPages <= 1) { el.innerHTML = ''; return; }
 
   let html = `<button ${currentPage <= 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">‹ Prev</button>`;
-
   let startP = Math.max(1, currentPage - 2);
   let endP = Math.min(totalPages, startP + 4);
   if (endP - startP < 4) startP = Math.max(1, endP - 4);
-
   if (startP > 1) html += '<button onclick="goPage(1)">1</button><button disabled>…</button>';
-
-  for (let i = startP; i <= endP; i++) {
+  for (let i = startP; i <= endP; i++)
     html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
-  }
-
   if (endP < totalPages) html += '<button disabled>…</button><button onclick="goPage(' + totalPages + ')">' + totalPages + '</button>';
-
   html += `<button ${currentPage >= totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">Next ›</button>`;
   html += `<span class="page-info">Page ${currentPage} of ${totalPages}</span>`;
-
   el.innerHTML = html;
 }
 
-function goPage(n) {
-  currentPage = n;
-  render();
-}
+function goPage(n) { currentPage = n; render(); }
 
 function esc(s) {
   if (!s) return '';
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// Event listeners
+function getExportData() {
+  return filtered.map(c => ({
+    'Name': c.name || '',
+    'City': c.city || '',
+    'District': c.district || '',
+    'State': c.state || '',
+    'Pin Code': c.pin_code || '',
+    'Phone Numbers': c.phone_numbers || '',
+    'Emails': c.emails || '',
+    'Website': c.website || ''
+  }));
+}
+
+function exportCSV() {
+  const data = getExportData();
+  if (!data.length) return;
+  const headers = Object.keys(data[0]);
+  const rows = data.map(r => headers.map(h => `"${(r[h]||'').replace(/"/g,'""')}"`).join(','));
+  const csv = [headers.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'colleges.csv'; a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportExcel() {
+  const data = getExportData();
+  if (!data.length) return;
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Colleges');
+  XLSX.writeFile(wb, 'colleges.xlsx');
+}
+
 document.getElementById('state-filter').addEventListener('change', function() {
   populateDistricts(this.value);
   applyFilters();
