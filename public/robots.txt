@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Specifically allow standard search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Specifically allow AI / LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: /sitemap.xml
