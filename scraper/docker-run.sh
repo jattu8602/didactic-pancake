@@ -18,6 +18,7 @@ SCRAPED_DIR="$PROJECT_DIR/data/scraped"
 TRACKER="$SCRIPT_DIR/district_progress.json"
 CSV="$SCRIPT_DIR/../data/mp_colleges.csv"
 IMAGE_NAME="college-scraper"
+PROXY_FILE=""
 CONTAINERS=3
 STATE="Madhya Pradesh"
 
@@ -73,13 +74,15 @@ for ((i=0; i<CONTAINERS; i++)); do
 
     docker rm -f "$CNAME" 2>/dev/null || true
     docker run -d --name "$CNAME" \
+        -e PYTHONUNBUFFERED=1 \
         -v "$SCRAPED_DIR:/data/scraped" \
         -v "$CSV:/data/mp_colleges.csv" \
         -v "$TRACKER:/app/district_progress.json" \
+        ${PROXY_FILE:+-v "$(cd "$(dirname "$PROXY_FILE")" && pwd)/$(basename "$PROXY_FILE"):/app/proxies.txt"} \
         "$IMAGE_NAME" \
         --csv /data/mp_colleges.csv \
         --state "$STATE" \
-        --shard "$i/$CONTAINERS" \
+        ${PROXY_FILE:+--proxy-file /app/proxies.txt} \
         --all \
         --continuous 2>/dev/null
 done

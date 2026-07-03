@@ -7,6 +7,7 @@ import sys
 import argparse
 import signal
 import fcntl
+import hashlib
 from urllib.parse import urlparse, quote
 from random import randint
 from collections import Counter
@@ -18,6 +19,8 @@ TRACKER_FILE = "district_progress.json"
 BROWSER_HEADLESS = True
 SEARCH_DELAY_S = (5, 10)
 VISIT_DELAY_S = (2, 4)
+PROXY_LIST = []
+proxy_idx = 0
 
 PHONE_PATTERNS = [
     re.compile(r'\+91[-\s]?[6-9]\d{9}'),
@@ -110,6 +113,42 @@ def save_tracker(tracker):
             json.dump(existing, f, indent=2)
     finally:
         release_lock(lf)
+
+
+def get_next_proxy():
+    global proxy_idx
+    if not PROXY_LIST:
+        return None
+    p = PROXY_LIST[proxy_idx % len(PROXY_LIST)]
+    proxy_idx += 1
+    return p
+
+
+def parse_proxy_line(line):
+    line = line.strip()
+    if not line or line.startswith("#"):
+        return None
+    # Format: protocol://user:pass@host:port
+    m = re.match(r'((\w+)://)?((\w+):(\w+)@)?([\w.-]+):(\d+)', line)
+    if not m:
+        return None
+    scheme = m.group(2) or "http"
+    if m.group(3):
+        return {"server": f"{scheme}://{m.group(6)}:{m.group(7)}",
+                "username": m.group(4),
+                "password": m.group(5)}
+    return {"server": f"{scheme}://{m.group(6)}:{m.group(7)}"}
+
+
+def load_proxies(path):
+    global PROXY_LIST
+    PROXY_LIST = []
+    with open(path) as f:
+        for line in f:
+            p = parse_proxy_line(line)
+            if p:
+                PROXY_LIST.append(p)
+    print(f"Loaded {len(PROXY_LIST)} proxies from {path}")
 
 
 def get_district_summary():
@@ -291,11 +330,16 @@ def scrape_district(district, all_rows):
                 "--disable-setuid-sandbox",
             ]
         )
-        context = browser.new_context(
-            user_agent=USER_AGENTS[randint(0, len(USER_AGENTS)-1)],
-            viewport={"width": 1280, "height": 800},
-            locale="en-IN",
-        )
+        proxy = get_next_proxy()
+        ctx_kwargs = {
+            "user_agent": USER_AGENTS[randint(0, len(USER_AGENTS)-1)],
+            "viewport": {"width": 1280, "height": 800},
+            "locale": "en-IN",
+        }
+        if proxy:
+            ctx_kwargs["proxy"] = proxy
+            print(f"  Using proxy: {proxy['server']}")
+        context = browser.new_context(**ctx_kwargs)
         context.add_init_script(STEALTH_JS)
         page = context.new_page()
 
@@ -400,7 +444,7 @@ def scrape_all(rows, continuous=False, max_retries=3, shard=None):
 
         if shard:
             idx, total = shard
-            incomplete = [(d, c) for d, c in incomplete if hash(d) % total == idx]
+            incomplete = [(d, c) for d, c in incomplete if int(hashlib.md5(d.encode()).hexdigest(), 16) % total == idx]
             print(f"\n  Shard {idx}/{total}: {len(incomplete)} districts assigned")
 
         print(f"\n{'#'*60}")
@@ -466,6 +510,8 @@ Examples:
                         help="Base delay between searches in seconds (default: 5-10 random)")
     parser.add_argument("--shard", default="",
                         help="Shard this instance: 'N/M' (e.g. '0/3' = first of 3). Use with --all to split districts.")
+    parser.add_argument("--proxy-file", default="",
+                        help="File with proxies (one per line, format: protocol://user:pass@host:port)")
     parser.add_argument("command", nargs="?", default="",
                         help="'list', 'summary', or a district name to scrape")
     args = parser.parse_args()
@@ -473,6 +519,9 @@ Examples:
     if args.delay:
         global SEARCH_DELAY_S
         SEARCH_DELAY_S = (args.delay, args.delay + 5)
+
+    if args.proxy_file:
+        load_proxies(args.proxy_file)
 
     with open(args.csv, newline="", encoding="utf-8-sig") as f:
         all_rows = list(csv.DictReader(f))

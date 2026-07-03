@@ -4,165 +4,201 @@
       "total": 4,
       "completed": 4
     },
-    "Dindori": {
-      "total": 7,
-      "completed": 7
-    },
-    "Jhabua": {
-      "total": 9,
-      "completed": 9
-    },
-    "Umaria": {
-      "total": 11,
-      "completed": 11
-    },
-    "Sheopur": {
-      "total": 12,
-      "completed": 12
-    },
-    "Mandla": {
-      "total": 14,
-      "completed": 14
-    },
-    "Harda": {
-      "total": 15,
-      "completed": 15
+    "Anuppur": {
+      "total": 26,
+      "completed": 26
     },
     "Ashoknagar": {
       "total": 16,
       "completed": 16
     },
-    "Tikamgarh": {
-      "total": 16,
-      "completed": 16
-    },
-    "Burhanpur": {
-      "total": 25,
-      "completed": 25
-    },
-    "Rajgarh": {
-      "total": 24,
-      "completed": 24
-    },
-    "Khandwa": {
-      "total": 23,
-      "completed": 23
+    "Balaghat": {
+      "total": 55,
+      "completed": 55
     },
     "Barwani": {
       "total": 21,
       "completed": 21
     },
-    "Singrauli": {
-      "total": 21,
-      "completed": 21
-    },
-    "Seoni": {
-      "total": 26,
-      "completed": 26
-    },
-    "Shajapur": {
-      "total": 26,
-      "completed": 26
-    },
-    "Anuppur": {
-      "total": 26,
-      "completed": 26
-    },
-    "Shivpuri": {
-      "total": 41,
-      "completed": 34
-    },
-    "Shahdol": {
-      "total": 29,
-      "completed": 29
-    },
-    "Datia": {
-      "total": 27,
-      "completed": 27
-    },
-    "Khargone": {
-      "total": 28,
-      "completed": 28
-    },
-    "Sidhi": {
-      "total": 29,
-      "completed": 29
-    },
-    "Narsimhapur": {
-      "total": 32,
-      "completed": 32
-    },
-    "Dhar": {
-      "total": 31,
-      "completed": 31
-    },
-    "Dewas": {
-      "total": 35,
-      "completed": 35
-    },
-    "Guna": {
-      "total": 33,
-      "completed": 33
-    },
-    "Damoh": {
-      "total": 36,
-      "completed": 36
-    },
-    "Sehore": {
-      "total": 37,
-      "completed": 37
-    },
-    "Gwalior": {
-      "total": 173,
-      "completed": 173
-    },
-    "Neemuch": {
-      "total": 33,
-      "completed": 33
-    },
-    "Katni": {
-      "total": 34,
-      "completed": 34
-    },
-    "Ratlam": {
-      "total": 39,
-      "completed": 34
-    },
-    "Balaghat": {
-      "total": 55,
-      "completed": 16
-    },
-    "Mandsaur": {
-      "total": 40,
-      "completed": 26
-    },
-    "Panna": {
-      "total": 34,
-      "completed": 34
-    },
-    "Vidisha": {
-      "total": 53,
-      "completed": 23
-    },
     "Betul": {
       "total": 58,
-      "completed": 5
+      "completed": 58
     },
     "Bhind": {
       "total": 66,
       "completed": 66
     },
-    "Jabalpur": {
-      "total": 161,
-      "completed": 132
-    },
     "Bhopal": {
       "total": 343,
-      "completed": 73
+      "completed": 194
+    },
+    "Burhanpur": {
+      "total": 25,
+      "completed": 25
+    },
+    "Damoh": {
+      "total": 36,
+      "completed": 36
+    },
+    "Datia": {
+      "total": 27,
+      "completed": 27
+    },
+    "Dewas": {
+      "total": 35,
+      "completed": 35
+    },
+    "Dhar": {
+      "total": 31,
+      "completed": 31
+    },
+    "Dindori": {
+      "total": 7,
+      "completed": 7
+    },
+    "Guna": {
+      "total": 33,
+      "completed": 33
+    },
+    "Gwalior": {
+      "total": 173,
+      "completed": 173
+    },
+    "Harda": {
+      "total": 15,
+      "completed": 15
     },
     "Indore": {
       "total": 266,
+      "completed": 172
+    },
+    "Jabalpur": {
+      "total": 161,
+      "completed": 161
+    },
+    "Jhabua": {
+      "total": 9,
+      "completed": 9
+    },
+    "Katni": {
+      "total": 34,
+      "completed": 34
+    },
+    "Khandwa": {
+      "total": 23,
+      "completed": 23
+    },
+    "Khargone": {
+      "total": 28,
+      "completed": 28
+    },
+    "Mandla": {
+      "total": 14,
+      "completed": 14
+    },
+    "Mandsaur": {
+      "total": 40,
+      "completed": 40
+    },
+    "Narsimhapur": {
+      "total": 32,
+      "completed": 32
+    },
+    "Neemuch": {
+      "total": 33,
+      "completed": 33
+    },
+    "Panna": {
+      "total": 34,
+      "completed": 34
+    },
+    "Rajgarh": {
+      "total": 24,
+      "completed": 24
+    },
+    "Ratlam": {
+      "total": 39,
+      "completed": 39
+    },
+    "Sehore": {
+      "total": 37,
+      "completed": 37
+    },
+    "Seoni": {
+      "total": 26,
+      "completed": 26
+    },
+    "Shahdol": {
+      "total": 29,
+      "completed": 29
+    },
+    "Shajapur": {
+      "total": 26,
+      "completed": 26
+    },
+    "Sheopur": {
+      "total": 12,
+      "completed": 12
+    },
+    "Shivpuri": {
+      "total": 41,
+      "completed": 41
+    },
+    "Sidhi": {
+      "total": 29,
+      "completed": 29
+    },
+    "Singrauli": {
+      "total": 21,
+      "completed": 21
+    },
+    "Tikamgarh": {
+      "total": 16,
+      "completed": 16
+    },
+    "Umaria": {
+      "total": 11,
+      "completed": 11
+    },
+    "Vidisha": {
+      "total": 53,
+      "completed": 53
+    },
+    "Chhatarpur": {
+      "total": 60,
+      "completed": 8
+    },
+    "Ujjain": {
+      "total": 74,
+      "completed": 0
+    },
+    "Chhindwara": {
+      "total": 52,
+      "completed": 15
+    },
+    "Raisen": {
+      "total": 41,
+      "completed": 17
+    },
+    "Morena": {
+      "total": 58,
+      "completed": 1
+    },
+    "Rewa": {
+      "total": 81,
+      "completed": 0
+    },
+    "Hoshangabad": {
+      "total": 45,
       "completed": 45
+    },
+    "Satna": {
+      "total": 67,
+      "completed": 1
+    },
+    "Sagar": {
+      "total": 72,
+      "completed": 32
     }
   }
 }
