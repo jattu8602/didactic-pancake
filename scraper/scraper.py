@@ -186,7 +186,7 @@ def extract_emails(text):
 def search_google(page, query, max_retries=2):
     for attempt in range(max_retries + 1):
         try:
-            url = f"https://www.google.com/search?q={quote(query)}&hl=en"
+            url = f"https://www.google.co.in/search?q={quote(query)}&hl=en"
             page.goto(url, wait_until="domcontentloaded", timeout=30000)
             time.sleep(2)
 
@@ -230,8 +230,56 @@ def search_google(page, query, max_retries=2):
                 print(f"    search failed, retrying in {wait}s: {e}")
                 time.sleep(wait)
             else:
-                print(f"    search failed after {max_retries} retries: {e}")
+                print(f"    Google search failed after {max_retries} retries: {e}")
                 return []
+
+
+def search_bing(page, query, max_retries=1):
+    for attempt in range(max_retries + 1):
+        try:
+            url = f"https://www.bing.com/search?q={quote(query)}"
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            time.sleep(2)
+
+            seen = set()
+            results = []
+            all_links = page.locator('a[href]')
+            count = all_links.count()
+            for i in range(count):
+                try:
+                    href = all_links.nth(i).get_attribute("href")
+                    text = all_links.nth(i).inner_text().strip()
+                    if (href and text and href.startswith("http")
+                            and "bing.com" not in href
+                            and href not in seen):
+                        seen.add(href)
+                        results.append({"url": href, "title": text})
+                except Exception:
+                    continue
+                if len(results) >= 8:
+                    break
+
+            official = [r for r in results if re.search(r'\.(ac\.in|edu\.in|org|gov\.in)', r['url'])]
+            if official:
+                return official[:5]
+            return results[:5]
+
+        except Exception as e:
+            if attempt < max_retries:
+                wait = (attempt + 1) * 10
+                print(f"    Bing search failed, retrying in {wait}s: {e}")
+                time.sleep(wait)
+            else:
+                print(f"    Bing search failed after {max_retries} retries: {e}")
+                return []
+
+
+def search_with_fallback(page, query):
+    results = search_google(page, query)
+    if results:
+        return results
+    print("    Google failed, trying Bing...")
+    return search_bing(page, query)
 
 
 def try_construct_url(name):
@@ -356,7 +404,7 @@ def scrape_district(district, all_rows):
 
             try:
                 query = build_search_query(row)
-                search_results = search_google(page, query)
+                search_results = search_with_fallback(page, query)
 
                 if search_results:
                     contact["website"] = search_results[0]["url"]
