@@ -70,7 +70,7 @@
     },
     "Shivpuri": {
       "total": 41,
-      "completed": 12
+      "completed": 34
     },
     "Shahdol": {
       "total": 29,
@@ -110,19 +110,59 @@
     },
     "Sehore": {
       "total": 37,
-      "completed": 12
+      "completed": 37
     },
     "Gwalior": {
       "total": 173,
-      "completed": 30
+      "completed": 173
     },
     "Neemuch": {
       "total": 33,
-      "completed": 23
+      "completed": 33
+    },
+    "Katni": {
+      "total": 34,
+      "completed": 34
     },
     "Ratlam": {
       "total": 39,
+      "completed": 34
+    },
+    "Balaghat": {
+      "total": 55,
+      "completed": 16
+    },
+    "Mandsaur": {
+      "total": 40,
       "completed": 26
+    },
+    "Panna": {
+      "total": 34,
+      "completed": 34
+    },
+    "Vidisha": {
+      "total": 53,
+      "completed": 23
+    },
+    "Betul": {
+      "total": 58,
+      "completed": 5
+    },
+    "Bhind": {
+      "total": 66,
+      "completed": 66
+    },
+    "Jabalpur": {
+      "total": 161,
+      "completed": 132
+    },
+    "Bhopal": {
+      "total": 343,
+      "completed": 73
+    },
+    "Indore": {
+      "total": 266,
+      "completed": 45
     }
   }
 }
