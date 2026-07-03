@@ -1,0 +1,16 @@
+{
+  "districts": {
+    "Alirajpur": {
+      "total": 4,
+      "completed": 4
+    },
+    "Dindori": {
+      "total": 7,
+      "completed": 7
+    },
+    "Jhabua": {
+      "total": 9,
+      "completed": 0
+    }
+  }
+}

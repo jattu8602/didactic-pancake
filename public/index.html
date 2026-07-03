@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Indian Colleges API</title>
+</head>
+<body>
+    <h1>Indian Colleges API</h1>
+    <div class="instructions">
+      <p>This API gives you access to a database containing 43,000 colleges in India and allows you to search and list them by state and district, giving you a complete list of all the colleges in a certain state or district.
+            </p>
+            <p>
+              This API uses data sourced from 
+              <a href="https://data.gov.in/catalog/institutions-aishe-survey">data.gov.in/catalog/institutions-aishe-survey</a>
+              , which has been made publicly available by the government of India  
+            </p>
+      <p>To use the API, make a GET request to one of the following endpoints:</p>
+      <div class="endpoint">
+        <h3>Search for colleges</h3>
+        <p>This endpoint allows you to search for colleges by name. You can also specify a state or district to narrow down your search.</p>
+        <pre>GET /colleges?search=<span class="parameter">[college name]</pre>
+        <pre>GET /colleges/<span class="parameter">[state]</span>?search=<span class="parameter">[college name]</span></pre>
+        <pre>GET /colleges/<span class="parameter">[state]</span>/<span class="parameter">[district]</span>?search=<span class="parameter">[college name]</span></pre>
+        <p>Optional query parameters:</p>
+        <ul>
+          <li><code>page</code>: The page number of the search results (default is 1).</li>
+          <li><code>limit</code>: The number of results per page (default is 10).</li>
+          </li>
+        </ul>
+      </div>
+      <div class="endpoint">
+        <h3>Get all states</h3>
+        <p>This endpoint returns a list of all states in India.</p>
+        <pre>GET /colleges/states</pre>
+      </div>
+      <div class="endpoint">
+        <h3>Get districts by state</h3>
+        <p>This endpoint returns a list of all districts in a given state.</p>
+        <pre>GET /colleges/<span class="parameter">[state]</span>/districts</pre>
+      </div>
+      <div class="endpoint">
+        <h3>Get all colleges in state</h3>
+        <p>This endpoint returns a list of all colleges in a given state.</p>
+        <pre>GET /colleges/<span class="parameter">[state]</span></pre>
+        <p>Optional query parameters:</p>
+        <ul>
+          <li><code>page</code>: The page number</li>
+            <li><code>limit</code>: The number of results per page (default is 10).</li>
+        </ul>
+        </div>
+        <div class="endpoint">
+            <h3>Get all colleges in district</h3>
+            <p>This endpoint returns a list of all colleges in a given district.</p>
+            <pre>GET /colleges/<span class="parameter">[state]</span>/<span class="parameter">[district]</span></pre>
+            <p>Optional query parameters:</p>
+            <ul>
+                <li><code>page</code>: The page number</li>
+                <li><code>limit</code>: The number of results per page (default is 10).</li>
+            </ul>
+        </div>
+        <!-- give example usage with curl-->
+        <h3>
+          Example usage
+        </h3>
+        <div class="terminal">
+          <div class="terminal-header">
+            <div class="prompt">$</div>
+            <div class="path">~/pk/api-examples</div>
+          </div>
+          <div class="terminal-body">
+            <!-- <pre> -->
+              <code>
+                ❯ curl -X GET https://colleges-api.onrender.com/colleges?limit=2&page=69
+              </code>
+              </br>
+              </br>
+              <pre>
+              <code>
+{
+    "colleges": [
+    {
+      "Name": "21ST CENTURY INTERNATIONAL SCHOOL TRUST KANJIRANGAL",
+      "State": "Tamil Nadu",
+      "City": "Sivagangai",
+      "Address_line1": "Rani Velunachiyar Nagar,",
+      "Address_line2": "Kanchirangal"
+    },
+    {
+      "Name": "220028-JSS'S ARTS,SCIENCE & COMMERCE COLLEGE, NANDURBAR.",
+      "State": "Maharashtra",
+      "City": "Nandurbar",
+      "Address_line1": "Shikshak Colony,",
+      "Address_line2": "Waghoda Road"
+    }
+  ],
+  "count": 42938,
+  "currentPage": 69,
+  "pages": 21470
+}
+              </code>
+            </pre>
+            <!-- </pre> -->
+          </div>
+        </div>
+        <div class="terminal">
+            <div class="terminal-header">
+              <div class="prompt">$</div>
+              <div class="path">~/pk/api-examples</div>
+            </div>
+            <div class="terminal-body">
+              <!-- <pre> -->
+                <code>
+                  ❯ curl -X GET https://colleges-api.onrender.com/colleges/tamil%20nadu/Kancheepuram?search=hindustan%20institute%20of%20tech
+                </code>
+                </br>
+                </br>
+                <pre>
+                <code>
+{
+  "colleges": [
+    {
+      "Name": "Hindustan Institute of Technology and Science, Kancheepuram",
+      "State": "Tamil Nadu",
+      "City": "Chennai",
+      "Address_line1": "Padur, Kelambakkam,",
+      "Address_line2": "Chennai - 603 103, India"
+    }
+  ],
+  "count": 1,
+  "currentPage": 1,
+  "pages": 1
+}
+                </code>
+              </pre>
+              <!-- </pre> -->
+            </div>
+          </div>
+    </div>
+    </body>
+    <footer>
+      <div class="footer-inner">
+        <p><a href="https://github.com/PriyanKishoreMS/colleges-api"><i class="fab fa-github"></i>Check out the project on GitHub</a></p>
+      </div>
+    </footer>
+</html>
+
+

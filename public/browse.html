@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colleges Directory</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      padding: 20px;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 4px;
+      color: #1a1a2e;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      background: #fff;
+      padding: 16px 20px;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .filter-group label {
+      font-size: 12px;
+      font-weight: 600;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .filter-group select, .filter-group input {
+      padding: 8px 12px;
+      border: 1px solid #d0d5dd;
+      border-radius: 6px;
+      font-size: 14px;
+      background: #fff;
+      min-width: 180px;
+      outline: none;
+      transition: border .15s;
+    }
+    .filter-group select:focus, .filter-group input:focus {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 2px rgba(37,99,235,.15);
+    }
+    .result-count {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+    .result-count strong { color: #1a1a2e; }
+
+    .table-wrap {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    thead { background: #f8f9fa; }
+    th {
+      text-align: left;
+      padding: 12px 14px;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      color: #555;
+      border-bottom: 1px solid #e9ecef;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+    th:hover { color: #2563eb; }
+    th .sort-icon { margin-left: 4px; font-size: 11px; }
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+    tr:hover td { background: #f8faff; }
+    td.name-col { font-weight: 500; min-width: 200px; }
+    td.phone-col { white-space: nowrap; font-family: monospace; font-size: 12px; }
+    td.email-col { word-break: break-all; max-width: 220px; }
+    td.website-col { max-width: 250px; overflow: hidden; text-overflow: ellipsis; }
+    td.website-col a { color: #2563eb; text-decoration: none; }
+    td.website-col a:hover { text-decoration: underline; }
+    .empty { color: #999; font-style: italic; }
+
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 16px;
+      flex-wrap: wrap;
+    }
+    .pagination button {
+      padding: 6px 14px;
+      border: 1px solid #d0d5dd;
+      background: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all .15s;
+    }
+    .pagination button:hover:not(:disabled) {
+      border-color: #2563eb;
+      color: #2563eb;
+    }
+    .pagination button.active {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: #fff;
+    }
+    .pagination button:disabled {
+      opacity: .4;
+      cursor: default;
+    }
+    .page-info {
+      font-size: 13px;
+      color: #666;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 768px) {
+      .filters { flex-direction: column; }
+      .filter-group select, .filter-group input { min-width: 100%; }
+      body { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Colleges Directory</h1>
+  <p class="subtitle">Browse and filter colleges across India</p>
+
+  <div class="filters">
+    <div class="filter-group">
+      <label for="state-filter">State</label>
+      <select id="state-filter"></select>
+    </div>
+    <div class="filter-group">
+      <label for="district-filter">District</label>
+      <select id="district-filter"></select>
+    </div>
+    <div class="filter-group">
+      <label for="search-input">Search College</label>
+      <input id="search-input" type="text" placeholder="Type college name...">
+    </div>
+  </div>
+
+  <div class="result-count" id="result-count">Showing <strong>0</strong> colleges</div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="name">Name <span class="sort-icon">▲</span></th>
+          <th data-sort="city">City</th>
+          <th data-sort="district">District</th>
+          <th data-sort="pin_code">Pin</th>
+          <th data-sort="phone_numbers">Phone</th>
+          <th data-sort="emails">Email</th>
+          <th data-sort="website">Website</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</div>
+
+<script>
+const PAGE_SIZE = 25;
+let colleges = [];
+let filtered = [];
+let currentPage = 1;
+let sortKey = 'name';
+let sortAsc = true;
+
+async function init() {
+  const res = await fetch('data/colleges.json');
+  const data = await res.json();
+  colleges = data.colleges;
+
+  populateStates();
+  applyFilters();
+}
+
+function populateStates() {
+  const states = [...new Set(colleges.map(c => c.state))].sort();
+  const sel = document.getElementById('state-filter');
+  sel.innerHTML = '<option value="">All States</option>' +
+    states.map(s => `<option value="${s}">${s}</option>`).join('');
+  sel.value = 'Madhya Pradesh';
+}
+
+function populateDistricts(state) {
+  const list = state
+    ? colleges.filter(c => c.state === state)
+    : colleges;
+  const dists = [...new Set(list.map(c => c.district))].sort();
+  const sel = document.getElementById('district-filter');
+  sel.innerHTML = '<option value="">All Districts</option>' +
+    dists.map(d => `<option value="${d}">${d}</option>`).join('');
+}
+
+function applyFilters() {
+  const state = document.getElementById('state-filter').value;
+  const district = document.getElementById('district-filter').value;
+  const search = document.getElementById('search-input').value.toLowerCase().trim();
+
+  filtered = colleges.filter(c => {
+    if (state && c.state !== state) return false;
+    if (district && c.district !== district) return false;
+    if (search && !c.name.toLowerCase().includes(search)) return false;
+    return true;
+  });
+
+  sortData();
+  currentPage = 1;
+  render();
+}
+
+function sortData() {
+  filtered.sort((a, b) => {
+    const va = (a[sortKey] || '').toLowerCase();
+    const vb = (b[sortKey] || '').toLowerCase();
+    return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+}
+
+function render() {
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE) || 1;
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const page = filtered.slice(start, start + PAGE_SIZE);
+
+  document.getElementById('result-count').innerHTML =
+    `Showing <strong>${filtered.length}</strong> colleges`;
+
+  const tbody = document.getElementById('table-body');
+  if (!page.length) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:40px;color:#999;">No colleges found</td></tr>';
+  } else {
+    tbody.innerHTML = page.map(c => `
+      <tr>
+        <td class="name-col">${esc(c.name)}</td>
+        <td>${esc(c.city)}</td>
+        <td>${esc(c.district)}</td>
+        <td>${esc(c.pin_code)}</td>
+        <td class="phone-col">${c.phone_numbers ? esc(c.phone_numbers) : '<span class="empty">—</span>'}</td>
+        <td class="email-col">${c.emails ? esc(c.emails) : '<span class="empty">—</span>'}</td>
+        <td class="website-col">${c.website ? `<a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website.replace(/^https?:\/\//, ''))}</a>` : '<span class="empty">—</span>'}</td>
+      </tr>
+    `).join('');
+  }
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const el = document.getElementById('pagination');
+  if (totalPages <= 1) { el.innerHTML = ''; return; }
+
+  let html = `<button ${currentPage <= 1 ? 'disabled' : ''} onclick="goPage(${currentPage - 1})">‹ Prev</button>`;
+
+  let startP = Math.max(1, currentPage - 2);
+  let endP = Math.min(totalPages, startP + 4);
+  if (endP - startP < 4) startP = Math.max(1, endP - 4);
+
+  if (startP > 1) html += '<button onclick="goPage(1)">1</button><button disabled>…</button>';
+
+  for (let i = startP; i <= endP; i++) {
+    html += `<button class="${i === currentPage ? 'active' : ''}" onclick="goPage(${i})">${i}</button>`;
+  }
+
+  if (endP < totalPages) html += '<button disabled>…</button><button onclick="goPage(' + totalPages + ')">' + totalPages + '</button>';
+
+  html += `<button ${currentPage >= totalPages ? 'disabled' : ''} onclick="goPage(${currentPage + 1})">Next ›</button>`;
+  html += `<span class="page-info">Page ${currentPage} of ${totalPages}</span>`;
+
+  el.innerHTML = html;
+}
+
+function goPage(n) {
+  currentPage = n;
+  render();
+}
+
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Event listeners
+document.getElementById('state-filter').addEventListener('change', function() {
+  populateDistricts(this.value);
+  applyFilters();
+});
+document.getElementById('district-filter').addEventListener('change', applyFilters);
+document.getElementById('search-input').addEventListener('input', applyFilters);
+
+document.querySelector('thead').addEventListener('click', function(e) {
+  const th = e.target.closest('th');
+  if (!th) return;
+  const key = th.dataset.sort;
+  if (!key) return;
+  if (key === sortKey) sortAsc = !sortAsc;
+  else { sortKey = key; sortAsc = true; }
+  document.querySelectorAll('th .sort-icon').forEach(i => i.textContent = '');
+  th.querySelector('.sort-icon').textContent = sortAsc ? '▲' : '▼';
+  sortData();
+  render();
+});
+
+init();
+</script>
+</body>
+</html>
