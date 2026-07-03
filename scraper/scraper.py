@@ -8,8 +8,11 @@ import argparse
 import signal
 import fcntl
 import hashlib
+import queue
+import threading
+import urllib.request
 from urllib.parse import urlparse, quote
-from random import randint
+from random import randint, choice
 from collections import Counter
 
 from playwright.sync_api import sync_playwright
@@ -17,23 +20,29 @@ from playwright.sync_api import sync_playwright
 OUTPUT_DIR = "../data/scraped"
 TRACKER_FILE = "district_progress.json"
 BROWSER_HEADLESS = True
-SEARCH_DELAY_S = (5, 10)
-VISIT_DELAY_S = (2, 4)
+SEARCH_DELAY_S = (3, 7)
+VISIT_DELAY_S = (1, 3)
+WORKERS = 5
 PROXY_LIST = []
-proxy_idx = 0
+proxy_lock = threading.Lock()
 
 PHONE_PATTERNS = [
     re.compile(r'\+91[-\s]?[6-9]\d{9}'),
     re.compile(r'0[-\s]?\d{2,4}[-\s]?\d{6,8}'),
     re.compile(r'(?<!\d)[6-9]\d{9}(?!\d)'),
+    re.compile(r'\+91\s?\d{10}'),
 ]
 
 EMAIL_PATTERN = re.compile(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}')
-
 EXCLUDE_EMAILS = re.compile(r'^(noreply|donotreply|no-reply|notifications|nobody|example|test|admin|root|webmaster|info|support|contact|help)@', re.I)
 
-CONTACT_PATHS = ["/contact", "/contact-us", "/contactus", "/about", "/about-us",
-                 "/Contact", "/Contact-Us", "/CONTACT", "/About", "/about-us.html"]
+CONTACT_PATHS = ["/contact", "/contact-us", "/contactus", "/contact.html",
+                 "/Contact", "/Contact-Us", "/Contacts",
+                 "/about", "/about-us", "/about-us.html",
+                 "/aboutus", "/About", "/About-Us",
+                 "/reach-us", "/get-in-touch",
+                 "/enquiry", "/enquiry-form",
+                 "/admission", "/admissions"]
 
 STEALTH_JS = """
 Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
@@ -44,10 +53,24 @@ window.chrome = { runtime: {} };
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14.3; rv:122.0) Gecko/20100101 Firefox/122.0",
 ]
+
+VIEWPORTS = [
+    {"width": 1280, "height": 800},
+    {"width": 1366, "height": 768},
+    {"width": 1440, "height": 900},
+    {"width": 1920, "height": 1080},
+    {"width": 1536, "height": 864},
+]
+
+LOCALES = ["en-IN", "en-US", "en-GB", "en"]
 
 running = True
 
@@ -57,12 +80,15 @@ def handle_signal(signum, frame):
     print("\n\nCaught signal — finishing current college, then stopping...")
     running = False
 
-
 LOCK_FILE = TRACKER_FILE + ".lock"
+csv_locks = {}
 
+def get_csv_lock(path):
+    if path not in csv_locks:
+        csv_locks[path] = threading.Lock()
+    return csv_locks[path]
 
 def acquire_lock():
-    """Non-blocking file lock for concurrent container safety."""
     try:
         lf = open(LOCK_FILE, "w")
         fcntl.flock(lf, fcntl.LOCK_EX | fcntl.LOCK_NB)
@@ -70,19 +96,20 @@ def acquire_lock():
     except (IOError, OSError):
         return None
 
-
 def release_lock(lf):
     if lf:
-        fcntl.flock(lf, fcntl.LOCK_UN)
-        lf.close()
-
+        try:
+            fcntl.flock(lf, fcntl.LOCK_UN)
+            lf.close()
+        except Exception:
+            pass
 
 def load_tracker():
     lf = None
     while lf is None:
         lf = acquire_lock()
         if lf is None:
-            time.sleep(0.3)
+            time.sleep(0.2)
     try:
         if os.path.exists(TRACKER_FILE):
             with open(TRACKER_FILE) as f:
@@ -91,13 +118,12 @@ def load_tracker():
     finally:
         release_lock(lf)
 
-
 def save_tracker(tracker):
     lf = None
     while lf is None:
         lf = acquire_lock()
         if lf is None:
-            time.sleep(0.3)
+            time.sleep(0.2)
     try:
         os.makedirs(os.path.dirname(TRACKER_FILE) or ".", exist_ok=True)
         if os.path.exists(TRACKER_FILE):
@@ -114,31 +140,26 @@ def save_tracker(tracker):
     finally:
         release_lock(lf)
 
-
 def get_next_proxy():
-    global proxy_idx
-    if not PROXY_LIST:
-        return None
-    p = PROXY_LIST[proxy_idx % len(PROXY_LIST)]
-    proxy_idx += 1
-    return p
-
+    with proxy_lock:
+        if not PROXY_LIST:
+            return None
+        p = PROXY_LIST.pop(0)
+        PROXY_LIST.append(p)
+        return p
 
 def parse_proxy_line(line):
     line = line.strip()
     if not line or line.startswith("#"):
         return None
-    # Format: protocol://user:pass@host:port
     m = re.match(r'((\w+)://)?((\w+):(\w+)@)?([\w.-]+):(\d+)', line)
     if not m:
         return None
     scheme = m.group(2) or "http"
     if m.group(3):
         return {"server": f"{scheme}://{m.group(6)}:{m.group(7)}",
-                "username": m.group(4),
-                "password": m.group(5)}
+                "username": m.group(4), "password": m.group(5)}
     return {"server": f"{scheme}://{m.group(6)}:{m.group(7)}"}
-
 
 def load_proxies(path):
     global PROXY_LIST
@@ -149,7 +170,6 @@ def load_proxies(path):
             if p:
                 PROXY_LIST.append(p)
     print(f"Loaded {len(PROXY_LIST)} proxies from {path}")
-
 
 def get_district_summary():
     tracker = load_tracker()
@@ -164,32 +184,55 @@ def get_district_summary():
     if total_all:
         print(f"\n  Overall: {total_done}/{total_all} ({total_done/total_all*100:.0f}%)")
 
-
 def build_search_query(row):
     parts = [row["name"], row["city"], row["district"], row["state"]]
     query = " ".join(p for p in parts if p and p != "NA")
-    return f"{query} official website"
-
+    return f"{query} official website contact"
 
 def extract_phones(text):
     found = set()
     for pat in PHONE_PATTERNS:
         for m in pat.finditer(text):
             found.add(m.group().strip())
-    return list(found)
-
+    validated = []
+    for p in found:
+        digits = re.sub(r'\D', '', p)
+        if len(digits) >= 10 and len(digits) <= 13:
+            validated.append(p)
+    return validated
 
 def extract_emails(text):
     return list(set(e for e in EMAIL_PATTERN.findall(text) if not EXCLUDE_EMAILS.match(e)))
 
+def extract_search_results(page, exclude_domains):
+    seen = set()
+    results = []
+    all_links = page.locator('a[href]')
+    count = all_links.count()
+    for i in range(count):
+        try:
+            href = all_links.nth(i).get_attribute("href")
+            text = all_links.nth(i).inner_text().strip()
+            if (href and text and href.startswith("http")
+                    and not any(d in href for d in exclude_domains)
+                    and href not in seen):
+                seen.add(href)
+                results.append({"url": re.sub(r'#:~:text=.*', '', href), "title": text})
+        except Exception:
+            continue
+        if len(results) >= 10:
+            break
+    official = [r for r in results if re.search(r'\.(ac\.in|edu\.in|org|gov\.in)', r['url'])]
+    if official:
+        return official[:5]
+    return results[:5]
 
 def search_google(page, query, max_retries=2):
     for attempt in range(max_retries + 1):
         try:
             url = f"https://www.google.co.in/search?q={quote(query)}&hl=en"
             page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            time.sleep(2)
-
+            time.sleep(1.5)
             try:
                 consent = page.locator('button:has-text("Accept all")')
                 if consent.count():
@@ -197,94 +240,36 @@ def search_google(page, query, max_retries=2):
                     time.sleep(1)
             except Exception:
                 pass
-
-            seen = set()
-            results = []
-            all_links = page.locator('a[href]')
-            count = all_links.count()
-            for i in range(count):
-                try:
-                    href = all_links.nth(i).get_attribute("href")
-                    text = all_links.nth(i).inner_text().strip()
-                    if (href and text and href.startswith("http")
-                            and "google.com" not in href
-                            and href not in seen):
-                        seen.add(href)
-                        results.append({"url": href, "title": text})
-                except Exception:
-                    continue
-                if len(results) >= 8:
-                    break
-
-            for r in results:
-                r['url'] = re.sub(r'#:~:text=.*', '', r['url'])
-
-            official = [r for r in results if re.search(r'\.(ac\.in|edu\.in|org|gov\.in)', r['url'])]
-            if official:
-                return official[:5]
-            return results[:5]
-
+            results = extract_search_results(page, ["google.com", "google.co.in"])
+            if results:
+                return results
         except Exception as e:
             if attempt < max_retries:
-                wait = (attempt + 1) * 10
-                print(f"    search failed, retrying in {wait}s: {e}")
-                time.sleep(wait)
-            else:
-                print(f"    Google search failed after {max_retries} retries: {e}")
-                return []
-
+                time.sleep((attempt + 1) * 8)
+    return []
 
 def search_bing(page, query, max_retries=1):
     for attempt in range(max_retries + 1):
         try:
             url = f"https://www.bing.com/search?q={quote(query)}"
             page.goto(url, wait_until="domcontentloaded", timeout=30000)
-            time.sleep(2)
-
-            seen = set()
-            results = []
-            all_links = page.locator('a[href]')
-            count = all_links.count()
-            for i in range(count):
-                try:
-                    href = all_links.nth(i).get_attribute("href")
-                    text = all_links.nth(i).inner_text().strip()
-                    if (href and text and href.startswith("http")
-                            and "bing.com" not in href
-                            and href not in seen):
-                        seen.add(href)
-                        results.append({"url": href, "title": text})
-                except Exception:
-                    continue
-                if len(results) >= 8:
-                    break
-
-            official = [r for r in results if re.search(r'\.(ac\.in|edu\.in|org|gov\.in)', r['url'])]
-            if official:
-                return official[:5]
-            return results[:5]
-
+            time.sleep(1.5)
+            results = extract_search_results(page, ["bing.com"])
+            if results:
+                return results
         except Exception as e:
             if attempt < max_retries:
-                wait = (attempt + 1) * 10
-                print(f"    Bing search failed, retrying in {wait}s: {e}")
-                time.sleep(wait)
-            else:
-                print(f"    Bing search failed after {max_retries} retries: {e}")
-                return []
-
+                time.sleep((attempt + 1) * 8)
+    return []
 
 def search_with_fallback(page, query):
     results = search_google(page, query)
     if results:
         return results
-    print("    Google failed, trying Bing...")
     return search_bing(page, query)
-
 
 def try_construct_url(name):
     slug = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
-    slug = re.sub(r'\s+', '', slug)
     words = name.lower().split()
     initials = "".join(w[0] for w in words if w[0].isalpha())
     candidates = []
@@ -292,11 +277,9 @@ def try_construct_url(name):
         for tld in [".ac.in", ".org", ".com", ".edu.in", ".co.in", ".in"]:
             candidates.append(f"https://www.{s}{tld}")
             candidates.append(f"https://{s}{tld}")
-    return candidates[:12]
+    return candidates[:15]
 
-
-def probe_url(url, timeout=8):
-    import urllib.request
+def probe_url(url, timeout=6):
     try:
         req = urllib.request.Request(url, method="HEAD",
             headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
@@ -304,7 +287,6 @@ def probe_url(url, timeout=8):
         return resp.status < 400
     except Exception:
         return False
-
 
 def visit_and_scrape(page, url, max_retries=1):
     for attempt in range(max_retries + 1):
@@ -314,92 +296,104 @@ def visit_and_scrape(page, url, max_retries=1):
             text = page.inner_text("body")
             phone_numbers = extract_phones(text)
             emails = extract_emails(text)
-
             if not phone_numbers and not emails:
                 parsed = urlparse(url)
                 base = f"{parsed.scheme}://{parsed.netloc}"
                 for p in CONTACT_PATHS:
                     try:
-                        page.goto(base + p, wait_until="domcontentloaded", timeout=15000)
+                        page.goto(base + p, wait_until="domcontentloaded", timeout=12000)
                         time.sleep(0.5)
-                        text2 = page.inner_text("body")
-                        phone_numbers = extract_phones(text2)
-                        emails = extract_emails(text2)
+                        t2 = page.inner_text("body")
+                        phone_numbers = extract_phones(t2)
+                        emails = extract_emails(t2)
                         if phone_numbers or emails:
                             break
                     except Exception:
                         continue
-
             return phone_numbers, emails
         except Exception:
             if attempt < max_retries:
                 time.sleep(2)
-            else:
-                return [], []
+    return [], []
 
-
-def scrape_district(district, all_rows):
-    global running
-    tracker = load_tracker()
-    if district not in tracker["districts"]:
-        tracker["districts"][district] = {"total": 0, "completed": 0}
-
-    rows = [r for r in all_rows if r["district"].strip() == district]
-    tracker["districts"][district]["total"] = len(rows)
-    save_tracker(tracker)
-
-    output_path = os.path.join(OUTPUT_DIR, f"{district.lower().replace(' ', '_')}.csv")
+def save_result(row, contact, output_path):
+    district = row["district"].strip()
+    safe_name = district.lower().replace(' ', '_')
+    output_path = os.path.join(OUTPUT_DIR, f"{safe_name}.csv")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    th_lock = get_csv_lock(output_path)
 
-    if os.path.exists(output_path):
-        with open(output_path, newline="", encoding="utf-8") as f:
-            existing = list(csv.DictReader(f))
-        done_ids = {r["id"] for r in existing}
-    else:
+    with th_lock:
         existing = []
         done_ids = set()
+        if os.path.exists(output_path):
+            with open(output_path, newline="", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                existing = list(reader)
+                done_ids = {r["id"] for r in existing}
 
-    pending = [r for r in rows if r["id"] not in done_ids]
-    print(f"\n{'='*60}")
-    print(f"  District: {district}")
-    print(f"  Total: {len(rows)}, Already done: {len(existing)}, Pending: {len(pending)}")
-    print(f"{'='*60}")
+        if row["id"] in done_ids:
+            return False
 
-    if not pending:
-        print("  Nothing to scrape.")
-        return
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=BROWSER_HEADLESS,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-                "--disable-setuid-sandbox",
-            ]
-        )
-        proxy = get_next_proxy()
-        ctx_kwargs = {
-            "user_agent": USER_AGENTS[randint(0, len(USER_AGENTS)-1)],
-            "viewport": {"width": 1280, "height": 800},
-            "locale": "en-IN",
+        out = {
+            **row,
+            "website": contact.get("website", ""),
+            "phone_numbers": "; ".join(contact.get("phones", [])),
+            "emails": "; ".join(contact.get("emails", [])),
         }
-        if proxy:
-            ctx_kwargs["proxy"] = proxy
-            print(f"  Using proxy: {proxy['server']}")
-        context = browser.new_context(**ctx_kwargs)
-        context.add_init_script(STEALTH_JS)
-        page = context.new_page()
+        existing.append(out)
+        with open(output_path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=list(out.keys()))
+            writer.writeheader()
+            writer.writerows(existing)
 
-        new_results = []
-        for idx, row in enumerate(pending, 1):
-            if not running:
-                print("  Stopping (signal received)...")
+        tracker = load_tracker()
+        if district not in tracker["districts"]:
+            tracker["districts"][district] = {"total": 0, "completed": 0}
+        done_with_ids = {r["id"] for r in existing}
+        tracker["districts"][district]["completed"] = len(done_with_ids)
+        save_tracker(tracker)
+
+    return True
+
+def build_browser(proxy=None):
+    p = sync_playwright().start()
+    browser = p.chromium.launch(
+        headless=BROWSER_HEADLESS,
+        args=["--disable-blink-features=AutomationControlled",
+              "--no-sandbox", "--disable-setuid-sandbox",
+              "--disable-dev-shm-usage"])
+    ctx_kwargs = {
+        "user_agent": choice(USER_AGENTS),
+        "viewport": choice(VIEWPORTS),
+        "locale": choice(LOCALES),
+        "color_scheme": "light",
+    }
+    if proxy:
+        ctx_kwargs["proxy"] = proxy
+    context = browser.new_context(**ctx_kwargs)
+    context.add_init_script(STEALTH_JS)
+    page = context.new_page()
+    return p, browser, context, page
+
+def worker_thread(worker_id, college_queue, total_colleges):
+    proxy = get_next_proxy()
+    p, browser, context, page = None, None, None, None
+    colleges_done = 0
+
+    try:
+        p, browser, context, page = build_browser(proxy)
+
+        while running:
+            try:
+                item = college_queue.get_nowait()
+            except queue.Empty:
                 break
 
-            name = row["name"]
-            print(f"\n  [{idx}/{len(pending)}] {name[:60]}")
+            row, district_total = item
+            wid = f"[W{worker_id}]"
 
+            print(f"\n{wid} {row['name'][:55]}")
             contact = {"website": "", "phones": [], "emails": []}
 
             try:
@@ -408,7 +402,6 @@ def scrape_district(district, all_rows):
 
                 if search_results:
                     contact["website"] = search_results[0]["url"]
-                    print(f"    website: {contact['website']}")
                     phones, emails = visit_and_scrape(page, contact["website"])
                     contact["phones"] = phones
                     contact["emails"] = emails
@@ -425,10 +418,9 @@ def scrape_district(district, all_rows):
                     contact["emails"] = list(set(contact["emails"]))
 
                 if not contact["website"]:
-                    candidates = try_construct_url(name)
+                    candidates = try_construct_url(row["name"])
                     for cu in candidates:
                         if probe_url(cu):
-                            print(f"    found via construction: {cu}")
                             contact["website"] = cu
                             phones, emails = visit_and_scrape(page, cu)
                             contact["phones"] = phones
@@ -436,35 +428,92 @@ def scrape_district(district, all_rows):
                             contact["phones"] = list(set(contact["phones"]))
                             contact["emails"] = list(set(contact["emails"]))
                             break
-                    if not contact["website"]:
-                        print("    no URL found")
+
+                if contact["website"]:
+                    print(f"{wid} url: {contact['website'][:70]}")
+                if contact["phones"]:
+                    print(f"{wid} phones: {contact['phones'][:3]}")
+                if contact["emails"]:
+                    print(f"{wid} emails: {contact['emails'][:2]}")
+
             except Exception as e:
-                print(f"    error: {e}")
+                print(f"{wid} error: {e}")
 
-            out = {
-                **row,
-                "website": contact["website"],
-                "phone_numbers": "; ".join(contact["phones"]),
-                "emails": "; ".join(contact["emails"]),
-            }
-            new_results.append(out)
-
-            done_ids.add(row["id"])
-            tracker["districts"][district]["completed"] = len(done_ids)
-            save_tracker(tracker)
-
-            all_done = existing + new_results
-            with open(output_path, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=list(all_done[0].keys()))
-                writer.writeheader()
-                writer.writerows(all_done)
+            save_result(row, contact, OUTPUT_DIR)
+            colleges_done += 1
 
             delay = randint(*SEARCH_DELAY_S)
-            print(f"    delay {delay}s")
             time.sleep(delay)
 
-        browser.close()
+    finally:
+        if browser:
+            try:
+                browser.close()
+            except Exception:
+                pass
+        if p:
+            try:
+                p.stop()
+            except Exception:
+                pass
 
+    return colleges_done
+
+def scrape_all(rows, continuous=False, workers=WORKERS):
+    global running
+    signal.signal(signal.SIGINT, handle_signal)
+    signal.signal(signal.SIGTERM, handle_signal)
+
+    loop = 1
+    while running:
+        incomplete_districts = get_incomplete_districts(rows)
+        if not incomplete_districts:
+            print("\n✅ All districts complete!")
+            break
+
+        all_pending = []
+        for district, total in incomplete_districts:
+            safe_name = district.lower().replace(' ', '_')
+            output_path = os.path.join(OUTPUT_DIR, f"{safe_name}.csv")
+            done_ids = set()
+            if os.path.exists(output_path):
+                with open(output_path, newline="", encoding="utf-8") as f:
+                    done_ids = {r["id"] for r in csv.DictReader(f)}
+            pending = [r for r in rows if r["district"].strip() == district and r["id"] not in done_ids]
+            for p in pending:
+                all_pending.append((p, total))
+
+        if not all_pending:
+            continue
+
+        print(f"\n{'#'*60}")
+        print(f"  Loop #{loop} — {len(all_pending)} colleges across {len(incomplete_districts)} districts")
+        print(f"  Workers: {workers}")
+        print(f"{'#'*60}")
+
+        college_queue = queue.Queue()
+        for item in all_pending:
+            college_queue.put(item)
+
+        n_workers = min(workers, len(all_pending))
+        threads = []
+        for i in range(n_workers):
+            t = threading.Thread(target=worker_thread, args=(i + 1, college_queue, len(all_pending)))
+            t.start()
+            threads.append(t)
+
+        for t in threads:
+            t.join()
+
+        if not continuous:
+            break
+        loop += 1
+        if running:
+            print("\n  Continuous mode — restarting loop in 30s...")
+            time.sleep(30)
+
+    print("\nDone. Final progress:")
+    get_district_summary()
 
 def get_incomplete_districts(rows):
     tracker = load_tracker()
@@ -477,96 +526,40 @@ def get_incomplete_districts(rows):
             incomplete.append((d, total))
     return sorted(incomplete, key=lambda x: x[1])
 
-
-def scrape_all(rows, continuous=False, max_retries=3, shard=None):
-    global running
-    signal.signal(signal.SIGINT, handle_signal)
-    signal.signal(signal.SIGTERM, handle_signal)
-
-    loop = 1
-    while running:
-        incomplete = get_incomplete_districts(rows)
-        if not incomplete:
-            print("\n✅ All districts complete!")
-            break
-
-        if shard:
-            idx, total = shard
-            incomplete = [(d, c) for d, c in incomplete if int(hashlib.md5(d.encode()).hexdigest(), 16) % total == idx]
-            print(f"\n  Shard {idx}/{total}: {len(incomplete)} districts assigned")
-
-        print(f"\n{'#'*60}")
-        print(f"  Loop #{loop} — {len(incomplete)} districts remaining")
-        print(f"{'#'*60}")
-        for d, c in incomplete:
-            print(f"    {d} ({c} colleges)")
-
-        for district, total in incomplete:
-            if not running:
-                break
-            retries = 0
-            while retries <= max_retries and running:
-                try:
-                    scrape_district(district, rows)
-                except Exception as e:
-                    print(f"\n  ❌ Error scraping {district}: {e}")
-                    break
-                tracker = load_tracker()
-                info = tracker.get("districts", {}).get(district, {})
-                if info.get("completed", 0) >= info.get("total", 0):
-                    break
-                if retries < max_retries:
-                    retries += 1
-                    wait = retries * 30
-                    print(f"\n  ⚠ {district} not complete. Retry #{retries}/{max_retries} in {wait}s...")
-                    time.sleep(wait)
-
-        if not continuous:
-            break
-        loop += 1
-        if running:
-            print("\n  Continuous mode — restarting loop in 60s...")
-            time.sleep(60)
-
-    print("\nDone. Final progress:")
-    get_district_summary()
-
-
 def main():
     parser = argparse.ArgumentParser(
-        description="Scrape college contact info (phone, email, website) from any state CSV",
+        description="College Contact Scraper — Parallel Edition",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python3 scraper.py --csv ../data/mp_colleges.csv list
-  python3 scraper.py --csv ../data/colleges.csv --state "Madhya Pradesh" "Bhopal"
-  python3 scraper.py --csv ../data/colleges.csv --state "Madhya Pradesh" --all
-  python3 scraper.py --csv ../data/colleges.csv --state "Tamil Nadu" --all --continuous
+  python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" "Bhopal"
+  python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all
+  python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --workers 10
+  python3 scraper.py --csv ../data/mp_colleges.csv --state "Madhya Pradesh" --all --workers 5 --proxy-file proxies.txt
         """
     )
     parser.add_argument("--csv", default="../data/mp_colleges.csv",
-                        help="Path to the college CSV file (default: ../data/mp_colleges.csv)")
+                        help="Path to the college CSV file")
     parser.add_argument("--state", default="",
-                        help="State name to filter by (default: all states)")
+                        help="State name to filter by")
     parser.add_argument("--all", action="store_true",
-                        help="Scrape all incomplete districts automatically (smallest first)")
+                        help="Scrape all incomplete districts automatically")
     parser.add_argument("--continuous", action="store_true",
-                        help="Keep retrying incomplete districts in a loop (use with --all)")
-    parser.add_argument("--max-retries", type=int, default=3,
-                        help="Max retries per district (default: 3)")
+                        help="Keep retrying in a loop (use with --all)")
+    parser.add_argument("--workers", type=int, default=WORKERS,
+                        help=f"Number of parallel workers (default: {WORKERS})")
     parser.add_argument("--delay", type=int, default=0,
-                        help="Base delay between searches in seconds (default: 5-10 random)")
-    parser.add_argument("--shard", default="",
-                        help="Shard this instance: 'N/M' (e.g. '0/3' = first of 3). Use with --all to split districts.")
+                        help="Base delay between searches in seconds")
     parser.add_argument("--proxy-file", default="",
-                        help="File with proxies (one per line, format: protocol://user:pass@host:port)")
+                        help="File with proxies (one per line)")
     parser.add_argument("command", nargs="?", default="",
                         help="'list', 'summary', or a district name to scrape")
     args = parser.parse_args()
 
     if args.delay:
         global SEARCH_DELAY_S
-        SEARCH_DELAY_S = (args.delay, args.delay + 5)
+        SEARCH_DELAY_S = (args.delay, args.delay + 4)
 
     if args.proxy_file:
         load_proxies(args.proxy_file)
@@ -585,17 +578,8 @@ Examples:
     else:
         rows = all_rows
 
-    shard = None
-    if args.shard:
-        try:
-            idx, total = map(int, args.shard.split("/"))
-            shard = (idx, total)
-        except ValueError:
-            print(f"Invalid --shard format: '{args.shard}'. Use 'N/M' (e.g. '0/3')")
-            sys.exit(1)
-
     if args.all:
-        scrape_all(rows, continuous=args.continuous, max_retries=args.max_retries, shard=shard)
+        scrape_all(rows, continuous=args.continuous, workers=args.workers)
         return
 
     if not args.command:
@@ -603,7 +587,6 @@ Examples:
         sys.exit(1)
 
     command = args.command.lower()
-
     if command == "summary":
         print("Progress Tracker:\n")
         get_district_summary()
@@ -625,21 +608,48 @@ Examples:
 
     district = args.command.strip()
     valid = {r["district"].strip() for r in rows}
-
     if district not in valid:
         print(f"District '{district}' not found.")
-        if state_filter:
-            print(f"Use `python3 scraper.py --csv \"{args.csv}\" --state \"{state_filter}\" list` to see available districts.")
-        else:
-            print(f"Use `python3 scraper.py --csv \"{args.csv}\" list` to see available districts.")
         sys.exit(1)
 
-    scrape_district(district, rows)
+    print(f"\nScraping {district} with {args.workers} workers...")
+    safe_name = district.lower().replace(' ', '_')
+    output_path = os.path.join(OUTPUT_DIR, f"{safe_name}.csv")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    done_ids = set()
+    if os.path.exists(output_path):
+        with open(output_path, newline="", encoding="utf-8") as f:
+            done_ids = {r["id"] for r in csv.DictReader(f)}
+    pending = [r for r in rows if r["district"].strip() == district and r["id"] not in done_ids]
+    print(f"  Total: {len([r for r in rows if r['district'].strip() == district])}, "
+          f"Done: {len(done_ids)}, Pending: {len(pending)}")
 
-    print(f"\nDone! Check {OUTPUT_DIR}/{district.lower().replace(' ', '_')}.csv")
-    print("\n--- Updated Progress ---")
+    tracker = load_tracker()
+    if district not in tracker["districts"]:
+        tracker["districts"][district] = {"total": 0, "completed": 0}
+    tracker["districts"][district]["total"] = len([r for r in rows if r["district"].strip() == district])
+    save_tracker(tracker)
+
+    if not pending:
+        print("  Nothing to scrape.")
+        return
+
+    college_queue = queue.Queue()
+    for p in pending:
+        college_queue.put((p, len(pending)))
+
+    n_workers = min(args.workers, len(pending))
+    threads = []
+    for i in range(n_workers):
+        t = threading.Thread(target=worker_thread, args=(i + 1, college_queue, len(pending)))
+        t.start()
+        threads.append(t)
+
+    for t in threads:
+        t.join()
+
+    print(f"\nDone! Results in {output_path}")
     get_district_summary()
-
 
 if __name__ == "__main__":
     main()

@@ -29,7 +29,9 @@ while [[ $# -gt 0 ]]; do
         --proxy-file) PROXY_FILE="$2"; shift 2 ;;
         --list) docker run --rm -v "$CSV:/data/mp_colleges.csv" "$IMAGE_NAME" --csv /data/mp_colleges.csv --state "$STATE" list; exit 0 ;;
         --stop) echo "Stopping all scraper containers..."; docker stop $(docker ps -q --filter name=scraper-) 2>/dev/null || true; echo "Done"; exit 0 ;;
-        --help) echo "Usage: $0 [--containers N] [--state State] [--proxy-file file] [--list] [--stop]"; exit 0 ;;
+        --help) echo "Usage: $0 [--containers N] [--state State] [--proxy-file file] [--list] [--stop]"
+               echo "  Each container runs 5 parallel workers (3 if >4 containers)."
+               echo "  Total parallel scrapers = containers × workers."; exit 0 ;;
         *) echo "Unknown: $1"; exit 1 ;;
     esac
 done
@@ -73,6 +75,7 @@ for ((i=0; i<CONTAINERS; i++)); do
     echo "🚀 Starting $CNAME (shard $i/$CONTAINERS)"
 
     docker rm -f "$CNAME" 2>/dev/null || true
+    WORKERS=$((CONTAINERS > 4 ? 3 : 5))
     docker run -d --name "$CNAME" \
         -e PYTHONUNBUFFERED=1 \
         -v "$SCRAPED_DIR:/data/scraped" \
@@ -83,6 +86,7 @@ for ((i=0; i<CONTAINERS; i++)); do
         --csv /data/mp_colleges.csv \
         --state "$STATE" \
         ${PROXY_FILE:+--proxy-file /app/proxies.txt} \
+        --workers $WORKERS \
         --all \
         --continuous 2>/dev/null
 done

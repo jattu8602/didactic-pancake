@@ -30,7 +30,7 @@
     },
     "Bhopal": {
       "total": 343,
-      "completed": 194
+      "completed": 229
     },
     "Burhanpur": {
       "total": 25,
@@ -70,7 +70,7 @@
     },
     "Indore": {
       "total": 266,
-      "completed": 172
+      "completed": 266
     },
     "Jabalpur": {
       "total": 161,
@@ -166,27 +166,27 @@
     },
     "Chhatarpur": {
       "total": 60,
-      "completed": 8
+      "completed": 60
     },
     "Ujjain": {
       "total": 74,
-      "completed": 0
+      "completed": 74
     },
     "Chhindwara": {
       "total": 52,
-      "completed": 25
+      "completed": 52
     },
     "Raisen": {
       "total": 41,
-      "completed": 33
+      "completed": 41
     },
     "Morena": {
       "total": 58,
-      "completed": 1
+      "completed": 58
     },
     "Rewa": {
       "total": 81,
-      "completed": 0
+      "completed": 81
     },
     "Hoshangabad": {
       "total": 45,
@@ -194,11 +194,11 @@
     },
     "Satna": {
       "total": 67,
-      "completed": 1
+      "completed": 67
     },
     "Sagar": {
       "total": 72,
-      "completed": 32
+      "completed": 72
     }
   }
 }
