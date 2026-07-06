@@ -1,0 +1,5522 @@
+{
+  "url": "http://www.jnu.ac.in/",
+  "professors": [
+    {
+      "name": "Kavita Arora",
+      "email": "kavitaarora@jnu.ac.in; kavitaarora@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Advanced Instrumentation Research Facility"
+    },
+    {
+      "name": "Tulika Prasad",
+      "email": "prasadtulika@hotmail.com; prasadtulika@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Advanced Instrumentation Research Facility"
+    },
+    {
+      "name": "Arvind Kumar",
+      "email": "kumararvind@jnu.ac.in; kumararvind@mail.jnu.ac.in; prof.kumar.arvind@gmail.com",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Rajeev Sijariya",
+      "email": "rajeevsijariya@gmail.com; rajeevsijariya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Arvind P Arahant",
+      "email": "aparahant@mail.jnu.ac.in; arvindarahant@gmail.com",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Brajesh Kumar Tiwari",
+      "email": "brajeshtiwari@mail.jnu.ac.in; julybrajesh@gmail.com",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Geetanjali Batra",
+      "email": "geetanjalibatra@mail.jnu.ac.in; ms.geetanjali.batra@gmail.com",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Lokesh Jindal",
+      "email": "lokeshjindal@jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Priya Gupta",
+      "email": "priyagupta@jnu.ac.in; priyagupta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Sakshi Sharma",
+      "email": "sakshi2085@gmail.com; sakshisharma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Vaniki Joshi Lohani",
+      "email": "vanikijoshi@gmail.com; vanikijoshi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Vikram Bansal",
+      "email": "vikrambansal@jnu.ac.in",
+      "phone": "",
+      "school": "Atal Bihari Vajpayee School of Management and Entrepreneurship"
+    },
+    {
+      "name": "Bishnupriya Dutt",
+      "email": "duttbishnupriya@gmail.com; pia_dutt@jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Naman P. Ahuja",
+      "email": "nahuja@mail.jnu.ac.in; namanahuja@gmail.com",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Partho Datta",
+      "email": "parthodatta@gmail.com; parthodatta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Parul Dave Mukherji",
+      "email": "parul.dm@hotmail.com; paruldm@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Ranjani Mazumdar",
+      "email": "ranjani.mazumdar@gmail.com; ranjani@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Shukla Sawant",
+      "email": "shuklasa@mail.jnu.ac.in; shuklasawant@hotmail.com",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Y.S. Alone",
+      "email": "aloneys@yahoo.com; ysalone@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Ameet Parameswaran",
+      "email": "ameet.parameswaran@gmail.com; ameet@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Kaushik Bhaumik",
+      "email": "bhaumikenator@gmail.com; kbhaumik@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Mrinmoyee Ray",
+      "email": "mrinmoyeeray@gmail.com; mrinmoyeeray@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Ratheesh Radhakrishnan",
+      "email": "ratheeshra@jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Shikha Jhingan",
+      "email": "Shikha.jhingan@gmail.com; shikhajhingan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Soumyabrata Choudhury",
+      "email": "shomo.choudhury@gmail.com; soumyabrata@jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Veena Hariharan",
+      "email": "hariharan.veena@gmail.com; veenahariharan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Amphu Terangpi",
+      "email": "aterangpi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Brahma Prakash Singh",
+      "email": "bprakash@jnu.ac.in; bprakash@mail.jnu.ac.in; prakash.brahma@gmail.com",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Suryanandini Narain",
+      "email": "suryanandini@jnu.ac.in; suryanandini@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "Vibhushan Subba",
+      "email": "vibhushan@jnu.ac.in",
+      "phone": "",
+      "school": "School of Arts and Aesthetics"
+    },
+    {
+      "name": "B. R. Panda",
+      "email": "binaypanda@jnu.ac.in; binaypandalab@gmail.com",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "B.S. Balaji",
+      "email": "balaji_12@yahoo.com; bsbalaji@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Kashyap Kumar Dubey",
+      "email": "kashyapdubey@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Rajesh Mishra",
+      "email": "rajeshmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Rupesh Chaturvedi",
+      "email": "rupesh.chaturvedi.jnu@gmail.com; rupesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "S.S. Maitra",
+      "email": "ssm2100@jnu.ac.in; ssm2100@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Sandeep Saxena",
+      "email": "sandeepsaxena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Suneel Kateriya",
+      "email": "skateriya@jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Arvind Pratap Singh",
+      "email": "arvindpsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "D. Choudhury",
+      "email": "devach@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravikr@jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Ravi Verma",
+      "email": "raviverma@jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Abhinav Grover",
+      "email": "abhinavgr@gmail.com; agrover@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Hemant Ritturaj Kushwaha",
+      "email": "hemantkushwaha@jnu.ac.in; ritturajhemant@gmail.com",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Jaydeep Bhattacharya",
+      "email": "jaydeep@jnu.ac.in; jaydpb@gmail.com",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Manoj K. Sharma",
+      "email": "manojdarolia@gmail.com; mksharma@jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Ranjana Arya",
+      "email": "arya.ranjana24@gmail.com; ranjanaa@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Ravi Tandon",
+      "email": "ravitandon@jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Swati Tiwari",
+      "email": "swati_tiwari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Syamala Maitreyi Rajala",
+      "email": "gmaitri@yahoo.com; msrajala@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Virendra Singh",
+      "email": "singhvirendra@live.com; virendrasingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Biotechnology"
+    },
+    {
+      "name": "Andrew M Lynn",
+      "email": "andrew@jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Anirban Chakraborti",
+      "email": "anirban@jnu.ac.in; anirban@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Binod Kumar Kanaujia",
+      "email": "bkkanaujia@jnu.ac.in; bkkanaujia@yahoo.co.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Mukesh Jain",
+      "email": "mjain@jnu.ac.in; mjainanid@gmail.com",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Pradipta Bandyopadhyay",
+      "email": "praban07@gmail.com; pradipta_b@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "R.K. Brojen Singh",
+      "email": "brojen@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Sapna Ratan Shah",
+      "email": "sapnarshah@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Shandar Ahmad",
+      "email": "shandar@jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "A. Krishnamachari",
+      "email": "akchari@gmail.com; chari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Arnab Bhattacharjee",
+      "email": "arnab@jnu.ac.in; arnab@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Kunwer Singh Mathur",
+      "email": "ksmathur@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Narinder Singh Sahni",
+      "email": "narinder@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Pallavi Somvanshi",
+      "email": "psomvanshi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Y.M. Ragothaman",
+      "email": "ragothaman@gmail.com; ragothaman@jnu.ac.in; ragothaman@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Abinaya Manivannan",
+      "email": "abinaya@mail.jnu.ac.in; abinayamanivannan@gmail.com",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Gajendra Pratap Singh",
+      "email": "gajendra@jnu.ac.in; gajendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Jyoti Singh Kirar",
+      "email": "jyotikirar@jnu.ac.in; jyotikirar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "Rakesh Kumar Saroj",
+      "email": "rakeshsaroj@jnu.ac.in; rakeshsaroj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computational and Integrative Sciences"
+    },
+    {
+      "name": "D. K. Lobiyal",
+      "email": "dkl@mail.jnu.ac.in; lobiyal@gmail.com",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "D.P. Vidyarthi",
+      "email": "dpv@mail.jnu.ac.in; dpvidyarthi2002@yahoo.com",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Manju Khari",
+      "email": "manjukhari@jnu.ac.in; manjukhari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Piyush Pratap Singh",
+      "email": "piyushpsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "R.K. Agrawal",
+      "email": "rka@mail.jnu.ac.in; rkajnu@gmail.com",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Ratneshwer",
+      "email": "ratnesh@mail.jnu.ac.in; ratneshwer@gmail.com",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Satish Chand",
+      "email": "schand20@gmail.com; schand@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Sonajharia Minz",
+      "email": "sona.minz@gmail.com; sonaminz@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "T.V.Vijay Kumar",
+      "email": "tvvijaykumar@hotmail.com; tvvk@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Vir Bahadur Singh",
+      "email": "vbsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Zahid Raza",
+      "email": "zahidraza@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Aditi Sharan",
+      "email": "aditisharan@gmail.com; aditisharan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Arun Prakash",
+      "email": "arunprakash@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Jasraj Meena",
+      "email": "jasrajmeena@jnu.ac.in; jasrajmeena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Poonam Agarwal",
+      "email": "poonamgoel@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Poonguzhali N",
+      "email": "poonguzhali@jnu.ac.in; poonguzhali@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Sachin Balkrushna Jadhav",
+      "email": "sachinjadhav@jnu.ac.in; sachinjadhav@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Sushil Kumar",
+      "email": "skdohare@mail.jnu.ac.in; skdohare@yahoo.com",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Anuj Sachan",
+      "email": "anujsachan@jnu.ac.in; anujsachan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Asutosh Srivastava",
+      "email": "asutosh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Ayesha Choudhary",
+      "email": "ayeshac@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Buddha Singh",
+      "email": "buddhasingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Karan Singh",
+      "email": "karan@jnu.ac.in; karan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Saurabh Kumar Sharma",
+      "email": "saurabhsharma.lpu@gmail.com; saurabhsharma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Subhash Chandra Patel",
+      "email": "subhashpatel@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Tirthankar Gayen",
+      "email": "tirthankar@jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Vikas Mittal",
+      "email": "vikasmittal@jnu.ac.in; vikasmittal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Yogendra Meena",
+      "email": "yogendra.jnu08@gmail.com; yogendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Computer and Systems Sciences"
+    },
+    {
+      "name": "Ankit Chaudhary",
+      "email": "ankitchaudhary@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Anupama Namburu",
+      "email": "anupamanamburu@jnu.ac.in; anupamanamburu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Ashwini Kumar Arya",
+      "email": "akarya@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "B. Lakshmi Priya",
+      "email": "lakshmipriya10@gmail.com; lakshmipriya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "G. Renuka Devi",
+      "email": "renukadevi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Mukuloth Srinivasnaik",
+      "email": "msnaik@jnu.ac.in; msnaik@mail.jnu.ac.in; srinivasmukuloth@gmail.com",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Pushpendra Singh",
+      "email": "spushp@gmail.com; spushp@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Sangmesh",
+      "email": "sangmesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Ankit Kumar Jaiswal",
+      "email": "ankit1511@hotmail.com; ankitjaiswal@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Ayushi Barthwal",
+      "email": "ayushibarthwal@mail.jnu.ac.in; barthwal.ayushi1988@gmail.com",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Benay Kumar Ray",
+      "email": "benayray@gmail.com; benayray@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Deepak Sharma",
+      "email": "deepaksharma@mail.jnu.ac.in; dsharma7309@gmail.com",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "F. Lalchhandama",
+      "email": "dampuiafanchun@gmail.com; fcdama@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Kethavath Kranthi Kumar",
+      "email": "kranthikumar@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Krishnan Rajkumar",
+      "email": "krishnan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Lavish Kumar Singh",
+      "email": "lavish.singh2011@gmail.com; lavishkumar@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Mukesh Kumar Giluka",
+      "email": "gilukagiluka@gmail.com; mkgiluka@jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Prerana Mukherjee",
+      "email": "prerana@jnu.ac.in; prerana@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Rituraj Singh",
+      "email": "riturajsingh@jnu.ac.in; riturajsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Shashank Vadlamani",
+      "email": "shashankv@mail.jnu.ac.in; shashankvadlamani@gmail.com",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "Varun Saxena",
+      "email": "varunsaxena@jnu.ac.in; varunsaxena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Engineering"
+    },
+    {
+      "name": "A.P. Dimri",
+      "email": "apdimri@hotmail.com; apdimri@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Arun Kumar Srivastava",
+      "email": "a_srivastava@mail.jnu.ac.in; srivastava02@hotmail.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Dhananjai Kumar Pandey",
+      "email": "dhananjai@jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Dinesh Mohan",
+      "email": "dm_1967@hotmail.com; dmohan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Jayant Kumar Tripathi",
+      "email": "jktrip@yahoo.com; jktripathi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Kasturi Mukhopadhyay",
+      "email": "kasturi26@hotmail.com; kasturim@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Krishan Kumar",
+      "email": "krishan_kumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Muduru Lachhana Dora",
+      "email": "dorageol@gmail.com; mldora@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "N. Janardhana Raju",
+      "email": "rajunj7@gmail.com; rajunj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "P K Joshi",
+      "email": "pkjoshi27@hotmail.com; pkjoshi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Paulraj Rajamani",
+      "email": "paulrajr@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Satish Chandra Garkoti",
+      "email": "scgarkoti@mail.jnu.ac.in; sgarkoti@yahoo.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Shekhar Mallick",
+      "email": "shekharm@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Sudesh Yadav",
+      "email": "sudesh27@hotmail.com; syadav@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Umesh Kulshrestha",
+      "email": "umesh@mail.jnu.ac.in; umeshkulshrestha@gmail.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Usha Mina",
+      "email": "ushamina@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Anil Kumar",
+      "email": "akumar@mail.jnu.ac.in; anilwihg@gmail.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Dileswar Nayak",
+      "email": "dileswarnayak@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ilora Ghosh (Mondal)",
+      "email": "ighosh@mail.jnu.ac.in; iloraghosh17@gmail.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Kumar Pranaw",
+      "email": "kpranaw@jnu.ac.in; kpranaw@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Lakshmi Kumar T V",
+      "email": "lakshmikumar@jnu.ac.in; lakshmikumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Meenakshi Dua",
+      "email": "mdua@mail.jnu.ac.in; meenakshi72@hotmail.com",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ravi Kumar Umrao",
+      "email": "ravikumrao@jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Susheel Kumar",
+      "email": "susheelkumar25@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Amit Kumar Mishra",
+      "email": "amit.mishra.jnu@gmail.com; amitmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Arijit Mallick",
+      "email": "arijit.chem08@gmail.com; arijitmallick@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ashwani Kumar Tiwari",
+      "email": "ashwani.enviro@gmail.com; ashwaniktiwari@jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Bikram Sen Sahu",
+      "email": "bssahu@jnu.ac.in; bssahu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ram Pravesh Kumar",
+      "email": "praveshjnu@gmail.com; rpkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ramovatar Meena",
+      "email": "rammeenarv@gmail.com; ramovatarmeena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Tanya Srivastava",
+      "email": "tanya.srivastava1711@gmail.com; tanyasrivastava@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Environmental Sciences"
+    },
+    {
+      "name": "Ajay Kumar Saxena",
+      "email": "ajaysaxena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Amal Chandra Mondal",
+      "email": "acmondal@mail.jnu.ac.in; amal_mondal@rediffmail.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Ananda Kumar Sarkar",
+      "email": "aksarkar.jnu@gmail.com; anandaksarkar@jnu.ac.in; anandaksarkar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Arun Sidram Kharat",
+      "email": "arunkharat2007@gmail.com; askharat@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Ashis K Nandi",
+      "email": "ashis_nandi@mail.jnu.ac.in; ashis_nandi@yahoo.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Ashwani Pareek",
+      "email": "ashwanip@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Atul Kumar Johri",
+      "email": "ajohri@mail.jnu.ac.in; akjohri14@yahoo.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Kiran Babu Uppuluri",
+      "email": "kiranbabu@jnu.ac.in; kiranbabu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Nirala Ramchiary",
+      "email": "nramchiary@jnu.ac.in; nramchiary@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Praveen K Verma",
+      "email": "pkv.jnu@gmail.com; praveenkverma@jnu.ac.in; praveenkverma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Rana P. Singh",
+      "email": "rana_singh@mail.jnu.ac.in; ranaps@hotmail.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Rohini Muthuswami",
+      "email": "rohini_m@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "S. Chakraborty",
+      "email": "schakraborty@mail.jnu.ac.in; supriyachakrasls@yahoo.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Samudrala Gourinath",
+      "email": "sgourinath@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Shilpee Dutt",
+      "email": "drshilpeedutt@gmail.com; shilpeedutt@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Sneh Lata Panwar",
+      "email": "sneh10@hotmail.com; sneh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Sneha Sudha Komath",
+      "email": "sskomath@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Bama Charan Mondal",
+      "email": "bamacharan@gmail.com; bamacharan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Bhupendra Chaudhary",
+      "email": "bhupendra@jnu.ac.in; bhupendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Ekta Rai",
+      "email": "ekta.rai@hotmail.com; ektarai@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Karunakar Kar",
+      "email": "karunakarkar@gmail.com; kkar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Neelima Mondal",
+      "email": "nmondal@hotmail.com; nmondal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Sushil K Jha",
+      "email": "sushil_1000@yahoo.com; sushilkjha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Vikas Yadav",
+      "email": "vikasjnu@gmail.com; vikasyadav@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Abhisheka Bansal",
+      "email": "abhisheka@mail.jnu.ac.in; bansal.abhisheka@gmail.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Ashu Bhan Tiku",
+      "email": "abtiku@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Devinder Kaur",
+      "email": "devinderkaur@mail.jnu.ac.in; kaur.devbio@gmail.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Nikhil Job",
+      "email": "nikhiljob6@gmail.com",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Niti Puri",
+      "email": "niti_puri@hotmail.com; purin@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Pankaj Kumar Giri",
+      "email": "giripankaj@jnu.ac.in; giripankaj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Stanzin Dawa",
+      "email": "stanzin@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Life Sciences"
+    },
+    {
+      "name": "Amit Rai",
+      "email": "amitrai@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Brijesh Kumar",
+      "email": "bkumar@jnu.ac.in; bkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Debashis Ghoshal",
+      "email": "dghoshal@jnu.ac.in; dghoshal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Kedar Singh",
+      "email": "kedar@mail.jnu.ac.in; kedarbhp@rediffmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Manish Kumar",
+      "email": "manishdft@gmail.com; mkkashyap@jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Ng. K. Francis",
+      "email": "ngkfrancis@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Pawan Kumar Kulriya",
+      "email": "pawaniuac@gmail.com; pkkulriya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Pritam Mukhopadhyay",
+      "email": "m_pritam@mail.jnu.ac.in; pritam.jnu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Ram Prasad Prajapati",
+      "email": "prajapati.iter@gmail.com; rpprajapati@jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Ram Sagar",
+      "email": "ram.sagar@jnu.ac.in; ramsagar1.jnu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Riddhi Shah",
+      "email": "rshah@jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "S. Patnaik",
+      "email": "spatnaik@mail.jnu.ac.in; spatnaikjnu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Sanjay Puri",
+      "email": "puri@mail.jnu.ac.in; purijnu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Sobhan Sen",
+      "email": "sens@jnu.ac.in; sobhan.sen@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Subhasis Ghosh",
+      "email": "subhasis@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Bhagaban Kisan",
+      "email": "bhagabankisan@mail.jnu.ac.in; bkisan@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "L Raju Chowhan",
+      "email": "chowhan@jnu.ac.in; chowhan@mail.jnu.ac.in; rajuchowhan@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Pushpendra Kumar",
+      "email": "pushpendra@jnu.ac.in; pushpendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Rabindra Nath Mahato",
+      "email": "rabindraiitm@gmail.com; rnmahato@jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Smita Sonker",
+      "email": "smita.sonker@gmail.com; smitasonker@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Vijay Kumar Goel",
+      "email": "vijaykgoel@jnu.ac.in; vijaykgoel@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Alok Kumar Singh Jha",
+      "email": "alokksjha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Amala Bhave",
+      "email": "abhave@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Ankita Rai",
+      "email": "ankitagalaxy@gmail.com; ankitarai@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Arvind Kumar",
+      "email": "arvind@jnu.ac.in; arvind@mail.jnu.ac.in; bhuarvind2512@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Ashim Kr. Pramanik",
+      "email": "akpramanik@mail.jnu.ac.in; ashpramanik@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Dinabandhu Das",
+      "email": "dinabandhu@mail.jnu.ac.in; jnu.dinu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Manoj Munde",
+      "email": "mmunde@mail.jnu.ac.in; mundemanoj@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Manoj Verma",
+      "email": "m.infinite@gmail.com; manojverma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Om Prakash Meena",
+      "email": "omi.omprakash95@gmail.com; opmeena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Pijus Kumar Sasmal",
+      "email": "pijus@mail.jnu.ac.in; pijussasmal@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Poonam Mehta",
+      "email": "pm@jnu.ac.in; poonammehtajnu@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Rakesh Kumar Meena",
+      "email": "rakeshkmeena@jnu.ac.in; rakeshmeena3424@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Sanjay Kumar Saroj",
+      "email": "sarojsk1989@gmail.com; sarojsk@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Shilpi Agarwal",
+      "email": "shilpiagarwal@mail.jnu.ac.in; sipi.agarwal@gmail.com",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Supriya Sabbani",
+      "email": "sabbani07@gmail.com; ssabbani@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Tanuja Mohanty",
+      "email": "tanujajnu@gmail.com; tmohanty@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Physical Sciences"
+    },
+    {
+      "name": "Brajesh Kumar Pandey",
+      "email": "brajeshkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "C. Upender Rao",
+      "email": "skt.scholar@gmail.com; upendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Girish Nath Jha",
+      "email": "girishjha@gmail.com; girishjha@jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Gopal Lal Meena",
+      "email": "glmeena@mail.jnu.ac.in; gmeena28@yahoo.com",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Rajnish Kumar Mishra",
+      "email": "mishra_rajnish@yahoo.com; mishrarajnish@gmail.com; rkmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Ram Nath Jha",
+      "email": "rnj12@hotmail.com; rnjha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Santosh Kumar Shukla",
+      "email": "skshukla@mail.jnu.ac.in; skshuklajnu@yahoo.com",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Sudhir Kumar",
+      "email": "sudhirkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Krishna Mohan Pandey",
+      "email": "apkmpandey@gmail.com; kmpandey@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Mauhar Singh Meena",
+      "email": "mauharsingh@jnu.ac.in; mauharsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Pramod Kumar Sharma",
+      "email": "pksharmas54@gmail.com; pramodsharma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Tangallapalli Mahendar",
+      "email": "mahendar@mail.jnu.ac.in; tpmahi@gmail.com",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Jyoti",
+      "email": "jyotiraj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Vijender Singh",
+      "email": "mehtayvs@gmail.com; singhvijender@mail.jnu.ac.in",
+      "phone": "",
+      "school": "School of Sanskrit and Indic Studies"
+    },
+    {
+      "name": "Abhijeet Dwivedi",
+      "email": "abhijit@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Disaster Research"
+    },
+    {
+      "name": "Deep Narayan Pandey",
+      "email": "deepudai@gmail.com; dnpandey@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Disaster Research"
+    },
+    {
+      "name": "Nikunj Makwana",
+      "email": "dr.nikunj@yahoo.co.in; nikunj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Disaster Research"
+    },
+    {
+      "name": "Anand Ranganathan",
+      "email": "aranganathan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Chinmay K. Mukhopadhyay",
+      "email": "ckm2300@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Gobardhan Das",
+      "email": "dasgo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Rakesh K. Tyagi",
+      "email": "rkt2300@mail.jnu.ac.in; rktyagi@yahoo.com",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Shailja Singh",
+      "email": "shailjasingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Suman Kumar Dhar",
+      "email": "skdhar2002@yahoo.co.in; skdhar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Umesh Chand Singh Yadav",
+      "email": "ucsyadav@jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Vibha Tandon",
+      "email": "vibhadelhi6@gmail.com; vtandon@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Someswar Rao Sagurthi",
+      "email": "drsomeswar@mail.jnu.ac.in; drsomeswar@osmania.ac.in; somu2u@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Souvik Bhattacharjee",
+      "email": "sbh174@gmail.com; souvik@jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Sudhir Kumar",
+      "email": "sudhir.k@jnu.ac.in; sudhir.k@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Vijay Pal Singh Rawat",
+      "email": "rawatcdx@gmail.com; vijaypsrawat@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Dipankar Ghosh",
+      "email": "ghoshd@jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Saima Aijaz",
+      "email": "s_aijaz@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Molecular Medicine"
+    },
+    {
+      "name": "Bijoy Kumar Kuanr",
+      "email": "bijoykuanr@mail.jnu.ac.in; bkkuanr@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Ketavath Kumar Naik",
+      "email": "kknaik@mail.jnu.ac.in; kumarvtr@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Pankaj Thakur",
+      "email": "pankajthakur@jnu.ac.in; pankajthakur@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Satyendra Singh",
+      "email": "satyambd@gmail.com; satyendra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Prakash Kanoo",
+      "email": "prakashkanoo@gmail.com; prakashkanoo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Sandeep Kumar",
+      "email": "fedrer.engg@gmail.com; skamera@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Balaji Birajdar",
+      "email": "birajdar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Neha Paras",
+      "email": "nehaparasrao@mail.jnu.ac.in; neharao1993@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Pratima Solanki",
+      "email": "partima@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Vinod Kumar",
+      "email": "kumarv@mail.jnu.ac.in; vinod7674@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Nanoscience"
+    },
+    {
+      "name": "Amit Singh",
+      "email": "amitsingh@mail.jnu.ac.in; amitsinghjnu@gmail.com",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Laxman Kumar Behera",
+      "email": "laxmanbehera@gmail.com; lkbehera@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Aayushi Ketkar",
+      "email": "aayushi.ketkar@gmail.com; aayushik@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Ankur Yadav",
+      "email": "ankur.jnusis@gmail.com; ankuryadav@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Gaurav Tyagi",
+      "email": "gaurav.microbhu@gmail.com; gauravtyagi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Naresh Kumar Verma",
+      "email": "nareshrai.jnu@gmail.com; nkverma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for National Security Studies"
+    },
+    {
+      "name": "Rakhee Bhattacharjee",
+      "email": "rakhee@mail.jnu.ac.in; rakhee_2k@hotmail.com",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Vimal Khawas",
+      "email": "prof.vimalkhawas@gmail.com; vimalkhawas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Vinay Kumar Rao",
+      "email": "vinaykrao@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Rikil Chyrmang",
+      "email": "rikilenator@gmail.com",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "G. Amarjit Sharma",
+      "email": "g.amarjit@gmail.com; gasharma@jnu.ac.in; gasharma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Khuraijam Bijoykumar Singh",
+      "email": "bijoykhaba@yahoo.com; kbsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Lipokmar Dzuvichu",
+      "email": "lipokmar@mail.jnu.ac.in; lipokmardzuvichu@gmail.com",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Manjeet Baruah",
+      "email": "manjeetbaruah@gmail.com; mbaruah@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for the Study of North East India"
+    },
+    {
+      "name": "Amit Prakash",
+      "email": "amit@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Chirashree Dasgupta",
+      "email": "chirashree@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Jaivir Singh",
+      "email": "jsingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "P. Puneeth",
+      "email": "dr.ppuneeth@gmail.com; ppuneeth@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Prakash Chand Kandpal",
+      "email": "pcka120872@yahoo.com; prakashchand@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Pratiksha Baxi",
+      "email": "pbaxi@jnu.ac.in; pbaxi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Sigamani Panneer",
+      "email": "panneersigamani@gmail.com; sigamani@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Sukalpa Chakrabarti",
+      "email": "sukalpa@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Reeta Sony A.L.",
+      "email": "aalsony@gmail.com; reetasony@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Varada A. Sambhus",
+      "email": "varada@jnu.ac.in; varada@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Ghazala Jamil",
+      "email": "ghazalajamil@jnu.ac.in; ghazalajamil@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Nupur Chowdhury",
+      "email": "nupur@jnu.ac.in; nupur@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Thongkholal Haokip",
+      "email": "haokip@jnu.ac.in; th.robert@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for the Study of Law and Governance"
+    },
+    {
+      "name": "Unnat P. Pandit",
+      "email": "office@unnatpandit.com",
+      "phone": "",
+      "school": "Intellectual Property Management Cell"
+    },
+    {
+      "name": "R. Thamotharan",
+      "email": "aravendan66@gmail.com; thamotharan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Special Centre for Tamil Studies"
+    },
+    {
+      "name": "N. Chandrasegaran",
+      "email": "chandrasegaran@mail.jnu.ac.in; ncsjnu@gmail.com",
+      "phone": "",
+      "school": "Special Centre for Tamil Studies"
+    },
+    {
+      "name": "J.M. Moosa",
+      "email": "jmmoosa@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for African Studies"
+    },
+    {
+      "name": "Sushmita Rajwar",
+      "email": "sushmitarajwar2@gmail.com; sushmitarajwar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for African Studies"
+    },
+    {
+      "name": "Gayettri Dixit",
+      "email": "gayettri@mail.jnu.ac.in; gayettridixit@gmail.com",
+      "phone": "",
+      "school": "Centre for African Studies"
+    },
+    {
+      "name": "Rashmi Rani Anand",
+      "email": "rashmianand@mail.jnu.ac.in; rashmiranianandjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for African Studies"
+    },
+    {
+      "name": "Arvind Kumar",
+      "email": "aknias@yahoo.com; arvindk@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Priti Singh",
+      "email": "pritisingh@mail.jnu.ac.in; singhpriti@hotmail.com",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Aprajita Kashyap",
+      "email": "aprajita@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Uma Purushothaman",
+      "email": "umapurushothaman@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Vineet Prakash",
+      "email": "vineetprakash10@gmail.com; vineetprakash@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Anshu Joshi",
+      "email": "anshujoshi@mail.jnu.ac.in; anshujoshijnu@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Saumyajit Ray",
+      "email": "ray.saumyajit@gmail.com; saumyajitray@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Sneha Bhagat",
+      "email": "sneha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the Americas"
+    },
+    {
+      "name": "Mollica Dastider",
+      "email": "mollica.dastider@gmail.com; mollica@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Pradip Kumar Parida",
+      "email": "pkparida@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Ravi Rameshchandra Shukla",
+      "email": "ravirshukla@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Jyoti D Bhosale",
+      "email": "dbjyoti@gmail.com; jdbhosale@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Mohinder Singh",
+      "email": "mohinder.du@gmail.com; mohindersingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Pravesh Kumar",
+      "email": "kumar.pravesh27@gmail.com; praveshkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Sabareesh P.A.",
+      "email": "sabareesh.jnu@gmail.com; sabareesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Comparative Politics and Political theory"
+    },
+    {
+      "name": "Hriday Narayan",
+      "email": "hridayn@mail.jnu.ac.in; hridayna@gmail.com",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Jitendra Uttam",
+      "email": "jnucampus@gmail.com; juttam@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Sandip Kumar Mishra",
+      "email": "sandipmishra10@gmail.com; sandipmishra@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Srabani Roy Choudhury",
+      "email": "srabani@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Srikanth Kondapalli",
+      "email": "srikanth@mail.jnu.ac.in; srikondapalli@gmail.com",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Varaprasad Sekhar Dolla",
+      "email": "dvaraprasads@gmail.com; dvs@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Aravind Balaji Yelery",
+      "email": "aravindyelery@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Raviprasad Narayanan",
+      "email": "raviprasad.narayanan@gmail.com; raviprasadn@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Ritu Agarwal",
+      "email": "ritu10agarwal@gmail.com; rituagarwal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Titli Basu",
+      "email": "titlibasu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Tshering Chonzom Bhutia",
+      "email": "tshering@mail.jnu.ac.in; tsheringjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Makaranda Barik",
+      "email": "makaranda@jnu.ac.in; makaranda@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Sudhakar Vaddi",
+      "email": "sudhajnu@gmail.com; sudhakarvaddi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for East Asian Studies"
+    },
+    {
+      "name": "Bhaswati Sarkar",
+      "email": "bsarkar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Gulshan Sachdeva",
+      "email": "gulshan@mail.jnu.ac.in; gulshanjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Ummu Salma Bava",
+      "email": "salma@mail.jnu.ac.in; usbava@gmail.com",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "J. Jeganaathan",
+      "email": "chamujegan@jnu.ac.in; chamujegan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Satya Narayan Prasad",
+      "email": "satyanarayan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Sheetal Sharma",
+      "email": "sheetal88@gmail.com; sheetal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Ankita Dutta",
+      "email": "ankita_dutta87@yahoo.co.in; ankitadutta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Sakti Prasad Srichandan",
+      "email": "spsrichandan@jnu.ac.in; spsrichandan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Teiborlang T. Kharsyntiew",
+      "email": "teiborlang@jnu.ac.in; teiborlang@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for European Studies"
+    },
+    {
+      "name": "Shankari Sundararaman",
+      "email": "shankari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Indo-Pacific Studies"
+    },
+    {
+      "name": "Rahul Mishra",
+      "email": "rahul.seas@gmail.com; rmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Indo-Pacific Studies"
+    },
+    {
+      "name": "Shubhamitra Das",
+      "email": "shubhamitra70@gmail.com; shubhamitra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Indo-Pacific Studies"
+    },
+    {
+      "name": "Ananta Swarup Bijendra De Gurung",
+      "email": "ananta@jnu.ac.in; ananta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Indo-Pacific Studies"
+    },
+    {
+      "name": "Jaikhlong Basumatary",
+      "email": "jaikhlong@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Indo-Pacific Studies"
+    },
+    {
+      "name": "Ambrish Dhaka",
+      "email": "adhaka@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Inner Asian Studies"
+    },
+    {
+      "name": "Sangeeta Thapliyal",
+      "email": "sangeetathapliyal@gmail.com; sthapliyal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Inner Asian Studies"
+    },
+    {
+      "name": "Sharad Kumar Soni",
+      "email": "sharadksoni@gmail.com; sksoni@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Inner Asian Studies"
+    },
+    {
+      "name": "Mahesh Ranjan Debata",
+      "email": "mdebata@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Inner Asian Studies"
+    },
+    {
+      "name": "Tsetan Namgyal",
+      "email": "tsetan@mail.jnu.ac.in; tsetannjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Inner Asian Studies"
+    },
+    {
+      "name": "Sujith K",
+      "email": "sujith@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Legal Studies"
+    },
+    {
+      "name": "Vinai Kumar Singh",
+      "email": "vinaikumar@mail.jnu.ac.in; vinaikumarsingh@gmail.com",
+      "phone": "",
+      "school": "Centre for International Legal Studies"
+    },
+    {
+      "name": "Deepa Kansra",
+      "email": "deepakansra@jnu.ac.in; dkansra@gmail.com",
+      "phone": "",
+      "school": "Centre for International Legal Studies"
+    },
+    {
+      "name": "Fazil Jamal",
+      "email": "fazil@jnu.ac.in; fazil@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Legal Studies"
+    },
+    {
+      "name": "Amitabh Mattoo",
+      "email": "amattoo@mail.jnu.ac.in; amitabh.mattoo@gmail.com",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Archna Negi",
+      "email": "archnanegi@mail.jnu.ac.in; archnanegi@rediffmail.com",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Jayati Srivastava",
+      "email": "jayatis@gmail.com; jayatis@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Rajesh Rajagopalan",
+      "email": "r_rajesh@mail.jnu.ac.in; rajesh622@yahoo.com",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Ranvijay",
+      "email": "ranvijay@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Shantesh Kumar Singh",
+      "email": "shantesh@jnu.ac.in; shantesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Swaran Singh",
+      "email": "ssingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Manish Dabhade",
+      "email": "mdmanish@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Moushumi Basu",
+      "email": "mbasu@mail.jnu.ac.in; moushumi.basu@gmail.com",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Prasanta Sahoo",
+      "email": "prasantasahoo12@yahoo.co.in; prasantasahoo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Abhishek Srivastava",
+      "email": "abhishek.ir@gmail.com; abhisheks@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Dechen Bhutia",
+      "email": "dechen@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "J. Madhan Mohan",
+      "email": "jmadhanmohan@hotmail.com; madhanmohan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Sandip Kumar Singh",
+      "email": "sandipksingh@jnu.ac.in; sandipksingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Santana Khanikar",
+      "email": "khanikarsantana@gmail.com; santana@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Shivaji Kumar",
+      "email": "shivajik2050@gmail.com; shivajikumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for International Politics, Organization and Disarmament"
+    },
+    {
+      "name": "Aparna Sawhney",
+      "email": "asawhney@jnu.ac.in; asawhney@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Atul Kumar",
+      "email": "atulkumar@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Mandira Sarma",
+      "email": "msarma.ms@gmail.com; sarmam@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Meeta Keswani Mehra",
+      "email": "meetakm@gmail.com; meetakm@jnu.ac.in; meetakm@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Sangeeta Bansal",
+      "email": "sangeeta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Sushama Murty",
+      "email": "sushama.murty1@gmail.com; sushama@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Ajeet Kumar Sahoo",
+      "email": "aaksahoo@gmail.com; ajeetsahoo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Bharatee Bhusana Dash",
+      "email": "bharatee.dash@gmail.com; bharateedash@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Brishti Guha",
+      "email": "brishtiguha@gmail.com; brishtiguha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Priya Bhagowalia",
+      "email": "bhagowalia@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Rashmi Barua",
+      "email": "barua.bhowmik@gmail.com; rashmibarua@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Suman Das",
+      "email": "sumandas.eco@gmail.com; sumandas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of the World Economy"
+    },
+    {
+      "name": "Archana Upadhyay",
+      "email": "archana_u@mail.jnu.ac.in; archanaupadhyay.jnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Nalin Kumar Mohapatra",
+      "email": "nalin238@gmail.com; nalin@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Phool Badan",
+      "email": "phoolbadan@mail.jnu.ac.in; phoolbadan@yahoo.com; phoolbjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Preeti D Das",
+      "email": "ketyusha@gmail.com; preetidd@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Rajan Kumar",
+      "email": "rajan75jnu@gmail.com; rajan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Sanjay Kumar Pandey",
+      "email": "skpandey@mail.jnu.ac.in; skpandeyjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Amitabh Singh",
+      "email": "amitabhsingh@mail.jnu.ac.in; samitabh@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Dinesh Kumar",
+      "email": "dineshk@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Govind Kumar Inakhiya",
+      "email": "govindkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "K.B. Usha",
+      "email": "ushakb@gmail.com; ushakb@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Pramod Kumar",
+      "email": "pramodkumarjnu@gmail.com; pramodsis@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Asma Kouser",
+      "email": "asmakouser@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Raj Yadav",
+      "email": "rajyadav@mail.jnu.ac.in; rajyadavjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Rashmini Anil Koparkar",
+      "email": "rashmini.koparkar@gmail.com; rashmini@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Renu Sain",
+      "email": "renujnu@gmail.com; renusain@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Vaishali Krishna",
+      "email": "vaishali@mail.jnu.ac.in; vaishalikrishna272@gmail.com",
+      "phone": "",
+      "school": "Centre for Russian and Central Asian Studies"
+    },
+    {
+      "name": "Amita Batra",
+      "email": "amitabatra@mail.jnu.ac.in; batraamita@gmail.com",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "Kharat Rajesh Shrikrishna",
+      "email": "kharat@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "P. Sahadevan",
+      "email": "sahadevan@mail.jnu.ac.in; sahajnu@gmail.com",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "Sanjay K Bhardwaj",
+      "email": "bhardwaj.jnu@gmail.com; sbhardwaj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "Gadde Omprasad",
+      "email": "opgadde2@gmail.com; opgadde@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "Saurabh",
+      "email": "saurabh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "Milind Dhaware",
+      "email": "milinddhaware@gmail.com; milinddhaware@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for South Asian Studies"
+    },
+    {
+      "name": "A.K. Mohapatra",
+      "email": "akmohapatra@mail.jnu.ac.in; aswinijnu@gmail.com",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Jajati K. Pattnaik",
+      "email": "jajatikpattnaik@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Mahendra Pratap Rana",
+      "email": "mprana@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "P.R. Kumaraswamy",
+      "email": "kumaraswamy.pr@gmail.com; kumaraswamy@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Sameena Hameed",
+      "email": "sameena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Lakshmi Priya",
+      "email": "lakshmi@jnu.ac.in; lakshmi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Md. Muddassir Quamar",
+      "email": "mmquamar@mail.jnu.ac.in; muddassir.2005@gmail.com",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Vrushal Trimbak Ghoble",
+      "email": "ghoble@mail.jnu.ac.in; vrushal_jnu@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Amit Kumar",
+      "email": "amit.kr@mail.jnu.ac.in; amitkjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Sima Baidya",
+      "email": "sbaidya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for West Asian Studies"
+    },
+    {
+      "name": "Ashfaq Ahmad",
+      "email": "ashfaqahmad03@gmail.com; ashfaqahmad@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Md. Qutbuddin",
+      "email": "basmaqutb@gmail.com; qutbuddin@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Mujeebur Rahman",
+      "email": "m_rahman@mail.jnu.ac.in; mujeeburrahman1972@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Rizwanur Rahman",
+      "email": "rrahman@mail.jnu.ac.in; rrahmanjnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Ubaidur Rahman",
+      "email": "ubaidtayyeb@gmail.com; urahman@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Abdul Quddoos",
+      "email": "aquddoos@mail.jnu.ac.in; dr.quddus1975@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Akhtar Alam",
+      "email": "akhtaralam@mail.jnu.ac.in; akhterjnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Azmatullah",
+      "email": "azmatn@mail.jnu.ac.in; azmatnadwi@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Khurshid Imam",
+      "email": "khurshid@mail.jnu.ac.in; khurshidimam@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Mohammad Ajmal",
+      "email": "majmal@mail.jnu.ac.in; mohammadajmal1114@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Mohd. Akram Nawaz",
+      "email": "manawaz@mail.jnu.ac.in; nawazjnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "Zar Nigar",
+      "email": "nigar.zar@gmail.com; zarnigar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Arabic and African studies"
+    },
+    {
+      "name": "B.R. Deepak",
+      "email": "bdeepak@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Priyadarsi Mukherji",
+      "email": "pdm1962@rediffmail.com; pdm@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Sabaree Mitra",
+      "email": "sabareem@gmail.com; sabareemitra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Manju Rani Hara",
+      "email": "manjuhara@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Rakesh Kumar",
+      "email": "rakesh3670@gmail.com; rakeshkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Chandran Usha",
+      "email": "cusha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Chandu Doddi",
+      "email": "chandudoddi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Dayawanti",
+      "email": "dayawanti@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Geeta Kochhar",
+      "email": "geeta@mail.jnu.ac.in; jidujnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Kaushal Kishore Chandel",
+      "email": "kkchandel@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Prashant Kumar Jain",
+      "email": "prashantjain@mail.jnu.ac.in; prashantzheng@gmail.com",
+      "phone": "",
+      "school": "Centre for Chinese Studies"
+    },
+    {
+      "name": "Brinda Bose",
+      "email": "brinda@mail.jnu.ac.in; brindabose@gmail.com",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Dhananjay Singh",
+      "email": "dhananjay@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Saugata Bhaduri",
+      "email": "bhaduris@hotmail.com; bhaduris@jnu.ac.in; bhaduris@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Milind E. Awad",
+      "email": "ameknath@mail.jnu.ac.in; milindawad1@gmail.com",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Raju Parghi",
+      "email": "raju.parghi@gmail.com; rajuparghi@jnu.ac.in; rajuparghi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Saitya Brata Das",
+      "email": "sbdas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "B R Alamelu",
+      "email": "alamelu@jnu.ac.in; alamelu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Sami Ahmad Khan",
+      "email": "sakhan@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Shayequa Tanzeel",
+      "email": "shayequa@jnu.ac.in; shayequa@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Sneha Das",
+      "email": "snehadas@jnu.ac.in; snehadas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for English Studies"
+    },
+    {
+      "name": "Ajith Kanna",
+      "email": "ajithkanna@mail.jnu.ac.in; ajitsulo@yahoo.com",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Dhir Sarangi",
+      "email": "sarangi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "K.Vijayalakshmi Rao",
+      "email": "vijayalakshmi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Mohar Daschaudhuri",
+      "email": "moharchaudhuri@gmail.com; moharchaudhuri@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Shoba Sivasankaren",
+      "email": "sshobha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Sushant Kumar Mishra",
+      "email": "sushantkmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Ashish Agnihotri",
+      "email": "agni.jnu@gmail.com; agni@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Ravindra Kumar",
+      "email": "ravindra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Vinay Kumar Gupta",
+      "email": "vinayfr@hotmail.com; vinaykgupta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Baviskar Sharad Pralhad",
+      "email": "bspralhad@mail.jnu.ac.in; sharadcrosshuma@gmail.com",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "K. Pugazhendhi",
+      "email": "kpugazhendhi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Nipun Nutan",
+      "email": "nipunnutan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Sebastian Thejus Cherian",
+      "email": "stcherian@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for French and Francophone Studies"
+    },
+    {
+      "name": "Babu Thaliath",
+      "email": "babu.thaliath9@gmail.com; bthaliath@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Rosy Singh",
+      "email": "rosysingh@mail.jnu.ac.in; singh.rosy@gmail.com",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Sadhana Naithani",
+      "email": "sadhanan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Parnal Chirmuley",
+      "email": "pchirmuley@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Abhimanyu Kumar Sharma",
+      "email": "abhi.sharma@jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Jyotsna Ram Vaidya",
+      "email": "jvaidya27@gmail.com; jyotsnaram@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Mercy Vungthianmuang Guite",
+      "email": "mercymuang@gmail.com; mercymuang@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Priyada Shridhar Padhye",
+      "email": "priyada67@gmail.com; priyadashridharpadhye@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Sahib Kapoor",
+      "email": "sahibkapoor@jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Shambhavi Prakash",
+      "email": "shambhavi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Shreya Gaikwad",
+      "email": "shreya@jnu.ac.in; shreya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of German Studies"
+    },
+    {
+      "name": "Ajmer Singh Kajal",
+      "email": "ajmerskajal@gmail.com; ajmerskajal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Bandana Jha",
+      "email": "bandana_jnu@yahoo.co.in; jhabandana@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "D.K. Choubey",
+      "email": "cdevendra@gmail.com; dkchoubey@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Deo Shankar Navin",
+      "email": "deoshankar@hotmail.com; deoshankar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Garima Srivastava",
+      "email": "drsgarima@gmail.com; garima@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Khwaja Md. Ekramuddin",
+      "email": "ekramuddin@mail.jnu.ac.in; khwajaekram@gmail.com",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Punam Kumari",
+      "email": "punam.hindi@gmail.com; punamkumari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Rajesh Kumar Paswan",
+      "email": "drrajeshpaswan@gmail.com; rk_paswan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Ram Chandra",
+      "email": "ramchandra.jnu@gmail.com; ramchandra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Sudheer Pratap Singh",
+      "email": "sudheer@mail.jnu.ac.in; sudheerpsingh@gmail.com",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Aneesh K. N.",
+      "email": "aneeshkn1@gmail.com; aneeshkn@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Ganga Sahay Meena",
+      "email": "drgsmeena.jnu@gmail.com; gsmeena@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Md. Tauheed Khan",
+      "email": "drtauheedkhan@gmail.com; tauheedkhan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Mohd. Asif Zahri",
+      "email": "asifzahri@gmail.com; zahri@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Mrinmoy Pramanick",
+      "email": "letterstomrinmoy@gmail.com; mrinmoy@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Pervez Ahmed",
+      "email": "p123azmi@gmail.com; pervez@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Rishi Kumar Sharma",
+      "email": "rishikumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Devi Lal Godara",
+      "email": "devilal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Gyanendra Kumar Santosh",
+      "email": "gksantosh@gmail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Malkhan Singh",
+      "email": "malkhansingh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Nasib Ali",
+      "email": "nasibali546@gmail.com; nasibali@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Safina Begum",
+      "email": "safinabegum@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Shiv Prakash",
+      "email": "shivprakash44@gmail.com; shivprakash@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Indian Languages"
+    },
+    {
+      "name": "Janashruti Chandra",
+      "email": "janashruti.chandra@gmail.com; jchandra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "M.V. Lakshmi",
+      "email": "mvlakshmi@gmail.com; mvlakshmi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Anu Kumari",
+      "email": "anukumari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Anushree",
+      "email": "anushreepr@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Dinamani",
+      "email": "dinamani@mail.jnu.ac.in; dnmnkmr@gmail.com",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravikjnu@gmail.com; ravikumarcjs@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Rupa Singh",
+      "email": "rupapopli@hotmail.com; rupapopli@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Varun Kumar",
+      "email": "kumarvarun@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Japanese Studies"
+    },
+    {
+      "name": "Ravikesh",
+      "email": "ravikesh@gmail.com; ravikesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Kaushal Kumar",
+      "email": "drkkaushaljnu@gmail.com; kkaushaljnu@jnu.ac.in; kkaushaljnu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Neerja Samajdar",
+      "email": "neerjasingh@mail.jnu.ac.in; neerjass@hotmail.com",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Manish Kumar Barnwal",
+      "email": "hanamanish@gmail.com; mkbarnwal@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Rahul Raj",
+      "email": "rahulraj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Sanjay Kumar Jha",
+      "email": "jha161@gmail.com; sanjayjha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Santosh Kumar Ranjan",
+      "email": "santoshranjan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Satyanshu Srivastava",
+      "email": "satyanshu@jnu.ac.in; satyanshu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Korean Studies"
+    },
+    {
+      "name": "Ayesha Kidwai",
+      "email": "ayesha.kidwai@gmail.com; ayesha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Pauthang Haokip",
+      "email": "pauthang@mail.jnu.ac.in; pauthanghaokip@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Pradeep K. Das",
+      "email": "pkdas@mail.jnu.ac.in; pradeep11@hotmail.com",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Gopal Ram",
+      "email": "gopalram@mail.jnu.ac.in; gparihar@gmail.com",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Hari Madhab Ray",
+      "email": "hmray@jnu.ac.in; hmray@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Kishore Vadthya",
+      "email": "vkishore@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Linguistics"
+    },
+    {
+      "name": "Akhlaque Ahmad",
+      "email": "aahmad@mail.jnu.ac.in; akhlaq.ahan@gmail.com",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Allauddin Shah",
+      "email": "allauddinshah@mail.jnu.ac.in; ashah.jnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Mazhar Asif",
+      "email": "mazharasif@mail.jnu.ac.in; mazharassam@gmail.com",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "SK. Ishtiaque Ahmed",
+      "email": "ahmed.jnu@gmail.com; skishtiaque@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Syed Akhtar Hussain",
+      "email": "sahusain2000@yahoo.co.in; syedakhtar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Md. Mazharul Haque",
+      "email": "haqmazhar2004@gmail.com; mmhaque@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Arihant Kumar Vardhan",
+      "email": "akvardhan@mail.jnu.ac.in; arihant168@gmail.com",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Fauzan Abrar",
+      "email": "fauzan311@gmail.com; fauzanabrar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Md Akhlaque Azad",
+      "email": "akhlaque.azad@gmail.com; mdazad@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Qamar Haider",
+      "email": "qamarhaider@gmail.com; qamarhaider@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Shahbaz Amil",
+      "email": "shahbaz_amil@rediffmail.com; shahbazamil@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Persian and Central Asian Studies"
+    },
+    {
+      "name": "Arunim Bandyopadhyay",
+      "email": "arunbandyo@yahoo.co.in; arunim@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Kiran Singh Verma",
+      "email": "kiransingh1@yandex.ru; ksverma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Manuradha Chaudhary",
+      "email": "manuradha@mail.jnu.ac.in; manuradharaj@gmail.com",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Meenu Bhatnagar",
+      "email": "meenu_bhatnagar@hotmail.com; meenub@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Richa Sawant",
+      "email": "richa_sawant@mail.jnu.ac.in; richasawant07@gmail.com",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Ajoy Kumar Karnati",
+      "email": "ajoy.karnati@gmail.com; akkarnati@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Nagendra Shreeniwas",
+      "email": "nshreeniwas@jnu.ac.in; nshreeniwas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Sonu Saini",
+      "email": "sonusaini@jnu.ac.in; sonusaini@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Ashutosh Anand",
+      "email": "aanand@mail.jnu.ac.in; ashu.jnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Harshita Kumari",
+      "email": "harshitakumar64@gmail.com",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Radha Mohan Meena",
+      "email": "mohan1385@gmail.com; radhamohan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Sandeep Kumar Pandey",
+      "email": "sandeepkpandey@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Subhash Kumar Thakur",
+      "email": "skthakur@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Suman Beniwal",
+      "email": "sumanbeniwal@mail.jnu.ac.in; sumanbnw98@gmail.com",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Vinay Kumar Ambedkar",
+      "email": "vinay.ambedkar@gmail.com; vkambedkar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Yogesh Kumar Rai",
+      "email": "yogeshkrai@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Russian Studies"
+    },
+    {
+      "name": "Gaurav Kumar",
+      "email": "gauravkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Rajiv Saxena",
+      "email": "rsaxena@mail.jnu.ac.in; rsaxenajnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Mala Shikha",
+      "email": "maladoon@gmail.com; malashikha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Dipesh Pawar",
+      "email": "dipeshpawar39@gmail.com; dipeshpawar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Leshuni",
+      "email": "leshiinikhoso@gmail.com; leshuni@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Lipi Biswas Sen",
+      "email": "lipibiswassen@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Lovey Srivastava",
+      "email": "drlovey01@gmail.com; loveys@jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Meenakshi Sundriyal",
+      "email": "msun10@hotmail.com; msundriyal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Mukesh Kumar",
+      "email": "mkumarjnu@mail.jnu.ac.in; mukeshkumarjnu88@gmail.com",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Nabiel Ansari",
+      "email": "nabiel.ansari@gmail.com; nabiel@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Shruti Agnihotri",
+      "email": "shrutiagni.9@gmail.com; shrutiagnihotri@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Spanish, Portuguese, Italian &amp; Latin American Studies"
+    },
+    {
+      "name": "Garima Dalal",
+      "email": "garimadalal@jnu.ac.in; garimadalal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Linguistic Empowerment Cell"
+    },
+    {
+      "name": "Sandesha Rayapa",
+      "email": "sandesha.rayapa@gmail.com; sandesharayapa@jnu.ac.in; sandesharayapa@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Linguistic Empowerment Cell"
+    },
+    {
+      "name": "Gous Mashkoor Khan",
+      "email": "gmkhan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Turkish Language, Special Group of Languages"
+    },
+    {
+      "name": "Anil Kumar Singh",
+      "email": "anilksingh@mail.jnu.ac.in; anilksinghjnu@gmail.com",
+      "phone": "",
+      "school": "Greek Language, Special Group of Languages"
+    },
+    {
+      "name": "Gautam Kumar Jha",
+      "email": "gautamkjha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Bahasa Indonesia, Special Group of Languages"
+    },
+    {
+      "name": "Komol Singha",
+      "email": "hijamkomol@gmail.com; komolsingha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Krishnendu Ghosh Dastidar",
+      "email": "kgd0302@mail.jnu.ac.in; kgd12@yahoo.com; krishnendu.dastidar@gmail.com",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Pardeep S. Chauhan",
+      "email": "chauhan.pardeep@gmail.com; pschauhan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Rajendra Prasad Kundu",
+      "email": "rajendra.kundu@gmail.com; rpkundu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Rajesh Kumar Jangir",
+      "email": "rkjangir@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Ramesh Salian",
+      "email": "salianramesh@hotmail.com; salianramesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Shakti Kumar",
+      "email": "shaktikumar@mail.jnu.ac.in; shaktinov30@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Subrata Guha",
+      "email": "subrata@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Sugato Dasgupta",
+      "email": "sugato@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Sujoy Chakravarty",
+      "email": "sujoy@mail.jnu.ac.in; sujoyc@gmail.com",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Surajit Mazumdar",
+      "email": "surajitmazumdar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Vikas Rawal",
+      "email": "vikas@mail.jnu.ac.in; vikasrawal@gmail.com",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Ashok",
+      "email": "ashok@mail.jnu.ac.in; ashokpratapgarh@yahoo.com",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Debabrata Pal",
+      "email": "debabrata1234@gmail.com; debabrata@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Himanshu",
+      "email": "himanshu2@gmail.com; himanshu2@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Pawan Kumar",
+      "email": "pawankumar16@jnu.ac.in; pawankumar16@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Rajeev Kumar",
+      "email": "rajeev@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Ramya Ranjan Patel",
+      "email": "rrpatel@jnu.ac.in; rrpatel@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Seema Sangita",
+      "email": "seemasangita@jnu.ac.in; seemasangita@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Manoj Kumar",
+      "email": "manojkumar@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Surajit Das",
+      "email": "surajit@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Nandan Nawn",
+      "email": "nandannawn@mail.jnu.ac.in; nnletter@gmail.com",
+      "phone": "",
+      "school": "Centre for Economic Studies and Planning"
+    },
+    {
+      "name": "Heeraman Tiwari",
+      "email": "heeraman98@gmail.com; htiwari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Joy L.K. Pachuau",
+      "email": "jpachuau@jnu.ac.in; jpachuau@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Najaf Haider",
+      "email": "nhaider@jnu.ac.in; nhaider@mail.jnu.ac.in; snajafhaider@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "R. Mahalakshmi",
+      "email": "mahaarakesh@gmail.com; rmahalakshmi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Shonaleeka Kaul",
+      "email": "shonaleeka@gmail.com; shonaleeka@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Umesh Ashok Kadam",
+      "email": "uakadam@jnu.ac.in; uakadam@mail.jnu.ac.in; umeshkadam1@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Abhimanyu Singh Arha",
+      "email": "abhimanyu@mail.jnu.ac.in; abhimanyuarha@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Aparajita Bhattacharya",
+      "email": "abhattacharya@mail.jnu.ac.in; apujnu.b@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Christhu Doss",
+      "email": "christhudoss@mail.jnu.ac.in; dossjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Gouri Dey",
+      "email": "gouridey@mail.jnu.ac.in; gourinbu@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Jyoti Atwal",
+      "email": "jyoti_atwal@mail.jnu.ac.in; jyotiatjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Manoj Sharma",
+      "email": "drmanojsharrma@gmail.com; manojsharma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Nitin Kumar",
+      "email": "nitinmuse@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Nonica Datta",
+      "email": "nonica.datta@gmail.com; nonicadatta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Raktim Patar",
+      "email": "patarraktim2010@gmail.com; raktimpatar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Ranjeeta Dutta",
+      "email": "ranjeeta.dutta@gmail.com; ranjeetadutta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Sangeeta DasGupta",
+      "email": "sangeetadasgupta@hotmail.com; sangeetadasgupta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Birendra Nath Prasad",
+      "email": "birendranathprasad191@gmail.com; bnprasad@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Burton Cleetus",
+      "email": "burton@mail.jnu.ac.in; burtoncleetus@gmail.com",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "N. Nyejat Konyak",
+      "email": "nyejatkonyak@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Navendu Shekhar",
+      "email": "nshekhar@jnu.ac.in; nshekhar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "S. Gunasekaran",
+      "email": "gunasekaran@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Umesh Kumar Khute",
+      "email": "ukkh2009science@gmail.com; ukkhute@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Venu Puvvadi",
+      "email": "venupuvvadi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Historical Studies"
+    },
+    {
+      "name": "Archana Prasad",
+      "email": "archanaprasad@mail.jnu.ac.in; archie.prasad11@gmail.com",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Minaketan Behera",
+      "email": "behera.minaketan@gmail.com; minaketan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Anamitra Roy Chowdhury",
+      "email": "anamitra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Avinash Kumar",
+      "email": "avinashkumar@mail.jnu.ac.in; avinashmishra.jnu@gmail.com",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Kali Chittibabu",
+      "email": "chitti4479@gmail.com; kchittibabu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Pradeep K Shinde",
+      "email": "pradeepshinde@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Informal Sector &amp; Labour Studies"
+    },
+    {
+      "name": "Manukonda Rabindranath",
+      "email": "manukonda@jnu.ac.in; mrabindra2002@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Shuchi Yadav",
+      "email": "shuchiyadav@mail.jnu.ac.in; yadav.shuchi@gmail.com",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Archana Kumari",
+      "email": "archanaiimc@gmail.com; archanakumari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "C. Lalmuan Sang Kimi",
+      "email": "clalkimi@mail.jnu.ac.in; clalmuansangkimi@gmail.com",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Rakesh Batabyal",
+      "email": "batabyal@mail.jnu.ac.in; rakeshbatabyal@gmail.com",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Krishna Murthy",
+      "email": "krishnamurthy@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Raj Lakshmi",
+      "email": "rajlakshmi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Media Studies"
+    },
+    {
+      "name": "Ajay Kumar Verma",
+      "email": "ajayverma@jnu.ac.in; thinkajay@yahoo.com",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Bhagat Oinam",
+      "email": "bhagatoinam@gmail.com; bhagatoinam@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Bindu Puri",
+      "email": "bindupuri@mail.jnu.ac.in; drbindupuri11@yahoo.com",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Nataraju Adarasupally",
+      "email": "adinatraj@gmail.com; adinatraj@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Smita Sirker",
+      "email": "smitasirker@jnu.ac.in; ssirker@gmail.com",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Bhaskarjit Neog",
+      "email": "bhaskarjit@gmail.com; bhaskarjit@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Manidipa Sen",
+      "email": "manidipa@mail.jnu.ac.in; manidipase@gmail.com",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Khangembam Romesh Singh",
+      "email": "kh.romesh@gmail.com; khangembam@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Philosophy"
+    },
+    {
+      "name": "Anupama Roy",
+      "email": "anupamaroy@mail.jnu.ac.in; royanupama07@gmail.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Asha Sarangi",
+      "email": "ashasarangi@gmail.com; ashasarangi@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Himanshu Prasad Roy",
+      "email": "himanshuroy1@yahoo.co.in; himanshuroy@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Narender Kumar",
+      "email": "kumarr.narender@gmail.com; narenderkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "V. Bijukumar",
+      "email": "bijukumar@mail.jnu.ac.in; vbijukumar2014@gmail.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Vandana Mishra",
+      "email": "vandanamishra@jnu.ac.in; vandanamishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Vidhu Verma",
+      "email": "vidhuverma94@gmail.com; vidhuverma@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Ajay Gudavarthy",
+      "email": "agudavarthy@mail.jnu.ac.in; gajay99@rediffimail.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Jyotirmayee Tudu",
+      "email": "joytirmayeetudu@gmail.com; jyotirmayee@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Manindra Nath Thakur",
+      "email": "manindrat@gmail.com; manindrat@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Nishant Kumar",
+      "email": "nishant@jnu.ac.in; nishant@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Preeti",
+      "email": "preetidahiya@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "T.G. Suresh",
+      "email": "tgsuresh@mail.jnu.ac.in; tgsuru@yahoo.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Amir Ali",
+      "email": "amirali.jnu@gmail.com; amirali@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Anant Prabhat Jawla",
+      "email": "anantpj@gmail.com; aprabhatjawla@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Harish S. Wankhede",
+      "email": "hswankhede@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Jubilee Shangrei",
+      "email": "shangrei@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Papia Sen Gupta",
+      "email": "papiasg@jnu.ac.in; papiasg@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Rajarshi Dasgupta",
+      "email": "rajarshi@mail.jnu.ac.in; rajarshibabu@gmail.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Sudhir Kumar Suthar",
+      "email": "sksuthar@mail.jnu.ac.in; sudhir131@gmail.com",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Tapan Kumar Bihari",
+      "email": "tapanbihari@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Political Studies"
+    },
+    {
+      "name": "Rajib Dasgupta",
+      "email": "dasgupta.jnu@gmail.com; rdasgupta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Ramila Bisht",
+      "email": "ramila@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Sanghamitra Sheel Acharya",
+      "email": "sanghamitra@mail.jnu.ac.in; sanghmitra.acharya@gmail.com",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Nemthianngai Guite",
+      "email": "nguite@jnu.ac.in; nguite@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Saraswati Kerketta",
+      "email": "saraswati.kerketta@gmail.com; saraswati@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Sunita Reddy",
+      "email": "sunitareddy@mail.jnu.ac.in; sunitareddyjnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Ghodajkar Prachinkumar Rajeshrao",
+      "email": "prachin@mail.jnu.ac.in; prachinjnu@gmail.com",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Vikas Bajpai",
+      "email": "drvikasbajpai@gmail.com; vikasbajpai@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre of Social Medicine and Community Health"
+    },
+    {
+      "name": "Madhav Govind",
+      "email": "m_govind@mail.jnu.ac.in; mgovind11@gmail.com",
+      "phone": "",
+      "school": "Centre for Studies in Science Policy"
+    },
+    {
+      "name": "Saradindu Bhaduri",
+      "email": "saradindu@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Studies in Science Policy"
+    },
+    {
+      "name": "Anamika Gulati",
+      "email": "anamika1711@yahoo.co.in; anamikagulati@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Studies in Science Policy"
+    },
+    {
+      "name": "Rajbeer Singh",
+      "email": "rajbasera@gmail.com; rajbeer@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Studies in Science Policy"
+    },
+    {
+      "name": "Yagati Chinna Rao",
+      "email": "cryagati@gmail.com; ycrao@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Inclusion"
+    },
+    {
+      "name": "Anuja",
+      "email": "anuja@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Inclusion"
+    },
+    {
+      "name": "Pranav Kumar",
+      "email": "pranavkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Inclusion"
+    },
+    {
+      "name": "Rosina Nasir",
+      "email": "rnasir@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Inclusion"
+    },
+    {
+      "name": "Veeragoni Shirisha",
+      "email": "veeragoni@mail.jnu.ac.in; vshirisha1@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Social Inclusion"
+    },
+    {
+      "name": "Atul Sood",
+      "email": "atulsood@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "D.N. Das",
+      "email": "dipendas@mail.jnu.ac.in; dipendra02@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Deepak K. Mishra",
+      "email": "deepakmishra.jnu@gmail.com; deepakmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Elumalai Kannan",
+      "email": "elumalaik@hotmail.com; elumalaik@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Indrani Roy Chowdhury",
+      "email": "indranirc1@gmail.com; iroychowdhury@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Krishnendra Meena",
+      "email": "meena.krishnendra@gmail.com; meenak@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Madan Mohan",
+      "email": "drmdnmohan@gmail.com; madanmohan@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Milap Chand Sharma",
+      "email": "milap@mail.jnu.ac.in; milapsharmain@yahoo.co.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Milap Punia",
+      "email": "milap.jnu@gmail.com; punia@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Padmini Pani",
+      "email": "padmini@mail.jnu.ac.in; padminipani.jnu@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Praveen Kumar Pathak",
+      "email": "pkpathak@jnu.ac.in; pkpathak@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Ravi Shekhar",
+      "email": "ravishekhar@mail.jnu.ac.in; ravishekharsbs@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "S. Sreekesh",
+      "email": "sreekesh@jnu.ac.in; sreekesh@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Seema Bathla",
+      "email": "seema.bathla@gmail.com; seemab@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Srinivasu Bathula",
+      "email": "bathulasrinivasu@mail.jnu.ac.in; bsrinivas07@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Sucharita Sen",
+      "email": "ssen.jnu@gmail.com; ssen@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Vinay Shankar Prasad Sinha",
+      "email": "sinha_vinay@yahoo.co.uk; vsinha@jnu.ac.in; vsinha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Bhaswati Das",
+      "email": "bhaswati2004@gmail.com; bhaswati@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Sanjeev Sharma",
+      "email": "sanjeevsharma@mail.jnu.ac.in; sanjuscorp@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Suraj Mal",
+      "email": "surajmal@jnu.ac.in; surajmal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Amit Thorat",
+      "email": "amitthorat@gmail.com; athorat@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Bikramaditya Kumar Choudhary",
+      "email": "bkchoudhary@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Purva Yadav",
+      "email": "purvayadav@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Suresh R.",
+      "email": "sureshr@mail.jnu.ac.in; sureshrjnu@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Regional Development"
+    },
+    {
+      "name": "Amit Kumar Sharma",
+      "email": "aksharma@mail.jnu.ac.in; amitjnu@icloud.com",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Angomcha Bimol Akoijam",
+      "email": "bimol.akoijam@gmail.com; bimol@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Gurram Srinivas",
+      "email": "gsrinivas@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Manoj Kumar Jena",
+      "email": "manojkjena@mail.jnu.ac.in; manojkjenacsss@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Nilika Mehrotra",
+      "email": "nilika21@yahoo.co.in; nilika@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "V. Sujatha",
+      "email": "sujathav@mail.jnu.ac.in; vsujatha011@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Vivek Kumar",
+      "email": "vivekkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Atrayee Saha",
+      "email": "atrayee.dse@gmail.com; atrayeesaha@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Divya Vaid",
+      "email": "divyavaid@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Ratheesh Kumar",
+      "email": "ratheesh@mail.jnu.ac.in; rpkratheesh@gmail.com",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Akriti Bhatia",
+      "email": "akritibhatia@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Asheesh Kumar",
+      "email": "asheeshkumar@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Phirmi Bodo",
+      "email": "phirmi-bodo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "Prakasha Chandra Sahoo",
+      "email": "prakashsahoo.jnu@gmail.com; prakashsahoo@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for the Study of Social Systems"
+    },
+    {
+      "name": "G. Arunima",
+      "email": "arunima@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Womens Studies"
+    },
+    {
+      "name": "Mallarika Sinha Roy",
+      "email": "mallarikasinharoy@yahoo.com; msroy@jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Womens Studies"
+    },
+    {
+      "name": "Navaneetha Mokkil",
+      "email": "navaneetha@mail.jnu.ac.in; nmokkil@gmail.com",
+      "phone": "",
+      "school": "Centre for Womens Studies"
+    },
+    {
+      "name": "Papori Bora",
+      "email": "paporibora@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Womens Studies"
+    },
+    {
+      "name": "S Jeevanandam",
+      "email": "jeevanandam@jnu.ac.in; jeevanandam@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Centre for Womens Studies"
+    },
+    {
+      "name": "Arvind Kumar Mishra",
+      "email": "akmishra106@gmail.com; akmishra@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Minati Panda",
+      "email": "minatip@gmail.com; minatipanda@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Parimala V Rao",
+      "email": "parimalavrao@gmail.com; parimalavrao@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "S. Srinivasa Rao",
+      "email": "srinivasarao@jnu.ac.in; srinivasarao@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Saumen Chattopadhyay",
+      "email": "saumen@jnu.ac.in; saumen@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Suresh Babu G.S.",
+      "email": "gssbjnu@gmail.com; sureshbabu@jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Appala Naidu Dhubireddi",
+      "email": "danaidu@arsd.du.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Probal Roy Chowdhury",
+      "email": "probal@jnu.ac.in; probal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Sayantan Mandal",
+      "email": "smandal@jnu.ac.in; smandal@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Pradeep Kumar Choudhury",
+      "email": "pradeepchoudhury@fas.harvard.edu; pradeepchoudhury@jnu.ac.in",
+      "phone": "",
+      "school": "Zakir Husain Centre for Educational Studies"
+    },
+    {
+      "name": "Ajay Kumar",
+      "email": "ajaykumar@mail.jnu.ac.in; ajayritwik@gmail.com",
+      "phone": "",
+      "school": "Group of Adult Education"
+    },
+    {
+      "name": "Shubh Gupta",
+      "email": "shubhgupta008@gmail.com; shubhgupta@mail.jnu.ac.in",
+      "phone": "",
+      "school": "Group of Adult Education"
+    }
+  ],
+  "all_emails": [
+    "milindawad1@gmail.com",
+    "arijit.chem08@gmail.com",
+    "bthaliath@mail.jnu.ac.in",
+    "aneeshkn1@gmail.com",
+    "praveshkumar@mail.jnu.ac.in",
+    "narinder@mail.jnu.ac.in",
+    "cusha@mail.jnu.ac.in",
+    "ankitarai@mail.jnu.ac.in",
+    "gksantosh@gmail.jnu.ac.in",
+    "sheetal@mail.jnu.ac.in",
+    "s_aijaz@mail.jnu.ac.in",
+    "sabareem@gmail.com",
+    "rktyagi@yahoo.com",
+    "bharatee.dash@gmail.com",
+    "anirban@jnu.ac.in",
+    "kharat@mail.jnu.ac.in",
+    "archnanegi@mail.jnu.ac.in",
+    "sangeeta@mail.jnu.ac.in",
+    "srinivasarao@jnu.ac.in",
+    "nhaider@jnu.ac.in",
+    "yogendra.jnu08@gmail.com",
+    "jktripathi@mail.jnu.ac.in",
+    "shahbaz_amil@rediffmail.com",
+    "ravitandon@jnu.ac.in",
+    "ajmerskajal@mail.jnu.ac.in",
+    "bhaswati2004@gmail.com",
+    "tsetan@mail.jnu.ac.in",
+    "gayettri@mail.jnu.ac.in",
+    "jchandra@mail.jnu.ac.in",
+    "arvind@mail.jnu.ac.in",
+    "dorageol@gmail.com",
+    "ravindra@mail.jnu.ac.in",
+    "uakadam@jnu.ac.in",
+    "bijoykuanr@mail.jnu.ac.in",
+    "pawankumar16@mail.jnu.ac.in",
+    "aneeshkn@mail.jnu.ac.in",
+    "ragothaman@gmail.com",
+    "gopalram@mail.jnu.ac.in",
+    "aksarkar.jnu@gmail.com",
+    "uakadam@mail.jnu.ac.in",
+    "prajapati.iter@gmail.com",
+    "rajeshmishra@mail.jnu.ac.in",
+    "maladoon@gmail.com",
+    "bansal.abhisheka@gmail.com",
+    "ajithkanna@mail.jnu.ac.in",
+    "duttbishnupriya@gmail.com",
+    "lakshmikumar@jnu.ac.in",
+    "mrabindra2002@yahoo.co.in",
+    "geeta@mail.jnu.ac.in",
+    "pawaniuac@gmail.com",
+    "rashmiranianandjnu@gmail.com",
+    "himanshu2@gmail.com",
+    "dvs@mail.jnu.ac.in",
+    "gmaitri@yahoo.com",
+    "buddhasingh@mail.jnu.ac.in",
+    "bhaduris@jnu.ac.in",
+    "sarojsk1989@gmail.com",
+    "bandana_jnu@yahoo.co.in",
+    "arya.ranjana24@gmail.com",
+    "arunima@jnu.ac.in",
+    "manojdarolia@gmail.com",
+    "sudesh27@hotmail.com",
+    "qamarhaider@gmail.com",
+    "vijayalakshmi@mail.jnu.ac.in",
+    "jayatis@jnu.ac.in",
+    "mohinder.du@gmail.com",
+    "rupapopli@hotmail.com",
+    "ray.saumyajit@gmail.com",
+    "meenub@mail.jnu.ac.in",
+    "atrayeesaha@mail.jnu.ac.in",
+    "kumararvind@jnu.ac.in",
+    "riturajsingh@jnu.ac.in",
+    "manuradharaj@gmail.com",
+    "bijukumar@mail.jnu.ac.in",
+    "prasadtulika@mail.jnu.ac.in",
+    "satyanshu@jnu.ac.in",
+    "sbh174@gmail.com",
+    "hemantkushwaha@jnu.ac.in",
+    "pramodsis@mail.jnu.ac.in",
+    "kumar.pravesh27@gmail.com",
+    "sumandas@mail.jnu.ac.in",
+    "vineetprakash10@gmail.com",
+    "birendranathprasad191@gmail.com",
+    "ravishekharsbs@gmail.com",
+    "sahadevan@mail.jnu.ac.in",
+    "snehadas@jnu.ac.in",
+    "aranganathan@mail.jnu.ac.in",
+    "jaikhlong@mail.jnu.ac.in",
+    "sudheer@mail.jnu.ac.in",
+    "rajarshi@mail.jnu.ac.in",
+    "ketyusha@gmail.com",
+    "krishan_kumar@mail.jnu.ac.in",
+    "madhanmohan@mail.jnu.ac.in",
+    "aaksahoo@gmail.com",
+    "dipeshpawar39@gmail.com",
+    "dhananjay@mail.jnu.ac.in",
+    "ranaps@hotmail.com",
+    "juttam@mail.jnu.ac.in",
+    "msrajala@mail.jnu.ac.in",
+    "ameknath@mail.jnu.ac.in",
+    "sushilkjha@mail.jnu.ac.in",
+    "shambhavi@mail.jnu.ac.in",
+    "bprakash@jnu.ac.in",
+    "rajlakshmi@mail.jnu.ac.in",
+    "pradeepchoudhury@fas.harvard.edu",
+    "sonusaini@jnu.ac.in",
+    "jyotiatjnu@gmail.com",
+    "bprakash@mail.jnu.ac.in",
+    "ppuneeth@mail.jnu.ac.in",
+    "surajit@mail.jnu.ac.in",
+    "letterstomrinmoy@gmail.com",
+    "azmatnadwi@gmail.com",
+    "phirmi-bodo@mail.jnu.ac.in",
+    "renukadevi@mail.jnu.ac.in",
+    "srikanth@mail.jnu.ac.in",
+    "milinddhaware@mail.jnu.ac.in",
+    "nmokkil@gmail.com",
+    "kkar@mail.jnu.ac.in",
+    "umapurushothaman@mail.jnu.ac.in",
+    "nramchiary@mail.jnu.ac.in",
+    "shangrei@mail.jnu.ac.in",
+    "vsinha@jnu.ac.in",
+    "jktrip@yahoo.com",
+    "anilwihg@gmail.com",
+    "aterangpi@mail.jnu.ac.in",
+    "rajuchowhan@gmail.com",
+    "arvindk@mail.jnu.ac.in",
+    "tshering@mail.jnu.ac.in",
+    "bhaumikenator@gmail.com",
+    "meenakshi72@hotmail.com",
+    "adinatraj@gmail.com",
+    "rashmini.koparkar@gmail.com",
+    "schand20@gmail.com",
+    "vtandon@mail.jnu.ac.in",
+    "aparahant@mail.jnu.ac.in",
+    "soumyabrata@jnu.ac.in",
+    "ranjani@mail.jnu.ac.in",
+    "nonica.datta@gmail.com",
+    "tirthankar@jnu.ac.in",
+    "shantesh@jnu.ac.in",
+    "debabrata@mail.jnu.ac.in",
+    "stcherian@mail.jnu.ac.in",
+    "vibhushan@jnu.ac.in",
+    "loveys@jnu.ac.in",
+    "haokip@jnu.ac.in",
+    "dampuiafanchun@gmail.com",
+    "danaidu@arsd.du.ac.in",
+    "jhabandana@mail.jnu.ac.in",
+    "amirali.jnu@gmail.com",
+    "rawatcdx@gmail.com",
+    "ritu10agarwal@gmail.com",
+    "dinamani@mail.jnu.ac.in",
+    "pranavkumar@mail.jnu.ac.in",
+    "moharchaudhuri@gmail.com",
+    "akmishra@mail.jnu.ac.in",
+    "vineetprakash@mail.jnu.ac.in",
+    "sandipmishra@jnu.ac.in",
+    "vaishalikrishna272@gmail.com",
+    "ajayritwik@gmail.com",
+    "ashasarangi@gmail.com",
+    "pcka120872@yahoo.com",
+    "asmakouser@mail.jnu.ac.in",
+    "shashankv@mail.jnu.ac.in",
+    "ajitsulo@yahoo.com",
+    "ushamina@mail.jnu.ac.in",
+    "tgsuru@yahoo.com",
+    "amattoo@mail.jnu.ac.in",
+    "amitmishra@mail.jnu.ac.in",
+    "kchittibabu@mail.jnu.ac.in",
+    "ajeetsahoo@mail.jnu.ac.in",
+    "akhlaq.ahan@gmail.com",
+    "gourinbu@gmail.com",
+    "ssen.jnu@gmail.com",
+    "smandal@jnu.ac.in",
+    "burton@mail.jnu.ac.in",
+    "sushil_1000@yahoo.com",
+    "rdasgupta@mail.jnu.ac.in",
+    "thamotharan@mail.jnu.ac.in",
+    "smitasonker@mail.jnu.ac.in",
+    "lkbehera@mail.jnu.ac.in",
+    "sshobha@mail.jnu.ac.in",
+    "sinha_vinay@yahoo.co.uk",
+    "sandipmishra10@gmail.com",
+    "ssingh@mail.jnu.ac.in",
+    "pkv.jnu@gmail.com",
+    "sahusain2000@yahoo.co.in",
+    "bamacharan@mail.jnu.ac.in",
+    "kavitaarora@jnu.ac.in",
+    "bkumar@jnu.ac.in",
+    "manojverma@mail.jnu.ac.in",
+    "sandipksingh@mail.jnu.ac.in",
+    "jaydeep@jnu.ac.in",
+    "shankari@mail.jnu.ac.in",
+    "rakeshsaroj@mail.jnu.ac.in",
+    "saraswati.kerketta@gmail.com",
+    "ranjani.mazumdar@gmail.com",
+    "arnab@jnu.ac.in",
+    "bhagowalia@mail.jnu.ac.in",
+    "nipunnutan@mail.jnu.ac.in",
+    "surajmal@jnu.ac.in",
+    "seemasangita@jnu.ac.in",
+    "mvlakshmi@mail.jnu.ac.in",
+    "gouridey@mail.jnu.ac.in",
+    "devilal@mail.jnu.ac.in",
+    "priyagupta@jnu.ac.in",
+    "brajeshtiwari@mail.jnu.ac.in",
+    "deepakansra@jnu.ac.in",
+    "ritturajhemant@gmail.com",
+    "raju.parghi@gmail.com",
+    "rrahmanjnu@gmail.com",
+    "sbdas@mail.jnu.ac.in",
+    "qamarhaider@mail.jnu.ac.in",
+    "khurshid@mail.jnu.ac.in",
+    "akumar@mail.jnu.ac.in",
+    "dasgo@mail.jnu.ac.in",
+    "spatnaik@mail.jnu.ac.in",
+    "pkpathak@mail.jnu.ac.in",
+    "gauravtyagi@mail.jnu.ac.in",
+    "dr.ppuneeth@gmail.com",
+    "mishra_rajnish@yahoo.com",
+    "neharao1993@gmail.com",
+    "subhasis@mail.jnu.ac.in",
+    "lipokmar@mail.jnu.ac.in",
+    "sobhan.sen@gmail.com",
+    "abhishek.ir@gmail.com",
+    "nigar.zar@gmail.com",
+    "rrpatel@jnu.ac.in",
+    "joytirmayeetudu@gmail.com",
+    "rupesh.chaturvedi.jnu@gmail.com",
+    "poonamgoel@mail.jnu.ac.in",
+    "ragothaman@mail.jnu.ac.in",
+    "gajendra@mail.jnu.ac.in",
+    "rashmibarua@mail.jnu.ac.in",
+    "mercymuang@mail.jnu.ac.in",
+    "narenderkumar@mail.jnu.ac.in",
+    "kpugazhendhi@mail.jnu.ac.in",
+    "rana_singh@mail.jnu.ac.in",
+    "asifzahri@gmail.com",
+    "manuradha@mail.jnu.ac.in",
+    "m_govind@mail.jnu.ac.in",
+    "krishnamurthy@mail.jnu.ac.in",
+    "anupamanamburu@mail.jnu.ac.in",
+    "sudheerpsingh@gmail.com",
+    "khangembam@mail.jnu.ac.in",
+    "sreekesh@mail.jnu.ac.in",
+    "sakhan@jnu.ac.in",
+    "sarangi@mail.jnu.ac.in",
+    "skdhar@mail.jnu.ac.in",
+    "opgadde2@gmail.com",
+    "vinod7674@gmail.com",
+    "a_srivastava@mail.jnu.ac.in",
+    "bdeepak@mail.jnu.ac.in",
+    "santoshranjan@mail.jnu.ac.in",
+    "shuklasawant@hotmail.com",
+    "amitjnu@icloud.com",
+    "arvindarahant@gmail.com",
+    "prasadtulika@hotmail.com",
+    "sanghamitra@mail.jnu.ac.in",
+    "amitabh.mattoo@gmail.com",
+    "ankitjaiswal@jnu.ac.in",
+    "bssahu@mail.jnu.ac.in",
+    "ayeshac@mail.jnu.ac.in",
+    "gmkhan@mail.jnu.ac.in",
+    "vinaikumar@mail.jnu.ac.in",
+    "rajan@mail.jnu.ac.in",
+    "benayray@jnu.ac.in",
+    "raviprasadn@mail.jnu.ac.in",
+    "agni.jnu@gmail.com",
+    "arijitmallick@mail.jnu.ac.in",
+    "chitti4479@gmail.com",
+    "lakshmipriya@mail.jnu.ac.in",
+    "jmmoosa@mail.jnu.ac.in",
+    "rkmishra@mail.jnu.ac.in",
+    "ramchandra@mail.jnu.ac.in",
+    "tvvk@mail.jnu.ac.in",
+    "mdmanish@jnu.ac.in",
+    "prakashsahoo.jnu@gmail.com",
+    "royanupama07@gmail.com",
+    "parul.dm@hotmail.com",
+    "hridayna@gmail.com",
+    "hmray@jnu.ac.in",
+    "ananta@jnu.ac.in",
+    "rajarshibabu@gmail.com",
+    "sbaidya@mail.jnu.ac.in",
+    "sabareemitra@mail.jnu.ac.in",
+    "parimalavrao@gmail.com",
+    "sskomath@mail.jnu.ac.in",
+    "mohammadajmal1114@gmail.com",
+    "kgd0302@mail.jnu.ac.in",
+    "hanamanish@gmail.com",
+    "ravikumarcjs@mail.jnu.ac.in",
+    "himanshuroy@mail.jnu.ac.in",
+    "pkjoshi@mail.jnu.ac.in",
+    "milapsharmain@yahoo.co.in",
+    "asheeshkumar@mail.jnu.ac.in",
+    "manindrat@gmail.com",
+    "rakeshmeena3424@gmail.com",
+    "poonammehtajnu@gmail.com",
+    "amitkjnu@gmail.com",
+    "sujoyc@gmail.com",
+    "skateriya@jnu.ac.in",
+    "padminipani.jnu@gmail.com",
+    "titlibasu@mail.jnu.ac.in",
+    "rrpatel@mail.jnu.ac.in",
+    "akchari@gmail.com",
+    "vikrambansal@jnu.ac.in",
+    "smandal@mail.jnu.ac.in",
+    "archanaiimc@gmail.com",
+    "muddassir.2005@gmail.com",
+    "sushmitarajwar2@gmail.com",
+    "kiranbabu@jnu.ac.in",
+    "bhaskarjit@mail.jnu.ac.in",
+    "ashokpratapgarh@yahoo.com",
+    "rashmini@mail.jnu.ac.in",
+    "ghazalajamil@jnu.ac.in",
+    "sbhardwaj@mail.jnu.ac.in",
+    "papiasg@mail.jnu.ac.in",
+    "satyanarayan@mail.jnu.ac.in",
+    "fazil@mail.jnu.ac.in",
+    "tgsuresh@mail.jnu.ac.in",
+    "qutbuddin@mail.jnu.ac.in",
+    "akpramanik@mail.jnu.ac.in",
+    "veenahariharan@mail.jnu.ac.in",
+    "sumanbnw98@gmail.com",
+    "sheetal88@gmail.com",
+    "atulsood@mail.jnu.ac.in",
+    "pijussasmal@gmail.com",
+    "lobiyal@gmail.com",
+    "sarojsk@mail.jnu.ac.in",
+    "rpkratheesh@gmail.com",
+    "vaishali@mail.jnu.ac.in",
+    "sona.minz@gmail.com",
+    "jpachuau@jnu.ac.in",
+    "satyambd@gmail.com",
+    "sachinjadhav@jnu.ac.in",
+    "ashfaqahmad@mail.jnu.ac.in",
+    "pschauhan@mail.jnu.ac.in",
+    "gulshanjnu@gmail.com",
+    "nupur@jnu.ac.in",
+    "mbaruah@mail.jnu.ac.in",
+    "surajmal@mail.jnu.ac.in",
+    "kkchandel@jnu.ac.in",
+    "bkchoudhary@mail.jnu.ac.in",
+    "akjohri14@yahoo.com",
+    "rka@mail.jnu.ac.in",
+    "ssm2100@jnu.ac.in",
+    "archana_u@mail.jnu.ac.in",
+    "shreya@mail.jnu.ac.in",
+    "piyushpsingh@mail.jnu.ac.in",
+    "mallarikasinharoy@yahoo.com",
+    "rikilenator@gmail.com",
+    "chandrasegaran@mail.jnu.ac.in",
+    "umeshkadam1@gmail.com",
+    "mmquamar@mail.jnu.ac.in",
+    "pksharmas54@gmail.com",
+    "gparihar@gmail.com",
+    "komolsingha@mail.jnu.ac.in",
+    "ankuryadav@mail.jnu.ac.in",
+    "pauthang@mail.jnu.ac.in",
+    "nmondal@mail.jnu.ac.in",
+    "sushama.murty1@gmail.com",
+    "salianramesh@mail.jnu.ac.in",
+    "shayequa@jnu.ac.in",
+    "chowhan@mail.jnu.ac.in",
+    "venupuvvadi@mail.jnu.ac.in",
+    "indranirc1@gmail.com",
+    "dnpandey@mail.jnu.ac.in",
+    "prachinjnu@gmail.com",
+    "shilpeedutt@mail.jnu.ac.in",
+    "nahuja@mail.jnu.ac.in",
+    "anujsachan@mail.jnu.ac.in",
+    "skishtiaque@mail.jnu.ac.in",
+    "nalin@mail.jnu.ac.in",
+    "ramsagar1.jnu@gmail.com",
+    "sharadksoni@gmail.com",
+    "malashikha@mail.jnu.ac.in",
+    "abhimanyu@mail.jnu.ac.in",
+    "anamitra@mail.jnu.ac.in",
+    "pm@jnu.ac.in",
+    "anshujoshi@mail.jnu.ac.in",
+    "vivekkumar@mail.jnu.ac.in",
+    "nitinmuse@gmail.com",
+    "lakshmi@jnu.ac.in",
+    "santana@jnu.ac.in",
+    "lavishkumar@jnu.ac.in",
+    "kiranbabu@mail.jnu.ac.in",
+    "laxmanbehera@gmail.com",
+    "gssbjnu@gmail.com",
+    "manindrat@mail.jnu.ac.in",
+    "dmohan@mail.jnu.ac.in",
+    "prakash.brahma@gmail.com",
+    "geetanjalibatra@mail.jnu.ac.in",
+    "pia_dutt@jnu.ac.in",
+    "bhagatoinam@gmail.com",
+    "navaneetha@mail.jnu.ac.in",
+    "chari@mail.jnu.ac.in",
+    "anamika1711@yahoo.co.in",
+    "amitabatra@mail.jnu.ac.in",
+    "m.infinite@gmail.com",
+    "fazil@jnu.ac.in",
+    "srinivasarao@mail.jnu.ac.in",
+    "asawhney@jnu.ac.in",
+    "vshirisha1@gmail.com",
+    "ysalone@mail.jnu.ac.in",
+    "manojkjena@mail.jnu.ac.in",
+    "sushantkmishra@mail.jnu.ac.in",
+    "milap@mail.jnu.ac.in",
+    "mdua@mail.jnu.ac.in",
+    "leshuni@mail.jnu.ac.in",
+    "jajatikpattnaik@mail.jnu.ac.in",
+    "karunakarkar@gmail.com",
+    "skpandeyjnu@gmail.com",
+    "tsetannjnu@gmail.com",
+    "chauhan.pardeep@gmail.com",
+    "ajaykumar@mail.jnu.ac.in",
+    "rpkundu@mail.jnu.ac.in",
+    "sonaminz@mail.jnu.ac.in",
+    "tanya.srivastava1711@gmail.com",
+    "giripankaj@jnu.ac.in",
+    "lipibiswassen@mail.jnu.ac.in",
+    "asutosh@mail.jnu.ac.in",
+    "govindkumar@mail.jnu.ac.in",
+    "ajohri@mail.jnu.ac.in",
+    "arunbandyo@yahoo.co.in",
+    "omi.omprakash95@gmail.com",
+    "manjukhari@jnu.ac.in",
+    "aravindyelery@mail.jnu.ac.in",
+    "drmdnmohan@gmail.com",
+    "sabbani07@gmail.com",
+    "rohini_m@mail.jnu.ac.in",
+    "sudhajnu@gmail.com",
+    "bhagabankisan@mail.jnu.ac.in",
+    "athorat@mail.jnu.ac.in",
+    "haqmazhar2004@gmail.com",
+    "burtoncleetus@gmail.com",
+    "seemasangita@mail.jnu.ac.in",
+    "shreya@jnu.ac.in",
+    "khurshidimam@gmail.com",
+    "vikasbajpai@mail.jnu.ac.in",
+    "jasrajmeena@jnu.ac.in",
+    "padmini@mail.jnu.ac.in",
+    "meena.krishnendra@gmail.com",
+    "brojen@mail.jnu.ac.in",
+    "dhananjai@jnu.ac.in",
+    "dghoshal@mail.jnu.ac.in",
+    "ayesha.kidwai@gmail.com",
+    "sureshrjnu@gmail.com",
+    "vikasmittal@jnu.ac.in",
+    "vinayfr@hotmail.com",
+    "rajunj@mail.jnu.ac.in",
+    "dipendas@mail.jnu.ac.in",
+    "satyendra@mail.jnu.ac.in",
+    "sadhanan@mail.jnu.ac.in",
+    "punam.hindi@gmail.com",
+    "patarraktim2010@gmail.com",
+    "krishnan@mail.jnu.ac.in",
+    "mehtayvs@gmail.com",
+    "amal_mondal@rediffmail.com",
+    "pradeepshinde@mail.jnu.ac.in",
+    "jeevanandam@jnu.ac.in",
+    "nyejatkonyak@mail.jnu.ac.in",
+    "akkarnati@mail.jnu.ac.in",
+    "bkkuanr@gmail.com",
+    "aprajita@mail.jnu.ac.in",
+    "zahri@mail.jnu.ac.in",
+    "dm_1967@hotmail.com",
+    "anushreepr@mail.jnu.ac.in",
+    "mazharassam@gmail.com",
+    "mkkashyap@jnu.ac.in",
+    "dossjnu@gmail.com",
+    "bhupendra@mail.jnu.ac.in",
+    "shashankvadlamani@gmail.com",
+    "ukkhute@jnu.ac.in",
+    "pkkulriya@mail.jnu.ac.in",
+    "dileswarnayak@mail.jnu.ac.in",
+    "spatnaikjnu@gmail.com",
+    "shivajik2050@gmail.com",
+    "ranjeetadutta@mail.jnu.ac.in",
+    "umeshkulshrestha@gmail.com",
+    "shaktikumar@mail.jnu.ac.in",
+    "abhi.sharma@jnu.ac.in",
+    "ravikesh@gmail.com",
+    "vsujatha011@gmail.com",
+    "birajdar@mail.jnu.ac.in",
+    "shivprakash44@gmail.com",
+    "sangmesh@mail.jnu.ac.in",
+    "rishikumar@mail.jnu.ac.in",
+    "abhisheka@mail.jnu.ac.in",
+    "kumaraswamy.pr@gmail.com",
+    "jdbhosale@mail.jnu.ac.in",
+    "kedar@mail.jnu.ac.in",
+    "nkverma@mail.jnu.ac.in",
+    "raktimpatar@mail.jnu.ac.in",
+    "glmeena@mail.jnu.ac.in",
+    "bhardwaj.jnu@gmail.com",
+    "vikasrawal@gmail.com",
+    "pkpathak@jnu.ac.in",
+    "snajafhaider@gmail.com",
+    "rashmianand@mail.jnu.ac.in",
+    "srikondapalli@gmail.com",
+    "sumanbeniwal@mail.jnu.ac.in",
+    "vibhadelhi6@gmail.com",
+    "anshujoshijnu@gmail.com",
+    "binaypanda@jnu.ac.in",
+    "mujeeburrahman1972@gmail.com",
+    "tanujajnu@gmail.com",
+    "veeragoni@mail.jnu.ac.in",
+    "mbasu@mail.jnu.ac.in",
+    "barthwal.ayushi1988@gmail.com",
+    "rupapopli@mail.jnu.ac.in",
+    "ramila@mail.jnu.ac.in",
+    "nonicadatta@mail.jnu.ac.in",
+    "phoolbjnu@gmail.com",
+    "bkumar@mail.jnu.ac.in",
+    "karan@mail.jnu.ac.in",
+    "pritam.jnu@gmail.com",
+    "pijus@mail.jnu.ac.in",
+    "jsingh@mail.jnu.ac.in",
+    "girishjha@jnu.ac.in",
+    "avinashkumar@mail.jnu.ac.in",
+    "gautamkjha@mail.jnu.ac.in",
+    "ckm2300@mail.jnu.ac.in",
+    "ahmed.jnu@gmail.com",
+    "rnasir@mail.jnu.ac.in",
+    "drkkaushaljnu@gmail.com",
+    "ksmathur@mail.jnu.ac.in",
+    "shantesh@mail.jnu.ac.in",
+    "sigamani@mail.jnu.ac.in",
+    "dipendra02@gmail.com",
+    "ashwanip@mail.jnu.ac.in",
+    "kranthikumar@jnu.ac.in",
+    "purijnu@gmail.com",
+    "kbsingh@mail.jnu.ac.in",
+    "ajoy.karnati@gmail.com",
+    "vikasmittal@mail.jnu.ac.in",
+    "mauharsingh@mail.jnu.ac.in",
+    "ratnesh@mail.jnu.ac.in",
+    "probal@mail.jnu.ac.in",
+    "rupesh@mail.jnu.ac.in",
+    "kkaushaljnu@jnu.ac.in",
+    "anupamaroy@mail.jnu.ac.in",
+    "ashasarangi@mail.jnu.ac.in",
+    "pushpendra@jnu.ac.in",
+    "iloraghosh17@gmail.com",
+    "cdevendra@gmail.com",
+    "julybrajesh@gmail.com",
+    "mundemanoj@gmail.com",
+    "kkaushaljnu@mail.jnu.ac.in",
+    "pramodkumarjnu@gmail.com",
+    "rakeshsaroj@jnu.ac.in",
+    "preetidahiya@mail.jnu.ac.in",
+    "ramovatarmeena@mail.jnu.ac.in",
+    "arunkharat2007@gmail.com",
+    "rakeshkumar@mail.jnu.ac.in",
+    "pbaxi@jnu.ac.in",
+    "satyanshu@mail.jnu.ac.in",
+    "skshukla@mail.jnu.ac.in",
+    "shayequa@mail.jnu.ac.in",
+    "vkambedkar@mail.jnu.ac.in",
+    "moushumi.basu@gmail.com",
+    "bsbalaji@mail.jnu.ac.in",
+    "archie.prasad11@gmail.com",
+    "rajeev@mail.jnu.ac.in",
+    "panneersigamani@gmail.com",
+    "prasantasahoo12@yahoo.co.in",
+    "supriyachakrasls@yahoo.com",
+    "smitasirker@jnu.ac.in",
+    "adhaka@mail.jnu.ac.in",
+    "praveshjnu@gmail.com",
+    "mmunde@mail.jnu.ac.in",
+    "sangeetadasgupta@mail.jnu.ac.in",
+    "dnmnkmr@gmail.com",
+    "atrayee.dse@gmail.com",
+    "jnucampus@gmail.com",
+    "jvaidya27@gmail.com",
+    "sandesha.rayapa@gmail.com",
+    "vijaykgoel@jnu.ac.in",
+    "sandeepkpandey@mail.jnu.ac.in",
+    "rajendra.kundu@gmail.com",
+    "nishant@jnu.ac.in",
+    "manidipa@mail.jnu.ac.in",
+    "opgadde@mail.jnu.ac.in",
+    "deepaksharma@mail.jnu.ac.in",
+    "rnmahato@jnu.ac.in",
+    "paporibora@mail.jnu.ac.in",
+    "vbsingh@mail.jnu.ac.in",
+    "mohan1385@gmail.com",
+    "kumaraswamy@mail.jnu.ac.in",
+    "saraswati@mail.jnu.ac.in",
+    "bathulasrinivasu@mail.jnu.ac.in",
+    "chamujegan@jnu.ac.in",
+    "drtauheedkhan@gmail.com",
+    "singhvijender@mail.jnu.ac.in",
+    "nmondal@hotmail.com",
+    "sudhakarvaddi@mail.jnu.ac.in",
+    "aalsony@gmail.com",
+    "aquddoos@mail.jnu.ac.in",
+    "akhtaralam@mail.jnu.ac.in",
+    "prachin@mail.jnu.ac.in",
+    "gunasekaran@mail.jnu.ac.in",
+    "majmal@mail.jnu.ac.in",
+    "subrata@mail.jnu.ac.in",
+    "varada@jnu.ac.in",
+    "ekta.rai@hotmail.com",
+    "saradindu@mail.jnu.ac.in",
+    "adinatraj@mail.jnu.ac.in",
+    "drbindupuri11@yahoo.com",
+    "sachinjadhav@mail.jnu.ac.in",
+    "kgd12@yahoo.com",
+    "chowhan@jnu.ac.in",
+    "safinabegum@mail.jnu.ac.in",
+    "gauravkumar@mail.jnu.ac.in",
+    "sanghmitra.acharya@gmail.com",
+    "pkjoshi27@hotmail.com",
+    "kpranaw@mail.jnu.ac.in",
+    "sanjuscorp@gmail.com",
+    "prasantasahoo@mail.jnu.ac.in",
+    "ssm2100@mail.jnu.ac.in",
+    "jyotsnaram@mail.jnu.ac.in",
+    "mldora@mail.jnu.ac.in",
+    "dkchoubey@mail.jnu.ac.in",
+    "amitrai@mail.jnu.ac.in",
+    "apkmpandey@gmail.com",
+    "saurabhsharma@mail.jnu.ac.in",
+    "brajeshkumar@mail.jnu.ac.in",
+    "srabani@mail.jnu.ac.in",
+    "akhterjnu@gmail.com",
+    "anilksingh@mail.jnu.ac.in",
+    "sandesharayapa@mail.jnu.ac.in",
+    "saumyajitray@mail.jnu.ac.in",
+    "sneh@mail.jnu.ac.in",
+    "shubhamitra70@gmail.com",
+    "sameena@mail.jnu.ac.in",
+    "agudavarthy@mail.jnu.ac.in",
+    "arihant168@gmail.com",
+    "kpranaw@jnu.ac.in",
+    "apdimri@mail.jnu.ac.in",
+    "gajay99@rediffimail.com",
+    "shikhajhingan@mail.jnu.ac.in",
+    "akarya@jnu.ac.in",
+    "ssirker@gmail.com",
+    "moharchaudhuri@mail.jnu.ac.in",
+    "snehadas@mail.jnu.ac.in",
+    "akhlaque.azad@gmail.com",
+    "sksuthar@mail.jnu.ac.in",
+    "himanshuroy1@yahoo.co.in",
+    "gilukagiluka@gmail.com",
+    "prakashsahoo@mail.jnu.ac.in",
+    "aayushi.ketkar@gmail.com",
+    "shubhamitra@mail.jnu.ac.in",
+    "dbjyoti@gmail.com",
+    "pkdas@mail.jnu.ac.in",
+    "dvaraprasads@gmail.com",
+    "dpv@mail.jnu.ac.in",
+    "pradeep11@hotmail.com",
+    "leshiinikhoso@gmail.com",
+    "nasibali@mail.jnu.ac.in",
+    "kashyapdubey@mail.jnu.ac.in",
+    "manojkumar@jnu.ac.in",
+    "drshilpeedutt@gmail.com",
+    "praveenkverma@jnu.ac.in",
+    "smita.sonker@gmail.com",
+    "mvlakshmi@gmail.com",
+    "abhimanyuarha@gmail.com",
+    "nilika@jnu.ac.in",
+    "sksoni@mail.jnu.ac.in",
+    "rahulraj@mail.jnu.ac.in",
+    "rajbeer@mail.jnu.ac.in",
+    "skshuklajnu@yahoo.com",
+    "sudhir131@gmail.com",
+    "agni@mail.jnu.ac.in",
+    "bijoykhaba@yahoo.com",
+    "aksharma@mail.jnu.ac.in",
+    "batabyal@mail.jnu.ac.in",
+    "shuklasa@mail.jnu.ac.in",
+    "anujsachan@jnu.ac.in",
+    "vijaypsrawat@mail.jnu.ac.in",
+    "archnanegi@rediffmail.com",
+    "sgarkoti@yahoo.com",
+    "vinaikumarsingh@gmail.com",
+    "ranvijay@mail.jnu.ac.in",
+    "poonguzhali@mail.jnu.ac.in",
+    "mahendar@mail.jnu.ac.in",
+    "dkl@mail.jnu.ac.in",
+    "kmpandey@mail.jnu.ac.in",
+    "drlovey01@gmail.com",
+    "atulkumar@jnu.ac.in",
+    "shuchiyadav@mail.jnu.ac.in",
+    "ngkfrancis@mail.jnu.ac.in",
+    "dasgupta.jnu@gmail.com",
+    "manjukhari@mail.jnu.ac.in",
+    "vidhuverma94@gmail.com",
+    "abhinavgr@gmail.com",
+    "ubaidtayyeb@gmail.com",
+    "ashwani.enviro@gmail.com",
+    "paruldm@mail.jnu.ac.in",
+    "batraamita@gmail.com",
+    "tpmahi@gmail.com",
+    "manojsharma@mail.jnu.ac.in",
+    "mrinmoyeeray@mail.jnu.ac.in",
+    "prakashkanoo@mail.jnu.ac.in",
+    "sudhirkumar@mail.jnu.ac.in",
+    "karan@jnu.ac.in",
+    "aahmad@mail.jnu.ac.in",
+    "sunitareddy@mail.jnu.ac.in",
+    "shandar@jnu.ac.in",
+    "saurabh@mail.jnu.ac.in",
+    "sunitareddyjnu@gmail.com",
+    "sushmitarajwar@mail.jnu.ac.in",
+    "purvayadav@mail.jnu.ac.in",
+    "gsrinivas@mail.jnu.ac.in",
+    "singhvirendra@live.com",
+    "abhave@mail.jnu.ac.in",
+    "rk_paswan@mail.jnu.ac.in",
+    "m_rahman@mail.jnu.ac.in",
+    "mishrarajnish@gmail.com",
+    "nabiel@mail.jnu.ac.in",
+    "deoshankar@hotmail.com",
+    "praveenkverma@mail.jnu.ac.in",
+    "partima@mail.jnu.ac.in",
+    "salianramesh@hotmail.com",
+    "pushpendra@mail.jnu.ac.in",
+    "sthapliyal@mail.jnu.ac.in",
+    "sneh10@hotmail.com",
+    "jasrajmeena@mail.jnu.ac.in",
+    "sneha@mail.jnu.ac.in",
+    "bspralhad@mail.jnu.ac.in",
+    "shrutiagnihotri@mail.jnu.ac.in",
+    "fedrer.engg@gmail.com",
+    "mollica@mail.jnu.ac.in",
+    "kumarv@mail.jnu.ac.in",
+    "jmadhanmohan@hotmail.com",
+    "ukkh2009science@gmail.com",
+    "anantpj@gmail.com",
+    "varada@mail.jnu.ac.in",
+    "samitabh@gmail.com",
+    "mjain@jnu.ac.in",
+    "rituagarwal@mail.jnu.ac.in",
+    "mprana@mail.jnu.ac.in",
+    "vrushal_jnu@yahoo.co.in",
+    "virendrasingh@mail.jnu.ac.in",
+    "rajesh622@yahoo.com",
+    "pritisingh@mail.jnu.ac.in",
+    "psomvanshi@mail.jnu.ac.in",
+    "mollica.dastider@gmail.com",
+    "aswinijnu@gmail.com",
+    "bamacharan@gmail.com",
+    "tvvijaykumar@hotmail.com",
+    "pdm1962@rediffmail.com",
+    "ratheesh@mail.jnu.ac.in",
+    "sandipksingh@jnu.ac.in",
+    "clalkimi@mail.jnu.ac.in",
+    "ycrao@mail.jnu.ac.in",
+    "pchirmuley@mail.jnu.ac.in",
+    "susheelkumar25@mail.jnu.ac.in",
+    "ankitadutta@mail.jnu.ac.in",
+    "shailjasingh@mail.jnu.ac.in",
+    "ravikumrao@jnu.ac.in",
+    "ravikr@jnu.ac.in",
+    "deoshankar@mail.jnu.ac.in",
+    "lakshmikumar@mail.jnu.ac.in",
+    "minaketan@mail.jnu.ac.in",
+    "dayawanti@mail.jnu.ac.in",
+    "rmahalakshmi@mail.jnu.ac.in",
+    "ankitagalaxy@gmail.com",
+    "rnjha@mail.jnu.ac.in",
+    "fauzanabrar@mail.jnu.ac.in",
+    "sandesharayapa@jnu.ac.in",
+    "prof.kumar.arvind@gmail.com",
+    "ayushibarthwal@mail.jnu.ac.in",
+    "skamera@mail.jnu.ac.in",
+    "drvikasbajpai@gmail.com",
+    "ashwaniktiwari@jnu.ac.in",
+    "syedakhtar@mail.jnu.ac.in",
+    "ankitchaudhary@jnu.ac.in",
+    "tanyasrivastava@mail.jnu.ac.in",
+    "sureshr@mail.jnu.ac.in",
+    "mdebata@mail.jnu.ac.in",
+    "sapnarshah@mail.jnu.ac.in",
+    "jha161@gmail.com",
+    "vikasyadav@mail.jnu.ac.in",
+    "sandeepsaxena@mail.jnu.ac.in",
+    "reetasony@mail.jnu.ac.in",
+    "amitthorat@gmail.com",
+    "kumararvind@mail.jnu.ac.in",
+    "bkkanaujia@yahoo.co.in",
+    "rshah@jnu.ac.in",
+    "mkumarjnu@mail.jnu.ac.in",
+    "devinderkaur@mail.jnu.ac.in",
+    "tsheringjnu@gmail.com",
+    "meetakm@mail.jnu.ac.in",
+    "msun10@hotmail.com",
+    "kumarvtr@gmail.com",
+    "jyotirmayee@mail.jnu.ac.in",
+    "rpprajapati@jnu.ac.in",
+    "nhaider@mail.jnu.ac.in",
+    "hijamkomol@gmail.com",
+    "tapanbihari@mail.jnu.ac.in",
+    "saurabhsharma.lpu@gmail.com",
+    "agrover@mail.jnu.ac.in",
+    "parthodatta@gmail.com",
+    "shrutiagni.9@gmail.com",
+    "rajyadav@mail.jnu.ac.in",
+    "manjuhara@mail.jnu.ac.in",
+    "teiborlang@mail.jnu.ac.in",
+    "subhashpatel@mail.jnu.ac.in",
+    "ravikjnu@gmail.com",
+    "manukonda@jnu.ac.in",
+    "abtiku@mail.jnu.ac.in",
+    "saumen@jnu.ac.in",
+    "priyada67@gmail.com",
+    "msnaik@jnu.ac.in",
+    "nnletter@gmail.com",
+    "girishjha@gmail.com",
+    "rajbasera@gmail.com",
+    "jpachuau@mail.jnu.ac.in",
+    "andrew@jnu.ac.in",
+    "himanshu2@jnu.ac.in",
+    "rajuparghi@jnu.ac.in",
+    "garimadalal@mail.jnu.ac.in",
+    "bhaskarjit@gmail.com",
+    "sudhir.k@jnu.ac.in",
+    "shonaleeka@gmail.com",
+    "khwajaekram@gmail.com",
+    "skthakur@mail.jnu.ac.in",
+    "sujith@mail.jnu.ac.in",
+    "poonguzhali@jnu.ac.in",
+    "ncsjnu@gmail.com",
+    "vidhuverma@mail.jnu.ac.in",
+    "parimalavrao@mail.jnu.ac.in",
+    "ashis_nandi@yahoo.com",
+    "benayray@gmail.com",
+    "prerana@jnu.ac.in",
+    "gajendra@jnu.ac.in",
+    "chandudoddi@mail.jnu.ac.in",
+    "gmeena28@yahoo.com",
+    "ssabbani@mail.jnu.ac.in",
+    "harshitakumar64@gmail.com",
+    "devach@mail.jnu.ac.in",
+    "ushakb@gmail.com",
+    "meetakm@gmail.com",
+    "office@unnatpandit.com",
+    "surajitmazumdar@mail.jnu.ac.in",
+    "schand@mail.jnu.ac.in",
+    "anandaksarkar@jnu.ac.in",
+    "priyadashridharpadhye@mail.jnu.ac.in",
+    "upendra@mail.jnu.ac.in",
+    "sanjayjha@mail.jnu.ac.in",
+    "puri@mail.jnu.ac.in",
+    "scgarkoti@mail.jnu.ac.in",
+    "brinda@mail.jnu.ac.in",
+    "jidujnu@gmail.com",
+    "rohit@jnu.ac.in",
+    "dpvidyarthi2002@yahoo.com",
+    "rpkumar@mail.jnu.ac.in",
+    "ghoble@mail.jnu.ac.in",
+    "saumen@mail.jnu.ac.in",
+    "bkkanaujia@jnu.ac.in",
+    "jeevanandam@mail.jnu.ac.in",
+    "fauzan311@gmail.com",
+    "pankajthakur@jnu.ac.in",
+    "ravirshukla@mail.jnu.ac.in",
+    "akmohapatra@mail.jnu.ac.in",
+    "richasawant07@gmail.com",
+    "sakshisharma@mail.jnu.ac.in",
+    "srinivasmukuloth@gmail.com",
+    "mmhaque@mail.jnu.ac.in",
+    "sujoy@mail.jnu.ac.in",
+    "skdohare@mail.jnu.ac.in",
+    "ratheeshra@jnu.ac.in",
+    "bhaswati@mail.jnu.ac.in",
+    "tauheedkhan@mail.jnu.ac.in",
+    "kasturi26@hotmail.com",
+    "rakesh3670@gmail.com",
+    "kasturim@mail.jnu.ac.in",
+    "usbava@gmail.com",
+    "ananta@mail.jnu.ac.in",
+    "ighosh@mail.jnu.ac.in",
+    "manidipase@gmail.com",
+    "drmanojsharrma@gmail.com",
+    "apujnu.b@gmail.com",
+    "papiasg@jnu.ac.in",
+    "lokeshjindal@jnu.ac.in",
+    "amitabhsingh@mail.jnu.ac.in",
+    "rajuparghi@mail.jnu.ac.in",
+    "gulshan@mail.jnu.ac.in",
+    "garima@mail.jnu.ac.in",
+    "acmondal@mail.jnu.ac.in",
+    "ravishekhar@mail.jnu.ac.in",
+    "vinay.ambedkar@gmail.com",
+    "dineshk@mail.jnu.ac.in",
+    "sreekesh@jnu.ac.in",
+    "debabrata1234@gmail.com",
+    "kavitaarora@mail.jnu.ac.in",
+    "meenak@mail.jnu.ac.in",
+    "pramodsharma@mail.jnu.ac.in",
+    "arunim@mail.jnu.ac.in",
+    "thinkajay@yahoo.com",
+    "amirali@mail.jnu.ac.in",
+    "giripankaj@mail.jnu.ac.in",
+    "babu.thaliath9@gmail.com",
+    "sarmam@mail.jnu.ac.in",
+    "kknaik@mail.jnu.ac.in",
+    "alamelu@mail.jnu.ac.in",
+    "ameet.parameswaran@gmail.com",
+    "amitsinghjnu@gmail.com",
+    "amit.kr@mail.jnu.ac.in",
+    "dr.quddus1975@gmail.com",
+    "abhisheks@mail.jnu.ac.in",
+    "shubhgupta@mail.jnu.ac.in",
+    "kaur.devbio@gmail.com",
+    "bhagatoinam@mail.jnu.ac.in",
+    "punamkumari@mail.jnu.ac.in",
+    "brishtiguha@gmail.com",
+    "garimadalal@jnu.ac.in",
+    "ashok@mail.jnu.ac.in",
+    "vinaykrao@mail.jnu.ac.in",
+    "khanikarsantana@gmail.com",
+    "spushp@jnu.ac.in",
+    "manjeetbaruah@gmail.com",
+    "vimalkhawas@mail.jnu.ac.in",
+    "iroychowdhury@mail.jnu.ac.in",
+    "sujathav@mail.jnu.ac.in",
+    "sanjeevsharma@mail.jnu.ac.in",
+    "jyotiraj@mail.jnu.ac.in",
+    "gasharma@mail.jnu.ac.in",
+    "malkhansingh@mail.jnu.ac.in",
+    "bnprasad@mail.jnu.ac.in",
+    "cryagati@gmail.com",
+    "rajunj7@gmail.com",
+    "zarnigar@mail.jnu.ac.in",
+    "dinabandhu@mail.jnu.ac.in",
+    "msundriyal@mail.jnu.ac.in",
+    "jaydpb@gmail.com",
+    "ghazalajamil@mail.jnu.ac.in",
+    "allauddinshah@mail.jnu.ac.in",
+    "kbhaumik@mail.jnu.ac.in",
+    "alokksjha@mail.jnu.ac.in",
+    "pankajthakur@mail.jnu.ac.in",
+    "anandaksarkar@mail.jnu.ac.in",
+    "raviverma@jnu.ac.in",
+    "bhupendra@jnu.ac.in",
+    "swati_tiwari@mail.jnu.ac.in",
+    "spushp@gmail.com",
+    "ms.geetanjali.batra@gmail.com",
+    "m_pritam@mail.jnu.ac.in",
+    "neerjasingh@mail.jnu.ac.in",
+    "makaranda@jnu.ac.in",
+    "binaypandalab@gmail.com",
+    "chirashree@mail.jnu.ac.in",
+    "mgovind11@gmail.com",
+    "minatipanda@mail.jnu.ac.in",
+    "rsaxenajnu@gmail.com",
+    "shekharm@mail.jnu.ac.in",
+    "ram.sagar@jnu.ac.in",
+    "drsomeswar@mail.jnu.ac.in",
+    "heeraman98@gmail.com",
+    "ektarai@mail.jnu.ac.in",
+    "dr.nikunj@yahoo.co.in",
+    "ranjeeta.dutta@gmail.com",
+    "nshreeniwas@mail.jnu.ac.in",
+    "gsmeena@mail.jnu.ac.in",
+    "archanaupadhyay.jnu@gmail.com",
+    "sangeetathapliyal@gmail.com",
+    "pauthanghaokip@yahoo.co.in",
+    "mkgiluka@jnu.ac.in",
+    "shivajikumar@mail.jnu.ac.in",
+    "sumandas.eco@gmail.com",
+    "nilika21@yahoo.co.in",
+    "rajyadavjnu@gmail.com",
+    "arvind@jnu.ac.in",
+    "nguite@mail.jnu.ac.in",
+    "sukalpa@mail.jnu.ac.in",
+    "drrajeshpaswan@gmail.com",
+    "opmeena@mail.jnu.ac.in",
+    "jayatis@gmail.com",
+    "minatip@gmail.com",
+    "anukumari@mail.jnu.ac.in",
+    "anupamanamburu@jnu.ac.in",
+    "schakraborty@mail.jnu.ac.in",
+    "rakeshkmeena@jnu.ac.in",
+    "bhuarvind2512@gmail.com",
+    "sabareesh@mail.jnu.ac.in",
+    "ajmerskajal@gmail.com",
+    "ajayverma@jnu.ac.in",
+    "rmishra@mail.jnu.ac.in",
+    "vandanamishra@mail.jnu.ac.in",
+    "aditisharan@mail.jnu.ac.in",
+    "pkparida@mail.jnu.ac.in",
+    "namanahuja@gmail.com",
+    "dghoshal@jnu.ac.in",
+    "chamujegan@mail.jnu.ac.in",
+    "rammeenarv@gmail.com",
+    "mdazad@mail.jnu.ac.in",
+    "phoolbadan@mail.jnu.ac.in",
+    "arvindpsingh@mail.jnu.ac.in",
+    "salma@mail.jnu.ac.in",
+    "kiransingh1@yandex.ru",
+    "hswankhede@jnu.ac.in",
+    "shilpiagarwal@mail.jnu.ac.in",
+    "mksharma@jnu.ac.in",
+    "pervez@mail.jnu.ac.in",
+    "prashantjain@mail.jnu.ac.in",
+    "asawhney@mail.jnu.ac.in",
+    "lakshmi@mail.jnu.ac.in",
+    "shonaleeka@mail.jnu.ac.in",
+    "ameet@mail.jnu.ac.in",
+    "p123azmi@gmail.com",
+    "sureshbabu@jnu.ac.in",
+    "ratneshwer@gmail.com",
+    "punia@mail.jnu.ac.in",
+    "kumarvarun@mail.jnu.ac.in",
+    "ksverma@mail.jnu.ac.in",
+    "nasibali546@gmail.com",
+    "sipi.agarwal@gmail.com",
+    "rajeevsijariya@mail.jnu.ac.in",
+    "vijaykgoel@mail.jnu.ac.in",
+    "ashu.jnu@gmail.com",
+    "avinashmishra.jnu@gmail.com",
+    "archanaprasad@mail.jnu.ac.in",
+    "yadav.shuchi@gmail.com",
+    "bsrinivas07@gmail.com",
+    "dechen@mail.jnu.ac.in",
+    "ushakb@mail.jnu.ac.in",
+    "varunsaxena@jnu.ac.in",
+    "srivastava02@hotmail.com",
+    "aanand@mail.jnu.ac.in",
+    "nabiel.ansari@gmail.com",
+    "gaurav.microbhu@gmail.com",
+    "pradipta_b@mail.jnu.ac.in",
+    "richa_sawant@mail.jnu.ac.in",
+    "rakhee@mail.jnu.ac.in",
+    "hariharan.veena@gmail.com",
+    "abinayamanivannan@gmail.com",
+    "rabindraiitm@gmail.com",
+    "sens@jnu.ac.in",
+    "aprabhatjawla@mail.jnu.ac.in",
+    "manawaz@mail.jnu.ac.in",
+    "parthodatta@mail.jnu.ac.in",
+    "rnj12@hotmail.com",
+    "souvik@jnu.ac.in",
+    "aditisharan@gmail.com",
+    "mazharasif@mail.jnu.ac.in",
+    "paulrajr@mail.jnu.ac.in",
+    "anamikagulati@mail.jnu.ac.in",
+    "anilksinghjnu@gmail.com",
+    "madanmohan@mail.jnu.ac.in",
+    "janashruti.chandra@gmail.com",
+    "behera.minaketan@gmail.com",
+    "pradeepchoudhury@jnu.ac.in",
+    "nikhiljob6@gmail.com",
+    "mjainanid@gmail.com",
+    "balaji_12@yahoo.com",
+    "meetakm@jnu.ac.in",
+    "vikas@mail.jnu.ac.in",
+    "nalin238@gmail.com",
+    "manishdft@gmail.com",
+    "mauharsingh@jnu.ac.in",
+    "divyavaid@mail.jnu.ac.in",
+    "nramchiary@jnu.ac.in",
+    "shahbazamil@mail.jnu.ac.in",
+    "milap.jnu@gmail.com",
+    "yogeshkrai@mail.jnu.ac.in",
+    "aknias@yahoo.com",
+    "gasharma@jnu.ac.in",
+    "dkansra@gmail.com",
+    "mrinmoy@mail.jnu.ac.in",
+    "christhudoss@mail.jnu.ac.in",
+    "purin@mail.jnu.ac.in",
+    "ragothaman@jnu.ac.in",
+    "meenu_bhatnagar@hotmail.com",
+    "skdohare@yahoo.com",
+    "vbijukumar2014@gmail.com",
+    "mercymuang@gmail.com",
+    "drsomeswar@osmania.ac.in",
+    "jyotikirar@mail.jnu.ac.in",
+    "shubhgupta008@gmail.com",
+    "rsaxena@mail.jnu.ac.in",
+    "spsrichandan@jnu.ac.in",
+    "makaranda@mail.jnu.ac.in",
+    "sabareesh.jnu@gmail.com",
+    "abhattacharya@mail.jnu.ac.in",
+    "ankit1511@hotmail.com",
+    "nguite@jnu.ac.in",
+    "niti_puri@hotmail.com",
+    "milinddhaware@gmail.com",
+    "rkt2300@mail.jnu.ac.in",
+    "elumalaik@mail.jnu.ac.in",
+    "shomo.choudhury@gmail.com",
+    "suryanandini@mail.jnu.ac.in",
+    "nareshrai.jnu@gmail.com",
+    "htiwari@mail.jnu.ac.in",
+    "sushama@mail.jnu.ac.in",
+    "jnu.dinu@gmail.com",
+    "rkjangir@mail.jnu.ac.in",
+    "rosysingh@mail.jnu.ac.in",
+    "teiborlang@jnu.ac.in",
+    "vinaykgupta@mail.jnu.ac.in",
+    "rahul.seas@gmail.com",
+    "vsinha@mail.jnu.ac.in",
+    "ashah.jnu@gmail.com",
+    "aravendan66@gmail.com",
+    "singhpriti@hotmail.com",
+    "dipeshpawar@mail.jnu.ac.in",
+    "syadav@mail.jnu.ac.in",
+    "yogendra@mail.jnu.ac.in",
+    "akvardhan@mail.jnu.ac.in",
+    "sgourinath@mail.jnu.ac.in",
+    "ashis_nandi@mail.jnu.ac.in",
+    "bimol.akoijam@gmail.com",
+    "riturajsingh@mail.jnu.ac.in",
+    "abhijit@mail.jnu.ac.in",
+    "aloneys@yahoo.com",
+    "mkbarnwal@jnu.ac.in",
+    "anuja@mail.jnu.ac.in",
+    "hmray@mail.jnu.ac.in",
+    "gayettridixit@gmail.com",
+    "kumarr.narender@gmail.com",
+    "skpandey@mail.jnu.ac.in",
+    "fcdama@mail.jnu.ac.in",
+    "amit@jnu.ac.in",
+    "sonusaini@mail.jnu.ac.in",
+    "prof.vimalkhawas@gmail.com",
+    "g.amarjit@gmail.com",
+    "basmaqutb@gmail.com",
+    "stanzin@mail.jnu.ac.in",
+    "vikasjnu@gmail.com",
+    "rrahman@mail.jnu.ac.in",
+    "sudhir.k@mail.jnu.ac.in",
+    "alamelu@jnu.ac.in",
+    "tmohanty@mail.jnu.ac.in",
+    "deepudai@gmail.com",
+    "urahman@mail.jnu.ac.in",
+    "nshekhar@mail.jnu.ac.in",
+    "shaktinov30@yahoo.co.in",
+    "manojkjenacsss@gmail.com",
+    "lavish.singh2011@gmail.com",
+    "abinaya@mail.jnu.ac.in",
+    "sakshi2085@gmail.com",
+    "mukeshkumarjnu88@gmail.com",
+    "hridayn@mail.jnu.ac.in",
+    "amitsingh@mail.jnu.ac.in",
+    "probal@jnu.ac.in",
+    "vkishore@mail.jnu.ac.in",
+    "varunsaxena@mail.jnu.ac.in",
+    "bssahu@jnu.ac.in",
+    "brindabose@gmail.com",
+    "rajan75jnu@gmail.com",
+    "mrinmoyeeray@gmail.com",
+    "nandannawn@mail.jnu.ac.in",
+    "priyagupta@mail.jnu.ac.in",
+    "sugato@mail.jnu.ac.in",
+    "rakhee_2k@hotmail.com",
+    "radhamohan@mail.jnu.ac.in",
+    "spsrichandan@mail.jnu.ac.in",
+    "apdimri@hotmail.com",
+    "kh.romesh@gmail.com",
+    "msarma.ms@gmail.com",
+    "nshreeniwas@jnu.ac.in",
+    "msnaik@mail.jnu.ac.in",
+    "neerjass@hotmail.com",
+    "dsharma7309@gmail.com",
+    "ankita_dutta87@yahoo.co.in",
+    "akritibhatia@mail.jnu.ac.in",
+    "ashfaqahmad03@gmail.com",
+    "ajaysaxena@mail.jnu.ac.in",
+    "nikunj@mail.jnu.ac.in",
+    "bhaduris@mail.jnu.ac.in",
+    "jyotikirar@jnu.ac.in",
+    "rajeevsijariya@gmail.com",
+    "nupur@mail.jnu.ac.in",
+    "bsarkar@mail.jnu.ac.in",
+    "bkisan@gmail.com",
+    "preetidd@mail.jnu.ac.in",
+    "rakeshbatabyal@gmail.com",
+    "vanikijoshi@mail.jnu.ac.in",
+    "umesh@mail.jnu.ac.in",
+    "krishnendu.dastidar@gmail.com",
+    "bimol@mail.jnu.ac.in",
+    "bhaduris@hotmail.com",
+    "suryanandini@jnu.ac.in",
+    "nshekhar@jnu.ac.in",
+    "ghoshd@jnu.ac.in",
+    "drgsmeena.jnu@gmail.com",
+    "drsgarima@gmail.com",
+    "askharat@mail.jnu.ac.in",
+    "vanikijoshi@gmail.com",
+    "vandanamishra@jnu.ac.in",
+    "sangeetadasgupta@hotmail.com",
+    "lakshmipriya10@gmail.com",
+    "skdhar2002@yahoo.co.in",
+    "deepakmishra@mail.jnu.ac.in",
+    "seema.bathla@gmail.com",
+    "msroy@jnu.ac.in",
+    "ramchandra.jnu@gmail.com",
+    "anirban@mail.jnu.ac.in",
+    "somu2u@gmail.com",
+    "azmatn@mail.jnu.ac.in",
+    "th.robert@yahoo.co.in",
+    "kedarbhp@rediffmail.com",
+    "zahidraza@mail.jnu.ac.in",
+    "seemab@mail.jnu.ac.in",
+    "ashpramanik@gmail.com",
+    "bindupuri@mail.jnu.ac.in",
+    "ucsyadav@jnu.ac.in",
+    "archanakumari@mail.jnu.ac.in",
+    "mohindersingh@mail.jnu.ac.in",
+    "r_rajesh@mail.jnu.ac.in",
+    "renusain@mail.jnu.ac.in",
+    "jyoti_atwal@mail.jnu.ac.in",
+    "amit.mishra.jnu@gmail.com",
+    "Shikha.jhingan@gmail.com",
+    "prakashkanoo@gmail.com",
+    "aayushik@mail.jnu.ac.in",
+    "ekramuddin@mail.jnu.ac.in",
+    "ssen@mail.jnu.ac.in",
+    "shivprakash@mail.jnu.ac.in",
+    "renujnu@gmail.com",
+    "mahaarakesh@gmail.com",
+    "akmishra106@gmail.com",
+    "skt.scholar@gmail.com",
+    "prashantzheng@gmail.com",
+    "nawazjnu@gmail.com",
+    "rkajnu@gmail.com",
+    "sahibkapoor@jnu.ac.in",
+    "deepakmishra.jnu@gmail.com",
+    "ranjanaa@mail.jnu.ac.in",
+    "prakashchand@mail.jnu.ac.in",
+    "sahajnu@gmail.com",
+    "sharadcrosshuma@gmail.com",
+    "nishant@mail.jnu.ac.in",
+    "brishtiguha@mail.jnu.ac.in",
+    "nehaparasrao@mail.jnu.ac.in",
+    "ayesha@mail.jnu.ac.in",
+    "singh.rosy@gmail.com",
+    "ankur.jnusis@gmail.com",
+    "pbaxi@mail.jnu.ac.in",
+    "bharateedash@jnu.ac.in",
+    "phoolbadan@yahoo.com",
+    "lipokmardzuvichu@gmail.com",
+    "ravikesh@mail.jnu.ac.in",
+    "arunprakash@mail.jnu.ac.in",
+    "praban07@gmail.com",
+    "elumalaik@hotmail.com",
+    "pdm@mail.jnu.ac.in",
+    "pawankumar16@jnu.ac.in",
+    "arnab@mail.jnu.ac.in",
+    "raviprasad.narayanan@gmail.com",
+    "barua.bhowmik@gmail.com",
+    "prerana@mail.jnu.ac.in",
+    "clalmuansangkimi@gmail.com"
+  ],
+  "all_phones": [],
+  "statistics": {
+    "professors_with_email": 710
+  }
+}

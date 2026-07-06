@@ -171,6 +171,57 @@ def load_proxies(path):
                 PROXY_LIST.append(p)
     print(f"Loaded {len(PROXY_LIST)} proxies from {path}")
 
+FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
+FIRECRAWL_BASE = "https://api.firecrawl.dev/v1"
+
+def firecrawl_request(endpoint, data):
+    key = FIRECRAWL_API_KEY
+    if not key:
+        return None
+    try:
+        req = urllib.request.Request(
+            f"{FIRECRAWL_BASE}/{endpoint}",
+            data=json.dumps(data).encode(),
+            headers={
+                "Authorization": f"Bearer {key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        resp = urllib.request.urlopen(req, timeout=30)
+        body = json.loads(resp.read())
+        if body.get("success"):
+            return body.get("data")
+    except Exception as e:
+        print(f"    Firecrawl {endpoint} failed: {e}")
+    return None
+
+def firecrawl_search(query, limit=5):
+    data = firecrawl_request("search", {
+        "query": query,
+        "searchOptions": {"limit": limit},
+    })
+    if not data:
+        return None
+    results = []
+    for item in data if isinstance(data, list) else data.get("data", []):
+        url = item.get("url", item.get("link", ""))
+        title = item.get("title", item.get("name", ""))
+        if url:
+            results.append({"url": url, "title": title})
+    return results if results else None
+
+def firecrawl_scrape(url):
+    data = firecrawl_request("scrape", {
+        "url": url,
+        "pageOptions": {"onlyMainContent": True},
+    })
+    if not data:
+        return None
+    text = data.get("markdown", "") or data.get("text", "") or ""
+    metadata = data.get("metadata", {}) or {}
+    return text, metadata
+
 def get_district_summary():
     tracker = load_tracker()
     for d, info in tracker["districts"].items():
@@ -376,6 +427,30 @@ def build_browser(proxy=None):
     page = context.new_page()
     return p, browser, context, page
 
+def firecrawl_process_college(row):
+    query = build_search_query(row)
+    results = firecrawl_search(query)
+    if not results:
+        return None
+
+    contact = {"website": "", "phones": [], "emails": []}
+    for res in results:
+        text, meta = firecrawl_scrape(res["url"]) or ("", {})
+        if text:
+            phones = extract_phones(text)
+            emails = extract_emails(text)
+            contact["phones"].extend(phones)
+            contact["emails"].extend(emails)
+            if not contact["website"]:
+                contact["website"] = res["url"]
+        if contact["phones"] or contact["emails"]:
+            break
+
+    contact["phones"] = list(set(contact["phones"]))
+    contact["emails"] = list(set(contact["emails"]))
+    return contact
+
+
 def worker_thread(worker_id, college_queue, total_colleges):
     proxy = get_next_proxy()
     p, browser, context, page = None, None, None, None
@@ -397,37 +472,42 @@ def worker_thread(worker_id, college_queue, total_colleges):
             contact = {"website": "", "phones": [], "emails": []}
 
             try:
-                query = build_search_query(row)
-                search_results = search_with_fallback(page, query)
+                if FIRECRAWL_API_KEY:
+                    fc = firecrawl_process_college(row)
+                    if fc and (fc["phones"] or fc["emails"] or fc["website"]):
+                        contact = fc
+                        print(f"{wid} firecrawl ok")
 
-                if search_results:
-                    contact["website"] = search_results[0]["url"]
-                    phones, emails = visit_and_scrape(page, contact["website"])
-                    contact["phones"] = phones
-                    contact["emails"] = emails
+                if not contact["website"] and not contact["phones"]:
+                    query = build_search_query(row)
+                    search_results = search_with_fallback(page, query)
 
-                    if not phones:
-                        for sr in search_results[1:4]:
-                            p2, e2 = visit_and_scrape(page, sr["url"])
-                            contact["phones"].extend(p2)
-                            contact["emails"].extend(e2)
-                            if contact["phones"]:
+                    if search_results:
+                        contact["website"] = search_results[0]["url"]
+                        phones, emails = visit_and_scrape(page, contact["website"])
+                        contact["phones"] = phones
+                        contact["emails"] = emails
+
+                        if not phones:
+                            for sr in search_results[1:4]:
+                                p2, e2 = visit_and_scrape(page, sr["url"])
+                                contact["phones"].extend(p2)
+                                contact["emails"].extend(e2)
+                                if contact["phones"]:
+                                    break
+
+                    if not contact["website"]:
+                        candidates = try_construct_url(row["name"])
+                        for cu in candidates:
+                            if probe_url(cu):
+                                contact["website"] = cu
+                                phones, emails = visit_and_scrape(page, cu)
+                                contact["phones"] = phones
+                                contact["emails"] = emails
                                 break
 
-                    contact["phones"] = list(set(contact["phones"]))
-                    contact["emails"] = list(set(contact["emails"]))
-
-                if not contact["website"]:
-                    candidates = try_construct_url(row["name"])
-                    for cu in candidates:
-                        if probe_url(cu):
-                            contact["website"] = cu
-                            phones, emails = visit_and_scrape(page, cu)
-                            contact["phones"] = phones
-                            contact["emails"] = emails
-                            contact["phones"] = list(set(contact["phones"]))
-                            contact["emails"] = list(set(contact["emails"]))
-                            break
+                contact["phones"] = list(set(contact["phones"]))
+                contact["emails"] = list(set(contact["emails"]))
 
                 if contact["website"]:
                     print(f"{wid} url: {contact['website'][:70]}")
@@ -553,9 +633,19 @@ Examples:
                         help="Base delay between searches in seconds")
     parser.add_argument("--proxy-file", default="",
                         help="File with proxies (one per line)")
+    parser.add_argument("--firecrawl", action="store_true",
+                        help="Enable Firecrawl AI search (requires FIRECRAWL_API_KEY env)")
     parser.add_argument("command", nargs="?", default="",
-                        help="'list', 'summary', or a district name to scrape")
+                        help="'list', 'summary', 'retry-missing', or a district name to scrape")
     args = parser.parse_args()
+
+    if args.firecrawl or args.command == "retry-missing":
+        global FIRECRAWL_API_KEY
+        FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
+        if not FIRECRAWL_API_KEY:
+            print("⚠ FIRECRAWL_API_KEY not set. Set it via env var or sign up at https://firecrawl.dev")
+            sys.exit(1)
+        print(f"Firecrawl enabled (key: {FIRECRAWL_API_KEY[:8]}...)")
 
     if args.delay:
         global SEARCH_DELAY_S
@@ -604,6 +694,51 @@ Examples:
         for d, c in sorted(counts.items(), key=lambda x: -x[1]):
             print(f"{c:5d}  {d}")
         print(f"\nTotal: {len(counts)} districts, {sum(counts.values())} colleges")
+        return
+
+    if command == "retry-missing":
+        print("Retrying colleges with missing contact data...\n")
+        iterations = 0
+        while running:
+            iterations += 1
+            missing = []
+            for fname in os.listdir(OUTPUT_DIR):
+                if not fname.endswith(".csv"):
+                    continue
+                fpath = os.path.join(OUTPUT_DIR, fname)
+                with open(fpath, newline="", encoding="utf-8") as f:
+                    for r in csv.DictReader(f):
+                        has_phone = bool(r.get("phone_numbers", "").strip())
+                        has_email = bool(r.get("emails", "").strip())
+                        if not has_phone and not has_email:
+                            missing.append(r)
+                if len(missing) >= 100:
+                    break
+
+            if not missing:
+                print(f"\n✅ All {sum(1 for _ in csv.DictReader(open(os.path.join(OUTPUT_DIR, f))))} colleges have contact data!")
+                break
+
+            print(f"Iteration #{iterations}: {len(missing)} colleges still missing data")
+
+            college_queue = queue.Queue()
+            for r in missing[:50]:
+                college_queue.put((r, len(missing)))
+
+            n_workers = min(args.workers, college_queue.qsize())
+            threads = []
+            for i in range(n_workers):
+                t = threading.Thread(target=worker_thread, args=(i + 1, college_queue, len(missing)))
+                t.start()
+                threads.append(t)
+            for t in threads:
+                t.join()
+
+            print(f"  Done iteration #{iterations}. Re-checking...\n")
+            time.sleep(5)
+
+        print("\nFinal stats:")
+        get_district_summary()
         return
 
     district = args.command.strip()

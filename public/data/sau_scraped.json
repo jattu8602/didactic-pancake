@@ -1,0 +1,552 @@
+{
+  "university": "South Asian University",
+  "state": "Delhi",
+  "url": "https://sau.int/",
+  "pages_scraped": 86,
+  "total_professors": 71,
+  "total_phones": 85,
+  "total_emails": 97,
+  "phones": [
+    "+911135656500",
+    "0019556123116",
+    "0019556125140",
+    "0020881716654",
+    "0151020523",
+    "0161155416",
+    "0161165895",
+    "0171345028",
+    "01811013918",
+    "01811013921",
+    "0181472737",
+    "0181552317",
+    "0182884255",
+    "0190846626",
+    "01911014241",
+    "0198073970",
+    "02011027652",
+    "0201714450",
+    "0201731323",
+    "0201765954",
+    "0201801203",
+    "0201824757",
+    "02111060746",
+    "0219265920500",
+    "02218020001",
+    "02296475867",
+    "0232224761",
+    "0232238079",
+    "0232261012",
+    "0232275988",
+    "0232280993",
+    "0233306419",
+    "0241230362",
+    "0241313166",
+    "0242305191",
+    "0242339502",
+    "0242363049",
+    "0252502442",
+    "0252584080",
+    "0262664816",
+    "0302120322",
+    "0305829823121",
+    "0367337186",
+    "0367735067",
+    "0405160323",
+    "0429507496",
+    "0470105269",
+    "0889222926144",
+    "0974910124124",
+    "0976747921106",
+    "6210405160",
+    "6666180302",
+    "7797024123",
+    "7797602413",
+    "7938309225",
+    "8298231215",
+    "8817166544",
+    "8892229261",
+    "8955752166",
+    "9265920500",
+    "9384082406",
+    "9556123116",
+    "9556125140",
+    "9749101241",
+    "9767479211",
+    "9780190846",
+    "9780198073",
+    "9780367337",
+    "9780367735",
+    "9780429507",
+    "9780470105",
+    "9781003766",
+    "9781032158",
+    "9781041113",
+    "9781108416",
+    "9781118132",
+    "9781134931",
+    "9781137303",
+    "9781315684",
+    "9781420086",
+    "9788132106",
+    "9789391345",
+    "9789521063",
+    "9789811331",
+    "9789819732"
+  ],
+  "emails": [
+    "abinashjha@sau.int",
+    "abulaish@sau.ac.in",
+    "akrgobi@sau.int",
+    "allegralabor@ory.net",
+    "ambrish.saxena@sau.int",
+    "amey@sau.int",
+    "amit@cs.sau.ac.in",
+    "amitkshukla@sau.int",
+    "amustafiz@sau.ac.in",
+    "anand.m@sau.int",
+    "ankit.jain@sau.int",
+    "ankurdatta@soc.sau.ac.in",
+    "anmadh11@gmail.com",
+    "anmolmukhia@sau.int",
+    "anuragtiwari@sau.int",
+    "apoorvgupta@sau.int",
+    "arupmitra@sau.int",
+    "ashishgupta@sau.int",
+    "ashwinib@sau.int",
+    "balram.raut@sau.int",
+    "bijoycc@ieee.org",
+    "bijoycc@sau.int",
+    "binoygoswami@sau.ac.in",
+    "cbasnet@soc.sau.ac.in",
+    "daksha.sharma@sau.int",
+    "danishlohani@cs.sau.ac.in",
+    "debdatta@sau.ac.in",
+    "deepasinha@sau.ac.in",
+    "dev@soc.sau.ac.in",
+    "dhananjay@sau.ac.in",
+    "dir.adm-exam@sau.int",
+    "diya.mehra@sau.ac.in",
+    "drnafeesahmad@sau.ac.in",
+    "drsenthil@sau.ac.in",
+    "glyc@ion.physiologia",
+    "institute-for-private-intern@ional-law-in-africa.aspx",
+    "ishita@sau.int",
+    "jayashree@sau.ac.in",
+    "jcbansal@sau.ac.in",
+    "kajori.bhatnagar@sau.int",
+    "kalpana@southasianuniversity.org",
+    "kapil.sharma@sau.ac.in",
+    "khanindra.das@sau.int",
+    "kiran.rai@sau.int",
+    "mallika@sau.ac.in",
+    "manasi@sau.int",
+    "medhabisht@sau.ac.in",
+    "nabarun.roy@sau.ac.in",
+    "namrata@sau.ac.in",
+    "navnitjha@sau.ac.in",
+    "neerajk.dhanwani@sau.int",
+    "nishisharma@sau.int",
+    "pankaj.jain@sau.ac.in",
+    "parulkumar@sau.int",
+    "pm@sau.int",
+    "pranabmuhuri@cs.sau.ac.in",
+    "psaxena@sau.ac.in",
+    "rajesh.ranjan@sau.int",
+    "ramani@sau.ac.in",
+    "ravi.shankar@sau.ac.in",
+    "ravi@sau.int",
+    "ravindrapratap@sau.int",
+    "rdgupta@sau.ac.in",
+    "reshma.khemchandani@sau.ac.in",
+    "rgaur@sau.ac.in",
+    "ritesh1215@gmail.com",
+    "ritu.gupta@sau.int",
+    "rituc@sau.int",
+    "rkhandel@sau.int",
+    "rkroy@sau.int",
+    "rksaxena@southasianuniversity.org",
+    "rmohanty@sau.ac.in",
+    "rrdg@sau.int",
+    "sanchirai@sau.int",
+    "sandeepkumar@sau.int",
+    "sanjaychaturvedi@sau.int",
+    "sarojkumar@sau.ac.in",
+    "sbasu@sau.ac.in",
+    "sdhamija@sau.int",
+    "sdutta@sau.int",
+    "shachi@sau.int",
+    "shashank.sheshar@sau.int",
+    "shwetasingh@sau.ac.in",
+    "skumar@econ.sau.ac.in",
+    "soumya@econ.sau.ac.in",
+    "spaggarwal@sau.int",
+    "srinivasb@sau.ac.in",
+    "stellinajolly@sau.ac.in",
+    "sumitflsb@sau.int",
+    "sunil.kumar@sau.int",
+    "swati93@sau.int",
+    "taniyaseth@sau.int",
+    "vivekdixit@sau.int",
+    "vkumar@sau.int",
+    "www.researchg@e.net",
+    "yrp@sau.ac.in",
+    "yubaraj54@hotmail.com"
+  ],
+  "professors": [
+    {
+      "name": "Abinash Kumar Jha",
+      "email": "abinashjha@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ambrish Saxena",
+      "email": "ambrish.saxena@sau.int; www.researchg@e.net",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Amit Banerjee",
+      "email": "amit@cs.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Anand Madhukar",
+      "email": "anand.m@sau.int; anmadh11@gmail.com",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ananda Mustafiz",
+      "email": "amustafiz@sau.ac.in; glyc@ion.physiologia",
+      "phone": "+911135656500; 0171345028"
+    },
+    {
+      "name": "Ankit Jain",
+      "email": "ankit.jain@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ankur Datta",
+      "email": "ankurdatta@soc.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Anmol Mukhia",
+      "email": "anmolmukhia@sau.int",
+      "phone": "+911135656500; 0019556123116; 0019556125140; 0232224761; 0232275988; 0241230362; 0242339502; 0242363049; 0252502442; 0367735067; 0429507496; 0974910124124; 7797024123; 9556123116; 9556125140; 9749101241; 9780367735; 9780429507; 9781003766"
+    },
+    {
+      "name": "Apoorv Gupta",
+      "email": "apoorvgupta@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Arup Mitra",
+      "email": "arupmitra@sau.int",
+      "phone": "+911135656500; 0241313166; 7797602413"
+    },
+    {
+      "name": "Balram Prasad Raut",
+      "email": "balram.raut@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Bijoy Chand Chatterjee",
+      "email": "bijoycc@ieee.org; bijoycc@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Binoy Goswami",
+      "email": "binoygoswami@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Chudamani Basnet",
+      "email": "cbasnet@soc.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Daksha Sharma",
+      "email": "daksha.sharma@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Danish Lohani",
+      "email": "danishlohani@cs.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Debdatta Saha",
+      "email": "debdatta@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Deepa Sinha",
+      "email": "deepasinha@sau.ac.in; www.researchg@e.net",
+      "phone": "+911135656500; 0181472737; 0201765954; 0219265920500; 7938309225; 9265920500"
+    },
+    {
+      "name": "Dev Nath Pathak",
+      "email": "dev@soc.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Dhananjay Tripathi",
+      "email": "dhananjay@sau.ac.in",
+      "phone": "+911135656500; 0367337186; 9780367337"
+    },
+    {
+      "name": "Diya Mehra",
+      "email": "diya.mehra@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ishita Dey",
+      "email": "allegralabor@ory.net; ishita@sau.int",
+      "phone": "+911135656500; 9384082406; 9781032158; 9781041113; 9781108416; 9781134931; 9788132106; 9789521063"
+    },
+    {
+      "name": "Jagdish Chand Bansal",
+      "email": "jcbansal@sau.ac.in",
+      "phone": "+911135656500; 0151020523; 0161165895; 0181552317; 0182884255; 0242305191"
+    },
+    {
+      "name": "Jayashree Vivekanandan",
+      "email": "jayashree@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Kajori Bhatnagar",
+      "email": "kajori.bhatnagar@sau.int",
+      "phone": "+911135656500; 02296475867; 9789391345"
+    },
+    {
+      "name": "Kapil Kumar Sharma",
+      "email": "kapil.sharma@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Kavita Khanna",
+      "email": "dir.adm-exam@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Kiran Rai",
+      "email": "kiran.rai@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Mallika Shakya",
+      "email": "mallika@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Medha Bisht",
+      "email": "medhabisht@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Muhammad Abulaish",
+      "email": "abulaish@sau.ac.in",
+      "phone": "+911135656500; 0470105269; 9780470105; 9781118132; 9781420086"
+    },
+    {
+      "name": "Nabarun Roy",
+      "email": "nabarun.roy@sau.ac.in",
+      "phone": "+911135656500; 9781137303"
+    },
+    {
+      "name": "Nafees Ahmad",
+      "email": "drnafeesahmad@sau.ac.in",
+      "phone": "+911135656500; 9789811331; 9789819732"
+    },
+    {
+      "name": "Namrata Gulati",
+      "email": "namrata@sau.ac.in",
+      "phone": "+911135656500; 0976747921106; 9767479211"
+    },
+    {
+      "name": "Navnit Jha",
+      "email": "navnitjha@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Neeraj Kumar Dhanwani",
+      "email": "neerajk.dhanwani@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Pankaj Jain",
+      "email": "pankaj.jain@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Pokharel Yuba Raj",
+      "email": "yrp@sau.ac.in; yubaraj54@hotmail.com",
+      "phone": "+911135656500; 01911014241; 0405160323; 6210405160; 8955752166"
+    },
+    {
+      "name": "Pranab Kumar Muhuri",
+      "email": "pranabmuhuri@cs.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Priti Saxena",
+      "email": "psaxena@sau.ac.in",
+      "phone": "+911135656500; 01811013918; 01811013921; 02011027652; 02111060746"
+    },
+    {
+      "name": "Rajesh Ranjan",
+      "email": "rajesh.ranjan@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ramesh Roshan Das Guru",
+      "email": "rrdg@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ranjan Kumar Mohanty",
+      "email": "rmohanty@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ratan Kumar Roy",
+      "email": "rkroy@sau.int",
+      "phone": "+911135656500; 0201731323; 0201801203"
+    },
+    {
+      "name": "Ravi Kumar",
+      "email": "ravi@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ravi Shankar Akundi",
+      "email": "ravi.shankar@sau.ac.in",
+      "phone": "+911135656500; 0252584080; 0302120322; 6666180302"
+    },
+    {
+      "name": "Ravindra Pratap",
+      "email": "ravindrapratap@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Reshma Rastogi",
+      "email": "reshma.khemchandani@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Ritu Gaur",
+      "email": "rgaur@sau.ac.in",
+      "phone": "+911135656500; 0232238079; 0889222926144; 8892229261"
+    },
+    {
+      "name": "Ritu Gupta",
+      "email": "ritu.gupta@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Rohit Khandelwal",
+      "email": "rkhandel@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sai Ramani Garimella",
+      "email": "institute-for-private-intern@ional-law-in-africa.aspx; ramani@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sanchi Rai",
+      "email": "sanchirai@sau.int",
+      "phone": "+911135656500; 0020881716654; 0305829823121; 8298231215; 8817166544"
+    },
+    {
+      "name": "Sandeep Kumar",
+      "email": "sandeepkumar@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sanjay Chaturvedi",
+      "email": "sanjaychaturvedi@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Saroj Kumar Sahani",
+      "email": "sarojkumar@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Senthil Kumar Venugopal",
+      "email": "drsenthil@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Shachi Sharma",
+      "email": "shachi@sau.int",
+      "phone": "+911135656500; 0233306419"
+    },
+    {
+      "name": "Shashank Sheshar Singh",
+      "email": "shashank.sheshar@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Shweta Singh",
+      "email": "shwetasingh@sau.ac.in",
+      "phone": "+911135656500; 02218020001"
+    },
+    {
+      "name": "Sonam Dhamija",
+      "email": "sdhamija@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Soumita Basu",
+      "email": "sbasu@sau.ac.in",
+      "phone": "+911135656500; 0190846626; 9780190846"
+    },
+    {
+      "name": "Soumya Datta",
+      "email": "soumya@econ.sau.ac.in",
+      "phone": "+911135656500; 0161155416; 0198073970; 0201714450; 0201824757; 0232261012; 0232280993; 0262664816; 9780198073; 9781315684"
+    },
+    {
+      "name": "Srinivas Burra",
+      "email": "srinivasb@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Stellina Jolly",
+      "email": "institute-for-private-intern@ional-law-in-africa.aspx; stellinajolly@sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sumedha Dutta",
+      "email": "sdutta@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sumit Kumar",
+      "email": "sumitflsb@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Sunil Kumar",
+      "email": "skumar@econ.sau.ac.in",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Swati Mishra",
+      "email": "swati93@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Taniya Seth",
+      "email": "taniyaseth@sau.int",
+      "phone": "+911135656500"
+    },
+    {
+      "name": "Vivek Dixit",
+      "email": "vivekdixit@sau.int",
+      "phone": "+911135656500"
+    }
+  ]
+}

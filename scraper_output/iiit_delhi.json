@@ -1,0 +1,2886 @@
+{
+  "university": "IIIT_Delhi",
+  "url": "https://www.iiitd.ac.in/",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Aanisha Bhattacharyya",
+      "email": "aakritia@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aasim Khan",
+      "email": "aasim@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhijeet Mishra",
+      "email": "abhijeet@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhijit Mitra",
+      "email": "abhijit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhinav Dhall",
+      "email": "abhinav@iitrpr.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhinav Kumar Sharma",
+      "email": "abhijayi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhinay Saxena",
+      "email": "abhinay@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhishek Halder",
+      "email": "abhinavs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhishek Kumar",
+      "email": "abhishek@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhishek Tripathi",
+      "email": "abhisheky@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Academic Affairs",
+      "email": "doaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Adarsh Kumar Agarwal",
+      "email": "adarsh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Adduct Biology",
+      "email": "shivas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aditi Sati",
+      "email": "aditi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aditi Tyagi",
+      "email": "adarshs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aditya Bhardwaj",
+      "email": "aditit@iiitd.ac.in; aditiv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Advanced Multicore Systems",
+      "email": "salonij@iiitd.ac.in; someshs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Afreen Ai",
+      "email": "adityab@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Agrata Singh",
+      "email": "adityap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aheli Chowdhury",
+      "email": "aheli@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ajay Kumar",
+      "email": "ajay@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aldrin Denny",
+      "email": "aldrin.denny@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Algebraic Coding Theory",
+      "email": "alishaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Algebraic Geometry",
+      "email": "rishavk@iiitd.ac.in; subhadeepd@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Algebraic Topology",
+      "email": "nilanjanac@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ali Afrina Shaheen",
+      "email": "akshitj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Alok Anand",
+      "email": "alishap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Alok Kumar Mittal",
+      "email": "alokst@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Aman Parnami",
+      "email": "aman@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aman Samuel",
+      "email": "aman.samuel@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amarjeet Singh Cheema",
+      "email": "alokk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amit Chhabra",
+      "email": "amarjeetc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amit Kumar",
+      "email": "amitk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amlan Chakrabarti",
+      "email": "amlan@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amrut Mujumdar",
+      "email": "amitr@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anand Srivastava",
+      "email": "anand@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anandita Banerjee",
+      "email": "anandr@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Angshu Das",
+      "email": "angshu.das@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Angshul Majumdar",
+      "email": "angshul@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anil Kumar",
+      "email": "anilk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Animesh Talukder",
+      "email": "ananta@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anindita Das",
+      "email": "anindita@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anjali Salot",
+      "email": "anantj@iiitd.ac.in; animesht@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ankit Agarwal",
+      "email": "ankit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anmol Srivastava",
+      "email": "anmol@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anoop Ratn",
+      "email": "anoopratn@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anshu Dureja",
+      "email": "anshu@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anshu Kumar",
+      "email": "anjalis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anshuma Yadav",
+      "email": "anshuk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anubha Gupta",
+      "email": "anubha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anuj Grover",
+      "email": "anuj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anuj Kumar",
+      "email": "anuj.kumar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anupam Saronwala",
+      "email": "anupam@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anuradha Sharma",
+      "email": "anuradha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anurag Agrawal",
+      "email": "a.agrawal@igib.in",
+      "phone": ""
+    },
+    {
+      "name": "Anurag Tyagi",
+      "email": "anurag@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Approximation Alogorithms",
+      "email": "mohits@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Apurv Dube",
+      "email": "anwars@iiitd.ac.in; anyap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arani Bhattacharya",
+      "email": "arani@iiitd.ac.in; dcaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Archana Arya",
+      "email": "apurvd@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arjun Ray",
+      "email": "arjun@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arnab Raha",
+      "email": "archanaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arpit Kumar",
+      "email": "arnavj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arul Murugan",
+      "email": "arul.murugan@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arun Balaji Buduru",
+      "email": "arunb@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arushi Sharma",
+      "email": "arpanj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arvinpreet Kaur",
+      "email": "arushis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aryan Kaushik",
+      "email": "a.kaushik@ieee.org",
+      "phone": ""
+    },
+    {
+      "name": "Ashima Garg",
+      "email": "ashis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ashima Jain",
+      "email": "ashili@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ashish Aggarwal",
+      "email": "ashisha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ashish Kumar Pandey",
+      "email": "ashish.pandey@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ashutosh Vaish",
+      "email": "ashutoshpa@iiitd.ac.in; ashutoshs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Assistant Professor",
+      "email": "sankha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Associate Professor",
+      "email": "sanat@iiitd.ac.in; sriramk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aswino Gomango",
+      "email": "ashutoshv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Atreyee Bhattacharya",
+      "email": "atreyee.bhattacharya@colorado.edu",
+      "phone": ""
+    },
+    {
+      "name": "Avi Gupta",
+      "email": "aswinog@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ayushi Gupta",
+      "email": "ayeshap@iiitd.ac.in; ayeshas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bapi Chatterjee",
+      "email": "bapi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bharat Kumar",
+      "email": "bernadettem@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bhaskar Pandey",
+      "email": "bharats@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bhawani Shah",
+      "email": "bhawani@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bhawna Gupta",
+      "email": "bhawna@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bijay Kumar Choubey",
+      "email": "bijay@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bijendra Nath Jain",
+      "email": "bnjain@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bijoy Chand Chatterjee",
+      "email": "bijoy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Binu Ann Joseph",
+      "email": "binu@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Biomedical Science",
+      "email": "pankaji@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "California Institute",
+      "email": "hirani@illinois.edu",
+      "phone": ""
+    },
+    {
+      "name": "Cancer Genomics",
+      "email": "jaim@iiitd.ac.in; rahuli@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Chandrama Mallick",
+      "email": "bhumikac@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Chanekar Prasad Vilas",
+      "email": "prasad@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Chetan Arora",
+      "email": "chetan@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Cinematic Volume Rendering",
+      "email": "abuzark@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Cognitive Modeling",
+      "email": "arvinpreetk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Cognitive Science",
+      "email": "shrutii@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Combinatorial Geometry",
+      "email": "suryakas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computational Bioinformatics",
+      "email": "souravg@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computational Biology",
+      "email": "anamf@iiitd.ac.in; anshuly@iiitd.ac.in; arpitk@iiitd.ac.in; depanshus@iiitd.ac.in; manasp@iiitd.ac.in; namand@iiitd.ac.in; nilays@iiitd.ac.in; nishak@iiitd.ac.in; roufs@iiitd.ac.in; saadian@iiitd.ac.in; saloneem@iiitd.ac.in; shivangia@iiitd.ac.in; shivangiv@iiitd.ac.in; sonami@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computational Genomics",
+      "email": "arijitc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computational Metagenomics",
+      "email": "alis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computer Architecture",
+      "email": "tanishag@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computer Graphics",
+      "email": "khabeera@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Computer Vision",
+      "email": "atishk@iiitd.ac.in; nilabjab@iiitd.ac.in; ravit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Concurrent Data Structures",
+      "email": "karang@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Cyber Security",
+      "email": "rudrakshic@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debajyoti Bera",
+      "email": "dbera@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debarka Sengupta",
+      "email": "debarka@iiitd.ac.in; adird@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debasis Dash",
+      "email": "ddash@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debasish Sahoo",
+      "email": "chandramam@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debidas Kundu",
+      "email": "debidas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Debika Banerjee",
+      "email": "debika@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deeksha Yadav",
+      "email": "deekshaj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deep Learning",
+      "email": "utkarsha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deepak Prince",
+      "email": "deepak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deepak Sharma",
+      "email": "deeps@iiitd.ac.in; deepakk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deepali Gupta",
+      "email": "deepali@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deepank Grover",
+      "email": "deepaksh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Deepayan Mukherjee",
+      "email": "deepaks@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dheeraj Kumar",
+      "email": "dheerajk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dhruv Kumar",
+      "email": "dhruv.kumar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Digital Media Systems",
+      "email": "piyushh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dikscha Sapra",
+      "email": "devv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Diksha Marwaha",
+      "email": "dhritik@iiitd.ac.in; dikschas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Diptapriyo Majumdar",
+      "email": "diptapriyo@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Donghoon Chang",
+      "email": "donghoon@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Alok Nikhil Jha",
+      "email": "alok@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anoop Ratn",
+      "email": "anoopratn@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ashok Kumar Solanki",
+      "email": "asolanki@iiitd.ac.in; registrar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Deepika Bhaskar",
+      "email": "deepika@iiitd.ac.in; registrar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Kalpana Shankhwar",
+      "email": "kalpana@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rahul Gupta",
+      "email": "rahul@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ravi Bhasin",
+      "email": "ravi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rinku Shah",
+      "email": "rinku@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Durjay Pramanik",
+      "email": "drishyau@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Economic Theory",
+      "email": "sharata@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Electrical Engineering",
+      "email": "director@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Esha Jain",
+      "email": "ebhas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Executive Engineer",
+      "email": "umesh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Face Retrieval",
+      "email": "rithum@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Faculty Coordinator",
+      "email": "payel@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Federated Learning",
+      "email": "diptis@iiitd.ac.in; rupinderk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Feminist Topography",
+      "email": "jiviteshs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Fi Sensing",
+      "email": "vibhutik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ganesh Bagler",
+      "email": "bagler@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gautam Shroff",
+      "email": "gautam.shroff@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gautami Tripathi",
+      "email": "gauravr@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gayatri Nair",
+      "email": "gayatri@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ghulam Hussain",
+      "email": "geetikai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gourab Ghatak",
+      "email": "gourab.ghatak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Graph Mining",
+      "email": "karamjeets@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Graph Theory",
+      "email": "kapalis@iiitd.ac.in; soumyaj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gurpreet Singh",
+      "email": "govindai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Harshika Sharma",
+      "email": "harsham@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Health Care",
+      "email": "poojabe@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Hemant Yadav",
+      "email": "harshikas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Hideki Tanemura",
+      "email": "tanemura@math.s.chiba-u.ac.jp",
+      "phone": ""
+    },
+    {
+      "name": "High Performance Computing",
+      "email": "sumitku@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Himanshu Garg",
+      "email": "hermeharb@iiitd.ac.in; himaniv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Human Computer Interaction",
+      "email": "mannk@iiitd.ac.in; varuni@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Imran Khan",
+      "email": "imran@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "In Healthcare",
+      "email": "diksham@iiit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Indian Institute",
+      "email": "sujit@iiitd.ac.in; sks@igib.res.in",
+      "phone": ""
+    },
+    {
+      "name": "Ishani Choudhary",
+      "email": "himanshus@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jagadanand Dwivedi",
+      "email": "jagadanand@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jainendra Shukla",
+      "email": "jainendra@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jasmine Kaur",
+      "email": "saij@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jaspreet Kaur Dhanjal",
+      "email": "jaspreet@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jayant Chh",
+      "email": "jasmineka@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jitendra Kumar",
+      "email": "jitendra@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jonty Sharma",
+      "email": "jonty@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Joshita Yadav",
+      "email": "joelm@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Junior Administrative Officer",
+      "email": "arvind@iiitd.ac.in; jyoti@iiitd.ac.in; deepak609@iiitd.ac.in; dolly@iiitd.ac.in; piyush@iiitd.ac.in; prakash@iiitd.ac.in; saqib@iiitd.ac.in; sarika@iiitd.ac.in; varsha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kainat Yasmeen",
+      "email": "jyotis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kalpana Shankhwar",
+      "email": "kalpana@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kapali Suri",
+      "email": "kanupriyai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kapil Chawla",
+      "email": "kapil@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kapil Dev Garg",
+      "email": "kapildev@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kaushik Kalyanaraman",
+      "email": "kaushik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Keshav Goel",
+      "email": "karunak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Khagendra Joshi",
+      "email": "khagendra@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Khushpinder Pal Sharma",
+      "email": "khushpinder@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kiriti Kanjilal",
+      "email": "kanjilal@iiitd.ac.in; dosa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Knowledge Graphs",
+      "email": "mariamf@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Koteswar Rao Jerripothula",
+      "email": "koteswar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kritika Aggarwal",
+      "email": "koustuvk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kshitij Jayant",
+      "email": "krishg@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kshitij Srivastava",
+      "email": "kritikaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kunjkumar Prajapati",
+      "email": "kshitijs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Laurent Counillon",
+      "email": "laurent.counillon@univ-cotedazur.fr",
+      "phone": ""
+    },
+    {
+      "name": "Learning Control",
+      "email": "jasminek@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Leijo Jose",
+      "email": "kunjkumarp@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Machine Learning",
+      "email": "akashs@iiitd.ac.in; harikal@iiitd.ac.in; gagandeepk@iiitd.ac.in; gargees@iiitd.ac.in; garimai@iiitd.ac.in; gauranga@iiitd.ac.in; gauranshig@iiitd.ac.in; gauravgu@iiitd.ac.in; himanshug@iiitd.ac.in; zubairi@iiitd.ac.in; umairai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Madhavi Mathur",
+      "email": "lavanyag@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Madhvi Kumari Sinha",
+      "email": "madhavim@iiitd.ac.in; madhui@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manish Kumar",
+      "email": "maheshd@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manisha Luthra Agnihotri",
+      "email": "manisha.luthra@dfki.de",
+      "phone": ""
+    },
+    {
+      "name": "Manohar Kumar",
+      "email": "manohar.kumar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manta Wang",
+      "email": "manshulb@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manuj Mukherjee",
+      "email": "manuj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mariam Fatima",
+      "email": "mantaw@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Maternal Health",
+      "email": "ujjalt@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mathematical Logic",
+      "email": "satyandrap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Md Abuzar Khan",
+      "email": "mayankk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Medical Application",
+      "email": "abhishekh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mental Health",
+      "email": "aishaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Microbial Technology",
+      "email": "raghava@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Microbiome Informatics",
+      "email": "souravd@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Model Extraction Attacks",
+      "email": "akshayai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mohit Kumar",
+      "email": "mohit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mohit Kumar Sharma",
+      "email": "mohitks@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mona Duggal",
+      "email": "monaduggal2@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Monika Aadhya",
+      "email": "monalisaj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Monika Arora",
+      "email": "monika@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Monika Singh",
+      "email": "monikaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Pankaj Vajpayee",
+      "email": "pvajpayee@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Vinod Kumar",
+      "email": "vinod@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mrinmoy Chakrabarty",
+      "email": "mrinmoy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ms. Rashmil Mishra",
+      "email": "rashmil@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mukesh Mohania",
+      "email": "mukesh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mukesh Prasad",
+      "email": "mukesh.prasad@uts.edu.au",
+      "phone": ""
+    },
+    {
+      "name": "Mukul Tyagi",
+      "email": "mukul@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mukulika Maity",
+      "email": "mukulika@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nabanita Ray",
+      "email": "nabanita@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nachi Nagappan",
+      "email": "nachin@microsoft.com",
+      "phone": ""
+    },
+    {
+      "name": "Najiya Naj",
+      "email": "monikasi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Naman Ku",
+      "email": "najiyan@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nanoelectronics Devices",
+      "email": "usmanf@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Narahari Sastry",
+      "email": "gnsastry@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Natural Language Processing",
+      "email": "manishk@iiitd.ac.in; neelimag@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Naveen Ramalingam",
+      "email": "naveensma@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Navpreet Singh",
+      "email": "navi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nayana Samuel",
+      "email": "nayana@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Neera Chandhoke",
+      "email": "neera@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Neeraj Kumar Yadav",
+      "email": "neeraji@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Network Security",
+      "email": "jayantc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nibras Hasan Ze",
+      "email": "neerajp@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nidhi Yadav",
+      "email": "nidhi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Niharika Dubey",
+      "email": "neetur@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nikhil Gupta",
+      "email": "nikhil@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nilanjana Chatterjee",
+      "email": "nikhilb@iitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Niranjan Nagarajan",
+      "email": "niranjan@nus.edu.sg",
+      "phone": ""
+    },
+    {
+      "name": "Nisha Kumari",
+      "email": "nishab@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Nishad Patnaik",
+      "email": "nishad@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ojaswa Sharma",
+      "email": "ojaswa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pallavi Kaushik",
+      "email": "pallavi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pankaj Jalote",
+      "email": "jalote@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pankaj Kumar",
+      "email": "pallawik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pankaj Vajpayee",
+      "email": "dcre@iiitd.ac.in; pvajpayee@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Param Pratibha",
+      "email": "pankajku@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Paro Mishra",
+      "email": "paro.mishra@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Partha Pratim Majumder",
+      "email": "ppm1@nibmg.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Piyus Kedia",
+      "email": "piyus@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Piyush Kumar",
+      "email": "parthac@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ponnurangam Kumaraguru",
+      "email": "pk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prachi Mukherjee",
+      "email": "prachi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pragma Kar",
+      "email": "prgama@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pragya Kosta",
+      "email": "pragya@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pragya Singh",
+      "email": "pradeeps@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prahllad Deb",
+      "email": "prahllad@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pranjal Bhatia",
+      "email": "pragyas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prashant Goswami",
+      "email": "prashant.goswami@bth.se",
+      "phone": ""
+    },
+    {
+      "name": "Prateek Paul",
+      "email": "prateekdw@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Praveen Priyadarshi",
+      "email": "praveen@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pravesh Biyani",
+      "email": "praveshb@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Priyam Kumar",
+      "email": "pratiks@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Priyankar Bhattacharjee",
+      "email": "pritik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Gajendra Pal Singh Raghava",
+      "email": "raghava@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Ranjan Bose",
+      "email": "bose@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Sanjit Krishnan Kaul",
+      "email": "adofa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Public Healthcare",
+      "email": "sahebc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pushpendra Singh",
+      "email": "psingh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Quantum Machine Learning",
+      "email": "saurabhy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Raashid Altaf",
+      "email": "pushpendrag@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Radar Signal Processing",
+      "email": "akankshap@iitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Raghava Mutharaju",
+      "email": "raghava.mutharaju@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rahul Purandare",
+      "email": "purandare@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rahul Roy",
+      "email": "rahul.roy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rahul Verma",
+      "email": "rahulv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rajbir Singh",
+      "email": "rajbir@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rajeev Varshney",
+      "email": "rajeev.varshney@murdoch.edu.au",
+      "phone": ""
+    },
+    {
+      "name": "Rajendra Singh",
+      "email": "rajendra@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@bucknell.edu",
+      "phone": ""
+    },
+    {
+      "name": "Rajesh Sharma",
+      "email": "rajesh.sharma@ut.ee",
+      "phone": ""
+    },
+    {
+      "name": "Rajiv Raman",
+      "email": "rajiv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rajiv Ratn Shah",
+      "email": "rajivratn@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Raju Biswas",
+      "email": "raju@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rakesh Chaturvedi",
+      "email": "rakesh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ram Krishna Ghosh",
+      "email": "rkghosh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rameshwar Mishra",
+      "email": "raidhanis@iiitd.ac.in; rajeswarin@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rashmil Mishra",
+      "email": "rashmil@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ravi Anand",
+      "email": "ravi.anand@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Reconfigure Radio",
+      "email": "nareshk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Respective Email",
+      "email": "admin-academic@iiitd.ac.in; admin-btech@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Richa Gupta",
+      "email": "richa.gupta@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Riddhi Sharma",
+      "email": "rheas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rinku Shah",
+      "email": "rinku@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ritesh Seth",
+      "email": "ridhimai@iiitd.ac.in; rishabhd@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ritika Jha",
+      "email": "riteshs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rivu Ghosh",
+      "email": "ritikaj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rizwan Ahmad Khan",
+      "email": "ritut@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Roji Thami",
+      "email": "rivug@iiitd.ac.in; rizwank@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Room No",
+      "email": "director@iiitd.ac.in; doaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Roopali Kashyap",
+      "email": "roopali@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Roshni Kadam",
+      "email": "rojit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rouf Rahman Sheikh",
+      "email": "roshnik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rubina Thakur",
+      "email": "rubina@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ruhi Sonal",
+      "email": "ruhi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rupa Paul",
+      "email": "rupa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sachchidanand Prasad",
+      "email": "sachchidanand@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saheb Chhabra",
+      "email": "sadiyaha@iiitd.ac.in; sagars@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sahil Rohilla",
+      "email": "sahil@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sajid Javid",
+      "email": "madhuvaniy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saket Anand",
+      "email": "anands@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sakshi Arora",
+      "email": "sajidj@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Salonee Mittal",
+      "email": "sakshia@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saloni Jain",
+      "email": "sakshig@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sambuddho Chakravarty",
+      "email": "sambuddho@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sameep Mehta",
+      "email": "sameermehta@in.ibm.com",
+      "phone": ""
+    },
+    {
+      "name": "Samrith Ram",
+      "email": "samrith@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "San Diego",
+      "email": "mlg@microsoft.com",
+      "phone": ""
+    },
+    {
+      "name": "Sana Ali Naqvi",
+      "email": "sana@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sangam Kumar Yadav",
+      "email": "sangam@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sangramjit Maity",
+      "email": "samriddhig@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sanjana Soni",
+      "email": "sanjanas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sanjay Roy",
+      "email": "sanjay@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sanjit Krishnan Kaul",
+      "email": "skkaul@iiitd.ac.in; adofa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sanjna Khosla",
+      "email": "sanjna@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sapna Chaudhary",
+      "email": "sanjayp@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sarbani Sen",
+      "email": "saram@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sarthok Sircar",
+      "email": "sarthok@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saswati Paramita",
+      "email": "sarbanis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Satish Kumar Pandey",
+      "email": "satish@iiitd.ac",
+      "phone": ""
+    },
+    {
+      "name": "Satyandra Pal",
+      "email": "satyap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saumya Yadav",
+      "email": "saumyat@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sayak Bhattacharya",
+      "email": "sayak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sayan Basu Roy",
+      "email": "sayan@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sc Bangalore",
+      "email": "secy@dbt.nic.in",
+      "phone": ""
+    },
+    {
+      "name": "Semiconductor Design",
+      "email": "anupamaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sexual Health",
+      "email": "shyamas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shad Akhtar",
+      "email": "shad.akhtar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shaily Hooda",
+      "email": "saveenas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shamik Sarkar",
+      "email": "shamik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shanvi Srivastava",
+      "email": "shailjad@iiitd.ac.in; shailyh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sharmila Mande",
+      "email": "sharmila.s.mande@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Shipra Jain",
+      "email": "shipra@iiitd.ac.in; shatakshii@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shireen Mirza",
+      "email": "shireen@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shishir Jain",
+      "email": "shishir@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shivangi Agarwal",
+      "email": "shivasa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shivangi Verma",
+      "email": "shivangip@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shobha Sundar Ram",
+      "email": "shobha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shreekant Gupta",
+      "email": "shreekant29@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Shriram Venkatraman",
+      "email": "shriramv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shriram Yadav",
+      "email": "shriram@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shruthy Hari",
+      "email": "shivanic@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shruti Kinger",
+      "email": "shrutikh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shubham Chaudhary",
+      "email": "shrutik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shyama Sastha Krishnamoorthy Srinivasan",
+      "email": "shwetap@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Apr",
+      "email": "deekshay@iiitd.ac.in; omprakashs@iiitd.ac.in; sapnac@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Aug",
+      "email": "afreena@iiitd.ac.in; agratas@iiitd.ac.in; akankshas@iiitd.ac.in; aloka@iiitd.ac.in; ameeni@iiitd.ac.in; arnabr@iiitd.ac.in; avig@iiitd.ac.in; belali@iiitd.ac.in; bhaktis@iiitd.ac.in; bittui@iiitd.ac.in; deepp@iiitd.ac.in; deepikai@iiitd.ac.in; gunjans@iiitd.ac.in; gurpreets@iiitd.ac.in; imranh@iiitd.ac.in; jagratik@iiitd.ac.in; kshitijj@iiitd.ac.in; mansigo@iiitd.ac.in; umars@iiitd.ac.in; namanl@iiitd.ac.in; nandinia@iiitd.ac.in; naorema@iiitd.ac.in; nishantk@iiitd.ac.in; niteshs@iiitd.ac.in; piyushk@iiitd.ac.in; pranjalb@iiitd.ac.in; rehanf@iiitd.ac.in; sameenak@iiitd.ac.in; sankalpj@iiitd.ac.in; shivangik@iiitd.ac.in; shreyat@iiitd.ac.in; soniab@iiitd.ac.in; surendrak@iiitd.ac.in; vaibhavs@iiitd.ac.in; vishalku@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since De",
+      "email": "raashida@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Dec",
+      "email": "aarushik@iiitd.ac.in; amrutm@iiitd.ac.in; sahilr@iiitd.ac.in; sangramjitm@iiitd.ac.in; wazirs@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Feb",
+      "email": "aakanshag@iiitd.ac.in; niharikai@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Jan",
+      "email": "amitku@iiitd.ac.in; anshumay@iiitd.ac.in; bhaskarp@iiitd.ac.in; deepayanm@iiitd.ac.in; durjayp@iiitd.ac.in; joshitay@iiitd.ac.in; kainaty@iiitd.ac.in; khushbooc@iiitd.ac.in; melwilv@iiitd.ac.in; prateekp@iiitd.ac.in; priyamk@iiitd.ac.in; ridhij@iiitd.ac.in; saumya@iiitd.ac.in; shubhamch@iiitd.ac.in; sohelk@iiitd.ac.in; divyas@iiitd.ac.in; vatsalan@iiitd.ac.in; zeyau@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Jul",
+      "email": "aanishab@iiitd.ac.in; abdullahm@iiitd.ac.ain; abhishekr@iiitd.ac.in; abhishekt@iiitd.ac.in; adarshp@iiitd.ac.in; anshikaa@iiitd.ac.in; antikai@iiitd.ac.in; ashimag@iiitd.ac.in; ayaanh@iiitd.ac.in; ayushig@iiitd.ac.in; debashishs@iiitd.ac.in; ektak@iiitd.ac.in; eshaj@iiitd.ac.in; gautamit@iiitd.ac.in; jaiswalp@iiitd.ac.in; janvii@iiitd.ac.in; jithins@iiitd.ac.in; kirtil@iiitd.ac.in; mayurim@iiitd.ac.in; namratab@iiitd.ac.in; omkarch@iiitd.ac.in; puneetk@iiitd.ac.in; saswatip@iiitd.ac.in; satyami@iiitd.ac.in; shivamc@iiitd.ac.in; shivanim@iiitd.ac.in; sumitk@iiitd.ac.in; suvenduk@iiitd.ac.in; taruns@iiitd.ac.in; tharrmashasthav@iiitd.ac.in; tusharp@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Jun",
+      "email": "nazreens@iiitd.ac.in; saifk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since June",
+      "email": "priyankarb@iiitd.ac.in; simrang@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Mar",
+      "email": "ishanic@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since May",
+      "email": "ghulamh@iiitd.ac.in; jaidevs@iiitd.ac.in; misbahf@iiitd.ac.in; namanm@iiitd.ac.in; palakm@iiitd.ac.in; paramp@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Nov",
+      "email": "ashimaj@iiitd.ac.in; nibrasz@iiitd.ac.in; pankajs@iiitd.ac.in; rehanas@iiitd.ac.in; renuk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Oct",
+      "email": "durdanahm@iiitd.ac.in; madhvis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Since Sep",
+      "email": "anushreev@iiitd.ac.in; puneetb@iiitd.ac.in; saurava@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Smriti Singh",
+      "email": "smriti@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sneh Saurabh",
+      "email": "sneh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sneha Chaubey",
+      "email": "sneha@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Soibam Haripriya",
+      "email": "soibam@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Somesh Sing",
+      "email": "snehaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sonal Garg",
+      "email": "sonal@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sonal Keshwani",
+      "email": "sonal.keshwani@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sonia Baloni Ray",
+      "email": "sonia@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sonu Bagri",
+      "email": "sonamc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Soumya Jain",
+      "email": "soumenm@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Souvik Dutta",
+      "email": "souvik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Space Situational Awareness",
+      "email": "harinderk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sravani Poodipeddi",
+      "email": "sravani@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Srinivasan Ramachandran",
+      "email": "ramu@igib.res.in",
+      "phone": ""
+    },
+    {
+      "name": "Structural Biology",
+      "email": "sarahk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Structure Biology",
+      "email": "arshada@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Stuti Kumari",
+      "email": "souravs@iiitd.ac.in; spoorthis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Subhabrata Samajder",
+      "email": "subhabrata@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Subhajit Ghosechowdhury",
+      "email": "subhajit@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Subhankar Dha",
+      "email": "stutik@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Subhashree Mohapatra",
+      "email": "subhashree@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Subhasree Sarkar",
+      "email": "subhasree.eco@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Subhra Kanti Das",
+      "email": "subhrakanti.das82@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Sudhanshu Shekhar Jamuar",
+      "email": "sudhanshu@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Suhail Khan",
+      "email": "subhankard@iiitd.ac.in; sudhanshus@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sujay Deb",
+      "email": "sdeb@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sukanta Nandi",
+      "email": "sukanta@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sukriti Sacher",
+      "email": "suhailk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Suman Roy",
+      "email": "suman.roy68@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Sumedha Shu",
+      "email": "sukritis@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sumit Kumar",
+      "email": "sumedhas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Supratim Shit",
+      "email": "supratim@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Surendra Kumar",
+      "email": "sunilk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Susanta Samajdar",
+      "email": "samajdars@hotmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Suvendu Kumar",
+      "email": "suryendud@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Syamantak Das",
+      "email": "syamantak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Syed Asrar",
+      "email": "swarnavas@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tammam Tillo",
+      "email": "tammam@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tanmoy Chakraborty",
+      "email": "tanmoy@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tanmoy Kundu",
+      "email": "tanmoy.kundu@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tarini Shankar Ghosh",
+      "email": "tarini.ghosh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tarun Sharma",
+      "email": "talhaa@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tavpritesh Sethi",
+      "email": "tavpriteshsethi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Theoretical Machine Learning",
+      "email": "sonub@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tissue Regeneration",
+      "email": "shruthyh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tushar Pandey",
+      "email": "avinasht@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ujjal Timshina",
+      "email": "tushark@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vaibhav Srivastava",
+      "email": "vasri@kth.se",
+      "phone": ""
+    },
+    {
+      "name": "Vatsala Negi",
+      "email": "varshar@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Venkata Ratnadeep Suri",
+      "email": "ratan.suri@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vibhor Kumar",
+      "email": "vibhor@iiitd.ac.in; doi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vikram Goyal",
+      "email": "vikram@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vinay Kuma",
+      "email": "vijaysi@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vinay Kumar Verma",
+      "email": "vijays@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vinayak Abrol",
+      "email": "abrol@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vinish Kathuria",
+      "email": "vinish@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vinod Kumar",
+      "email": "vinod@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Virendra Kumar",
+      "email": "vinayv@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vishal Kumar",
+      "email": "virendrak@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vivek Ashok Bohara",
+      "email": "dird@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vivek Bohara",
+      "email": "vivek.b@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vivek Chauhan",
+      "email": "vivekc@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vivek Kumar",
+      "email": "vivekk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Wireless Communication",
+      "email": "ananditab@iiitd.ac.in; asbahk@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Wireless Networks",
+      "email": "hanshitap@iiitd.ac.in; ishitas@iiitd.ac.in; muthukkumarr@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Yogesh Sangwan",
+      "email": "yogesh@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Zeya Umayya",
+      "email": "yashwardhani@iiitd.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Zilong Liu",
+      "email": "zilongliu.sg@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Zubair Shaban",
+      "email": "zebaa@iiitd.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "a.agrawal@igib.in",
+    "a.kaushik@ieee.org",
+    "aakankshat@iiitd.ac.in",
+    "aakanshag@iiitd.ac.in",
+    "aakritia@iiitd.ac.in",
+    "aanishab@iiitd.ac.in",
+    "aarushik@iiitd.ac.in",
+    "aaryap@iiitd.ac.in",
+    "aasim@iiitd.ac.in",
+    "abdullahm@iiitd.ac.ain",
+    "abhijayi@iiitd.ac.in",
+    "abhijeet@iiitd.ac.in",
+    "abhijit@iiitd.ac.in",
+    "abhinav@iitrpr.ac.in",
+    "abhinavs@iiitd.ac.in",
+    "abhinay@iiitd.ac.in",
+    "abhishek@iiitd.ac.in",
+    "abhishekh@iiitd.ac.in",
+    "abhishekr@iiitd.ac.in",
+    "abhishekt@iiitd.ac.in",
+    "abhisheky@iiitd.ac.in",
+    "abrol@iiitd.ac.in",
+    "abuzark@iiitd.ac.in",
+    "adarsh@iiitd.ac.in",
+    "adarshp@iiitd.ac.in",
+    "adarshs@iiitd.ac.in",
+    "adird@iiitd.ac.in",
+    "aditi@iiitd.ac.in",
+    "aditit@iiitd.ac.in",
+    "aditiv@iiitd.ac.in",
+    "adityab@iiitd.ac.in",
+    "adityap@iiitd.ac.in",
+    "admin-academic@iiitd.ac.in",
+    "admin-btech@iiitd.ac.in",
+    "admin-mtech@iiitd.ac.in",
+    "admin-phd@iiitd.ac.in",
+    "adofa@iiitd.ac.in",
+    "afreena@iiitd.ac.in",
+    "agratas@iiitd.ac.in",
+    "aheli@iiitd.ac.in",
+    "aishaa@iiitd.ac.in",
+    "ajay@iiitd.ac.in",
+    "akankshap@iitd.ac.in",
+    "akankshas@iiitd.ac.in",
+    "akashs@iiitd.ac.in",
+    "akshayai@iiitd.ac.in",
+    "akshitj@iiitd.ac.in",
+    "aldrin.denny@gmail.com",
+    "alis@iiitd.ac.in",
+    "alishaa@iiitd.ac.in",
+    "alishap@iiitd.ac.in",
+    "alkas@iiitd.ac.in",
+    "alok@iiitd.ac.in",
+    "aloka@iiitd.ac.in",
+    "alokk@iiitd.ac.in",
+    "alokst@gmail.com",
+    "aman.samuel@iiitd.ac.in",
+    "aman@iiitd.ac.in",
+    "amarjeetc@iiitd.ac.in",
+    "ameeni@iiitd.ac.in",
+    "amitch@iiitd.ac.in",
+    "amitk@iiitd.ac.in",
+    "amitku@iiitd.ac.in",
+    "amitr@iiitd.ac.in",
+    "amlan@iiitd.ac.in",
+    "amrutm@iiitd.ac.in",
+    "anamf@iiitd.ac.in",
+    "anand@iiitd.ac.in",
+    "ananditab@iiitd.ac.in",
+    "anandr@iiitd.ac.in",
+    "anands@iiitd.ac.in",
+    "ananta@iiitd.ac.in",
+    "anantj@iiitd.ac.in",
+    "angshu.das@iiitd.ac.in",
+    "angshul@iiitd.ac.in",
+    "anilk@iiitd.ac.in",
+    "animesht@iiitd.ac.in",
+    "anindita@iiitd.ac.in",
+    "anjalis@iiitd.ac.in",
+    "ankit@iiitd.ac.in",
+    "anmol@iiitd.ac.in",
+    "anoopratn@iiitd.ac.in",
+    "anshikaa@iiitd.ac.in",
+    "anshu@iiitd.ac.in",
+    "anshuk@iiitd.ac.in",
+    "anshuly@iiitd.ac.in",
+    "anshumay@iiitd.ac.in",
+    "antikai@iiitd.ac.in",
+    "anubha@iiitd.ac.in",
+    "anuj.kumar@iiitd.ac.in",
+    "anuj@iiitd.ac.in",
+    "anupam@iiitd.ac.in",
+    "anupamaa@iiitd.ac.in",
+    "anupams@iiitd.ac.in",
+    "anuradha@iiitd.ac.in",
+    "anurag@iiitd.ac.in",
+    "anushreev@iiitd.ac.in",
+    "anwars@iiitd.ac.in",
+    "anyap@iiitd.ac.in",
+    "apurvd@iiitd.ac.in",
+    "arani@iiitd.ac.in",
+    "archanaa@iiitd.ac.in",
+    "arijitc@iiitd.ac.in",
+    "arjun@iiitd.ac.in",
+    "arnabr@iiitd.ac.in",
+    "arnavj@iiitd.ac.in",
+    "arpanj@iiitd.ac.in",
+    "arpitk@iiitd.ac.in",
+    "arshada@iiitd.ac.in",
+    "arul.murugan@iiitd.ac.in",
+    "arunb@iiitd.ac.in",
+    "arushis@iiitd.ac.in",
+    "arvind@iiitd.ac.in",
+    "arvinpreetk@iiitd.ac.in",
+    "asbahk@iiitd.ac.in",
+    "ashili@iiitd.ac.in",
+    "ashimag@iiitd.ac.in",
+    "ashimaj@iiitd.ac.in",
+    "ashis@iiitd.ac.in",
+    "ashish.pandey@iiitd.ac.in",
+    "ashisha@iiitd.ac.in",
+    "ashutoshpa@iiitd.ac.in",
+    "ashutoshs@iiitd.ac.in",
+    "ashutoshv@iiitd.ac.in",
+    "asolanki@iiitd.ac.in",
+    "aswinog@iiitd.ac.in",
+    "atishk@iiitd.ac.in",
+    "atreyee.bhattacharya@colorado.edu",
+    "avig@iiitd.ac.in",
+    "avinasht@iiitd.ac.in",
+    "ayaanh@iiitd.ac.in",
+    "ayeshap@iiitd.ac.in",
+    "ayeshas@iiitd.ac.in",
+    "ayushig@iiitd.ac.in",
+    "bagler@iiitd.ac.in",
+    "bapi@iiitd.ac.in",
+    "belali@iiitd.ac.in",
+    "bernadettem@iiitd.ac.in",
+    "bhaktis@iiitd.ac.in",
+    "bharats@iiitd.ac.in",
+    "bhaskarp@iiitd.ac.in",
+    "bhawani@iiitd.ac.in",
+    "bhawna@iiitd.ac.in",
+    "bhumikac@iiitd.ac.in",
+    "bijay@iiitd.ac.in",
+    "bijoy@iiitd.ac.in",
+    "binu@iiitd.ac.in",
+    "bittui@iiitd.ac.in",
+    "bnjain@iiitd.ac.in",
+    "bose@iiitd.ac.in",
+    "chandramam@iiitd.ac.in",
+    "chetan@iiitd.ac.in",
+    "dbera@iiitd.ac.in",
+    "dcaa@iiitd.ac.in",
+    "dcre@iiitd.ac.in",
+    "ddash@iiitd.ac.in",
+    "debarka@iiitd.ac.in",
+    "debashishs@iiitd.ac.in",
+    "debidas@iiitd.ac.in",
+    "debika@iiitd.ac.in",
+    "deekshaj@iiitd.ac.in",
+    "deekshay@iiitd.ac.in",
+    "deepak609@iiitd.ac.in",
+    "deepak@iiitd.ac.in",
+    "deepakk@iiitd.ac.in",
+    "deepaks@iiitd.ac.in",
+    "deepaksh@iiitd.ac.in",
+    "deepali@iiitd.ac.in",
+    "deepankg@iiitd.ac.in",
+    "deepayanm@iiitd.ac.in",
+    "deepd@iiitd.ac.in",
+    "deepika@iiitd.ac.in",
+    "deepikai@iiitd.ac.in",
+    "deepp@iiitd.ac.in",
+    "deeps@iiitd.ac.in",
+    "depanshus@iiitd.ac.in",
+    "devv@iiitd.ac.in",
+    "dheerajk@iiitd.ac.in",
+    "dhritik@iiitd.ac.in",
+    "dhruv.kumar@iiitd.ac.in",
+    "dikschas@iiitd.ac.in",
+    "diksham@iiit.ac.in",
+    "diptapriyo@iiitd.ac.in",
+    "diptis@iiitd.ac.in",
+    "dird@iiitd.ac.in",
+    "director@iiitd.ac.in",
+    "divyas@iiitd.ac.in",
+    "doaa@iiitd.ac.in",
+    "doi@iiitd.ac.in",
+    "dolly@iiitd.ac.in",
+    "donghoon@iiitd.ac.in",
+    "dosa@iiitd.ac.in",
+    "drishyau@iiitd.ac.in",
+    "durdanahm@iiitd.ac.in",
+    "durjayp@iiitd.ac.in",
+    "dvgadre@gmail.com",
+    "e-mail@iiitd.ac.in",
+    "ebhas@iiitd.ac.in",
+    "ektak@iiitd.ac.in",
+    "eshaj@iiitd.ac.in",
+    "examinations@iiitd.ac.in",
+    "faculty-applications@iiitd.ac.in",
+    "gagandeepk@iiitd.ac.in",
+    "gargees@iiitd.ac.in",
+    "garimai@iiitd.ac.in",
+    "gauranga@iiitd.ac.in",
+    "gauranshig@iiitd.ac.in",
+    "gauravgu@iiitd.ac.in",
+    "gauravr@iiitd.ac.in",
+    "gautam.shroff@iiitd.ac.in",
+    "gautami@iiitd.ac.in",
+    "gautamit@iiitd.ac.in",
+    "gayatri@iiitd.ac.in",
+    "geetikai@iiitd.ac.in",
+    "ghulamh@iiitd.ac.in",
+    "gnsastry@gmail.com",
+    "gourab.ghatak@iiitd.ac.in",
+    "govindai@iiitd.ac.in",
+    "gunjans@iiitd.ac.in",
+    "gurpreets@iiitd.ac.in",
+    "hanshitap@iiitd.ac.in",
+    "harikal@iiitd.ac.in",
+    "harinderk@iiitd.ac.in",
+    "harsham@iiitd.ac.in",
+    "harshikas@iiitd.ac.in",
+    "hemantya@iiitd.ac.in",
+    "hermeharb@iiitd.ac.in",
+    "himaniv@iiitd.ac.in",
+    "himanshug@iiitd.ac.in",
+    "himanshus@iiitd.ac.in",
+    "hirani@illinois.edu",
+    "imran@iiitd.ac.in",
+    "imranh@iiitd.ac.in",
+    "ishanic@iiitd.ac.in",
+    "ishitas@iiitd.ac.in",
+    "jagadanand@iiitd.ac.in",
+    "jagratik@iiitd.ac.in",
+    "jaidevs@iiitd.ac.in",
+    "jaim@iiitd.ac.in",
+    "jainendra@iiitd.ac.in",
+    "jaiswalp@iiitd.ac.in",
+    "jalote@iiitd.ac.in",
+    "janvii@iiitd.ac.in",
+    "jasminek@iiitd.ac.in",
+    "jasmineka@iiitd.ac.in",
+    "jaspreet@iiitd.ac.in",
+    "jayantc@iiitd.ac.in",
+    "jitendra@iiitd.ac.in",
+    "jithins@iiitd.ac.in",
+    "jiviteshs@iiitd.ac.in",
+    "joelm@iiitd.ac.in",
+    "jonty@iiitd.ac.in",
+    "joshitay@iiitd.ac.in",
+    "jyoti@iiitd.ac.in",
+    "jyotis@iiitd.ac.in",
+    "kahineem@iiitd.ac.in",
+    "kainaty@iiitd.ac.in",
+    "kalpana@iiitd.ac.in",
+    "kanjilal@iiitd.ac.in",
+    "kanupriyai@iiitd.ac.in",
+    "kapalis@iiitd.ac.in",
+    "kapil@iiitd.ac.in",
+    "kapildev@iiitd.ac.in",
+    "karamjeets@iiitd.ac.in",
+    "karang@iiitd.ac.in",
+    "karunak@iiitd.ac.in",
+    "kaushik@iiitd.ac.in",
+    "keshavg@iiitd.ac.in",
+    "khabeera@iiitd.ac.in",
+    "khagendra@iiitd.ac.in",
+    "khushbooc@iiitd.ac.in",
+    "khushpinder@iiitd.ac.in",
+    "kirtil@iiitd.ac.in",
+    "koteswar@iiitd.ac.in",
+    "koustuvk@iiitd.ac.in",
+    "krishg@iiitd.ac.in",
+    "kritikaa@iiitd.ac.in",
+    "kshitijj@iiitd.ac.in",
+    "kshitijs@iiitd.ac.in",
+    "kunjkumarp@iiitd.ac.in",
+    "laurent.counillon@univ-cotedazur.fr",
+    "lavanyag@iiitd.ac.in",
+    "leijoj@iiitd.ac.in",
+    "madhavim@iiitd.ac.in",
+    "madhui@iiitd.ac.in",
+    "madhuvaniy@iiitd.ac.in",
+    "madhvis@iiitd.ac.in",
+    "maheshd@iiitd.ac.in",
+    "manasp@iiitd.ac.in",
+    "manisha.luthra@dfki.de",
+    "manishk@iiitd.ac.in",
+    "mannk@iiitd.ac.in",
+    "manohar.kumar@iiitd.ac.in",
+    "manshulb@iiitd.ac.in",
+    "mansigo@iiitd.ac.in",
+    "mantaw@iiitd.ac.in",
+    "manuj@iiitd.ac.in",
+    "mariamf@iiitd.ac.in",
+    "mayankk@iiitd.ac.in",
+    "mayurim@iiitd.ac.in",
+    "meena@iiitd.ac.in",
+    "melwilv@iiitd.ac.in",
+    "misbahf@iiitd.ac.in",
+    "mlg@microsoft.com",
+    "mohit@iiitd.ac.in",
+    "mohitks@iiitd.ac.in",
+    "mohits@iiitd.ac.in",
+    "monaduggal2@gmail.com",
+    "monalisaj@iiitd.ac.in",
+    "monika@iiitd.ac.in",
+    "monikaa@iiitd.ac.in",
+    "monikasi@iiitd.ac.in",
+    "mrinmoy@iiitd.ac.in",
+    "mukesh.prasad@uts.edu.au",
+    "mukesh@iiitd.ac.in",
+    "mukul@iiitd.ac.in",
+    "mukulika@iiitd.ac.in",
+    "muthukkumarr@iiitd.ac.in",
+    "nabanita@iiitd.ac.in",
+    "nachin@microsoft.com",
+    "najiyan@iiitd.ac.in",
+    "namand@iiitd.ac.in",
+    "namanl@iiitd.ac.in",
+    "namanm@iiitd.ac.in",
+    "namratab@iiitd.ac.in",
+    "nandinia@iiitd.ac.in",
+    "naorema@iiitd.ac.in",
+    "nareshk@iiitd.ac.in",
+    "naveensma@gmail.com",
+    "navi@iiitd.ac.in",
+    "nayana@iiitd.ac.in",
+    "nazreens@iiitd.ac.in",
+    "neelami@iiitd.ac.in",
+    "neelimag@iiitd.ac.in",
+    "neera@iiitd.ac.in",
+    "neeraji@iiitd.ac.in",
+    "neerajp@iiitd.ac.in",
+    "neerajy@iiitd.ac.in",
+    "neetur@iiitd.ac.in",
+    "nibrasz@iiitd.ac.in",
+    "nidhi@iiitd.ac.in",
+    "niharikai@iiitd.ac.in",
+    "nikhil@iiitd.ac.in",
+    "nikhilb@iitd.ac.in",
+    "nilabjab@iiitd.ac.in",
+    "nilanjanac@iiitd.ac.in",
+    "nilays@iiitd.ac.in",
+    "niranjan@nus.edu.sg",
+    "nishab@iiitd.ac.in",
+    "nishad@iiitd.ac.in",
+    "nishak@iiitd.ac.in",
+    "nishantk@iiitd.ac.in",
+    "niteshs@iiitd.ac.in",
+    "nitinc@iiitd.ac.in",
+    "nitind@iiitd.ac.in",
+    "ojaswa@iiitd.ac.in",
+    "omkarch@iiitd.ac.in",
+    "omprakashs@iiitd.ac.in",
+    "orchidp@iiitd.ac.in",
+    "palakm@iiitd.ac.in",
+    "pallavi@iiitd.ac.in",
+    "pallawik@iiitd.ac.in",
+    "pankaji@iiitd.ac.in",
+    "pankajku@iiitd.ac.in",
+    "pankajs@iiitd.ac.in",
+    "paramp@iiitd.ac.in",
+    "paro.mishra@iiitd.ac.in",
+    "parthac@iiitd.ac.in",
+    "payel@iiitd.ac.in",
+    "pg-chair@iiitd.ac.in",
+    "piyus@iiitd.ac.in",
+    "piyush@iiitd.ac.in",
+    "piyushh@iiitd.ac.in",
+    "piyushk@iiitd.ac.in",
+    "pk@iiitd.ac.in",
+    "poojabe@iiitd.ac.in",
+    "ppm1@nibmg.ac.in",
+    "prachi@iiitd.ac.in",
+    "pradeeps@iiitd.ac.in",
+    "pradyumant@iiitd.ac.in",
+    "pragya@iiitd.ac.in",
+    "pragyas@iiitd.ac.in",
+    "prahllad@iiitd.ac.in",
+    "prakash@iiitd.ac.in",
+    "pranjalb@iiitd.ac.in",
+    "pranjali@iiitd.ac.in",
+    "prasad@iiitd.ac.in",
+    "prashant.goswami@bth.se",
+    "prashastii@iiitd.ac.in",
+    "prateekdw@iiitd.ac.in",
+    "prateekp@iiitd.ac.in",
+    "pratiks@iiitd.ac.in",
+    "praveen@iiitd.ac.in",
+    "praveshb@iiitd.ac.in",
+    "prgama@iiitd.ac.in",
+    "pritik@iiitd.ac.in",
+    "priyamk@iiitd.ac.in",
+    "priyankarb@iiitd.ac.in",
+    "psingh@iiitd.ac.in",
+    "puneetb@iiitd.ac.in",
+    "puneetk@iiitd.ac.in",
+    "purandare@iiitd.ac.in",
+    "pushpendrag@iiitd.ac.in",
+    "pvajpayee@iiitd.ac.in",
+    "r@an.suri",
+    "raashida@iiitd.ac.in",
+    "raghava.mutharaju@iiitd.ac.in",
+    "raghava@iiitd.ac.in",
+    "raghavv@iiitd.ac.in",
+    "rahul.roy@iiitd.ac.in",
+    "rahul@iiitd.ac.in",
+    "rahuli@iiitd.ac.in",
+    "rahulv@iiitd.ac.in",
+    "raidhanis@iiitd.ac.in",
+    "rajbir@iiitd.ac.in",
+    "rajeev.varshney@murdoch.edu.au",
+    "rajendra@iiitd.ac.in",
+    "rajesh.kumar@bucknell.edu",
+    "rajesh.sharma@ut.ee",
+    "rajeswarin@iiitd.ac.in",
+    "rajiv@iiitd.ac.in",
+    "rajivratn@iiitd.ac.in",
+    "raju@iiitd.ac.in",
+    "rakesh@iiitd.ac.in",
+    "rameshwarm@iiitd.ac.in",
+    "ramu@igib.res.in",
+    "rashmil@iiitd.ac.in",
+    "ratan.suri@iiitd.ac.in",
+    "ravi.anand@iiitd.ac.in",
+    "ravi@iiitd.ac.in",
+    "ravit@iiitd.ac.in",
+    "registrar@iiitd.ac.in",
+    "rehanas@iiitd.ac.in",
+    "rehanf@iiitd.ac.in",
+    "renuk@iiitd.ac.in",
+    "rheas@iiitd.ac.in",
+    "richa.gupta@iiitd.ac.in",
+    "riddhis@iiitd.ac.in",
+    "ridhij@iiitd.ac.in",
+    "ridhimai@iiitd.ac.in",
+    "rinku@iiitd.ac.in",
+    "rishabhd@iiitd.ac.in",
+    "rishavk@iiitd.ac.in",
+    "riteshs@iiitd.ac.in",
+    "rithum@iiitd.ac.in",
+    "ritikaj@iiitd.ac.in",
+    "ritut@iiitd.ac.in",
+    "rivug@iiitd.ac.in",
+    "rizwank@iiitd.ac.in",
+    "rkghosh@iiitd.ac.in",
+    "rojit@iiitd.ac.in",
+    "roopali@iiitd.ac.in",
+    "roses@iiitd.ac.in",
+    "roshnik@iiitd.ac.in",
+    "roufs@iiitd.ac.in",
+    "rubina@iiitd.ac.in",
+    "rudrakshic@iiitd.ac.in",
+    "ruhi@iiitd.ac.in",
+    "rupa@iiitd.ac.in",
+    "rupinderk@iiitd.ac.in",
+    "saadian@iiitd.ac.in",
+    "sachchidanand@iiitd.ac.in",
+    "sadiyaha@iiitd.ac.in",
+    "sagars@iiitd.ac.in",
+    "sahebc@iiitd.ac.in",
+    "sahil@iiitd.ac.in",
+    "sahilr@iiitd.ac.in",
+    "saifk@iiitd.ac.in",
+    "saij@iiitd.ac.in",
+    "sajidj@iiitd.ac.in",
+    "sakshia@iiitd.ac.in",
+    "sakshig@iiitd.ac.in",
+    "saloneem@iiitd.ac.in",
+    "salonij@iiitd.ac.in",
+    "samajdars@hotmail.com",
+    "sambuddho@iiitd.ac.in",
+    "sameenak@iiitd.ac.in",
+    "sameermehta@in.ibm.com",
+    "samriddhig@iiitd.ac.in",
+    "samrith@iiitd.ac.in",
+    "sana@iiitd.ac.in",
+    "sanat@iiitd.ac.in",
+    "sangam@iiitd.ac.in",
+    "sangramjitm@iiitd.ac.in",
+    "sanjanas@iiitd.ac.in",
+    "sanjay@iiitd.ac.in",
+    "sanjayp@iiitd.ac.in",
+    "sanjna@iiitd.ac.in",
+    "sankalpj@iiitd.ac.in",
+    "sankha@iiitd.ac.in",
+    "sapnac@iiitd.ac.in",
+    "saqib@iiitd.ac.in",
+    "sarahk@iiitd.ac.in",
+    "saram@iiitd.ac.in",
+    "sarbanis@iiitd.ac.in",
+    "sarika@iiitd.ac.in",
+    "sarthok@iiitd.ac.in",
+    "saswatip@iiitd.ac.in",
+    "sathiyamoorthya@iiitd.ac.in",
+    "satish@iiitd.ac",
+    "satyami@iiitd.ac.in",
+    "satyandrap@iiitd.ac.in",
+    "satyap@iiitd.ac.in",
+    "saumya@iiitd.ac.in",
+    "saumyat@iiitd.ac.in",
+    "saurabhy@iiitd.ac.in",
+    "saurava@iiitd.ac.in",
+    "saveenas@iiitd.ac.in",
+    "sayak@iiitd.ac.in",
+    "sayan@iiitd.ac.in",
+    "sdeb@iiitd.ac.in",
+    "secy@dbt.nic.in",
+    "shad.akhtar@iiitd.ac.in",
+    "shailjad@iiitd.ac.in",
+    "shailyh@iiitd.ac.in",
+    "shamik@iiitd.ac.in",
+    "shanvis@iiitd.ac.in",
+    "sharata@iiitd.ac.in",
+    "sharmadk@iiitd.ac.in",
+    "sharmila.s.mande@gmail.com",
+    "shatakshii@iiitd.ac.in",
+    "shikhash@iiitd.ac.in",
+    "shipra@iiitd.ac.in",
+    "shireen@iiitd.ac.in",
+    "shishir@iiitd.ac.in",
+    "shivamc@iiitd.ac.in",
+    "shivangia@iiitd.ac.in",
+    "shivangik@iiitd.ac.in",
+    "shivangip@iiitd.ac.in",
+    "shivangiv@iiitd.ac.in",
+    "shivanic@iiitd.ac.in",
+    "shivanim@iiitd.ac.in",
+    "shivas@iiitd.ac.in",
+    "shivasa@iiitd.ac.in",
+    "shobha@iiitd.ac.in",
+    "shreekant29@yahoo.com",
+    "shreyat@iiitd.ac.in",
+    "shriram@iiitd.ac.in",
+    "shriramv@iiitd.ac.in",
+    "shruthyh@iiitd.ac.in",
+    "shrutii@iiitd.ac.in",
+    "shrutik@iiitd.ac.in",
+    "shrutikh@iiitd.ac.in",
+    "shubhamc@iiitd.ac.in",
+    "shubhamch@iiitd.ac.in",
+    "shwetap@iiitd.ac.in",
+    "shyamas@iiitd.ac.in",
+    "simrang@iiitd.ac.in",
+    "skkaul@iiitd.ac.in",
+    "sks@igib.res.in",
+    "smriti@iiitd.ac.in",
+    "smrutip@iiitd.ac.in",
+    "sneh@iiitd.ac.in",
+    "sneha@iiitd.ac.in",
+    "snehaa@iiitd.ac.in",
+    "sohelk@iiitd.ac.in",
+    "soibam@iiitd.ac.in",
+    "someshs@iiitd.ac.in",
+    "sonal.keshwani@iiitd.ac.in",
+    "sonal@iiitd.ac.in",
+    "sonamc@iiitd.ac.in",
+    "sonami@iiitd.ac.in",
+    "sonia@iiitd.ac.in",
+    "soniab@iiitd.ac.in",
+    "sonub@iiitd.ac.in",
+    "soumenm@iiitd.ac.in",
+    "soumyaj@iiitd.ac.in",
+    "souravd@iiitd.ac.in",
+    "souravg@iiitd.ac.in",
+    "souravs@iiitd.ac.in",
+    "souvik@iiitd.ac.in",
+    "spoorthis@iiitd.ac.in",
+    "sravani@iiitd.ac.in",
+    "sriramk@iiitd.ac.in",
+    "stutik@iiitd.ac.in",
+    "subhabrata@iiitd.ac.in",
+    "subhadeepd@iiitd.ac.in",
+    "subhajit@iiitd.ac.in",
+    "subhankard@iiitd.ac.in",
+    "subhashree@iiitd.ac.in",
+    "subhasree.eco@gmail.com",
+    "subhrakanti.das82@gmail.com",
+    "subramanyam@iiitd.ac.in",
+    "sudhanshu@iiitd.ac.in",
+    "sudhanshus@iiitd.ac.in",
+    "suhailk@iiitd.ac.in",
+    "sujit@iiitd.ac.in",
+    "sukanta@iiitd.ac.in",
+    "sukritis@iiitd.ac.in",
+    "suman.roy68@gmail.com",
+    "sumedhac@iiitd.ac.in",
+    "sumedhas@iiitd.ac.in",
+    "sumit@iiitd.ac.in",
+    "sumitk@iiitd.ac.in",
+    "sumitku@iiitd.ac.in",
+    "sunilk@iiitd.ac.in",
+    "supratim@iiitd.ac.in",
+    "surendrak@iiitd.ac.in",
+    "suryakas@iiitd.ac.in",
+    "suryendud@iiitd.ac.in",
+    "sushantg@iiitd.ac.in",
+    "suvenduk@iiitd.ac.in",
+    "swarnavas@iiitd.ac.in",
+    "syamantak@iiitd.ac.in",
+    "syeda@iiitd.ac.in",
+    "syedh@iiitd.ac.in",
+    "talhaa@iiitd.ac.in",
+    "tammam@iiitd.ac.in",
+    "tanemura@math.s.chiba-u.ac.jp",
+    "tanishag@iiitd.ac.in",
+    "tanmoy.kundu@iiitd.ac.in",
+    "tanmoy@iiitd.ac.in",
+    "tarini.ghosh@iiitd.ac.in",
+    "taruns@iiitd.ac.in",
+    "tavpriteshsethi@iiitd.ac.in",
+    "thangs@ccmb.res.in",
+    "tharrmashasthav@iiitd.ac.in",
+    "tushark@iiitd.ac.in",
+    "tusharp@iiitd.ac.in",
+    "ug-chair@iiitd.ac.in",
+    "ujjalt@iiitd.ac.in",
+    "umairai@iiitd.ac.in",
+    "umars@iiitd.ac.in",
+    "umesh@iiitd.ac.in",
+    "usmanf@iiitd.ac.in",
+    "utkarsha@iiitd.ac.in",
+    "vaibhavs@iiitd.ac.in",
+    "vanshikaj@iiitd.ac.in",
+    "vardhanas@iiitd.ac.in",
+    "varsha@iiitd.ac.in",
+    "varshar@iiitd.ac.in",
+    "varuni@iiitd.ac.in",
+    "vasri@kth.se",
+    "vatsalan@iiitd.ac.in",
+    "vibhor@iiitd.ac.in",
+    "vibhutik@iiitd.ac.in",
+    "vijays@iiitd.ac.in",
+    "vijaysi@iiitd.ac.in",
+    "vikram@iiitd.ac.in",
+    "vinayv@iiitd.ac.in",
+    "vinish@iiitd.ac.in",
+    "vinod@iiitd.ac.in",
+    "virendrak@iiitd.ac.in",
+    "vishali@iiitd.ac.in",
+    "vishalku@iiitd.ac.in",
+    "vishwass@iiitd.ac.in",
+    "vivek.b@iiitd.ac.in",
+    "vivekc@iiitd.ac.in",
+    "vivekk@iiitd.ac.in",
+    "wazirs@iiitd.ac.in",
+    "yashwardhani@iiitd.ac.in",
+    "yogesh@iiitd.ac.in",
+    "zebaa@iiitd.ac.in",
+    "zeyau@iiitd.ac.in",
+    "zilongliu.sg@gmail.com",
+    "zubairi@iiitd.ac.in",
+    "zubairs@iiitd.ac.in"
+  ],
+  "all_phones": [
+    "9868878433",
+    "9870326068",
+    "9871629605",
+    "9999093522"
+  ],
+  "errors": [],
+  "total_professors": 442,
+  "total_emails": 657,
+  "total_phones": 4
+}

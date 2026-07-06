@@ -1,0 +1,1470 @@
+{
+  "url": "https://www.nsut.ac.in",
+  "professors": [
+    {
+      "name": "Ashok K. Dubey",
+      "email": "nsit@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Sonika Bhatnagar",
+      "email": "ecc999@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Jitendra Singh Rathore",
+      "email": "rathore@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. (Mrs.) Pankaj Khurana",
+      "email": "khurana@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Akhilesh Dubey",
+      "email": "akhil111@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Shilpa Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Yatender Kumar",
+      "email": "kumar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ajay Kumar Kataria",
+      "email": "kataria@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Akanksha Kulshreshtha",
+      "email": "akanksha@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr Saurabh Samuchiwal",
+      "email": "samuchiwal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Shweta Tripathi",
+      "email": "tripathi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sunita",
+      "email": "drsunita@aiactr.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Gaurav Saini",
+      "email": "saini@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Athar Hussain",
+      "email": "hussain@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Arghya Ghosh",
+      "email": "ghosh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Kailash Rajaram Harne",
+      "email": "kailash@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Partha Das",
+      "email": "das@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sulaem Musaddiq Laskar",
+      "email": "laskar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anant Lal Murmu",
+      "email": "murmu@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Aswathy R",
+      "email": "r@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Mehtab Alam",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Prof. A.K. Nigam",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Sanjeeve Thakur",
+      "email": "sanjeevethakur63@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "Anjana Sarkar",
+      "email": "sarkar@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Purnima Jain",
+      "email": "prnm_j@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "Uma Narang",
+      "email": "umanarang89@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Nancy Gupta",
+      "email": "nancy@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sushmita",
+      "email": "sushmita@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Leena Aggarwal",
+      "email": "aggarwal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Swapnil Sonawane",
+      "email": "sonawane@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Jugal Bori",
+      "email": "bori@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sachin Pal",
+      "email": "pal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rajashree Newar",
+      "email": "newar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Dipika Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Devender Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vishal Bhatnagar",
+      "email": "bhatnagar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manoj Kumar",
+      "email": "kumar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shobha Bhatt",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Bharti Nagpal",
+      "email": "bharti_53@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Ram Shringar Rao",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Arvind Kumar",
+      "email": "kumararvind@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Amita jain",
+      "email": "jain@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prakash Rao Ragiri",
+      "email": "prakashraoragiri@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Nanhay Singh",
+      "email": "nsingh1973@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Vishal Gupta",
+      "email": "vishalgupta@aiactr.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Suresh Kumar Poonia",
+      "email": "drsureshpoonia@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Sushama Nagpal",
+      "email": "nagpal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bijendra Kumar",
+      "email": "bizender@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Shampa Chakraverty",
+      "email": "shampa@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Preeti Kaur",
+      "email": "preetikaur1@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "MPS Bhatia",
+      "email": "mpsbhatia@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ritu Sibal",
+      "email": "nsit@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Rajeev Kumar",
+      "email": "kumar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Veenu",
+      "email": "veenu@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anand Gupta",
+      "email": "gupta@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Poonam Rani",
+      "email": "rani@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Savita Yadav",
+      "email": "yadav@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Pinaki Chakraborty",
+      "email": "chakraborty@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Abhinav Tomar",
+      "email": "tomar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Geetanjali",
+      "email": "rathi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Gaurav Singal",
+      "email": "singal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vijay Kumar Bohat",
+      "email": "bohat@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rashmi Chaudhry",
+      "email": "rashmi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vandana Bhatia",
+      "email": "bhatia@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ankur Gupta",
+      "email": "gupta@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rudresh dwivedi",
+      "email": "dwivedi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Surendra Nagar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ankush Jain",
+      "email": "jain@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vivek Mehta",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Smriti Srivastava",
+      "email": "smriti@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prerna Gaur",
+      "email": "prernagaur@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Bhavnesh Kumar",
+      "email": "kumar_bhavnesh@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "V. S. K. V. HARISH",
+      "email": "harish@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ravinder Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "ANKIT KUMAR SINGH",
+      "email": "ankit@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Astitva Kumar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Subhodip Saha",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anjanee Kumar Mishra",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Deepak Kumar Gupta",
+      "email": "gupta@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vineet Kumar",
+      "email": "vineet@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rashmi Gupta",
+      "email": "gupta@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ravindra Kumar Sharma",
+      "email": "ravindra@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "M.Gangadharappa",
+      "email": "gangadharappa@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Richa Bhatia",
+      "email": "bhatia@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manisha Khulbe",
+      "email": "khulbe@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "C.S.Vinitha",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Garima Srivastava",
+      "email": "srivastava@aiactr.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr Krishna Patteti",
+      "email": "krishna@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Soven Kumar Dana",
+      "email": "dana@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dinesh Kumar Raheja",
+      "email": "dineshraheja102@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Arti M.K.",
+      "email": "mk@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Ashok Mittal",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Avinash Kumar",
+      "email": "avinashk_ait@yahoo.in",
+      "phone": ""
+    },
+    {
+      "name": "Dharmendra Kumar Upadhyay",
+      "email": "upadhyay_d@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Harish Parthasarathy",
+      "email": "harishp@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Parul Garg",
+      "email": "garg@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sujata Sengar",
+      "email": "sujata@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jyotsna Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Rajveer Singh Yaduvanshi",
+      "email": "yaduvanshi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tarun Kumar Rawat",
+      "email": "rawat@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dhananjay V. Gadre",
+      "email": "dvgadre@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Satya Prakash Singh",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Kunwar Singh",
+      "email": "singh@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Bhawna Aggarwal",
+      "email": "kbhawnagarg@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Shailesh Mishra",
+      "email": "shaileshmishra@ieee.org",
+      "phone": ""
+    },
+    {
+      "name": "Urvashi Bansal",
+      "email": "bansal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shweta Gautam",
+      "email": "shwetauiet11@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Ankit Garg",
+      "email": "garg@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Neeraj Goel",
+      "email": "goel@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sukhbir Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ritu Raj Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Amit Singhal",
+      "email": "amit@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sanya Anees",
+      "email": "anees@nsutac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Umer Ashraf",
+      "email": "ashraf@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Raj Senani",
+      "email": "senani@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ratneshwar Kumar Ratnesh",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sandeep Singh Chauhan",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naveen Jaglan",
+      "email": "jaglan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Maneesha Gupta",
+      "email": "maneeshapub@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Pradeep Kumar Chaswal",
+      "email": "pradeep@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Tanushree Choudhary",
+      "email": "tanushree@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Pradeep Kumar Chaswal",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Prasanta Kumar Bhuyan",
+      "email": "prasantabhuyan68@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Satadru Chatterjee",
+      "email": "chatterjee@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sushama Nagpal",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Sanjay Kumar Dhurandher",
+      "email": "dhurandher@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Devender Kumar",
+      "email": "dk_iitm@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "Amarjit Malhotra",
+      "email": "uppalz_amar@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Vikas Maheshkar",
+      "email": "maheshkar@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Deepika Kukreja",
+      "email": "kukreja@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ankita Jain Bansal",
+      "email": "bansal06@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Satish Kumar Singh",
+      "email": "satishsingh23@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Mohit Sajwan",
+      "email": "sajwan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Nisha Kandhoul",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Rajneesh Sharma",
+      "email": "rajneesh496@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Smriti Srivastava",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "K.P.S. Rana",
+      "email": "kpsrana1@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Asha Rani",
+      "email": "rani@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vijander Singh",
+      "email": "vijaydee@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vineet Kumar",
+      "email": "kumar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shyama Kant Jha",
+      "email": "jhask271@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "A.N. Jha",
+      "email": "nanotech@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "R.C. Thakur",
+      "email": "rct@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Alok Agrawal",
+      "email": "agrawal@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vicky Suri",
+      "email": "vickysuri@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Jyoti Yadav",
+      "email": "yadav@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Manisha Singh",
+      "email": "manishasingh2006ji@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Anuradha Tomar",
+      "email": "eranu28@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Alok Prakash Mittal",
+      "email": "mittalap@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Tribhuwan Nath Shukla",
+      "email": "shukla@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naval Garg",
+      "email": "garg@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Samir Gokarn",
+      "email": "gokarn@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Shiksha Kushwah",
+      "email": "shiksha@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Salini Rosaline Tharayil",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ritika",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Dinesh Kumar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Himanshu",
+      "email": "mgmt@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Aashima",
+      "email": "singhal27@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ruchika Gahlot",
+      "email": "ruchikagahlot29@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Parul Manchanda",
+      "email": "manchanda@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof (Dr.) Chandra Shekhar Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Naresh Kaushik",
+      "email": "kaushik@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Aman Sangwan",
+      "email": "aman_sangwan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Nitin Dewan",
+      "email": "dewan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rakesh Shankar Jha",
+      "email": "jha@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vijay Gupta",
+      "email": "vijaygupta2001@hotmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Jasobanta Jena",
+      "email": "jjena@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Jainendra Kumar Singh",
+      "email": "jksingh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mamta Misra",
+      "email": "mmishra@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Niraj Kumar",
+      "email": "neeraj@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sh. Shantanu Das",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Amita Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Anupam",
+      "email": "gautam@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sachin Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sumita Dahiya",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Shivam Kumar Singh",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Bhawna Gupta",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Pooja Bansal",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rashmi Rani",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Deepika Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sarika",
+      "email": "sarika@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Shruti",
+      "email": "shruti@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Manisha Malik",
+      "email": "malik@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naveen Gupta",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rajanish Kumar Rai",
+      "email": "rai@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rishabh Agnihotri",
+      "email": "agnihotri@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shailendra Kumar Jha",
+      "email": "skjha63@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "D. K. Singh",
+      "email": "dks662002@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Anil Chopra",
+      "email": "wgcdranilchopra@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Sachin Maheshwari",
+      "email": "ssaacchhiinn@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Sanjay Kumar Chak",
+      "email": "sanjaykchak@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Vijayant Agarwal",
+      "email": "vijayantonly@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Sanjay Gupta",
+      "email": "sanjay_gup@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Pradeep Khanna",
+      "email": "khanna@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Aditya kumar Rathi",
+      "email": "aditya_rathihere@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "AV Muley",
+      "email": "avmuley2000@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Umang Soni",
+      "email": "1@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Andriya Narasimhulu",
+      "email": "andriya@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Narender Kumar",
+      "email": "kumar@nsit.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Abhishek Tevatia",
+      "email": "tevatia@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Arvind Meena",
+      "email": "meena@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Manish Kumar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Pramendra Kumar Bajpai",
+      "email": "bajpai@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Shashi Prakash",
+      "email": "prakash@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Simran Jeet Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vinay Panwar",
+      "email": "panwar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vivek Kumar",
+      "email": "kumar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naveen Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Nazrul Islam Khan",
+      "email": "nazrul@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Swati Gangwar",
+      "email": "gangwar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Achhaibar Singh",
+      "email": "asingh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ghanshyam Srivastava",
+      "email": "gsrivastava@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Simran Jeet Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Pradeep Khanna",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Ghanshyam Srivastava",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Manish Kumar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naveen Sharma",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Simran Jeet Singh",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anjanee Kumar Mishra",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Vinod Kumar",
+      "email": "vinod@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Om Prakash Thakur",
+      "email": "opthakur@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anurag Gaur",
+      "email": "gaur@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Hemam Dinesh Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Vinamrita Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Harsh Yadav",
+      "email": "harsh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Jehova Jire L. Hmar",
+      "email": "jehova@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Pargin Bangotra",
+      "email": "bangotra@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Amit Sanger",
+      "email": "sanger@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Samiksha Dabas",
+      "email": "samiksha@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rahul Kumar",
+      "email": "rahul@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Jitendra Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Anurag Gaur",
+      "email": "gaur@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Lt. (Dr.) Amit Sanger",
+      "email": "sanger@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sushmita",
+      "email": "sushmita@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Praveen Saroha",
+      "email": "dpe@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Juhi Raghuvanshi",
+      "email": "raghuvanshi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ankita Srivastava",
+      "email": "srivastava@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Saurav Sharma",
+      "email": "sharma@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr Arati Prakash Khare",
+      "email": "khare@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Piyush Kulshreshtha",
+      "email": "piyush_k@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Kalesh Nath Chatterjee",
+      "email": "chatterjee@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Manohar Mahato",
+      "email": "mahato@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Neha Gupta",
+      "email": "gupta@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Sanyam Bahga",
+      "email": "sanyam@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ar. Srishti Sagar",
+      "email": "sagar@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Mahfuzuar Rahman Barbhuiya",
+      "email": "mehfuz@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr Zeeshan Ibrar",
+      "email": "zeeshan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Raunak Prasad",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Naval Garg",
+      "email": "garg@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Pragati Singh",
+      "email": "singh@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Juhi Raghuvanshi",
+      "email": "raghuvanshi@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Aman Sangwan",
+      "email": "aman_sangwan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Nitin Dewan",
+      "email": "dewan@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Rakesh Shankar Jha",
+      "email": "jha@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sanjeev Kumar",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Navdeep Agrawal",
+      "email": "",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "1@gmail.com",
+    "aditya_rathihere@yahoo.com",
+    "aggarwal@nsut.ac.in",
+    "agnihotri@nsut.ac.in",
+    "agrawal@nsut.ac.in",
+    "akanksha@gmail.com",
+    "akhil111@gmail.com",
+    "aman_sangwan@nsut.ac.in",
+    "amit@nsut.ac.in",
+    "andriya@nsut.ac.in",
+    "anees@nsutac.in",
+    "ankit@nsut.ac.in",
+    "ashraf@nsut.ac.in",
+    "asingh@nsut.ac.in",
+    "avinashk_ait@yahoo.in",
+    "avmuley2000@yahoo.com",
+    "bajpai@nsut.ac.in",
+    "bangotra@nsut.ac.in",
+    "bansal06@gmail.com",
+    "bansal@nsut.ac.in",
+    "bharti_53@yahoo.com",
+    "bhatia@nsut.ac.in",
+    "bhatnagar@nsut.ac.in",
+    "bizender@gmail.com",
+    "bohat@nsut.ac.in",
+    "bori@nsut.ac.in",
+    "chakraborty@nsut.ac.in",
+    "chatterjee@nsut.ac.in",
+    "dana@nsut.ac.in",
+    "das@nsut.ac.in",
+    "dewan@nsut.ac.in",
+    "dhurandher@gmail.com",
+    "dineshraheja102@gmail.com",
+    "dk_iitm@yahoo.co.in",
+    "dks662002@yahoo.com",
+    "dpe@nsut.ac.in",
+    "drsunita@aiactr.ac.in",
+    "drsureshpoonia@gmail.com",
+    "dvgadre@gmail.com",
+    "dwivedi@nsut.ac.in",
+    "ecc999@gmail.com",
+    "eranu28@gmail.com",
+    "gangadharappa@nsut.ac.in",
+    "gangwar@nsut.ac.in",
+    "garg@nsut.ac.in",
+    "gaur@nsut.ac.in",
+    "gautam@nsut.ac.in",
+    "ghosh@nsut.ac.in",
+    "goel@nsut.ac.in",
+    "gokarn@nsut.ac.in",
+    "gsrivastava@nsut.ac.in",
+    "gupta@nsit.ac.in",
+    "gupta@nsut.ac.in",
+    "harish@nsut.ac.in",
+    "harishp@nsit.ac.in",
+    "harsh@nsut.ac.in",
+    "hussain@nsut.ac.in",
+    "jaglan@nsut.ac.in",
+    "jain@nsut.ac.in",
+    "jehova@nsut.ac.in",
+    "jha@nsut.ac.in",
+    "jhask271@gmail.com",
+    "jjena@nsut.ac.in",
+    "jksingh@nsut.ac.in",
+    "kailash@nsut.ac.in",
+    "kataria@nsut.ac.in",
+    "kaushik@nsut.ac.in",
+    "kbhawnagarg@yahoo.co.in",
+    "khanna@nsut.ac.in",
+    "khare@nsut.ac.in",
+    "khulbe@nsut.ac.in",
+    "khurana@nsut.ac.in",
+    "kpsrana1@gmail.com",
+    "krishna@nsut.ac.in",
+    "kukreja@nsut.ac.in",
+    "kumar@nsit.ac.in",
+    "kumar@nsut.ac.in",
+    "kumar_bhavnesh@yahoo.co.in",
+    "kumararvind@gmail.com",
+    "laskar@nsut.ac.in",
+    "mahato@nsut.ac.in",
+    "maheshkar@gmail.com",
+    "malik@nsut.ac.in",
+    "manchanda@nsut.ac.in",
+    "maneeshapub@gmail.com",
+    "manishasingh2006ji@gmail.com",
+    "meena@nsut.ac.in",
+    "mehfuz@nsut.ac.in",
+    "mgmt@nsut.ac.in",
+    "mittalap@gmail.com",
+    "mk@yahoo.com",
+    "mmishra@nsit.ac.in",
+    "mpsbhatia@nsut.ac.in",
+    "murmu@nsut.ac.in",
+    "nagpal@nsut.ac.in",
+    "nancy@nsut.ac.in",
+    "nanotech@gmail.com",
+    "nazrul@nsut.ac.in",
+    "neeraj@nsit.ac.in",
+    "newar@nsut.ac.in",
+    "nsingh1973@gmail.com",
+    "nsit@gmail.com",
+    "opthakur@nsut.ac.in",
+    "pal@nsut.ac.in",
+    "panwar@nsut.ac.in",
+    "piyush_k@nsut.ac.in",
+    "pradeep@gmail.com",
+    "prakash@nsut.ac.in",
+    "prakashraoragiri@gmail.com",
+    "prasantabhuyan68@gmail.com",
+    "preetikaur1@rediffmail.com",
+    "prernagaur@yahoo.com",
+    "prnm_j@yahoo.co.in",
+    "r@nsut.ac.in",
+    "raghuvanshi@nsut.ac.in",
+    "rahul@nsut.ac.in",
+    "rai@nsut.ac.in",
+    "rajneesh496@gmail.com",
+    "rani@nsut.ac.in",
+    "rashmi@nsut.ac.in",
+    "rathi@nsut.ac.in",
+    "rathore@nsut.ac.in",
+    "ravindra@gmail.com",
+    "rawat@nsut.ac.in",
+    "rct@nsit.ac.in",
+    "ruchikagahlot29@rediffmail.com",
+    "sagar@nsut.ac.in",
+    "saini@nsut.ac.in",
+    "sajwan@nsut.ac.in",
+    "samiksha@nsut.ac.in",
+    "samuchiwal@nsut.ac.in",
+    "sanger@nsut.ac.in",
+    "sanjay_gup@rediffmail.com",
+    "sanjaykchak@yahoo.com",
+    "sanjeevethakur63@yahoo.co.in",
+    "sanyam@nsut.ac.in",
+    "sarika@nsut.ac.in",
+    "sarkar@nsit.ac.in",
+    "satishsingh23@gmail.com",
+    "senani@nsut.ac.in",
+    "shaileshmishra@ieee.org",
+    "shampa@nsut.ac.in",
+    "sharma@nsut.ac.in",
+    "shiksha@nsut.ac.in",
+    "shruti@nsut.ac.in",
+    "shukla@gmail.com",
+    "shwetauiet11@gmail.com",
+    "singal@nsut.ac.in",
+    "singh@nsit.ac.in",
+    "singh@nsut.ac.in",
+    "singhal27@gmail.com",
+    "skjha63@rediffmail.com",
+    "smriti@nsut.ac.in",
+    "sonawane@nsut.ac.in",
+    "srivastava@aiactr.ac.in",
+    "srivastava@nsut.ac.in",
+    "ssaacchhiinn@gmail.com",
+    "sujata@nsut.ac.in",
+    "sushmita@nsut.ac.in",
+    "tanushree@nsut.ac.in",
+    "tevatia@nsut.ac.in",
+    "tomar@nsut.ac.in",
+    "tripathi@nsut.ac.in",
+    "umanarang89@gmail.com",
+    "upadhyay_d@nsut.ac.in",
+    "uppalz_amar@yahoo.com",
+    "veenu@nsut.ac.in",
+    "vickysuri@gmail.com",
+    "vijayantonly@yahoo.com",
+    "vijaydee@nsut.ac.in",
+    "vijaygupta2001@hotmail.com",
+    "vineet@nsut.ac.in",
+    "vinod@nsut.ac.in",
+    "vishalgupta@aiactr.ac.in",
+    "wgcdranilchopra@gmail.com",
+    "yadav@nsut.ac.in",
+    "yaduvanshi@nsut.ac.in",
+    "zeeshan@nsut.ac.in"
+  ],
+  "all_phones": [],
+  "statistics": {
+    "total": 256,
+    "with_email": 218
+  }
+}

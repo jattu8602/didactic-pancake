@@ -1,0 +1,78 @@
+name: Scrape & PR
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # 6AM UTC every Monday
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State to scrape"
+        required: true
+        default: "Madhya Pradesh"
+      workers:
+        description: "Parallel workers"
+        required: false
+        default: "5"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libnspr4 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libgbm1 libasound2 libxshmfence1
+
+      - name: Install Python deps
+        run: |
+          pip install playwright
+          python3 -m playwright install chromium
+          python3 -m playwright install-deps chromium
+
+      - name: Scrape state
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          cd scraper
+          python3 scraper.py --csv ../data/mp_colleges.csv --state "${{ inputs.state || 'Madhya Pradesh' }}" --workers ${{ inputs.workers || '5' }} --all
+
+      - name: Combine and build data
+        run: |
+          cd scraper
+          python3 combine.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "data: update scraped college data for ${{ inputs.state || 'Madhya Pradesh' }}"
+          title: "📊 Data update: ${{ inputs.state || 'Madhya Pradesh' }} college info"
+          body: |
+            Automated scraping run for **${{ inputs.state || 'Madhya Pradesh' }}**.
+
+            - **Colleges:** $(python3 -c "import csv; print(len(list(csv.DictReader(open('data/mp_colleges.csv')))))")
+            - **With contacts:** $(python3 -c "import csv; print(sum(1 for r in csv.DictReader(open('data/scraped/*.csv')))")
+            - **Branch:** `${{ github.ref_name }}`
+          branch: auto-scrape-${{ github.run_id }}
+          base: main
+          labels: automated, data
