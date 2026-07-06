@@ -1,0 +1,210 @@
+{
+  "faculty_email_map": [
+    {
+      "professor": "Dr. Abhishek Kumar",
+      "email": "abhishek.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Arya Deo Mehta Student",
+      "email": "aryadeo.mehta@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Ashish Kumar Sinha",
+      "email": "ashish.sinha@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Avinash Kumar",
+      "email": "avinash.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Bikash Kumar Saw",
+      "email": "bikashkr.saw@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Biswajit Karan",
+      "email": "biswajit.karan@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Biswarup Samanta",
+      "email": "biswarup.samanta@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Deepak Prasad",
+      "email": "deepak.prasad@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Dipti Kumari",
+      "email": "dipti.kumari@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Durgesh Kumar",
+      "email": "durgesh.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Manoj Pandey",
+      "email": "manoj.pandey@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Meeta Verma",
+      "email": "meeta.verma@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Mrinal Kumar Singh",
+      "email": "mrinalk.singh@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Pankaj Kumar Goswami",
+      "email": "pankaj.goswami@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Prakash Kumar",
+      "email": "prakash.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Priyanka Srivastava",
+      "email": "priyanka.srivastava@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Rahul Prakash",
+      "email": "rahul.prakash@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Rajeev Ranjan",
+      "email": "rajeev.ranjan@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Ramesh Kumar Singh",
+      "email": "ramesh.singh@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Ritesh Kumar",
+      "email": "ritesh.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Rohit Kumar Yadav",
+      "email": "rohit.yadav@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Sadashiba Pati",
+      "email": "sadashiba.pati@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Sagar Sarangi",
+      "email": "sagar.sarangi@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Sandip Kumar Singh Modak",
+      "email": "sandip.modak@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Santosh Kumar Das",
+      "email": "santosh.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Utsav Vishal",
+      "email": "utsav.vishal@sbu.ac.in"
+    },
+    {
+      "professor": "Dr. Venkata Naga Lakshmi Durga",
+      "email": "venkata.durga@sbu.ac.in"
+    },
+    {
+      "professor": "Mrs. Moutoshi Saha",
+      "email": "moutoshi.saha@sbu.ac.in"
+    },
+    {
+      "professor": "Mrs. Sweta Mehta",
+      "email": "sweta.mehta@sbu.ac.in"
+    },
+    {
+      "professor": "Ms Kumari Nikita",
+      "email": "kumari.nikita@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "aditya.verma@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "anand.vishwakarma@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "atul.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "bikram.singh@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "chandan.kumar@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "kumar.harsh@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "nishant.kr@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "prashant.kumar01@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "rahul.das@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "rahul.kujur@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "ravindra.nath@sbu.ac.in"
+    },
+    {
+      "professor": "\u26a0 UNMATCHED (not on individual profile page)",
+      "email": "sanjeev.kumar@sbu.ac.in"
+    }
+  ],
+  "role_emails": [
+    {
+      "email": "admissions@sbu.ac.in",
+      "department": "Admissions Office"
+    },
+    {
+      "email": "careerservices@sbu.ac.in",
+      "department": "Career Services"
+    },
+    {
+      "email": "dg@sbu.ac.in",
+      "department": "Director General"
+    },
+    {
+      "email": "dsw@sbu.ac.in",
+      "department": "Dean Student Welfare"
+    },
+    {
+      "email": "examination@sbu.ac.in",
+      "department": "Examination Department"
+    },
+    {
+      "email": "internationaloffice@sbu.ac.in",
+      "department": "International Office"
+    },
+    {
+      "email": "library@sbu.ac.in",
+      "department": "Library"
+    },
+    {
+      "email": "sb.dandin@sbu.ac.in",
+      "department": "Registrar / Controller of Examinations"
+    },
+    {
+      "email": "vc@sbu.ac.in",
+      "department": "Vice Chancellor"
+    }
+  ]
+}
