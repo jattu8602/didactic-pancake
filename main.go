@@ -37,25 +37,22 @@ type CollegesData struct {
 	Colleges []College `json:"colleges"`
 }
 
-var inMemoryData CollegesData
-
-func loadData() {
+func loadData() (CollegesData, error) {
+	var data CollegesData
 	file, err := os.ReadFile("./public/data/colleges.json")
 	if err != nil {
-		log.Println("Could not load colleges.json into memory:", err)
-		return
+		log.Println("Could not load colleges.json:", err)
+		return data, err
 	}
-	if err := json.Unmarshal(file, &inMemoryData); err != nil {
+	if err := json.Unmarshal(file, &data); err != nil {
 		log.Println("Error parsing colleges.json:", err)
-	} else {
-		log.Printf("Successfully loaded %d colleges into memory for live API", len(inMemoryData.Colleges))
+		return data, err
 	}
+	return data, nil
 }
 
 func main() {
 	app := fiber.New()
-	
-	loadData()
 
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendFile("./public/browse.html")
@@ -65,6 +62,11 @@ func main() {
 
 	// Live JSON Filter API for n8n / external automations
 	app.Get("/api/colleges/live", func(c *fiber.Ctx) error {
+		liveData, err := loadData()
+		if err != nil {
+			return c.Status(500).JSON(fiber.Map{"error": "Failed to load data"})
+		}
+
 		state := c.Query("state")
 		district := c.Query("district")
 		search := c.Query("search")
@@ -77,7 +79,7 @@ func main() {
 
 		var filtered []College
 
-		for _, col := range inMemoryData.Colleges {
+		for _, col := range liveData.Colleges {
 			if state != "" && !strings.EqualFold(col.State, state) {
 				continue
 			}

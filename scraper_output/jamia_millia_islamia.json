@@ -1,0 +1,138 @@
+{
+  "university": "Jamia_Millia_Islamia",
+  "url": "http://www.jmi.ac.in/",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Assistant Professor",
+      "email": "lokeshkrsax@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Associate Professor",
+      "email": "mjavaid@jmi.ac.in; mohdjavaid0786@gmail.com; tsiddiqui3@jmi.ac.in; tauseefus@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Abdur Rahim",
+      "email": "zmallick@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Ahmad Faizan Sherwani",
+      "email": "ahaleem@jmi.ac.in; haleem.abid@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Arshad Noor Siddiquee",
+      "email": "asharma1@jmi.ac.in; aksharmaiitm@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Lokesh Kumar",
+      "email": "lkumar@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Mohammad Asjad",
+      "email": "ansiddiqui@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Mohammed Suhaib",
+      "email": "masjad@jmi.ac.in; asjad_alig@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Mohd Javaid",
+      "email": "zakhan@jmi.ac.in; zakhanusm@yahoo.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Munawar Nawab Karimi",
+      "email": "msuhaib@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sabah Khan",
+      "email": "mnkarimi64@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Tasmeem Ahmad Khan",
+      "email": "smmuzakkir@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Zahid Akhtar Khan",
+      "email": "skhan2@jmi.ac.in; tkhan@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Helpdesk Email Numbers",
+      "email": "admission@jmicoe.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Abid Haleem",
+      "email": "arahim@jmi.ac.in; rahim_ark@rediffmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Anil Kumar Sharma",
+      "email": "asherwani@jmi.ac.in; faizan709@yahoo.co.in",
+      "phone": ""
+    },
+    {
+      "name": "Small Text",
+      "email": "cit@jmi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Workshop Superintendent",
+      "email": "lokeshkrsaxiitr@gmail.com; mshoeb1@jmi.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "admission@jmicoe.in",
+    "ahaleem@jmi.ac.in",
+    "aksharmaiitm@gmail.com",
+    "ansiddiqui@jmi.ac.in",
+    "arahim@jmi.ac.in",
+    "asharma1@jmi.ac.in",
+    "asherwani@jmi.ac.in",
+    "asjad_alig@rediffmail.com",
+    "cit@jmi.ac.in",
+    "faizan709@yahoo.co.in",
+    "g@i.dst.gov.in",
+    "haleem.abid@gmail.com",
+    "lkumar@jmi.ac.in",
+    "lokeshkrsax@rediffmail.com",
+    "lokeshkrsaxiitr@gmail.com",
+    "masjad@jmi.ac.in",
+    "mjavaid@jmi.ac.in",
+    "mkarimi@jmi.ac.in",
+    "mnkarimi64@gmail.com",
+    "mohdjavaid0786@gmail.com",
+    "mshoeb1@jmi.ac.in",
+    "msuhaib@jmi.ac.in",
+    "rahim_ark@rediffmail.com",
+    "skhan2@jmi.ac.in",
+    "smmuzakkir@jmi.ac.in",
+    "tauseefus@gmail.com",
+    "tkhan@jmi.ac.in",
+    "tsiddiqui3@jmi.ac.in",
+    "zakhan@jmi.ac.in",
+    "zakhanusm@yahoo.com",
+    "zmallick@jmi.ac.in"
+  ],
+  "all_phones": [
+    "+911126981717",
+    "+911126984650"
+  ],
+  "errors": [],
+  "total_professors": 18,
+  "total_emails": 31,
+  "total_phones": 2
+}

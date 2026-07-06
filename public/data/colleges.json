@@ -36736,8 +36736,879 @@
       "pin_code": "110042",
       "website": "http://www.dtu.ac.in/",
       "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "emails": "ASHISH@DTU.AC.IN; Rathi.nilam@gmail.com; Shikhan.khera@dtu.ac.in; abhishek.kumar@dtu.ac.in; abhishek@dtu.ac.in; agrawals.iit@gmail.com; ajai.gautam@gmail.com; ajeetdph@gmail.com; akhilesharora@dce.ac.in; akshay.mann@dtu.ac.in; aksrivastava@dce.ac.in; alokverma@dce.ac.in; amitpal@dce.ac.in; anandkumar@dtu.ac.in; anantbhardwaj@dtu.ac.in; anilkumar76@dtu.ac.in; anilsingh@dtu.ac.in; ankitatehlan@dtu.ac.in; ankursharma@dtu.ac.in; ankvin@gmail.com",
+      "professors": [
+        {
+          "name": "Prof. Anil Kumar",
+          "email": "asl213@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. S. G. Warkar",
+          "email": "sudhirwarkar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. R. C. Sharma",
+          "email": "rchsharma@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Ram Singh",
+          "email": "singh_dr_ram@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Roli Purwar",
+          "email": "roli.purwar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Richa Srivastava",
+          "email": "sri_richa@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. D Santhiya",
+          "email": "deenan.santhiya@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Raminder Kaur",
+          "email": "raminderkaur@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Saurabh Mehta",
+          "email": "saurabh.dtu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Poonam Singh",
+          "email": "poonam@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Manish Jain",
+          "email": "manishjain@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Jay Singh",
+          "email": "jaysingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Chandra Mouli Pandey",
+          "email": "cmp.npl@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. H.C. Taneja",
+          "email": "hctaneja@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. H.C. Taneja",
+          "email": "hctaneja@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rathi.nilam",
+          "email": "Rathi.nilam@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Vinod Singh",
+          "email": "vinodsingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Nitin K. Puri",
+          "email": "nitinkumarpuri@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Nitin K. Puri",
+          "email": "nitinpuri2002@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rishu Chaujar",
+          "email": "rishuchaujar@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Yogita Kalra",
+          "email": "dryogitakalra@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mohan S. Mehata",
+          "email": "msmehata@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Pawan Tyagi",
+          "email": "tyagi_pawan@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ajeet Kumar",
+          "email": "ajeetdph@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Amrish K. Panwar",
+          "email": "panwaramar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Bharti Singh",
+          "email": "bhartisingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sarita Baghel",
+          "email": "saritabaghel@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Richa Sharma",
+          "email": "richasharma@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mukhtiyar Singh",
+          "email": "mukhtiyarsingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Yogendra Kumar Meena",
+          "email": "yogendra.meena@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. R. K. Sinha",
+          "email": "rksinha@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. R. K. Sinha",
+          "email": "dr_rk_sinha@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. H K Singh",
+          "email": "hksingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Honorary Faculty",
+          "email": "hbbohidar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kamal Kishor",
+          "email": "kamalkishor@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mukesh Kumari",
+          "email": "mukshi87@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Vinay Kumar",
+          "email": "vnykmr7@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Neha Gupta",
+          "email": "nehagpt2105@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Lucky Krishnia",
+          "email": "lucky.krishnia@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sameer Jain",
+          "email": "ferro_2005_sam@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ravi Gupta",
+          "email": "ravigpt0709@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ratneshwar Kumar Ratnesh",
+          "email": "ratnes123@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Pravir Kumar",
+          "email": "pravirkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Jai Gopal Sharma",
+          "email": "sharmajaigopal@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Jai Gopal Sharma",
+          "email": "sharmajaigopal@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Bansi Dhar Malhotra",
+          "email": "bansi.malhotra@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Bansi Dhar Malhotra",
+          "email": "bansi.malhotra@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Nirala Ramchiary",
+          "email": "nrudsc@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Raman Kumar",
+          "email": "ramankumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Prem Raj Meena",
+          "email": "prmeena@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mamta Rani",
+          "email": "mamtarani@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Praveen Kumar",
+          "email": "kumarpraveen@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Shivani Khatri",
+          "email": "shivanikhatri@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ankita",
+          "email": "ankitatehlan@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rashmi Kataria",
+          "email": "rashmikataria@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Simran Bhullar",
+          "email": "simranbhullar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Smita Rastogi Verma",
+          "email": "smitar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Saurabh C Saxena",
+          "email": "saurabhcsaxena@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Prakash Chandra",
+          "email": "prakashchandra@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kriti Bhandari",
+          "email": "kritibhandari@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Amit Kr. Shrivastava",
+          "email": "aksrivastava@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Alok Verma",
+          "email": "alokverma@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Naresh Kumar",
+          "email": "nareshkumar@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Susheel Kumar",
+          "email": "susheelkumar@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Narad Muni Prasad",
+          "email": "nmprasad@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr Bharat Jhamnani",
+          "email": "bjhamnani@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ritu Raj",
+          "email": "rituraj.ahirwar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Hrishikesh Dubey",
+          "email": "dubeyrishi018@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Shikhan.khera",
+          "email": "Shikhan.khera@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Madhusudan Singh",
+          "email": "madhusudan@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr.Uma Nangia",
+          "email": "umanangia@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rachna Garg",
+          "email": "rachnagarg@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr.Vishal Verma",
+          "email": "vishalverma@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Suman Bhowmick",
+          "email": "suman.bhowmick@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Bharat Bhushan",
+          "email": "bharat@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. S. T. Nagarajan",
+          "email": "stnagarajan@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mukhtiar Singh",
+          "email": "mukhtiarsingh@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Dheeraj Joshi",
+          "email": "joshidheeraj@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ram Bhagat",
+          "email": "rambhagat@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr.Vinod Kumar Yadav",
+          "email": "vinodkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr .N. K. Jain",
+          "email": "nkjain@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. D. R. Bhaskar",
+          "email": "drbhaskhar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Duli Chand Meena",
+          "email": "dcmeena@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ramjee Lal Meena",
+          "email": "meenarl@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Prem Prakash",
+          "email": "premprakash@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Bhavnesh Jaint",
+          "email": "bhavneshjaint@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Anup Kumar Mandpura",
+          "email": "kanup@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ankita Arora",
+          "email": "aroraankita@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Himanshu Singh",
+          "email": "himanshusingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saurabh Mishra",
+          "email": "saurabhmishra@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rajesh Kumar",
+          "email": "rajeshkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mayank Kumar",
+          "email": "mayankkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Prakash Chittora",
+          "email": "prakashchittora@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhishek Chaudhary",
+          "email": "abhishek@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anupama",
+          "email": "anupama@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishna Dutt",
+          "email": "krishna@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rohan Pillai",
+          "email": "rohan92@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Vanjari Venkata Ramana",
+          "email": "venkata@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr Rinchin W. Mosobi",
+          "email": "wangzom@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Madan Mohan Rayguru",
+          "email": "mmrayguru@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ms. Monika Verma",
+          "email": "verma15.monika@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Jeebananda Panda",
+          "email": "jpanda@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Rajesh Rohilla",
+          "email": "rajesh@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Dinesh Kumar",
+          "email": "dineshkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Dinesh Kumar",
+          "email": "dinesh_chutani@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. M S Choudhary",
+          "email": "msc_1976@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Priyanka Jain",
+          "email": "priyajain2000@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Gurjit Kaur",
+          "email": "gurjitkaur@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Deva Nand",
+          "email": "devkamboj@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sudipta Majumdar",
+          "email": "korsudipta@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr Avinash Ratre",
+          "email": "avinashratre@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ajai Kumar Gautam",
+          "email": "ajai.gautam@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Piyush Tewari",
+          "email": "piyushtewari@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anurag Chauhan",
+          "email": "anuragchauhan@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anand Kumar",
+          "email": "anandkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kriti Suneja",
+          "email": "kritisuneja@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sumit Kumar Khandelwal",
+          "email": "sumit.khandelwal@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr Rohit Kumar",
+          "email": "rohit.kumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sachin Dhariwal",
+          "email": "sachindhariwal@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Akshay Mann",
+          "email": "akshay.mann@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lokesh Gautam",
+          "email": "lokeshgautam21@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rahul Thakur",
+          "email": "rahulthakur@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kaustubh Ranjan Singh",
+          "email": "kaustubh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sachin Taran",
+          "email": "taransachin2@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sumit Kale",
+          "email": "sumitkale785@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sonal Singh",
+          "email": "sonal.singh0811@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr Anukul Pandey",
+          "email": "anukul66@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Lavi Tanwar",
+          "email": "lavi.tanwar02@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Chhavi Dhiman",
+          "email": "chhavi.dhiman@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sonam Rewari",
+          "email": "rewarisonam@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Mr. Varun Sangwan",
+          "email": "varunsangwan@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mr. Vinay Kumar",
+          "email": "ankvin@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Pankaj Dahiya",
+          "email": "pankajdahiya@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Vipin",
+          "email": "vipin@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. D.S. Nagesh",
+          "email": "dsnagesh@dce.edu",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Reeta Wattal",
+          "email": "reetawattal@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Amit Pal",
+          "email": "amitpal@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. R.C. Singh",
+          "email": "rcsingh@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Ranganath M. Singari",
+          "email": "ranganath@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Rajesh Kumar",
+          "email": "dr.rajeshmits@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Qasim Murtaza",
+          "email": "qasimmurtaza@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Rajiv Chaudhary",
+          "email": "rajivchaudhary@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Atul Kumar Agarwal",
+          "email": "atulkumaragarwal@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Akhilesh Arora",
+          "email": "akhilesharora@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Anil Kumar",
+          "email": "anilkumar76@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. R.S. Mishra",
+          "email": "rsmishra@dce.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Manjunath K",
+          "email": "manjukmys@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mohammad Zunaid",
+          "email": "mzunaid@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Raghavendra Gautam",
+          "email": "raghvendrag80@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Paras Kumar",
+          "email": "paraskumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sushila Rani",
+          "email": "sranidtu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Bijendra Prasad",
+          "email": "bijendraprasad@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sandeep Kumar",
+          "email": "sandeep.kumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Satyajit Sahu",
+          "email": "satyajitsahu@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Puneet Singh Gautam",
+          "email": "puneetsingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Nitin Dixit",
+          "email": "nitindixit@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ankur Sharma",
+          "email": "ankursharma@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Anil Singh",
+          "email": "anilsingh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rajendra Prasad Meena",
+          "email": "rajendraprasad@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sumit Singh",
+          "email": "sumit.singh@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kashish Kumar",
+          "email": "kashishkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kapil Chaudhri",
+          "email": "kapilchaudhri@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Abhishek Kumar",
+          "email": "abhishek.kumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Jyotsna Gupta",
+          "email": "jyotsnagupta@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Tarun Pratap Singh",
+          "email": "tarun.pratap@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Dipayan Das",
+          "email": "dipayandas@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Anant Bhardwaj",
+          "email": "anantbhardwaj@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sumit Joshi",
+          "email": "sumitjoshi@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Manish Kumar",
+          "email": "manishkumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sharaf U Nisa",
+          "email": "sharafunisa@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. ASHISH KUMAR MISHRA",
+          "email": "ASHISH@DTU.AC.IN",
+          "phone": ""
+        },
+        {
+          "name": "Kapil Kumar",
+          "email": "kapil.kumar@dtu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Saurabh Agrawal",
+          "email": "agrawals.iit@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Butola",
+          "email": "ravimed@dtu.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "55817",
@@ -39899,9 +40770,75 @@
       "district": "",
       "pin_code": "110025",
       "website": "http://www.jmi.nic.in",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "+911126981717; +911126984650",
+      "emails": "ahaleem@jmi.ac.in; aksharmaiitm@gmail.com; ansiddiqui@jmi.ac.in; arahim@jmi.ac.in; asharma1@jmi.ac.in; asherwani@jmi.ac.in; asjad_alig@rediffmail.com; faizan709@yahoo.co.in; haleem.abid@gmail.com; lkumar@jmi.ac.in; masjad@jmi.ac.in; mnkarimi64@gmail.com; msuhaib@jmi.ac.in; rahim_ark@rediffmail.com; skhan2@jmi.ac.in; smmuzakkir@jmi.ac.in; tkhan@jmi.ac.in; zakhan@jmi.ac.in; zakhanusm@yahoo.com; zmallick@jmi.ac.in",
+      "professors": [
+        {
+          "name": "Dr. Abdur Rahim",
+          "email": "zmallick@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ahmad Faizan Sherwani",
+          "email": "ahaleem@jmi.ac.in; haleem.abid@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Arshad Noor Siddiquee",
+          "email": "asharma1@jmi.ac.in; aksharmaiitm@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Lokesh Kumar",
+          "email": "lkumar@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mohammad Asjad",
+          "email": "ansiddiqui@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mohammed Suhaib",
+          "email": "masjad@jmi.ac.in; asjad_alig@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Mohd Javaid",
+          "email": "zakhan@jmi.ac.in; zakhanusm@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Munawar Nawab Karimi",
+          "email": "msuhaib@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sabah Khan",
+          "email": "mnkarimi64@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Tasmeem Ahmad Khan",
+          "email": "smmuzakkir@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Zahid Akhtar Khan",
+          "email": "skhan2@jmi.ac.in; tkhan@jmi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Abid Haleem",
+          "email": "arahim@jmi.ac.in; rahim_ark@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Anil Kumar Sharma",
+          "email": "asherwani@jmi.ac.in; faizan709@yahoo.co.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56043",
@@ -40054,8 +40991,3294 @@
       "pin_code": "110067",
       "website": "http://www.jnu.ac.in",
       "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "emails": "Shikha.jhingan@gmail.com; a_srivastava@mail.jnu.ac.in; aahmad@mail.jnu.ac.in; aaksahoo@gmail.com; aalsony@gmail.com; aanand@mail.jnu.ac.in; aayushi.ketkar@gmail.com; aayushik@mail.jnu.ac.in; abhattacharya@mail.jnu.ac.in; abhave@mail.jnu.ac.in; abhi.sharma@jnu.ac.in; abhijit@mail.jnu.ac.in; abhimanyu@mail.jnu.ac.in; abhimanyuarha@gmail.com; abhinavgr@gmail.com; abhishek.ir@gmail.com; abhisheka@mail.jnu.ac.in; abhisheks@mail.jnu.ac.in; abinaya@mail.jnu.ac.in; abinayamanivannan@gmail.com",
+      "professors": [
+        {
+          "name": "Kavita Arora",
+          "email": "kavitaarora@jnu.ac.in; kavitaarora@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tulika Prasad",
+          "email": "prasadtulika@hotmail.com; prasadtulika@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvind Kumar",
+          "email": "kumararvind@jnu.ac.in; kumararvind@mail.jnu.ac.in; prof.kumar.arvind@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rajeev Sijariya",
+          "email": "rajeevsijariya@gmail.com; rajeevsijariya@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvind P Arahant",
+          "email": "aparahant@mail.jnu.ac.in; arvindarahant@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Brajesh Kumar Tiwari",
+          "email": "brajeshtiwari@mail.jnu.ac.in; julybrajesh@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Geetanjali Batra",
+          "email": "geetanjalibatra@mail.jnu.ac.in; ms.geetanjali.batra@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Lokesh Jindal",
+          "email": "lokeshjindal@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priya Gupta",
+          "email": "priyagupta@jnu.ac.in; priyagupta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sakshi Sharma",
+          "email": "sakshi2085@gmail.com; sakshisharma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vaniki Joshi Lohani",
+          "email": "vanikijoshi@gmail.com; vanikijoshi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vikram Bansal",
+          "email": "vikrambansal@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bishnupriya Dutt",
+          "email": "duttbishnupriya@gmail.com; pia_dutt@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Naman P. Ahuja",
+          "email": "nahuja@mail.jnu.ac.in; namanahuja@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Partho Datta",
+          "email": "parthodatta@gmail.com; parthodatta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Parul Dave Mukherji",
+          "email": "parul.dm@hotmail.com; paruldm@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ranjani Mazumdar",
+          "email": "ranjani.mazumdar@gmail.com; ranjani@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shukla Sawant",
+          "email": "shuklasa@mail.jnu.ac.in; shuklasawant@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ameet Parameswaran",
+          "email": "ameet.parameswaran@gmail.com; ameet@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kaushik Bhaumik",
+          "email": "bhaumikenator@gmail.com; kbhaumik@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mrinmoyee Ray",
+          "email": "mrinmoyeeray@gmail.com; mrinmoyeeray@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ratheesh Radhakrishnan",
+          "email": "ratheeshra@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shikha Jhingan",
+          "email": "Shikha.jhingan@gmail.com; shikhajhingan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Soumyabrata Choudhury",
+          "email": "shomo.choudhury@gmail.com; soumyabrata@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Veena Hariharan",
+          "email": "hariharan.veena@gmail.com; veenahariharan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amphu Terangpi",
+          "email": "aterangpi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Brahma Prakash Singh",
+          "email": "bprakash@jnu.ac.in; bprakash@mail.jnu.ac.in; prakash.brahma@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Suryanandini Narain",
+          "email": "suryanandini@jnu.ac.in; suryanandini@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vibhushan Subba",
+          "email": "vibhushan@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kashyap Kumar Dubey",
+          "email": "kashyapdubey@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Mishra",
+          "email": "rajeshmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rupesh Chaturvedi",
+          "email": "rupesh.chaturvedi.jnu@gmail.com; rupesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandeep Saxena",
+          "email": "sandeepsaxena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suneel Kateriya",
+          "email": "skateriya@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvind Pratap Singh",
+          "email": "arvindpsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Kumar",
+          "email": "ravikr@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Verma",
+          "email": "raviverma@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhinav Grover",
+          "email": "abhinavgr@gmail.com; agrover@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Hemant Ritturaj Kushwaha",
+          "email": "hemantkushwaha@jnu.ac.in; ritturajhemant@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jaydeep Bhattacharya",
+          "email": "jaydeep@jnu.ac.in; jaydpb@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manoj K. Sharma",
+          "email": "manojdarolia@gmail.com; mksharma@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ranjana Arya",
+          "email": "arya.ranjana24@gmail.com; ranjanaa@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Tandon",
+          "email": "ravitandon@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Swati Tiwari",
+          "email": "swati_tiwari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Syamala Maitreyi Rajala",
+          "email": "gmaitri@yahoo.com; msrajala@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Virendra Singh",
+          "email": "singhvirendra@live.com; virendrasingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Andrew M Lynn",
+          "email": "andrew@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anirban Chakraborti",
+          "email": "anirban@jnu.ac.in; anirban@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Binod Kumar Kanaujia",
+          "email": "bkkanaujia@jnu.ac.in; bkkanaujia@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukesh Jain",
+          "email": "mjain@jnu.ac.in; mjainanid@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pradipta Bandyopadhyay",
+          "email": "praban07@gmail.com; pradipta_b@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sapna Ratan Shah",
+          "email": "sapnarshah@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shandar Ahmad",
+          "email": "shandar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arnab Bhattacharjee",
+          "email": "arnab@jnu.ac.in; arnab@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kunwer Singh Mathur",
+          "email": "ksmathur@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Narinder Singh Sahni",
+          "email": "narinder@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pallavi Somvanshi",
+          "email": "psomvanshi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abinaya Manivannan",
+          "email": "abinaya@mail.jnu.ac.in; abinayamanivannan@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Gajendra Pratap Singh",
+          "email": "gajendra@jnu.ac.in; gajendra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jyoti Singh Kirar",
+          "email": "jyotikirar@jnu.ac.in; jyotikirar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh Kumar Saroj",
+          "email": "rakeshsaroj@jnu.ac.in; rakeshsaroj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manju Khari",
+          "email": "manjukhari@jnu.ac.in; manjukhari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Piyush Pratap Singh",
+          "email": "piyushpsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ratneshwer",
+          "email": "ratnesh@mail.jnu.ac.in; ratneshwer@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Satish Chand",
+          "email": "schand20@gmail.com; schand@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonajharia Minz",
+          "email": "sona.minz@gmail.com; sonaminz@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vir Bahadur Singh",
+          "email": "vbsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Zahid Raza",
+          "email": "zahidraza@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aditi Sharan",
+          "email": "aditisharan@gmail.com; aditisharan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arun Prakash",
+          "email": "arunprakash@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jasraj Meena",
+          "email": "jasrajmeena@jnu.ac.in; jasrajmeena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Poonam Agarwal",
+          "email": "poonamgoel@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Poonguzhali N",
+          "email": "poonguzhali@jnu.ac.in; poonguzhali@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sachin Balkrushna Jadhav",
+          "email": "sachinjadhav@jnu.ac.in; sachinjadhav@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sushil Kumar",
+          "email": "skdohare@mail.jnu.ac.in; skdohare@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Anuj Sachan",
+          "email": "anujsachan@jnu.ac.in; anujsachan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Asutosh Srivastava",
+          "email": "asutosh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ayesha Choudhary",
+          "email": "ayeshac@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Buddha Singh",
+          "email": "buddhasingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Karan Singh",
+          "email": "karan@jnu.ac.in; karan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saurabh Kumar Sharma",
+          "email": "saurabhsharma.lpu@gmail.com; saurabhsharma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhash Chandra Patel",
+          "email": "subhashpatel@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tirthankar Gayen",
+          "email": "tirthankar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vikas Mittal",
+          "email": "vikasmittal@jnu.ac.in; vikasmittal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Yogendra Meena",
+          "email": "yogendra.jnu08@gmail.com; yogendra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankit Chaudhary",
+          "email": "ankitchaudhary@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anupama Namburu",
+          "email": "anupamanamburu@jnu.ac.in; anupamanamburu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashwini Kumar Arya",
+          "email": "akarya@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukuloth Srinivasnaik",
+          "email": "msnaik@jnu.ac.in; msnaik@mail.jnu.ac.in; srinivasmukuloth@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pushpendra Singh",
+          "email": "spushp@gmail.com; spushp@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangmesh",
+          "email": "sangmesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankit Kumar Jaiswal",
+          "email": "ankit1511@hotmail.com; ankitjaiswal@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ayushi Barthwal",
+          "email": "ayushibarthwal@mail.jnu.ac.in; barthwal.ayushi1988@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Benay Kumar Ray",
+          "email": "benayray@gmail.com; benayray@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepak Sharma",
+          "email": "deepaksharma@mail.jnu.ac.in; dsharma7309@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Kethavath Kranthi Kumar",
+          "email": "kranthikumar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishnan Rajkumar",
+          "email": "krishnan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lavish Kumar Singh",
+          "email": "lavish.singh2011@gmail.com; lavishkumar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukesh Kumar Giluka",
+          "email": "gilukagiluka@gmail.com; mkgiluka@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prerana Mukherjee",
+          "email": "prerana@jnu.ac.in; prerana@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rituraj Singh",
+          "email": "riturajsingh@jnu.ac.in; riturajsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shashank Vadlamani",
+          "email": "shashankv@mail.jnu.ac.in; shashankvadlamani@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Varun Saxena",
+          "email": "varunsaxena@jnu.ac.in; varunsaxena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arun Kumar Srivastava",
+          "email": "a_srivastava@mail.jnu.ac.in; srivastava02@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dhananjai Kumar Pandey",
+          "email": "dhananjai@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dinesh Mohan",
+          "email": "dm_1967@hotmail.com; dmohan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jayant Kumar Tripathi",
+          "email": "jktrip@yahoo.com; jktripathi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kasturi Mukhopadhyay",
+          "email": "kasturi26@hotmail.com; kasturim@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishan Kumar",
+          "email": "krishan_kumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Muduru Lachhana Dora",
+          "email": "dorageol@gmail.com; mldora@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Paulraj Rajamani",
+          "email": "paulrajr@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Satish Chandra Garkoti",
+          "email": "scgarkoti@mail.jnu.ac.in; sgarkoti@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Shekhar Mallick",
+          "email": "shekharm@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sudesh Yadav",
+          "email": "sudesh27@hotmail.com; syadav@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Umesh Kulshrestha",
+          "email": "umesh@mail.jnu.ac.in; umeshkulshrestha@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Usha Mina",
+          "email": "ushamina@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anil Kumar",
+          "email": "akumar@mail.jnu.ac.in; anilwihg@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dileswar Nayak",
+          "email": "dileswarnayak@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ilora Ghosh (Mondal)",
+          "email": "ighosh@mail.jnu.ac.in; iloraghosh17@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Kumar Pranaw",
+          "email": "kpranaw@jnu.ac.in; kpranaw@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lakshmi Kumar T V",
+          "email": "lakshmikumar@jnu.ac.in; lakshmikumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Meenakshi Dua",
+          "email": "mdua@mail.jnu.ac.in; meenakshi72@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Kumar Umrao",
+          "email": "ravikumrao@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Susheel Kumar",
+          "email": "susheelkumar25@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Kumar Mishra",
+          "email": "amit.mishra.jnu@gmail.com; amitmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arijit Mallick",
+          "email": "arijit.chem08@gmail.com; arijitmallick@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashwani Kumar Tiwari",
+          "email": "ashwani.enviro@gmail.com; ashwaniktiwari@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bikram Sen Sahu",
+          "email": "bssahu@jnu.ac.in; bssahu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ram Pravesh Kumar",
+          "email": "praveshjnu@gmail.com; rpkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ramovatar Meena",
+          "email": "rammeenarv@gmail.com; ramovatarmeena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tanya Srivastava",
+          "email": "tanya.srivastava1711@gmail.com; tanyasrivastava@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajay Kumar Saxena",
+          "email": "ajaysaxena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amal Chandra Mondal",
+          "email": "acmondal@mail.jnu.ac.in; amal_mondal@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ananda Kumar Sarkar",
+          "email": "aksarkar.jnu@gmail.com; anandaksarkar@jnu.ac.in; anandaksarkar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arun Sidram Kharat",
+          "email": "arunkharat2007@gmail.com; askharat@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashis K Nandi",
+          "email": "ashis_nandi@mail.jnu.ac.in; ashis_nandi@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Ashwani Pareek",
+          "email": "ashwanip@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Atul Kumar Johri",
+          "email": "ajohri@mail.jnu.ac.in; akjohri14@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Kiran Babu Uppuluri",
+          "email": "kiranbabu@jnu.ac.in; kiranbabu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nirala Ramchiary",
+          "email": "nramchiary@jnu.ac.in; nramchiary@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Praveen K Verma",
+          "email": "pkv.jnu@gmail.com; praveenkverma@jnu.ac.in; praveenkverma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rana P. Singh",
+          "email": "rana_singh@mail.jnu.ac.in; ranaps@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rohini Muthuswami",
+          "email": "rohini_m@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Samudrala Gourinath",
+          "email": "sgourinath@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shilpee Dutt",
+          "email": "drshilpeedutt@gmail.com; shilpeedutt@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneh Lata Panwar",
+          "email": "sneh10@hotmail.com; sneh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneha Sudha Komath",
+          "email": "sskomath@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bama Charan Mondal",
+          "email": "bamacharan@gmail.com; bamacharan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhupendra Chaudhary",
+          "email": "bhupendra@jnu.ac.in; bhupendra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ekta Rai",
+          "email": "ekta.rai@hotmail.com; ektarai@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Karunakar Kar",
+          "email": "karunakarkar@gmail.com; kkar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neelima Mondal",
+          "email": "nmondal@hotmail.com; nmondal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sushil K Jha",
+          "email": "sushil_1000@yahoo.com; sushilkjha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vikas Yadav",
+          "email": "vikasjnu@gmail.com; vikasyadav@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhisheka Bansal",
+          "email": "abhisheka@mail.jnu.ac.in; bansal.abhisheka@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ashu Bhan Tiku",
+          "email": "abtiku@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Devinder Kaur",
+          "email": "devinderkaur@mail.jnu.ac.in; kaur.devbio@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nikhil Job",
+          "email": "nikhiljob6@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Niti Puri",
+          "email": "niti_puri@hotmail.com; purin@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Kumar Giri",
+          "email": "giripankaj@jnu.ac.in; giripankaj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Stanzin Dawa",
+          "email": "stanzin@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Rai",
+          "email": "amitrai@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Brijesh Kumar",
+          "email": "bkumar@jnu.ac.in; bkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debashis Ghoshal",
+          "email": "dghoshal@jnu.ac.in; dghoshal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kedar Singh",
+          "email": "kedar@mail.jnu.ac.in; kedarbhp@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manish Kumar",
+          "email": "manishdft@gmail.com; mkkashyap@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ng. K. Francis",
+          "email": "ngkfrancis@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pawan Kumar Kulriya",
+          "email": "pawaniuac@gmail.com; pkkulriya@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pritam Mukhopadhyay",
+          "email": "m_pritam@mail.jnu.ac.in; pritam.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ram Prasad Prajapati",
+          "email": "prajapati.iter@gmail.com; rpprajapati@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ram Sagar",
+          "email": "ram.sagar@jnu.ac.in; ramsagar1.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Riddhi Shah",
+          "email": "rshah@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Puri",
+          "email": "puri@mail.jnu.ac.in; purijnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sobhan Sen",
+          "email": "sens@jnu.ac.in; sobhan.sen@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Subhasis Ghosh",
+          "email": "subhasis@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhagaban Kisan",
+          "email": "bhagabankisan@mail.jnu.ac.in; bkisan@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pushpendra Kumar",
+          "email": "pushpendra@jnu.ac.in; pushpendra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rabindra Nath Mahato",
+          "email": "rabindraiitm@gmail.com; rnmahato@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Smita Sonker",
+          "email": "smita.sonker@gmail.com; smitasonker@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vijay Kumar Goel",
+          "email": "vijaykgoel@jnu.ac.in; vijaykgoel@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Alok Kumar Singh Jha",
+          "email": "alokksjha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amala Bhave",
+          "email": "abhave@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankita Rai",
+          "email": "ankitagalaxy@gmail.com; ankitarai@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvind Kumar",
+          "email": "arvind@jnu.ac.in; arvind@mail.jnu.ac.in; bhuarvind2512@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ashim Kr. Pramanik",
+          "email": "akpramanik@mail.jnu.ac.in; ashpramanik@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dinabandhu Das",
+          "email": "dinabandhu@mail.jnu.ac.in; jnu.dinu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manoj Munde",
+          "email": "mmunde@mail.jnu.ac.in; mundemanoj@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manoj Verma",
+          "email": "m.infinite@gmail.com; manojverma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Om Prakash Meena",
+          "email": "omi.omprakash95@gmail.com; opmeena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pijus Kumar Sasmal",
+          "email": "pijus@mail.jnu.ac.in; pijussasmal@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Poonam Mehta",
+          "email": "pm@jnu.ac.in; poonammehtajnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh Kumar Meena",
+          "email": "rakeshkmeena@jnu.ac.in; rakeshmeena3424@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Kumar Saroj",
+          "email": "sarojsk1989@gmail.com; sarojsk@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shilpi Agarwal",
+          "email": "shilpiagarwal@mail.jnu.ac.in; sipi.agarwal@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Supriya Sabbani",
+          "email": "sabbani07@gmail.com; ssabbani@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tanuja Mohanty",
+          "email": "tanujajnu@gmail.com; tmohanty@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Brajesh Kumar Pandey",
+          "email": "brajeshkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Girish Nath Jha",
+          "email": "girishjha@gmail.com; girishjha@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gopal Lal Meena",
+          "email": "glmeena@mail.jnu.ac.in; gmeena28@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Rajnish Kumar Mishra",
+          "email": "mishra_rajnish@yahoo.com; mishrarajnish@gmail.com; rkmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ram Nath Jha",
+          "email": "rnj12@hotmail.com; rnjha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Santosh Kumar Shukla",
+          "email": "skshukla@mail.jnu.ac.in; skshuklajnu@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Sudhir Kumar",
+          "email": "sudhirkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishna Mohan Pandey",
+          "email": "apkmpandey@gmail.com; kmpandey@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mauhar Singh Meena",
+          "email": "mauharsingh@jnu.ac.in; mauharsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pramod Kumar Sharma",
+          "email": "pksharmas54@gmail.com; pramodsharma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tangallapalli Mahendar",
+          "email": "mahendar@mail.jnu.ac.in; tpmahi@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jyoti",
+          "email": "jyotiraj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vijender Singh",
+          "email": "mehtayvs@gmail.com; singhvijender@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhijeet Dwivedi",
+          "email": "abhijit@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deep Narayan Pandey",
+          "email": "deepudai@gmail.com; dnpandey@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nikunj Makwana",
+          "email": "dr.nikunj@yahoo.co.in; nikunj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anand Ranganathan",
+          "email": "aranganathan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chinmay K. Mukhopadhyay",
+          "email": "ckm2300@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gobardhan Das",
+          "email": "dasgo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh K. Tyagi",
+          "email": "rkt2300@mail.jnu.ac.in; rktyagi@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Shailja Singh",
+          "email": "shailjasingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suman Kumar Dhar",
+          "email": "skdhar2002@yahoo.co.in; skdhar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Umesh Chand Singh Yadav",
+          "email": "ucsyadav@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vibha Tandon",
+          "email": "vibhadelhi6@gmail.com; vtandon@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Someswar Rao Sagurthi",
+          "email": "drsomeswar@mail.jnu.ac.in; drsomeswar@osmania.ac.in; somu2u@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Souvik Bhattacharjee",
+          "email": "sbh174@gmail.com; souvik@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sudhir Kumar",
+          "email": "sudhir.k@jnu.ac.in; sudhir.k@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vijay Pal Singh Rawat",
+          "email": "rawatcdx@gmail.com; vijaypsrawat@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dipankar Ghosh",
+          "email": "ghoshd@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saima Aijaz",
+          "email": "s_aijaz@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bijoy Kumar Kuanr",
+          "email": "bijoykuanr@mail.jnu.ac.in; bkkuanr@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ketavath Kumar Naik",
+          "email": "kknaik@mail.jnu.ac.in; kumarvtr@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Thakur",
+          "email": "pankajthakur@jnu.ac.in; pankajthakur@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Satyendra Singh",
+          "email": "satyambd@gmail.com; satyendra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prakash Kanoo",
+          "email": "prakashkanoo@gmail.com; prakashkanoo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandeep Kumar",
+          "email": "fedrer.engg@gmail.com; skamera@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Balaji Birajdar",
+          "email": "birajdar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neha Paras",
+          "email": "nehaparasrao@mail.jnu.ac.in; neharao1993@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pratima Solanki",
+          "email": "partima@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinod Kumar",
+          "email": "kumarv@mail.jnu.ac.in; vinod7674@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Amit Singh",
+          "email": "amitsingh@mail.jnu.ac.in; amitsinghjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Laxman Kumar Behera",
+          "email": "laxmanbehera@gmail.com; lkbehera@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aayushi Ketkar",
+          "email": "aayushi.ketkar@gmail.com; aayushik@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankur Yadav",
+          "email": "ankur.jnusis@gmail.com; ankuryadav@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gaurav Tyagi",
+          "email": "gaurav.microbhu@gmail.com; gauravtyagi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Naresh Kumar Verma",
+          "email": "nareshrai.jnu@gmail.com; nkverma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakhee Bhattacharjee",
+          "email": "rakhee@mail.jnu.ac.in; rakhee_2k@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Vimal Khawas",
+          "email": "prof.vimalkhawas@gmail.com; vimalkhawas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Kumar Rao",
+          "email": "vinaykrao@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rikil Chyrmang",
+          "email": "rikilenator@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Khuraijam Bijoykumar Singh",
+          "email": "bijoykhaba@yahoo.com; kbsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lipokmar Dzuvichu",
+          "email": "lipokmar@mail.jnu.ac.in; lipokmardzuvichu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manjeet Baruah",
+          "email": "manjeetbaruah@gmail.com; mbaruah@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Prakash",
+          "email": "amit@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chirashree Dasgupta",
+          "email": "chirashree@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jaivir Singh",
+          "email": "jsingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prakash Chand Kandpal",
+          "email": "pcka120872@yahoo.com; prakashchand@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pratiksha Baxi",
+          "email": "pbaxi@jnu.ac.in; pbaxi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sigamani Panneer",
+          "email": "panneersigamani@gmail.com; sigamani@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sukalpa Chakrabarti",
+          "email": "sukalpa@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Reeta Sony A.L.",
+          "email": "aalsony@gmail.com; reetasony@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Varada A. Sambhus",
+          "email": "varada@jnu.ac.in; varada@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ghazala Jamil",
+          "email": "ghazalajamil@jnu.ac.in; ghazalajamil@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nupur Chowdhury",
+          "email": "nupur@jnu.ac.in; nupur@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Thongkholal Haokip",
+          "email": "haokip@jnu.ac.in; th.robert@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Unnat P. Pandit",
+          "email": "office@unnatpandit.com",
+          "phone": ""
+        },
+        {
+          "name": "Sushmita Rajwar",
+          "email": "sushmitarajwar2@gmail.com; sushmitarajwar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gayettri Dixit",
+          "email": "gayettri@mail.jnu.ac.in; gayettridixit@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rashmi Rani Anand",
+          "email": "rashmianand@mail.jnu.ac.in; rashmiranianandjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Arvind Kumar",
+          "email": "aknias@yahoo.com; arvindk@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priti Singh",
+          "email": "pritisingh@mail.jnu.ac.in; singhpriti@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Aprajita Kashyap",
+          "email": "aprajita@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Uma Purushothaman",
+          "email": "umapurushothaman@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vineet Prakash",
+          "email": "vineetprakash10@gmail.com; vineetprakash@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anshu Joshi",
+          "email": "anshujoshi@mail.jnu.ac.in; anshujoshijnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Saumyajit Ray",
+          "email": "ray.saumyajit@gmail.com; saumyajitray@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneha Bhagat",
+          "email": "sneha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mollica Dastider",
+          "email": "mollica.dastider@gmail.com; mollica@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pradip Kumar Parida",
+          "email": "pkparida@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Rameshchandra Shukla",
+          "email": "ravirshukla@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jyoti D Bhosale",
+          "email": "dbjyoti@gmail.com; jdbhosale@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohinder Singh",
+          "email": "mohinder.du@gmail.com; mohindersingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pravesh Kumar",
+          "email": "kumar.pravesh27@gmail.com; praveshkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sabareesh P.A.",
+          "email": "sabareesh.jnu@gmail.com; sabareesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Hriday Narayan",
+          "email": "hridayn@mail.jnu.ac.in; hridayna@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jitendra Uttam",
+          "email": "jnucampus@gmail.com; juttam@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandip Kumar Mishra",
+          "email": "sandipmishra10@gmail.com; sandipmishra@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Srabani Roy Choudhury",
+          "email": "srabani@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Srikanth Kondapalli",
+          "email": "srikanth@mail.jnu.ac.in; srikondapalli@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Varaprasad Sekhar Dolla",
+          "email": "dvaraprasads@gmail.com; dvs@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aravind Balaji Yelery",
+          "email": "aravindyelery@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raviprasad Narayanan",
+          "email": "raviprasad.narayanan@gmail.com; raviprasadn@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ritu Agarwal",
+          "email": "ritu10agarwal@gmail.com; rituagarwal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Titli Basu",
+          "email": "titlibasu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tshering Chonzom Bhutia",
+          "email": "tshering@mail.jnu.ac.in; tsheringjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Makaranda Barik",
+          "email": "makaranda@jnu.ac.in; makaranda@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sudhakar Vaddi",
+          "email": "sudhajnu@gmail.com; sudhakarvaddi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhaswati Sarkar",
+          "email": "bsarkar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gulshan Sachdeva",
+          "email": "gulshan@mail.jnu.ac.in; gulshanjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ummu Salma Bava",
+          "email": "salma@mail.jnu.ac.in; usbava@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Satya Narayan Prasad",
+          "email": "satyanarayan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sheetal Sharma",
+          "email": "sheetal88@gmail.com; sheetal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankita Dutta",
+          "email": "ankita_dutta87@yahoo.co.in; ankitadutta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sakti Prasad Srichandan",
+          "email": "spsrichandan@jnu.ac.in; spsrichandan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Teiborlang T. Kharsyntiew",
+          "email": "teiborlang@jnu.ac.in; teiborlang@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shankari Sundararaman",
+          "email": "shankari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rahul Mishra",
+          "email": "rahul.seas@gmail.com; rmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shubhamitra Das",
+          "email": "shubhamitra70@gmail.com; shubhamitra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ananta Swarup Bijendra De Gurung",
+          "email": "ananta@jnu.ac.in; ananta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jaikhlong Basumatary",
+          "email": "jaikhlong@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ambrish Dhaka",
+          "email": "adhaka@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangeeta Thapliyal",
+          "email": "sangeetathapliyal@gmail.com; sthapliyal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sharad Kumar Soni",
+          "email": "sharadksoni@gmail.com; sksoni@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mahesh Ranjan Debata",
+          "email": "mdebata@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tsetan Namgyal",
+          "email": "tsetan@mail.jnu.ac.in; tsetannjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sujith K",
+          "email": "sujith@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinai Kumar Singh",
+          "email": "vinaikumar@mail.jnu.ac.in; vinaikumarsingh@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Deepa Kansra",
+          "email": "deepakansra@jnu.ac.in; dkansra@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Fazil Jamal",
+          "email": "fazil@jnu.ac.in; fazil@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amitabh Mattoo",
+          "email": "amattoo@mail.jnu.ac.in; amitabh.mattoo@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Archna Negi",
+          "email": "archnanegi@mail.jnu.ac.in; archnanegi@rediffmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jayati Srivastava",
+          "email": "jayatis@gmail.com; jayatis@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Rajagopalan",
+          "email": "r_rajesh@mail.jnu.ac.in; rajesh622@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Ranvijay",
+          "email": "ranvijay@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shantesh Kumar Singh",
+          "email": "shantesh@jnu.ac.in; shantesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Swaran Singh",
+          "email": "ssingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manish Dabhade",
+          "email": "mdmanish@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Moushumi Basu",
+          "email": "mbasu@mail.jnu.ac.in; moushumi.basu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Prasanta Sahoo",
+          "email": "prasantasahoo12@yahoo.co.in; prasantasahoo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhishek Srivastava",
+          "email": "abhishek.ir@gmail.com; abhisheks@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dechen Bhutia",
+          "email": "dechen@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandip Kumar Singh",
+          "email": "sandipksingh@jnu.ac.in; sandipksingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Santana Khanikar",
+          "email": "khanikarsantana@gmail.com; santana@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shivaji Kumar",
+          "email": "shivajik2050@gmail.com; shivajikumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aparna Sawhney",
+          "email": "asawhney@jnu.ac.in; asawhney@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Atul Kumar",
+          "email": "atulkumar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mandira Sarma",
+          "email": "msarma.ms@gmail.com; sarmam@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Meeta Keswani Mehra",
+          "email": "meetakm@gmail.com; meetakm@jnu.ac.in; meetakm@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangeeta Bansal",
+          "email": "sangeeta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sushama Murty",
+          "email": "sushama.murty1@gmail.com; sushama@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajeet Kumar Sahoo",
+          "email": "aaksahoo@gmail.com; ajeetsahoo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bharatee Bhusana Dash",
+          "email": "bharatee.dash@gmail.com; bharateedash@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Brishti Guha",
+          "email": "brishtiguha@gmail.com; brishtiguha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priya Bhagowalia",
+          "email": "bhagowalia@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rashmi Barua",
+          "email": "barua.bhowmik@gmail.com; rashmibarua@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suman Das",
+          "email": "sumandas.eco@gmail.com; sumandas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Archana Upadhyay",
+          "email": "archana_u@mail.jnu.ac.in; archanaupadhyay.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nalin Kumar Mohapatra",
+          "email": "nalin238@gmail.com; nalin@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Phool Badan",
+          "email": "phoolbadan@mail.jnu.ac.in; phoolbadan@yahoo.com; phoolbjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Preeti D Das",
+          "email": "ketyusha@gmail.com; preetidd@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajan Kumar",
+          "email": "rajan75jnu@gmail.com; rajan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Kumar Pandey",
+          "email": "skpandey@mail.jnu.ac.in; skpandeyjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Amitabh Singh",
+          "email": "amitabhsingh@mail.jnu.ac.in; samitabh@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dinesh Kumar",
+          "email": "dineshk@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Govind Kumar Inakhiya",
+          "email": "govindkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pramod Kumar",
+          "email": "pramodkumarjnu@gmail.com; pramodsis@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Asma Kouser",
+          "email": "asmakouser@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raj Yadav",
+          "email": "rajyadav@mail.jnu.ac.in; rajyadavjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rashmini Anil Koparkar",
+          "email": "rashmini.koparkar@gmail.com; rashmini@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Renu Sain",
+          "email": "renujnu@gmail.com; renusain@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vaishali Krishna",
+          "email": "vaishali@mail.jnu.ac.in; vaishalikrishna272@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Amita Batra",
+          "email": "amitabatra@mail.jnu.ac.in; batraamita@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Kharat Rajesh Shrikrishna",
+          "email": "kharat@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay K Bhardwaj",
+          "email": "bhardwaj.jnu@gmail.com; sbhardwaj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gadde Omprasad",
+          "email": "opgadde2@gmail.com; opgadde@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saurabh",
+          "email": "saurabh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Milind Dhaware",
+          "email": "milinddhaware@gmail.com; milinddhaware@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jajati K. Pattnaik",
+          "email": "jajatikpattnaik@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mahendra Pratap Rana",
+          "email": "mprana@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sameena Hameed",
+          "email": "sameena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lakshmi Priya",
+          "email": "lakshmi@jnu.ac.in; lakshmi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md. Muddassir Quamar",
+          "email": "mmquamar@mail.jnu.ac.in; muddassir.2005@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Vrushal Trimbak Ghoble",
+          "email": "ghoble@mail.jnu.ac.in; vrushal_jnu@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Kumar",
+          "email": "amit.kr@mail.jnu.ac.in; amitkjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sima Baidya",
+          "email": "sbaidya@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashfaq Ahmad",
+          "email": "ashfaqahmad03@gmail.com; ashfaqahmad@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md. Qutbuddin",
+          "email": "basmaqutb@gmail.com; qutbuddin@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mujeebur Rahman",
+          "email": "m_rahman@mail.jnu.ac.in; mujeeburrahman1972@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Rizwanur Rahman",
+          "email": "rrahman@mail.jnu.ac.in; rrahmanjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ubaidur Rahman",
+          "email": "ubaidtayyeb@gmail.com; urahman@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abdul Quddoos",
+          "email": "aquddoos@mail.jnu.ac.in; dr.quddus1975@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Akhtar Alam",
+          "email": "akhtaralam@mail.jnu.ac.in; akhterjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Azmatullah",
+          "email": "azmatn@mail.jnu.ac.in; azmatnadwi@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Khurshid Imam",
+          "email": "khurshid@mail.jnu.ac.in; khurshidimam@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Mohammad Ajmal",
+          "email": "majmal@mail.jnu.ac.in; mohammadajmal1114@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Mohd. Akram Nawaz",
+          "email": "manawaz@mail.jnu.ac.in; nawazjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Zar Nigar",
+          "email": "nigar.zar@gmail.com; zarnigar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priyadarsi Mukherji",
+          "email": "pdm1962@rediffmail.com; pdm@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sabaree Mitra",
+          "email": "sabareem@gmail.com; sabareemitra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manju Rani Hara",
+          "email": "manjuhara@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh Kumar",
+          "email": "rakesh3670@gmail.com; rakeshkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chandran Usha",
+          "email": "cusha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chandu Doddi",
+          "email": "chandudoddi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dayawanti",
+          "email": "dayawanti@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Geeta Kochhar",
+          "email": "geeta@mail.jnu.ac.in; jidujnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Kaushal Kishore Chandel",
+          "email": "kkchandel@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prashant Kumar Jain",
+          "email": "prashantjain@mail.jnu.ac.in; prashantzheng@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Brinda Bose",
+          "email": "brinda@mail.jnu.ac.in; brindabose@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Dhananjay Singh",
+          "email": "dhananjay@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saugata Bhaduri",
+          "email": "bhaduris@hotmail.com; bhaduris@jnu.ac.in; bhaduris@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Milind E. Awad",
+          "email": "ameknath@mail.jnu.ac.in; milindawad1@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Raju Parghi",
+          "email": "raju.parghi@gmail.com; rajuparghi@jnu.ac.in; rajuparghi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saitya Brata Das",
+          "email": "sbdas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sami Ahmad Khan",
+          "email": "sakhan@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shayequa Tanzeel",
+          "email": "shayequa@jnu.ac.in; shayequa@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneha Das",
+          "email": "snehadas@jnu.ac.in; snehadas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajith Kanna",
+          "email": "ajithkanna@mail.jnu.ac.in; ajitsulo@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Dhir Sarangi",
+          "email": "sarangi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohar Daschaudhuri",
+          "email": "moharchaudhuri@gmail.com; moharchaudhuri@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shoba Sivasankaren",
+          "email": "sshobha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sushant Kumar Mishra",
+          "email": "sushantkmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashish Agnihotri",
+          "email": "agni.jnu@gmail.com; agni@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravindra Kumar",
+          "email": "ravindra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Kumar Gupta",
+          "email": "vinayfr@hotmail.com; vinaykgupta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Baviskar Sharad Pralhad",
+          "email": "bspralhad@mail.jnu.ac.in; sharadcrosshuma@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nipun Nutan",
+          "email": "nipunnutan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sebastian Thejus Cherian",
+          "email": "stcherian@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Babu Thaliath",
+          "email": "babu.thaliath9@gmail.com; bthaliath@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rosy Singh",
+          "email": "rosysingh@mail.jnu.ac.in; singh.rosy@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sadhana Naithani",
+          "email": "sadhanan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Parnal Chirmuley",
+          "email": "pchirmuley@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhimanyu Kumar Sharma",
+          "email": "abhi.sharma@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jyotsna Ram Vaidya",
+          "email": "jvaidya27@gmail.com; jyotsnaram@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mercy Vungthianmuang Guite",
+          "email": "mercymuang@gmail.com; mercymuang@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priyada Shridhar Padhye",
+          "email": "priyada67@gmail.com; priyadashridharpadhye@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sahib Kapoor",
+          "email": "sahibkapoor@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shambhavi Prakash",
+          "email": "shambhavi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shreya Gaikwad",
+          "email": "shreya@jnu.ac.in; shreya@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajmer Singh Kajal",
+          "email": "ajmerskajal@gmail.com; ajmerskajal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bandana Jha",
+          "email": "bandana_jnu@yahoo.co.in; jhabandana@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deo Shankar Navin",
+          "email": "deoshankar@hotmail.com; deoshankar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Garima Srivastava",
+          "email": "drsgarima@gmail.com; garima@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Khwaja Md. Ekramuddin",
+          "email": "ekramuddin@mail.jnu.ac.in; khwajaekram@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Punam Kumari",
+          "email": "punam.hindi@gmail.com; punamkumari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Kumar Paswan",
+          "email": "drrajeshpaswan@gmail.com; rk_paswan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ram Chandra",
+          "email": "ramchandra.jnu@gmail.com; ramchandra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sudheer Pratap Singh",
+          "email": "sudheer@mail.jnu.ac.in; sudheerpsingh@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Aneesh K. N.",
+          "email": "aneeshkn1@gmail.com; aneeshkn@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ganga Sahay Meena",
+          "email": "drgsmeena.jnu@gmail.com; gsmeena@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md. Tauheed Khan",
+          "email": "drtauheedkhan@gmail.com; tauheedkhan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohd. Asif Zahri",
+          "email": "asifzahri@gmail.com; zahri@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mrinmoy Pramanick",
+          "email": "letterstomrinmoy@gmail.com; mrinmoy@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pervez Ahmed",
+          "email": "p123azmi@gmail.com; pervez@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rishi Kumar Sharma",
+          "email": "rishikumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Devi Lal Godara",
+          "email": "devilal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gyanendra Kumar Santosh",
+          "email": "gksantosh@gmail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Malkhan Singh",
+          "email": "malkhansingh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nasib Ali",
+          "email": "nasibali546@gmail.com; nasibali@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Safina Begum",
+          "email": "safinabegum@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shiv Prakash",
+          "email": "shivprakash44@gmail.com; shivprakash@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Janashruti Chandra",
+          "email": "janashruti.chandra@gmail.com; jchandra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anu Kumari",
+          "email": "anukumari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anushree",
+          "email": "anushreepr@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dinamani",
+          "email": "dinamani@mail.jnu.ac.in; dnmnkmr@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Kumar",
+          "email": "ravikjnu@gmail.com; ravikumarcjs@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rupa Singh",
+          "email": "rupapopli@hotmail.com; rupapopli@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Varun Kumar",
+          "email": "kumarvarun@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravikesh",
+          "email": "ravikesh@gmail.com; ravikesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kaushal Kumar",
+          "email": "drkkaushaljnu@gmail.com; kkaushaljnu@jnu.ac.in; kkaushaljnu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neerja Samajdar",
+          "email": "neerjasingh@mail.jnu.ac.in; neerjass@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manish Kumar Barnwal",
+          "email": "hanamanish@gmail.com; mkbarnwal@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rahul Raj",
+          "email": "rahulraj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Kumar Jha",
+          "email": "jha161@gmail.com; sanjayjha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Santosh Kumar Ranjan",
+          "email": "santoshranjan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Satyanshu Srivastava",
+          "email": "satyanshu@jnu.ac.in; satyanshu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ayesha Kidwai",
+          "email": "ayesha.kidwai@gmail.com; ayesha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pauthang Haokip",
+          "email": "pauthang@mail.jnu.ac.in; pauthanghaokip@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Pradeep K. Das",
+          "email": "pkdas@mail.jnu.ac.in; pradeep11@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Gopal Ram",
+          "email": "gopalram@mail.jnu.ac.in; gparihar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Hari Madhab Ray",
+          "email": "hmray@jnu.ac.in; hmray@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kishore Vadthya",
+          "email": "vkishore@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Akhlaque Ahmad",
+          "email": "aahmad@mail.jnu.ac.in; akhlaq.ahan@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Allauddin Shah",
+          "email": "allauddinshah@mail.jnu.ac.in; ashah.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Mazhar Asif",
+          "email": "mazharasif@mail.jnu.ac.in; mazharassam@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Syed Akhtar Hussain",
+          "email": "sahusain2000@yahoo.co.in; syedakhtar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md. Mazharul Haque",
+          "email": "haqmazhar2004@gmail.com; mmhaque@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arihant Kumar Vardhan",
+          "email": "akvardhan@mail.jnu.ac.in; arihant168@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Fauzan Abrar",
+          "email": "fauzan311@gmail.com; fauzanabrar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md Akhlaque Azad",
+          "email": "akhlaque.azad@gmail.com; mdazad@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Qamar Haider",
+          "email": "qamarhaider@gmail.com; qamarhaider@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shahbaz Amil",
+          "email": "shahbaz_amil@rediffmail.com; shahbazamil@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arunim Bandyopadhyay",
+          "email": "arunbandyo@yahoo.co.in; arunim@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kiran Singh Verma",
+          "email": "kiransingh1@yandex.ru; ksverma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manuradha Chaudhary",
+          "email": "manuradha@mail.jnu.ac.in; manuradharaj@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Meenu Bhatnagar",
+          "email": "meenu_bhatnagar@hotmail.com; meenub@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Richa Sawant",
+          "email": "richa_sawant@mail.jnu.ac.in; richasawant07@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ajoy Kumar Karnati",
+          "email": "ajoy.karnati@gmail.com; akkarnati@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nagendra Shreeniwas",
+          "email": "nshreeniwas@jnu.ac.in; nshreeniwas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonu Saini",
+          "email": "sonusaini@jnu.ac.in; sonusaini@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashutosh Anand",
+          "email": "aanand@mail.jnu.ac.in; ashu.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Harshita Kumari",
+          "email": "harshitakumar64@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Radha Mohan Meena",
+          "email": "mohan1385@gmail.com; radhamohan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandeep Kumar Pandey",
+          "email": "sandeepkpandey@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhash Kumar Thakur",
+          "email": "skthakur@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suman Beniwal",
+          "email": "sumanbeniwal@mail.jnu.ac.in; sumanbnw98@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Kumar Ambedkar",
+          "email": "vinay.ambedkar@gmail.com; vkambedkar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Yogesh Kumar Rai",
+          "email": "yogeshkrai@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gaurav Kumar",
+          "email": "gauravkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajiv Saxena",
+          "email": "rsaxena@mail.jnu.ac.in; rsaxenajnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Mala Shikha",
+          "email": "maladoon@gmail.com; malashikha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dipesh Pawar",
+          "email": "dipeshpawar39@gmail.com; dipeshpawar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Leshuni",
+          "email": "leshiinikhoso@gmail.com; leshuni@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lipi Biswas Sen",
+          "email": "lipibiswassen@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Lovey Srivastava",
+          "email": "drlovey01@gmail.com; loveys@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Meenakshi Sundriyal",
+          "email": "msun10@hotmail.com; msundriyal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukesh Kumar",
+          "email": "mkumarjnu@mail.jnu.ac.in; mukeshkumarjnu88@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nabiel Ansari",
+          "email": "nabiel.ansari@gmail.com; nabiel@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shruti Agnihotri",
+          "email": "shrutiagni.9@gmail.com; shrutiagnihotri@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Garima Dalal",
+          "email": "garimadalal@jnu.ac.in; garimadalal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sandesha Rayapa",
+          "email": "sandesha.rayapa@gmail.com; sandesharayapa@jnu.ac.in; sandesharayapa@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gous Mashkoor Khan",
+          "email": "gmkhan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anil Kumar Singh",
+          "email": "anilksingh@mail.jnu.ac.in; anilksinghjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Gautam Kumar Jha",
+          "email": "gautamkjha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Komol Singha",
+          "email": "hijamkomol@gmail.com; komolsingha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishnendu Ghosh Dastidar",
+          "email": "kgd0302@mail.jnu.ac.in; kgd12@yahoo.com; krishnendu.dastidar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pardeep S. Chauhan",
+          "email": "chauhan.pardeep@gmail.com; pschauhan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajendra Prasad Kundu",
+          "email": "rajendra.kundu@gmail.com; rpkundu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Kumar Jangir",
+          "email": "rkjangir@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ramesh Salian",
+          "email": "salianramesh@hotmail.com; salianramesh@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shakti Kumar",
+          "email": "shaktikumar@mail.jnu.ac.in; shaktinov30@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Subrata Guha",
+          "email": "subrata@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sugato Dasgupta",
+          "email": "sugato@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sujoy Chakravarty",
+          "email": "sujoy@mail.jnu.ac.in; sujoyc@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Surajit Mazumdar",
+          "email": "surajitmazumdar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vikas Rawal",
+          "email": "vikas@mail.jnu.ac.in; vikasrawal@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ashok",
+          "email": "ashok@mail.jnu.ac.in; ashokpratapgarh@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Debabrata Pal",
+          "email": "debabrata1234@gmail.com; debabrata@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Himanshu",
+          "email": "himanshu2@gmail.com; himanshu2@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pawan Kumar",
+          "email": "pawankumar16@jnu.ac.in; pawankumar16@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajeev Kumar",
+          "email": "rajeev@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ramya Ranjan Patel",
+          "email": "rrpatel@jnu.ac.in; rrpatel@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Seema Sangita",
+          "email": "seemasangita@jnu.ac.in; seemasangita@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manoj Kumar",
+          "email": "manojkumar@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rohit",
+          "email": "rohit@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Surajit Das",
+          "email": "surajit@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nandan Nawn",
+          "email": "nandannawn@mail.jnu.ac.in; nnletter@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Heeraman Tiwari",
+          "email": "heeraman98@gmail.com; htiwari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Joy L.K. Pachuau",
+          "email": "jpachuau@jnu.ac.in; jpachuau@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Najaf Haider",
+          "email": "nhaider@jnu.ac.in; nhaider@mail.jnu.ac.in; snajafhaider@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Shonaleeka Kaul",
+          "email": "shonaleeka@gmail.com; shonaleeka@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Umesh Ashok Kadam",
+          "email": "uakadam@jnu.ac.in; uakadam@mail.jnu.ac.in; umeshkadam1@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Abhimanyu Singh Arha",
+          "email": "abhimanyu@mail.jnu.ac.in; abhimanyuarha@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Aparajita Bhattacharya",
+          "email": "abhattacharya@mail.jnu.ac.in; apujnu.b@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Christhu Doss",
+          "email": "christhudoss@mail.jnu.ac.in; dossjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Gouri Dey",
+          "email": "gouridey@mail.jnu.ac.in; gourinbu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jyoti Atwal",
+          "email": "jyoti_atwal@mail.jnu.ac.in; jyotiatjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Manoj Sharma",
+          "email": "drmanojsharrma@gmail.com; manojsharma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nitin Kumar",
+          "email": "nitinmuse@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nonica Datta",
+          "email": "nonica.datta@gmail.com; nonicadatta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raktim Patar",
+          "email": "patarraktim2010@gmail.com; raktimpatar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ranjeeta Dutta",
+          "email": "ranjeeta.dutta@gmail.com; ranjeetadutta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangeeta DasGupta",
+          "email": "sangeetadasgupta@hotmail.com; sangeetadasgupta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Birendra Nath Prasad",
+          "email": "birendranathprasad191@gmail.com; bnprasad@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Burton Cleetus",
+          "email": "burton@mail.jnu.ac.in; burtoncleetus@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Navendu Shekhar",
+          "email": "nshekhar@jnu.ac.in; nshekhar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Umesh Kumar Khute",
+          "email": "ukkh2009science@gmail.com; ukkhute@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Venu Puvvadi",
+          "email": "venupuvvadi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Archana Prasad",
+          "email": "archanaprasad@mail.jnu.ac.in; archie.prasad11@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Minaketan Behera",
+          "email": "behera.minaketan@gmail.com; minaketan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anamitra Roy Chowdhury",
+          "email": "anamitra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Avinash Kumar",
+          "email": "avinashkumar@mail.jnu.ac.in; avinashmishra.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Kali Chittibabu",
+          "email": "chitti4479@gmail.com; kchittibabu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pradeep K Shinde",
+          "email": "pradeepshinde@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manukonda Rabindranath",
+          "email": "manukonda@jnu.ac.in; mrabindra2002@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Shuchi Yadav",
+          "email": "shuchiyadav@mail.jnu.ac.in; yadav.shuchi@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Archana Kumari",
+          "email": "archanaiimc@gmail.com; archanakumari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh Batabyal",
+          "email": "batabyal@mail.jnu.ac.in; rakeshbatabyal@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Krishna Murthy",
+          "email": "krishnamurthy@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raj Lakshmi",
+          "email": "rajlakshmi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajay Kumar Verma",
+          "email": "ajayverma@jnu.ac.in; thinkajay@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Bhagat Oinam",
+          "email": "bhagatoinam@gmail.com; bhagatoinam@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bindu Puri",
+          "email": "bindupuri@mail.jnu.ac.in; drbindupuri11@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Nataraju Adarasupally",
+          "email": "adinatraj@gmail.com; adinatraj@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Smita Sirker",
+          "email": "smitasirker@jnu.ac.in; ssirker@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Bhaskarjit Neog",
+          "email": "bhaskarjit@gmail.com; bhaskarjit@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manidipa Sen",
+          "email": "manidipa@mail.jnu.ac.in; manidipase@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Khangembam Romesh Singh",
+          "email": "kh.romesh@gmail.com; khangembam@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anupama Roy",
+          "email": "anupamaroy@mail.jnu.ac.in; royanupama07@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Asha Sarangi",
+          "email": "ashasarangi@gmail.com; ashasarangi@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Himanshu Prasad Roy",
+          "email": "himanshuroy1@yahoo.co.in; himanshuroy@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Narender Kumar",
+          "email": "kumarr.narender@gmail.com; narenderkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vandana Mishra",
+          "email": "vandanamishra@jnu.ac.in; vandanamishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vidhu Verma",
+          "email": "vidhuverma94@gmail.com; vidhuverma@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajay Gudavarthy",
+          "email": "agudavarthy@mail.jnu.ac.in; gajay99@rediffimail.com",
+          "phone": ""
+        },
+        {
+          "name": "Jyotirmayee Tudu",
+          "email": "joytirmayeetudu@gmail.com; jyotirmayee@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manindra Nath Thakur",
+          "email": "manindrat@gmail.com; manindrat@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nishant Kumar",
+          "email": "nishant@jnu.ac.in; nishant@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Preeti",
+          "email": "preetidahiya@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amir Ali",
+          "email": "amirali.jnu@gmail.com; amirali@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anant Prabhat Jawla",
+          "email": "anantpj@gmail.com; aprabhatjawla@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Harish S. Wankhede",
+          "email": "hswankhede@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jubilee Shangrei",
+          "email": "shangrei@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Papia Sen Gupta",
+          "email": "papiasg@jnu.ac.in; papiasg@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajarshi Dasgupta",
+          "email": "rajarshi@mail.jnu.ac.in; rajarshibabu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sudhir Kumar Suthar",
+          "email": "sksuthar@mail.jnu.ac.in; sudhir131@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Tapan Kumar Bihari",
+          "email": "tapanbihari@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajib Dasgupta",
+          "email": "dasgupta.jnu@gmail.com; rdasgupta@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ramila Bisht",
+          "email": "ramila@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanghamitra Sheel Acharya",
+          "email": "sanghamitra@mail.jnu.ac.in; sanghmitra.acharya@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nemthianngai Guite",
+          "email": "nguite@jnu.ac.in; nguite@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saraswati Kerketta",
+          "email": "saraswati.kerketta@gmail.com; saraswati@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sunita Reddy",
+          "email": "sunitareddy@mail.jnu.ac.in; sunitareddyjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Vikas Bajpai",
+          "email": "drvikasbajpai@gmail.com; vikasbajpai@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Madhav Govind",
+          "email": "m_govind@mail.jnu.ac.in; mgovind11@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Saradindu Bhaduri",
+          "email": "saradindu@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anamika Gulati",
+          "email": "anamika1711@yahoo.co.in; anamikagulati@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajbeer Singh",
+          "email": "rajbasera@gmail.com; rajbeer@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Yagati Chinna Rao",
+          "email": "cryagati@gmail.com; ycrao@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anuja",
+          "email": "anuja@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pranav Kumar",
+          "email": "pranavkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rosina Nasir",
+          "email": "rnasir@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Veeragoni Shirisha",
+          "email": "veeragoni@mail.jnu.ac.in; vshirisha1@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Atul Sood",
+          "email": "atulsood@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepak K. Mishra",
+          "email": "deepakmishra.jnu@gmail.com; deepakmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Elumalai Kannan",
+          "email": "elumalaik@hotmail.com; elumalaik@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Indrani Roy Chowdhury",
+          "email": "indranirc1@gmail.com; iroychowdhury@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Krishnendra Meena",
+          "email": "meena.krishnendra@gmail.com; meenak@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Madan Mohan",
+          "email": "drmdnmohan@gmail.com; madanmohan@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Milap Chand Sharma",
+          "email": "milap@mail.jnu.ac.in; milapsharmain@yahoo.co.in",
+          "phone": ""
+        },
+        {
+          "name": "Milap Punia",
+          "email": "milap.jnu@gmail.com; punia@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Padmini Pani",
+          "email": "padmini@mail.jnu.ac.in; padminipani.jnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Praveen Kumar Pathak",
+          "email": "pkpathak@jnu.ac.in; pkpathak@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Shekhar",
+          "email": "ravishekhar@mail.jnu.ac.in; ravishekharsbs@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Seema Bathla",
+          "email": "seema.bathla@gmail.com; seemab@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Srinivasu Bathula",
+          "email": "bathulasrinivasu@mail.jnu.ac.in; bsrinivas07@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sucharita Sen",
+          "email": "ssen.jnu@gmail.com; ssen@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Shankar Prasad Sinha",
+          "email": "sinha_vinay@yahoo.co.uk; vsinha@jnu.ac.in; vsinha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhaswati Das",
+          "email": "bhaswati2004@gmail.com; bhaswati@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjeev Sharma",
+          "email": "sanjeevsharma@mail.jnu.ac.in; sanjuscorp@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Suraj Mal",
+          "email": "surajmal@jnu.ac.in; surajmal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Thorat",
+          "email": "amitthorat@gmail.com; athorat@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bikramaditya Kumar Choudhary",
+          "email": "bkchoudhary@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Purva Yadav",
+          "email": "purvayadav@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suresh R.",
+          "email": "sureshr@mail.jnu.ac.in; sureshrjnu@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Amit Kumar Sharma",
+          "email": "aksharma@mail.jnu.ac.in; amitjnu@icloud.com",
+          "phone": ""
+        },
+        {
+          "name": "Angomcha Bimol Akoijam",
+          "email": "bimol.akoijam@gmail.com; bimol@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gurram Srinivas",
+          "email": "gsrinivas@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manoj Kumar Jena",
+          "email": "manojkjena@mail.jnu.ac.in; manojkjenacsss@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Nilika Mehrotra",
+          "email": "nilika21@yahoo.co.in; nilika@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Kumar",
+          "email": "vivekkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Atrayee Saha",
+          "email": "atrayee.dse@gmail.com; atrayeesaha@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Divya Vaid",
+          "email": "divyavaid@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ratheesh Kumar",
+          "email": "ratheesh@mail.jnu.ac.in; rpkratheesh@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Akriti Bhatia",
+          "email": "akritibhatia@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Asheesh Kumar",
+          "email": "asheeshkumar@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Phirmi Bodo",
+          "email": "phirmi-bodo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prakasha Chandra Sahoo",
+          "email": "prakashsahoo.jnu@gmail.com; prakashsahoo@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mallarika Sinha Roy",
+          "email": "mallarikasinharoy@yahoo.com; msroy@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Navaneetha Mokkil",
+          "email": "navaneetha@mail.jnu.ac.in; nmokkil@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Papori Bora",
+          "email": "paporibora@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvind Kumar Mishra",
+          "email": "akmishra106@gmail.com; akmishra@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Minati Panda",
+          "email": "minatip@gmail.com; minatipanda@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Parimala V Rao",
+          "email": "parimalavrao@gmail.com; parimalavrao@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saumen Chattopadhyay",
+          "email": "saumen@jnu.ac.in; saumen@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suresh Babu G.S.",
+          "email": "gssbjnu@gmail.com; sureshbabu@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Appala Naidu Dhubireddi",
+          "email": "danaidu@arsd.du.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Probal Roy Chowdhury",
+          "email": "probal@jnu.ac.in; probal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sayantan Mandal",
+          "email": "smandal@jnu.ac.in; smandal@mail.jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pradeep Kumar Choudhury",
+          "email": "pradeepchoudhury@fas.harvard.edu; pradeepchoudhury@jnu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajay Kumar",
+          "email": "ajaykumar@mail.jnu.ac.in; ajayritwik@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Shubh Gupta",
+          "email": "shubhgupta008@gmail.com; shubhgupta@mail.jnu.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56054",
@@ -47067,9 +51290,365 @@
       "district": "",
       "pin_code": "110068",
       "website": "https://sau.int/",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "+91 11 35656500",
+      "emails": "abinashjha@sau.int; abulaish@sau.ac.in; ambrish.saxena@sau.int; amit@cs.sau.ac.in; amustafiz@sau.ac.in; anand.m@sau.int; ankit.jain@sau.int; ankurdatta@soc.sau.ac.in; anmadh11@gmail.com; anmolmukhia@sau.int; apoorvgupta@sau.int; arupmitra@sau.int; balram.raut@sau.int; bijoycc@ieee.org; bijoycc@sau.int; binoygoswami@sau.ac.in; cbasnet@soc.sau.ac.in; daksha.sharma@sau.int; danishlohani@cs.sau.ac.in; debdatta@sau.ac.in; deepasinha@sau.ac.in; dev@soc.sau.ac.in; dhananjay@sau.ac.in; dir.adm-exam@sau.int; diya.mehra@sau.ac.in; drnafeesahmad@sau.ac.in; drsenthil@sau.ac.in; ishita@sau.int; jayashree@sau.ac.in; jcbansal@sau.ac.in; kajori.bhatnagar@sau.int; kalpana@southasianuniversity.org; kapil.sharma@sau.ac.in; kiran.rai@sau.int; mallika@sau.ac.in; medhabisht@sau.ac.in; nabarun.roy@sau.ac.in; namrata@sau.ac.in; navnitjha@sau.ac.in; neerajk.dhanwani@sau.int; pankaj.jain@sau.ac.in; pm@sau.int; pranabmuhuri@cs.sau.ac.in; psaxena@sau.ac.in; rajesh.ranjan@sau.int; ramani@sau.ac.in; ravi.shankar@sau.ac.in; ravi@sau.int; ravindrapratap@sau.int; reshma.khemchandani@sau.ac.in; rgaur@sau.ac.in; ritu.gupta@sau.int; rkhandel@sau.int; rkroy@sau.int; rksaxena@southasianuniversity.org; rmohanty@sau.ac.in; rrdg@sau.int; sanchirai@sau.int; sandeepkumar@sau.int; sanjaychaturvedi@sau.int; sarojkumar@sau.ac.in; sbasu@sau.ac.in; sdhamija@sau.int; sdutta@sau.int; shachi@sau.int; shashank.sheshar@sau.int; shwetasingh@sau.ac.in; skumar@econ.sau.ac.in; soumya@econ.sau.ac.in; srinivasb@sau.ac.in; stellinajolly@sau.ac.in; sumitflsb@sau.int; swati93@sau.int; taniyaseth@sau.int; vivekdixit@sau.int; yrp@sau.ac.in; yubaraj54@hotmail.com",
+      "professors": [
+        {
+          "name": "Abinash Kumar Jha",
+          "email": "abinashjha@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ambrish Saxena",
+          "email": "ambrish.saxena@sau.int; www.researchg@e.net",
+          "phone": ""
+        },
+        {
+          "name": "Amit Banerjee",
+          "email": "amit@cs.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anand Madhukar",
+          "email": "anand.m@sau.int; anmadh11@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Ananda Mustafiz",
+          "email": "amustafiz@sau.ac.in; glyc@ion.physiologia",
+          "phone": ""
+        },
+        {
+          "name": "Ankit Jain",
+          "email": "ankit.jain@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ankur Datta",
+          "email": "ankurdatta@soc.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anmol Mukhia",
+          "email": "anmolmukhia@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Apoorv Gupta",
+          "email": "apoorvgupta@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Arup Mitra",
+          "email": "arupmitra@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Balram Prasad Raut",
+          "email": "balram.raut@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Bijoy Chand Chatterjee",
+          "email": "bijoycc@ieee.org; bijoycc@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Binoy Goswami",
+          "email": "binoygoswami@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chudamani Basnet",
+          "email": "cbasnet@soc.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Daksha Sharma",
+          "email": "daksha.sharma@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Danish Lohani",
+          "email": "danishlohani@cs.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debdatta Saha",
+          "email": "debdatta@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepa Sinha",
+          "email": "deepasinha@sau.ac.in; www.researchg@e.net",
+          "phone": ""
+        },
+        {
+          "name": "Dev Nath Pathak",
+          "email": "dev@soc.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dhananjay Tripathi",
+          "email": "dhananjay@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Diya Mehra",
+          "email": "diya.mehra@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ishita Dey",
+          "email": "allegralabor@ory.net; ishita@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Jagdish Chand Bansal",
+          "email": "jcbansal@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jayashree Vivekanandan",
+          "email": "jayashree@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kajori Bhatnagar",
+          "email": "kajori.bhatnagar@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Kapil Kumar Sharma",
+          "email": "kapil.sharma@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kavita Khanna",
+          "email": "dir.adm-exam@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Kiran Rai",
+          "email": "kiran.rai@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Mallika Shakya",
+          "email": "mallika@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Medha Bisht",
+          "email": "medhabisht@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Muhammad Abulaish",
+          "email": "abulaish@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nabarun Roy",
+          "email": "nabarun.roy@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nafees Ahmad",
+          "email": "drnafeesahmad@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Namrata Gulati",
+          "email": "namrata@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Navnit Jha",
+          "email": "navnitjha@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neeraj Kumar Dhanwani",
+          "email": "neerajk.dhanwani@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Jain",
+          "email": "pankaj.jain@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pokharel Yuba Raj",
+          "email": "yrp@sau.ac.in; yubaraj54@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Pranab Kumar Muhuri",
+          "email": "pranabmuhuri@cs.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priti Saxena",
+          "email": "psaxena@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Ranjan",
+          "email": "rajesh.ranjan@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ramesh Roshan Das Guru",
+          "email": "rrdg@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ranjan Kumar Mohanty",
+          "email": "rmohanty@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ratan Kumar Roy",
+          "email": "rkroy@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Kumar",
+          "email": "ravi@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Shankar Akundi",
+          "email": "ravi.shankar@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravindra Pratap",
+          "email": "ravindrapratap@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Reshma Rastogi",
+          "email": "reshma.khemchandani@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ritu Gaur",
+          "email": "rgaur@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ritu Gupta",
+          "email": "ritu.gupta@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Rohit Khandelwal",
+          "email": "rkhandel@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Sai Ramani Garimella",
+          "email": "institute-for-private-intern@ional-law-in-africa.aspx; ramani@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanchi Rai",
+          "email": "sanchirai@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Sandeep Kumar",
+          "email": "sandeepkumar@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Chaturvedi",
+          "email": "sanjaychaturvedi@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Saroj Kumar Sahani",
+          "email": "sarojkumar@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Senthil Kumar Venugopal",
+          "email": "drsenthil@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shachi Sharma",
+          "email": "shachi@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Shashank Sheshar Singh",
+          "email": "shashank.sheshar@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Shweta Singh",
+          "email": "shwetasingh@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonam Dhamija",
+          "email": "sdhamija@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Soumita Basu",
+          "email": "sbasu@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Soumya Datta",
+          "email": "soumya@econ.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Srinivas Burra",
+          "email": "srinivasb@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Stellina Jolly",
+          "email": "institute-for-private-intern@ional-law-in-africa.aspx; stellinajolly@sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sumedha Dutta",
+          "email": "sdutta@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Sumit Kumar",
+          "email": "sumitflsb@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Sunil Kumar",
+          "email": "skumar@econ.sau.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Swati Mishra",
+          "email": "swati93@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Taniya Seth",
+          "email": "taniyaseth@sau.int",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Dixit",
+          "email": "vivekdixit@sau.int",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56555",
@@ -50080,6 +54659,2211 @@
       "phone_numbers": "",
       "emails": "",
       "professors": []
+    },
+    {
+      "id": "56770",
+      "state": "Delhi",
+      "name": "IGDTUW",
+      "address_line1": "",
+      "address_line2": "",
+      "city": "New Delhi",
+      "district": "",
+      "pin_code": "",
+      "website": "http://www.igdtuw.ac.in/",
+      "phone_numbers": "+919205582573; 8376990167; 9266423010",
+      "emails": "bishnupriya@igdtuw.ac.in; cmacmba@igdtuw.ac.in; deansw@igdtuw.ac.in; deantnpaa@igdtuw.ac.in; directoriqac@igdtuw.ac.in; drgadmin@igdtuw.ac.in; inchargeits@igdtuw.ac.in; jyotishokeen@igdtuw.ac.in; karunakadian@igdtuw.ac.in; library@igdtuw.ac.in; pgphdadmissionofficer@igdtuw.ac.in; phdadmissions@igdtuw.ac.in; ranugadi@igdtuw.ac.in; registrar@igdtuw.ac.in; ritikakumari@igdtuw.ac.in; shaliniarora@igdtuw.ac.in; tnpofficial@igdtuw.ac.in; ugadmissionofficer@igdtuw.ac.in; vc@igdtuw.ac.in; yamini@igdtuw.ac.in",
+      "professors": [
+        {
+          "name": "Dr. Dhanjay Yadav",
+          "email": "ugadmissionofficer@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Dharmendra Singh Sengar",
+          "email": "library@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Meenakshi Pawar",
+          "email": "ritikakumari@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Monali Vinayak Wankar",
+          "email": "drgadmin@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Subhash Singh",
+          "email": "cmacmba@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Karuna Kadian",
+          "email": "karunakadian@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohapatra",
+          "email": "directoriqac@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mrs. Bishnu Priya Mohapatra",
+          "email": "bishnupriya@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mudit Sharma",
+          "email": "jyotishokeen@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Brijesh Kumar",
+          "email": "registrar@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Deepak Kumar Sharma",
+          "email": "phdadmissions@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Jasdeep Kaur Dhanoa",
+          "email": "deantnpaa@igdtuw.ac.in; tnpofficial@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Manoj Soni",
+          "email": "deansw@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Ranjana Jha",
+          "email": "vc@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Ranu Gadi",
+          "email": "ranugadi@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Shalini Arora",
+          "email": "shaliniarora@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Shalini Arora",
+          "email": "pgphdadmissionofficer@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjana Meena",
+          "email": "inchargeits@igdtuw.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sarika",
+          "email": "yamini@igdtuw.ac.in",
+          "phone": ""
+        }
+      ]
+    },
+    {
+      "id": "56771",
+      "state": "Delhi",
+      "name": "IIIT Delhi",
+      "address_line1": "",
+      "address_line2": "",
+      "city": "New Delhi",
+      "district": "",
+      "pin_code": "",
+      "website": "https://www.iiitd.ac.in/",
+      "phone_numbers": "9868878433; 9870326068; 9871629605",
+      "emails": "a.agrawal@igib.in; a.kaushik@ieee.org; aakritia@iiitd.ac.in; aasim@iiitd.ac.in; abhijayi@iiitd.ac.in; abhijeet@iiitd.ac.in; abhijit@iiitd.ac.in; abhinav@iitrpr.ac.in; abhinavs@iiitd.ac.in; abhinay@iiitd.ac.in; abhishek@iiitd.ac.in; abhishekh@iiitd.ac.in; abhisheky@iiitd.ac.in; abrol@iiitd.ac.in; abuzark@iiitd.ac.in; adarsh@iiitd.ac.in; adarshs@iiitd.ac.in; adird@iiitd.ac.in; aditi@iiitd.ac.in; aditit@iiitd.ac.in",
+      "professors": [
+        {
+          "name": "Aanisha Bhattacharyya",
+          "email": "aakritia@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aasim Khan",
+          "email": "aasim@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhijeet Mishra",
+          "email": "abhijeet@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhijit Mitra",
+          "email": "abhijit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhinav Dhall",
+          "email": "abhinav@iitrpr.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhinav Kumar Sharma",
+          "email": "abhijayi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhinay Saxena",
+          "email": "abhinay@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhishek Halder",
+          "email": "abhinavs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhishek Kumar",
+          "email": "abhishek@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Abhishek Tripathi",
+          "email": "abhisheky@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Adarsh Kumar Agarwal",
+          "email": "adarsh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Adduct Biology",
+          "email": "shivas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aditi Sati",
+          "email": "aditi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aditi Tyagi",
+          "email": "adarshs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aditya Bhardwaj",
+          "email": "aditit@iiitd.ac.in; aditiv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Advanced Multicore Systems",
+          "email": "salonij@iiitd.ac.in; someshs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Afreen Ai",
+          "email": "adityab@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Agrata Singh",
+          "email": "adityap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aheli Chowdhury",
+          "email": "aheli@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ajay Kumar",
+          "email": "ajay@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aldrin Denny",
+          "email": "aldrin.denny@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Algebraic Coding Theory",
+          "email": "alishaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Algebraic Geometry",
+          "email": "rishavk@iiitd.ac.in; subhadeepd@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Algebraic Topology",
+          "email": "nilanjanac@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ali Afrina Shaheen",
+          "email": "akshitj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Alok Anand",
+          "email": "alishap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Alok Kumar Mittal",
+          "email": "alokst@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Aman Parnami",
+          "email": "aman@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aman Samuel",
+          "email": "aman.samuel@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amarjeet Singh Cheema",
+          "email": "alokk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Chhabra",
+          "email": "amarjeetc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amit Kumar",
+          "email": "amitk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amlan Chakrabarti",
+          "email": "amlan@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Amrut Mujumdar",
+          "email": "amitr@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anand Srivastava",
+          "email": "anand@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anandita Banerjee",
+          "email": "anandr@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Angshu Das",
+          "email": "angshu.das@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Angshul Majumdar",
+          "email": "angshul@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anil Kumar",
+          "email": "anilk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Animesh Talukder",
+          "email": "ananta@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anindita Das",
+          "email": "anindita@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anjali Salot",
+          "email": "anantj@iiitd.ac.in; animesht@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ankit Agarwal",
+          "email": "ankit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anmol Srivastava",
+          "email": "anmol@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anoop Ratn",
+          "email": "anoopratn@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anshu Dureja",
+          "email": "anshu@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anshu Kumar",
+          "email": "anjalis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anshuma Yadav",
+          "email": "anshuk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anubha Gupta",
+          "email": "anubha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anuj Grover",
+          "email": "anuj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anuj Kumar",
+          "email": "anuj.kumar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anupam Saronwala",
+          "email": "anupam@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anuradha Sharma",
+          "email": "anuradha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Anurag Agrawal",
+          "email": "a.agrawal@igib.in",
+          "phone": ""
+        },
+        {
+          "name": "Anurag Tyagi",
+          "email": "anurag@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Approximation Alogorithms",
+          "email": "mohits@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Apurv Dube",
+          "email": "anwars@iiitd.ac.in; anyap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arani Bhattacharya",
+          "email": "arani@iiitd.ac.in; dcaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Archana Arya",
+          "email": "apurvd@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arjun Ray",
+          "email": "arjun@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arnab Raha",
+          "email": "archanaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arpit Kumar",
+          "email": "arnavj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arul Murugan",
+          "email": "arul.murugan@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arun Balaji Buduru",
+          "email": "arunb@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arushi Sharma",
+          "email": "arpanj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Arvinpreet Kaur",
+          "email": "arushis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aryan Kaushik",
+          "email": "a.kaushik@ieee.org",
+          "phone": ""
+        },
+        {
+          "name": "Ashima Garg",
+          "email": "ashis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashima Jain",
+          "email": "ashili@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashish Aggarwal",
+          "email": "ashisha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashish Kumar Pandey",
+          "email": "ashish.pandey@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ashutosh Vaish",
+          "email": "ashutoshpa@iiitd.ac.in; ashutoshs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Aswino Gomango",
+          "email": "ashutoshv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Atreyee Bhattacharya",
+          "email": "atreyee.bhattacharya@colorado.edu",
+          "phone": ""
+        },
+        {
+          "name": "Avi Gupta",
+          "email": "aswinog@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ayushi Gupta",
+          "email": "ayeshap@iiitd.ac.in; ayeshas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bapi Chatterjee",
+          "email": "bapi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bharat Kumar",
+          "email": "bernadettem@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhaskar Pandey",
+          "email": "bharats@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhawani Shah",
+          "email": "bhawani@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bhawna Gupta",
+          "email": "bhawna@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bijay Kumar Choubey",
+          "email": "bijay@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bijendra Nath Jain",
+          "email": "bnjain@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Bijoy Chand Chatterjee",
+          "email": "bijoy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Binu Ann Joseph",
+          "email": "binu@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Biomedical Science",
+          "email": "pankaji@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Cancer Genomics",
+          "email": "jaim@iiitd.ac.in; rahuli@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chandrama Mallick",
+          "email": "bhumikac@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chanekar Prasad Vilas",
+          "email": "prasad@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Chetan Arora",
+          "email": "chetan@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Cinematic Volume Rendering",
+          "email": "abuzark@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Cognitive Modeling",
+          "email": "arvinpreetk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Cognitive Science",
+          "email": "shrutii@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Combinatorial Geometry",
+          "email": "suryakas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computational Bioinformatics",
+          "email": "souravg@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computational Biology",
+          "email": "anamf@iiitd.ac.in; anshuly@iiitd.ac.in; arpitk@iiitd.ac.in; depanshus@iiitd.ac.in; manasp@iiitd.ac.in; namand@iiitd.ac.in; nilays@iiitd.ac.in; nishak@iiitd.ac.in; roufs@iiitd.ac.in; saadian@iiitd.ac.in; saloneem@iiitd.ac.in; shivangia@iiitd.ac.in; shivangiv@iiitd.ac.in; sonami@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computational Genomics",
+          "email": "arijitc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computational Metagenomics",
+          "email": "alis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computer Architecture",
+          "email": "tanishag@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computer Graphics",
+          "email": "khabeera@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Computer Vision",
+          "email": "atishk@iiitd.ac.in; nilabjab@iiitd.ac.in; ravit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Concurrent Data Structures",
+          "email": "karang@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Cyber Security",
+          "email": "rudrakshic@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debajyoti Bera",
+          "email": "dbera@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debarka Sengupta",
+          "email": "debarka@iiitd.ac.in; adird@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debasis Dash",
+          "email": "ddash@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debasish Sahoo",
+          "email": "chandramam@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debidas Kundu",
+          "email": "debidas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Debika Banerjee",
+          "email": "debika@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deeksha Yadav",
+          "email": "deekshaj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deep Learning",
+          "email": "utkarsha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepak Prince",
+          "email": "deepak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepak Sharma",
+          "email": "deeps@iiitd.ac.in; deepakk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepali Gupta",
+          "email": "deepali@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepank Grover",
+          "email": "deepaksh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Deepayan Mukherjee",
+          "email": "deepaks@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dheeraj Kumar",
+          "email": "dheerajk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dhruv Kumar",
+          "email": "dhruv.kumar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Digital Media Systems",
+          "email": "piyushh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dikscha Sapra",
+          "email": "devv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Diksha Marwaha",
+          "email": "dhritik@iiitd.ac.in; dikschas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Diptapriyo Majumdar",
+          "email": "diptapriyo@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Donghoon Chang",
+          "email": "donghoon@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Alok Nikhil Jha",
+          "email": "alok@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Anoop Ratn",
+          "email": "anoopratn@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ashok Kumar Solanki",
+          "email": "asolanki@iiitd.ac.in; registrar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Deepika Bhaskar",
+          "email": "deepika@iiitd.ac.in; registrar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Kalpana Shankhwar",
+          "email": "kalpana@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rahul Gupta",
+          "email": "rahul@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Ravi Bhasin",
+          "email": "ravi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Rinku Shah",
+          "email": "rinku@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Durjay Pramanik",
+          "email": "drishyau@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Economic Theory",
+          "email": "sharata@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Electrical Engineering",
+          "email": "director@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Esha Jain",
+          "email": "ebhas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Face Retrieval",
+          "email": "rithum@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Federated Learning",
+          "email": "diptis@iiitd.ac.in; rupinderk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Feminist Topography",
+          "email": "jiviteshs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Fi Sensing",
+          "email": "vibhutik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ganesh Bagler",
+          "email": "bagler@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gautam Shroff",
+          "email": "gautam.shroff@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gautami Tripathi",
+          "email": "gauravr@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gayatri Nair",
+          "email": "gayatri@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ghulam Hussain",
+          "email": "geetikai@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gourab Ghatak",
+          "email": "gourab.ghatak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Graph Mining",
+          "email": "karamjeets@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Graph Theory",
+          "email": "kapalis@iiitd.ac.in; soumyaj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Gurpreet Singh",
+          "email": "govindai@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Harshika Sharma",
+          "email": "harsham@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Health Care",
+          "email": "poojabe@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Hemant Yadav",
+          "email": "harshikas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Hideki Tanemura",
+          "email": "tanemura@math.s.chiba-u.ac.jp",
+          "phone": ""
+        },
+        {
+          "name": "High Performance Computing",
+          "email": "sumitku@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Himanshu Garg",
+          "email": "hermeharb@iiitd.ac.in; himaniv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Human Computer Interaction",
+          "email": "mannk@iiitd.ac.in; varuni@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Imran Khan",
+          "email": "imran@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "In Healthcare",
+          "email": "diksham@iiit.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ishani Choudhary",
+          "email": "himanshus@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jagadanand Dwivedi",
+          "email": "jagadanand@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jainendra Shukla",
+          "email": "jainendra@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jasmine Kaur",
+          "email": "saij@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jaspreet Kaur Dhanjal",
+          "email": "jaspreet@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jayant Chh",
+          "email": "jasmineka@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jitendra Kumar",
+          "email": "jitendra@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Jonty Sharma",
+          "email": "jonty@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Joshita Yadav",
+          "email": "joelm@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kainat Yasmeen",
+          "email": "jyotis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kalpana Shankhwar",
+          "email": "kalpana@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kapali Suri",
+          "email": "kanupriyai@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kapil Chawla",
+          "email": "kapil@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kapil Dev Garg",
+          "email": "kapildev@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kaushik Kalyanaraman",
+          "email": "kaushik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Keshav Goel",
+          "email": "karunak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Khagendra Joshi",
+          "email": "khagendra@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Khushpinder Pal Sharma",
+          "email": "khushpinder@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kiriti Kanjilal",
+          "email": "kanjilal@iiitd.ac.in; dosa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Knowledge Graphs",
+          "email": "mariamf@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Koteswar Rao Jerripothula",
+          "email": "koteswar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kritika Aggarwal",
+          "email": "koustuvk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kshitij Jayant",
+          "email": "krishg@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kshitij Srivastava",
+          "email": "kritikaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Kunjkumar Prajapati",
+          "email": "kshitijs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Laurent Counillon",
+          "email": "laurent.counillon@univ-cotedazur.fr",
+          "phone": ""
+        },
+        {
+          "name": "Learning Control",
+          "email": "jasminek@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Leijo Jose",
+          "email": "kunjkumarp@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Machine Learning",
+          "email": "akashs@iiitd.ac.in; harikal@iiitd.ac.in; gagandeepk@iiitd.ac.in; gargees@iiitd.ac.in; garimai@iiitd.ac.in; gauranga@iiitd.ac.in; gauranshig@iiitd.ac.in; gauravgu@iiitd.ac.in; himanshug@iiitd.ac.in; zubairi@iiitd.ac.in; umairai@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Madhavi Mathur",
+          "email": "lavanyag@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Madhvi Kumari Sinha",
+          "email": "madhavim@iiitd.ac.in; madhui@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manish Kumar",
+          "email": "maheshd@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manisha Luthra Agnihotri",
+          "email": "manisha.luthra@dfki.de",
+          "phone": ""
+        },
+        {
+          "name": "Manohar Kumar",
+          "email": "manohar.kumar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manta Wang",
+          "email": "manshulb@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Manuj Mukherjee",
+          "email": "manuj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mariam Fatima",
+          "email": "mantaw@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Maternal Health",
+          "email": "ujjalt@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mathematical Logic",
+          "email": "satyandrap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Md Abuzar Khan",
+          "email": "mayankk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Medical Application",
+          "email": "abhishekh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mental Health",
+          "email": "aishaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Microbial Technology",
+          "email": "raghava@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Microbiome Informatics",
+          "email": "souravd@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Model Extraction Attacks",
+          "email": "akshayai@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohit Kumar",
+          "email": "mohit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mohit Kumar Sharma",
+          "email": "mohitks@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mona Duggal",
+          "email": "monaduggal2@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Monika Aadhya",
+          "email": "monalisaj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Monika Arora",
+          "email": "monika@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Monika Singh",
+          "email": "monikaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mr. Pankaj Vajpayee",
+          "email": "pvajpayee@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mr. Vinod Kumar",
+          "email": "vinod@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mrinmoy Chakrabarty",
+          "email": "mrinmoy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ms. Rashmil Mishra",
+          "email": "rashmil@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukesh Mohania",
+          "email": "mukesh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukesh Prasad",
+          "email": "mukesh.prasad@uts.edu.au",
+          "phone": ""
+        },
+        {
+          "name": "Mukul Tyagi",
+          "email": "mukul@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mukulika Maity",
+          "email": "mukulika@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nabanita Ray",
+          "email": "nabanita@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nachi Nagappan",
+          "email": "nachin@microsoft.com",
+          "phone": ""
+        },
+        {
+          "name": "Najiya Naj",
+          "email": "monikasi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Naman Ku",
+          "email": "najiyan@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nanoelectronics Devices",
+          "email": "usmanf@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Narahari Sastry",
+          "email": "gnsastry@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Natural Language Processing",
+          "email": "manishk@iiitd.ac.in; neelimag@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Naveen Ramalingam",
+          "email": "naveensma@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Navpreet Singh",
+          "email": "navi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nayana Samuel",
+          "email": "nayana@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neera Chandhoke",
+          "email": "neera@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Neeraj Kumar Yadav",
+          "email": "neeraji@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Network Security",
+          "email": "jayantc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nibras Hasan Ze",
+          "email": "neerajp@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nidhi Yadav",
+          "email": "nidhi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Niharika Dubey",
+          "email": "neetur@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nikhil Gupta",
+          "email": "nikhil@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nilanjana Chatterjee",
+          "email": "nikhilb@iitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Niranjan Nagarajan",
+          "email": "niranjan@nus.edu.sg",
+          "phone": ""
+        },
+        {
+          "name": "Nisha Kumari",
+          "email": "nishab@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Nishad Patnaik",
+          "email": "nishad@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ojaswa Sharma",
+          "email": "ojaswa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pallavi Kaushik",
+          "email": "pallavi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Jalote",
+          "email": "jalote@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Kumar",
+          "email": "pallawik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pankaj Vajpayee",
+          "email": "dcre@iiitd.ac.in; pvajpayee@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Param Pratibha",
+          "email": "pankajku@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Paro Mishra",
+          "email": "paro.mishra@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Partha Pratim Majumder",
+          "email": "ppm1@nibmg.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Piyus Kedia",
+          "email": "piyus@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Piyush Kumar",
+          "email": "parthac@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ponnurangam Kumaraguru",
+          "email": "pk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prachi Mukherjee",
+          "email": "prachi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pragma Kar",
+          "email": "prgama@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pragya Kosta",
+          "email": "pragya@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pragya Singh",
+          "email": "pradeeps@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prahllad Deb",
+          "email": "prahllad@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pranjal Bhatia",
+          "email": "pragyas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prashant Goswami",
+          "email": "prashant.goswami@bth.se",
+          "phone": ""
+        },
+        {
+          "name": "Prateek Paul",
+          "email": "prateekdw@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Praveen Priyadarshi",
+          "email": "praveen@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pravesh Biyani",
+          "email": "praveshb@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priyam Kumar",
+          "email": "pratiks@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Priyankar Bhattacharjee",
+          "email": "pritik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Gajendra Pal Singh Raghava",
+          "email": "raghava@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Ranjan Bose",
+          "email": "bose@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Sanjit Krishnan Kaul",
+          "email": "adofa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Public Healthcare",
+          "email": "sahebc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Pushpendra Singh",
+          "email": "psingh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Quantum Machine Learning",
+          "email": "saurabhy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raashid Altaf",
+          "email": "pushpendrag@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Radar Signal Processing",
+          "email": "akankshap@iitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raghava Mutharaju",
+          "email": "raghava.mutharaju@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rahul Purandare",
+          "email": "purandare@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rahul Roy",
+          "email": "rahul.roy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rahul Verma",
+          "email": "rahulv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajbir Singh",
+          "email": "rajbir@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajeev Varshney",
+          "email": "rajeev.varshney@murdoch.edu.au",
+          "phone": ""
+        },
+        {
+          "name": "Rajendra Singh",
+          "email": "rajendra@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Kumar",
+          "email": "rajesh.kumar@bucknell.edu",
+          "phone": ""
+        },
+        {
+          "name": "Rajesh Sharma",
+          "email": "rajesh.sharma@ut.ee",
+          "phone": ""
+        },
+        {
+          "name": "Rajiv Raman",
+          "email": "rajiv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rajiv Ratn Shah",
+          "email": "rajivratn@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Raju Biswas",
+          "email": "raju@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rakesh Chaturvedi",
+          "email": "rakesh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ram Krishna Ghosh",
+          "email": "rkghosh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rameshwar Mishra",
+          "email": "raidhanis@iiitd.ac.in; rajeswarin@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rashmil Mishra",
+          "email": "rashmil@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ravi Anand",
+          "email": "ravi.anand@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Reconfigure Radio",
+          "email": "nareshk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Richa Gupta",
+          "email": "richa.gupta@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Riddhi Sharma",
+          "email": "rheas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rinku Shah",
+          "email": "rinku@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ritesh Seth",
+          "email": "ridhimai@iiitd.ac.in; rishabhd@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ritika Jha",
+          "email": "riteshs@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rivu Ghosh",
+          "email": "ritikaj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rizwan Ahmad Khan",
+          "email": "ritut@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Roji Thami",
+          "email": "rivug@iiitd.ac.in; rizwank@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Roopali Kashyap",
+          "email": "roopali@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Roshni Kadam",
+          "email": "rojit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rouf Rahman Sheikh",
+          "email": "roshnik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rubina Thakur",
+          "email": "rubina@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ruhi Sonal",
+          "email": "ruhi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Rupa Paul",
+          "email": "rupa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sachchidanand Prasad",
+          "email": "sachchidanand@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saheb Chhabra",
+          "email": "sadiyaha@iiitd.ac.in; sagars@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sahil Rohilla",
+          "email": "sahil@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sajid Javid",
+          "email": "madhuvaniy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saket Anand",
+          "email": "anands@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sakshi Arora",
+          "email": "sajidj@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Salonee Mittal",
+          "email": "sakshia@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saloni Jain",
+          "email": "sakshig@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sambuddho Chakravarty",
+          "email": "sambuddho@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sameep Mehta",
+          "email": "sameermehta@in.ibm.com",
+          "phone": ""
+        },
+        {
+          "name": "Samrith Ram",
+          "email": "samrith@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sana Ali Naqvi",
+          "email": "sana@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangam Kumar Yadav",
+          "email": "sangam@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sangramjit Maity",
+          "email": "samriddhig@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjana Soni",
+          "email": "sanjanas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjay Roy",
+          "email": "sanjay@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjit Krishnan Kaul",
+          "email": "skkaul@iiitd.ac.in; adofa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sanjna Khosla",
+          "email": "sanjna@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sapna Chaudhary",
+          "email": "sanjayp@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sarbani Sen",
+          "email": "saram@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sarthok Sircar",
+          "email": "sarthok@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saswati Paramita",
+          "email": "sarbanis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Satish Kumar Pandey",
+          "email": "satish@iiitd.ac",
+          "phone": ""
+        },
+        {
+          "name": "Satyandra Pal",
+          "email": "satyap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Saumya Yadav",
+          "email": "saumyat@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sayak Bhattacharya",
+          "email": "sayak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sayan Basu Roy",
+          "email": "sayan@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Semiconductor Design",
+          "email": "anupamaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sexual Health",
+          "email": "shyamas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shad Akhtar",
+          "email": "shad.akhtar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shaily Hooda",
+          "email": "saveenas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shamik Sarkar",
+          "email": "shamik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shanvi Srivastava",
+          "email": "shailjad@iiitd.ac.in; shailyh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sharmila Mande",
+          "email": "sharmila.s.mande@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Shipra Jain",
+          "email": "shipra@iiitd.ac.in; shatakshii@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shireen Mirza",
+          "email": "shireen@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shishir Jain",
+          "email": "shishir@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shivangi Agarwal",
+          "email": "shivasa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shivangi Verma",
+          "email": "shivangip@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shobha Sundar Ram",
+          "email": "shobha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shreekant Gupta",
+          "email": "shreekant29@yahoo.com",
+          "phone": ""
+        },
+        {
+          "name": "Shriram Venkatraman",
+          "email": "shriramv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shriram Yadav",
+          "email": "shriram@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shruthy Hari",
+          "email": "shivanic@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shruti Kinger",
+          "email": "shrutikh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shubham Chaudhary",
+          "email": "shrutik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Shyama Sastha Krishnamoorthy Srinivasan",
+          "email": "shwetap@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Smriti Singh",
+          "email": "smriti@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneh Saurabh",
+          "email": "sneh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sneha Chaubey",
+          "email": "sneha@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Soibam Haripriya",
+          "email": "soibam@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Somesh Sing",
+          "email": "snehaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonal Garg",
+          "email": "sonal@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonal Keshwani",
+          "email": "sonal.keshwani@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonia Baloni Ray",
+          "email": "sonia@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sonu Bagri",
+          "email": "sonamc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Soumya Jain",
+          "email": "soumenm@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Souvik Dutta",
+          "email": "souvik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Space Situational Awareness",
+          "email": "harinderk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sravani Poodipeddi",
+          "email": "sravani@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Srinivasan Ramachandran",
+          "email": "ramu@igib.res.in",
+          "phone": ""
+        },
+        {
+          "name": "Structural Biology",
+          "email": "sarahk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Structure Biology",
+          "email": "arshada@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Stuti Kumari",
+          "email": "souravs@iiitd.ac.in; spoorthis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhabrata Samajder",
+          "email": "subhabrata@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhajit Ghosechowdhury",
+          "email": "subhajit@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhankar Dha",
+          "email": "stutik@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhashree Mohapatra",
+          "email": "subhashree@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Subhasree Sarkar",
+          "email": "subhasree.eco@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Subhra Kanti Das",
+          "email": "subhrakanti.das82@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sudhanshu Shekhar Jamuar",
+          "email": "sudhanshu@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suhail Khan",
+          "email": "subhankard@iiitd.ac.in; sudhanshus@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sujay Deb",
+          "email": "sdeb@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sukanta Nandi",
+          "email": "sukanta@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sukriti Sacher",
+          "email": "suhailk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Suman Roy",
+          "email": "suman.roy68@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Sumedha Shu",
+          "email": "sukritis@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Sumit Kumar",
+          "email": "sumedhas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Supratim Shit",
+          "email": "supratim@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Surendra Kumar",
+          "email": "sunilk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Susanta Samajdar",
+          "email": "samajdars@hotmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Suvendu Kumar",
+          "email": "suryendud@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Syamantak Das",
+          "email": "syamantak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Syed Asrar",
+          "email": "swarnavas@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tammam Tillo",
+          "email": "tammam@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tanmoy Chakraborty",
+          "email": "tanmoy@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tanmoy Kundu",
+          "email": "tanmoy.kundu@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tarini Shankar Ghosh",
+          "email": "tarini.ghosh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tarun Sharma",
+          "email": "talhaa@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tavpritesh Sethi",
+          "email": "tavpriteshsethi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Theoretical Machine Learning",
+          "email": "sonub@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tissue Regeneration",
+          "email": "shruthyh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Tushar Pandey",
+          "email": "avinasht@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ujjal Timshina",
+          "email": "tushark@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vaibhav Srivastava",
+          "email": "vasri@kth.se",
+          "phone": ""
+        },
+        {
+          "name": "Vatsala Negi",
+          "email": "varshar@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Venkata Ratnadeep Suri",
+          "email": "ratan.suri@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vibhor Kumar",
+          "email": "vibhor@iiitd.ac.in; doi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vikram Goyal",
+          "email": "vikram@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Kuma",
+          "email": "vijaysi@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinay Kumar Verma",
+          "email": "vijays@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinayak Abrol",
+          "email": "abrol@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinish Kathuria",
+          "email": "vinish@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vinod Kumar",
+          "email": "vinod@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Virendra Kumar",
+          "email": "vinayv@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vishal Kumar",
+          "email": "virendrak@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Ashok Bohara",
+          "email": "dird@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Bohara",
+          "email": "vivek.b@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Chauhan",
+          "email": "vivekc@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vivek Kumar",
+          "email": "vivekk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Wireless Communication",
+          "email": "ananditab@iiitd.ac.in; asbahk@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Wireless Networks",
+          "email": "hanshitap@iiitd.ac.in; ishitas@iiitd.ac.in; muthukkumarr@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Yogesh Sangwan",
+          "email": "yogesh@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Zeya Umayya",
+          "email": "yashwardhani@iiitd.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Zilong Liu",
+          "email": "zilongliu.sg@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Zubair Shaban",
+          "email": "zebaa@iiitd.ac.in",
+          "phone": ""
+        }
+      ]
     }
   ]
 }

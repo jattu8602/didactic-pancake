@@ -33,7 +33,12 @@ def is_valid_name(name):
 
 def extract_phones(text):
     found = set()
-    for pat in [r'(?:\+?91[-.\s]?)?[6789]\d{9}', r'0\d{2,4}[-.\s]?\d{6,8}', r'\+\d{2}\s?\(?\d{1,4}\)?[-.\s]?\d{3,4}[-.\s]?\d{4,8}']:
+    for pat in [
+        r'(?:\+?91[-.\s]?)?[6789]\d{9}',
+        r'0\d{2,4}[-.\s]?\d{6,8}',
+        r'\+\d{1,3}\s?\(?\d{1,4}\)?[-.\s]?\d{3,4}[-.\s]?\d{4,8}',
+        r'\+\d{1,3}\s?\(?\d{1,4}\)?[-.\s]?\d{6,8}',
+    ]:
         for m in re.finditer(pat, text):
             digits = re.sub(r'[\s\-.)(]', '', m.group())
             # Skip ISBNs (978/979 prefix, 13 digits)
@@ -45,18 +50,28 @@ def extract_phones(text):
 
 def extract_emails(text, html=''):
     found = set()
+    
+    # Standard email format
     for m in re.finditer(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', text):
         e = m.group().lower().strip('.')
         if re.search(r'\.(png|jpg|jpeg|gif|css|js|svg|ico)$', e, re.I): continue
         if re.match(r'^(noreply|donotreply|no-reply|notifications|nobody|example|test|admin|root|webmaster|wordpress|support|info|contact)@', e, re.I): continue
         if len(e) > 5 and '@' in e:
             found.add(e)
+    
+    # Obfuscated email: name(at)domain or name[at]domain or name (at) domain
+    for m in re.finditer(r'([a-zA-Z0-9._%+-]+)\s*\(?\[?at\]?\)?\s*([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', text):
+        e = f'{m.group(1)}@{m.group(2)}'.lower().strip('.')
+        if len(e) > 5 and '@' in e:
+            found.add(e)
+    
     # Also extract from mailto: links in HTML
     if html:
         for m in re.finditer(r'mailto:([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})', html):
             e = m.group(1).lower().strip('.')
             if len(e) > 5 and '@' in e:
                 found.add(e)
+    
     return sorted(found)
 
 def scrape():

@@ -1,0 +1,39 @@
+{
+  "university": "NSUT",
+  "url": "https://www.nsut.ac.in/",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Faculties Departments Centres Facilities",
+      "email": "helpdesk.phd@nsut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Tech Admissions",
+      "email": "ar.acad@nsut.ac.in; designadmissions@nsut.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "21.ravindra@gmail.com",
+    "academicpg@gmail.com",
+    "ar.acad@nsut.ac.in",
+    "designadmissions@nsut.ac.in",
+    "helpdesk.phd@nsut.ac.in",
+    "mtech.admissions.helpdesk2025@nsut.ac.in"
+  ],
+  "all_phones": [
+    "+919205475102",
+    "+919205475103",
+    "+919217094500",
+    "+919217094501",
+    "+919217094502",
+    "+919560257770",
+    "9205475084",
+    "9205475085"
+  ],
+  "errors": [],
+  "total_professors": 2,
+  "total_emails": 6,
+  "total_phones": 8
+}
