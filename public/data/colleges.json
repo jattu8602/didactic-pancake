@@ -39216,9 +39216,20 @@
       "district": "",
       "pin_code": "110078",
       "website": "http://www.ipu.ac.in",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "7041330272; 7516490024; 8022213542",
+      "emails": "icc@ipu.ac.in; legalaidcentre@ipu.ac.in",
+      "professors": [
+        {
+          "name": "Accounts Branch",
+          "email": "icc@ipu.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Spoken Tutoria",
+          "email": "legalaidcentre@ipu.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "55932",
@@ -47734,9 +47745,80 @@
       "district": "",
       "pin_code": "110078",
       "website": "http://nludelhi.ac.in",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "8145000001",
+      "emails": "asm@nludelhi.ac.in; bhawna.mainali@nludelhi.ac.in; deputyregistrar@nludelhi.ac.in; examination@nludelhi.ac.in; finance@nludelhi.ac.in; gurjinder.singh@nludelhi.ac.in; internationalrelations@nludelhi.ac.in; jyoti.antil@nludelhi.ac.in; moolchand.paliwal@nludelhi.ac.in; narender.singh@nludelhi.ac.in; pcullet@soas.ac.uk; ravi.kanojia@nludelhi.ac.in; reena@nludelhi.ac.in; roopa.madhav@nludelhi.ac.in; sangita.singh@nludelhi.ac.in; sj@nludelhi.ac.in; sriram.v@nludelhi.ac.in; sunil@nludelhi.ac.in; vandana.bhotia@nludelhi.ac.in; vc@nludelhi.ac.in",
+      "professors": [
+        {
+          "name": "Admission Procedure",
+          "email": "sunil@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Assistant Registrar",
+          "email": "vijay.pandey@nludelhi.ac.in; vsnegi@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Department",
+          "email": "vcoffice@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Guest House",
+          "email": "examination@nludelhi.ac.in; finance@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Immigration India",
+          "email": "internationalrelations@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Principal Private Secretary",
+          "email": "deputyregistrar@nludelhi.ac.in; asm@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Prof. Roopa Madhav",
+          "email": "roopa.madhav@nludelhi.ac.in; pcullet@soas.ac.uk",
+          "phone": ""
+        },
+        {
+          "name": "Sangita Singh",
+          "email": "sangita.singh@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Section Officer",
+          "email": "reena@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Students Services",
+          "email": "moolchand.paliwal@nludelhi.ac.in; narender.singh@nludelhi.ac.in; ravi.kanojia@nludelhi.ac.in; bhawna.mainali@nludelhi.ac.in; sj@nludelhi.ac.in; jyoti.antil@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Technical Officer",
+          "email": "sriram.v@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vandana Bhotia",
+          "email": "vandana.bhotia@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Victim Justice",
+          "email": "vc@nludelhi.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Vijay Prakash Pandey",
+          "email": "gurjinder.singh@nludelhi.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56301",
@@ -54062,9 +54144,55 @@
       "district": "",
       "pin_code": "110070",
       "website": "https://www.terisas.ac.in/index.php",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "+911171800222",
+      "emails": "admissions@terisas.ac.in; dhanraj.singh@terisas.ac.in; emerson@terisas.ac.in; harshita.mynam@terisas.ac.in; program.mba@terisas.ac.in; registrar@terisas.ac.in; sapan.thapar@terisas.ac.in; shaleen.singhal@terisas.ac.in; vidhya.sharma@terisas.ac.in",
+      "professors": [
+        {
+          "name": "Annual Report",
+          "email": "shaleen.singhal@terisas.ac.in; sapan.thapar@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Click Download Brochure",
+          "email": "program.mba@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Dr. Sapan Thapar",
+          "email": "harshita.mynam@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Mr. Dhanraj Singh",
+          "email": "dhanraj.singh@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Ms. Vidhya Sharma",
+          "email": "vidhya.sharma@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "National Science Chair",
+          "email": "registrar@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Our Partners",
+          "email": "emerson@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "The Registrar",
+          "email": "registrar@terisas.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Visitors No",
+          "email": "admissions@terisas.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56640",
@@ -54846,9 +54974,40 @@
       "district": "",
       "pin_code": "110007",
       "website": "http://www.du.ac.in",
-      "phone_numbers": "",
-      "emails": "",
-      "professors": []
+      "phone_numbers": "9810320645",
+      "emails": "dean_fot@du.ac.in; dean_music@du.ac.in; departmentofarabicdu@gmail.com; dfbedu@gmail.com; director@lic.du.ac.in; dustatistics@gmail.com; head.dean@cie.du.ac.in; head@buddhist.du.ac.in; head@chemistry.du.ac.in; head@commerce.du.ac.in; head@cs.du.ac.in; head@economics.du.ac.in; head@es.du.ac.in; head@mil.du.ac.in; head@or.du.ac.in; head@persian.du.ac.in; head@philosophy.du.ac.in; head@psychlogy.du.ac.in; head@punjabi.du.ac.in; head@sanskrit.du.ac.in",
+      "professors": [
+        {
+          "name": "Admission Schedule",
+          "email": "office@dpess.du.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Buddhist Studies",
+          "email": "head@buddhist.du.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Faculty Members",
+          "email": "head@psychlogy.du.ac.in; head@sanskrit.du.ac.in; head@punjabi.du.ac.in; head@economics.du.ac.in; head@chemistry.du.ac.in; departmentofarabicdu@gmail.com; mnkhandu@gmail.com; head@urdu.du.ac.in; dean_music@du.ac.in; dfbedu@gmail.com; director@lic.du.ac.in; dustatistics@gmail.com; head@stats.du.ac.in; head@philosophy.du.ac.in; head@commerce.du.ac.in; head.dean@cie.du.ac.in; office@fot.du.ac.in; dean_fot@du.ac.in; head@cs.du.ac.in; head@or.du.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Integrated Sustainability Education",
+          "email": "head@es.du.ac.in",
+          "phone": ""
+        },
+        {
+          "name": "Last Updated",
+          "email": "sangeeta.talwar@gmail.com",
+          "phone": ""
+        },
+        {
+          "name": "Please Visit",
+          "email": "head@mil.du.ac.in; head@persian.du.ac.in",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": "56696",

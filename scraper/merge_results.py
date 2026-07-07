@@ -14,10 +14,15 @@ UNI_MAP = {
     'igdtuw':              ('IGDTUW', 'Delhi'),
     'iiit_delhi':          ('IIIT Delhi', 'Delhi'),
     'jamia_millia_islamia': ('Jamia Millia Islamia', 'Delhi'),
-    'jnu':                 ('Jawaharlal Nehru University', 'Delhi'),  # match existing full name
+    'jnu':                 ('Jawaharlal Nehru University', 'Delhi'),
     'nsut':                ('Netaji Subhas University of Technology', 'Delhi'),
-    'dtu':                 ('Delhi Technological University', 'Delhi'),  # match existing full name
+    'dtu':                 ('Delhi Technological University', 'Delhi'),
     'sau':                 ('South Asian University', 'Delhi'),
+    'du':                  ('University of Delhi', 'Delhi'),
+    'aud':                 ('Dr. B.R. Ambedkar University', 'Delhi'),
+    'ggsipu':              ('Guru Gobind Singh Indraprastha Vishwavidyalaya', 'Delhi'),
+    'nlu_delhi':           ('National Law University', 'Delhi'),
+    'teri_sas':            ('TERI School of Advanced studies', 'Delhi'),
 }
 
 def is_real_professor(name):
