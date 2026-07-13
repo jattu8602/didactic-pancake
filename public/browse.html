@@ -346,6 +346,28 @@
     .marks-popup-close:hover { color: #333; }
     body.dark-mode .marks-popup-close { color: #666; }
     body.dark-mode .marks-popup-close:hover { color: #ccc; }
+
+    /* User view banner */
+    #user-view-banner { display:none; align-items:center; gap:12px; padding:10px 16px; background:#e8f4fd; border-radius:8px; margin-bottom:12px; font-size:14px; }
+    body.dark-mode #user-view-banner { background:#1a2a3a; }
+    #user-view-label { font-weight:500; }
+
+    /* Users list */
+    .user-item {
+      display:flex; align-items:center; justify-content:space-between;
+      padding:10px 12px; border-bottom:1px solid #f0f0f0; cursor:pointer;
+      transition:background .15s; border-radius:6px;
+    }
+    .user-item:hover { background:#f8faff; }
+    body.dark-mode .user-item { border-color:#2a2a2a; }
+    body.dark-mode .user-item:hover { background:#2a2a2a; }
+    .user-item-name { font-weight:500; font-size:14px; }
+    .user-item-email { font-size:12px; color:#666; }
+    body.dark-mode .user-item-email { color:#a0a0a0; }
+    .user-item-count {
+      font-size:13px; background:#2563eb; color:#fff;
+      padding:3px 10px; border-radius:12px; font-weight:600;
+    }
   </style>
 </head>
 <body>
@@ -356,6 +378,7 @@
       <p class="subtitle" style="margin-bottom:0;">Browse and filter colleges across India</p>
     </div>
     <div style="display:flex;gap:8px;align-items:center;">
+      <button class="auth-btn" onclick="showUsers()" title="View all users and their marked colleges">Users</button>
       <div id="auth-area">
         <button id="show-login-btn" class="auth-btn" onclick="showLogin()">Login</button>
         <button id="show-signup-btn" class="auth-btn auth-signup" onclick="showSignup()">Sign Up</button>
@@ -400,6 +423,21 @@
         Already have an account? <a href="#" onclick="event.preventDefault();hideSignup();showLogin();" style="color:#2563eb;cursor:pointer;">Login</a>
       </p>
     </div>
+  </div>
+
+  <!-- Users List Modal -->
+  <div id="users-modal" class="modal" style="display:none;" onclick="if(event.target===this){hideUsers()}">
+    <div class="modal-content" style="width:500px;max-height:80vh;overflow-y:auto;">
+      <span class="modal-close" onclick="hideUsers()">&times;</span>
+      <h3 style="margin-bottom:16px;">All Users</h3>
+      <div id="users-list"></div>
+    </div>
+  </div>
+
+  <!-- User-colleges banner (shown when viewing a specific user's marks) -->
+  <div id="user-view-banner" style="display:none;align-items:center;gap:12px;padding:10px 16px;background:#e8f4fd;border-radius:8px;margin-bottom:12px;font-size:14px;">
+    <span id="user-view-label"></span>
+    <button class="auth-btn" onclick="clearUserView()" style="margin-left:auto;">Back to All</button>
   </div>
 
   <div class="filters">
@@ -490,6 +528,9 @@ let favoritedIds = new Set();
 
 // Global college marks: collegeId -> [{name, email}]
 let collegeMarks = new Map();
+
+// User view state
+let viewingUser = null; // {email, name} or null
 
 // Auth UI
 function showLogin() { document.getElementById('login-modal').style.display = 'flex'; document.getElementById('login-error').textContent = ''; }
@@ -616,6 +657,59 @@ async function toggleFav(el) {
   } catch(e) { el.checked = !checked; }
 }
 
+// Users list
+function showUsers() {
+  document.getElementById('users-modal').style.display = 'flex';
+  loadUsers();
+}
+function hideUsers() { document.getElementById('users-modal').style.display = 'none'; }
+
+async function loadUsers() {
+  const el = document.getElementById('users-list');
+  el.innerHTML = '<p style="color:#999;text-align:center;padding:20px;">Loading...</p>';
+  try {
+    const res = await fetch('/api/users');
+    if (!res.ok) { el.innerHTML = '<p style="color:#dc2626;text-align:center;padding:20px;">Failed to load users</p>'; return; }
+    const data = await res.json();
+    const users = data.users || [];
+    if (!users.length) { el.innerHTML = '<p style="color:#999;text-align:center;padding:20px;">No users yet</p>'; return; }
+    el.innerHTML = users.map(u => `
+      <div class="user-item" onclick="hideUsers();viewUserColleges('${esc(u.email)}','${esc(u.name)}')">
+        <div>
+          <div class="user-item-name">${esc(u.name)}</div>
+          <div class="user-item-email">${esc(u.email)}</div>
+        </div>
+        <span class="user-item-count">${u.markedCount}</span>
+      </div>
+    `).join('');
+  } catch(e) { el.innerHTML = '<p style="color:#dc2626;text-align:center;padding:20px;">Network error</p>'; }
+}
+
+async function viewUserColleges(email, name) {
+  viewingUser = {email, name};
+  document.getElementById('user-view-banner').style.display = 'flex';
+  document.getElementById('user-view-label').textContent = `Colleges marked by ${esc(name)}`;
+  try {
+    const res = await fetch(`/api/users/${encodeURIComponent(email)}/colleges`);
+    const data = await res.json();
+    const cols = data.colleges || [];
+    // Replace the filtered list with this user's colleges
+    filtered = cols;
+    sortData();
+    currentPage = 1;
+    render();
+  } catch(e) {
+    filtered = [];
+    render();
+  }
+}
+
+function clearUserView() {
+  viewingUser = null;
+  document.getElementById('user-view-banner').style.display = 'none';
+  applyFilters();
+}
+
 function showMarkedBy(collegeId) {
   const users = collegeMarks.get(collegeId) || [];
   if (!users.length) return;
@@ -677,6 +771,8 @@ function populateDistricts(state) {
 }
 
 function applyFilters() {
+  viewingUser = null;
+  document.getElementById('user-view-banner').style.display = 'none';
   const state = document.getElementById('state-filter').value;
   const district = document.getElementById('district-filter').value;
   const search = document.getElementById('search-input').value.toLowerCase().trim();
