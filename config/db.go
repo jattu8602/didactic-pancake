@@ -1,51 +1,51 @@
 package config
 
 import (
+	"context"
 	"fmt"
+	"log"
 	"os"
+	"time"
 
-	"github.com/PriyanKishoreMS/colleges-list-api/entities"
-	"github.com/joho/godotenv"
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-var Db *gorm.DB
+var (
+	MongoCollection    *mongo.Collection
+	UserCollection     *mongo.Collection
+	FavoriteCollection *mongo.Collection
+)
 
 func Connect() error {
-	var err error
-
-	godotenv.Load(".env")
-
-	DATABASE_URI := os.Getenv("DATABASE_URI")
-
-	Db, err = gorm.Open(mysql.Open(DATABASE_URI), &gorm.Config{
-		Logger:                 logger.Default.LogMode(logger.Silent),
-		SkipDefaultTransaction: true,
-		PrepareStmt:            true,
-	})
-
-	if err != nil {
-		return fmt.Errorf("error opening database connection: %v", err)
+	uri := os.Getenv("MONGODB_URI")
+	if uri == "" {
+		uri = "mongodb+srv://anchal:anchal@anchal.hospij1.mongodb.net/dbcolleges?appName=anchal"
 	}
 
-	fmt.Println("Database connection opened")
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
 
-	db, err := Db.DB()
-
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI(uri))
 	if err != nil {
-		return fmt.Errorf("error getting *sql.DB from gorm.DB: %v", err)
+		return fmt.Errorf("mongo connect error: %v", err)
 	}
 
-	// Ping database to check the connection
-	err = db.Ping()
-	if err != nil {
-		return fmt.Errorf("error pinging database: %v", err)
+	if err := client.Ping(ctx, nil); err != nil {
+		return fmt.Errorf("mongo ping error: %v", err)
 	}
 
-	Db.AutoMigrate(&entities.College{})
-	fmt.Println("Database migrated")
+	MongoCollection = client.Database("dbcolleges").Collection("colleges")
+	UserCollection = client.Database("dbcolleges").Collection("users")
+	FavoriteCollection = client.Database("dbcolleges").Collection("favorites")
 
+	// Verify data exists
+	count, err := MongoCollection.CountDocuments(ctx, bson.M{})
+	if err != nil {
+		return fmt.Errorf("mongo count error: %v", err)
+	}
+
+	log.Printf("MongoDB connected — %d colleges found", count)
 	return nil
 }

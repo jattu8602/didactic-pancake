@@ -113,6 +113,15 @@ func main() {
 		app.Get("colleges/:state/districts", handlerObj.GetDistrictsByState)
 		app.Get("colleges/:state", handlerObj.GetAllCollegesInState)
 		app.Get("colleges/:state/:district", handlerObj.GetAllCollegesInDistrict)
+
+		api := app.Group("/api")
+		api.Post("/auth/signup", handlerObj.Signup)
+		api.Post("/auth/login", handlerObj.Login)
+		api.Get("/auth/me", handlerObj.GetMe)
+		api.Post("/auth/logout", handlerObj.Logout)
+		api.Post("/favorites/toggle", handlerObj.ToggleFavorite)
+		api.Get("/favorites", handlerObj.GetFavorites)
+
 		log.Println("Database connected – DB API routes enabled")
 	} else {
 		log.Println("Database not available – serving static files and live JSON API only")

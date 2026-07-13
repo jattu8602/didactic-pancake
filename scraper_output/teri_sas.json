@@ -1,0 +1,72 @@
+{
+  "university": "TERI_SAS",
+  "url": "https://www.terisas.ac.in",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Annual Report",
+      "email": "shaleen.singhal@terisas.ac.in; sapan.thapar@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Click Download Brochure",
+      "email": "program.mba@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dr. Sapan Thapar",
+      "email": "harshita.mynam@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Mr. Dhanraj Singh",
+      "email": "dhanraj.singh@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Ms. Vidhya Sharma",
+      "email": "vidhya.sharma@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "National Science Chair",
+      "email": "registrar@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Our Partners",
+      "email": "emerson@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "The Registrar",
+      "email": "registrar@terisas.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Visitors No",
+      "email": "admissions@terisas.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "admissions@terisas.ac.in",
+    "dhanraj.singh@terisas.ac.in",
+    "emerson@terisas.ac.in",
+    "harshita.mynam@terisas.ac.in",
+    "program.mba@terisas.ac.in",
+    "registrar@terisas.ac.in",
+    "sapan.thapar@terisas.ac.in",
+    "shaleen.singhal@terisas.ac.in",
+    "shashi.tripathi@terisas.ac.in",
+    "sonika.goyal@terisas.ac.in",
+    "vidhya.sharma@terisas.ac.in"
+  ],
+  "all_phones": [
+    "+911171800222"
+  ],
+  "errors": [],
+  "total_professors": 9,
+  "total_emails": 11,
+  "total_phones": 1
+}

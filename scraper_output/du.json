@@ -1,0 +1,83 @@
+{
+  "university": "DU",
+  "url": "https://www.du.ac.in",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Admission Schedule",
+      "email": "office@dpess.du.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Buddhist Studies",
+      "email": "head@buddhist.du.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Dean Students",
+      "email": "ombudsperson@du.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Faculty Members",
+      "email": "head@psychlogy.du.ac.in; head@sanskrit.du.ac.in; head@punjabi.du.ac.in; head@economics.du.ac.in; head@chemistry.du.ac.in; departmentofarabicdu@gmail.com; mnkhandu@gmail.com; head@urdu.du.ac.in; dean_music@du.ac.in; dfbedu@gmail.com; director@lic.du.ac.in; dustatistics@gmail.com; head@stats.du.ac.in; head@philosophy.du.ac.in; head@commerce.du.ac.in; head.dean@cie.du.ac.in; office@fot.du.ac.in; dean_fot@du.ac.in; head@cs.du.ac.in; head@or.du.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Integrated Sustainability Education",
+      "email": "head@es.du.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Last Updated",
+      "email": "sangeeta.talwar@gmail.com",
+      "phone": ""
+    },
+    {
+      "name": "Please Visit",
+      "email": "head@mil.du.ac.in; head@persian.du.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "adminblock@du.ac.in",
+    "c@alogue.aspx",
+    "dean_fot@du.ac.in",
+    "dean_music@du.ac.in",
+    "departmentofarabicdu@gmail.com",
+    "dfbedu@gmail.com",
+    "director@lic.du.ac.in",
+    "dustatistics@gmail.com",
+    "head.dean@cie.du.ac.in",
+    "head@anthro.du.ac.in",
+    "head@buddhist.du.ac.in",
+    "head@chemistry.du.ac.in",
+    "head@commerce.du.ac.in",
+    "head@cs.du.ac.in",
+    "head@economics.du.ac.in",
+    "head@es.du.ac.in",
+    "head@mil.du.ac.in",
+    "head@or.du.ac.in",
+    "head@persian.du.ac.in",
+    "head@philosophy.du.ac.in",
+    "head@psychlogy.du.ac.in",
+    "head@punjabi.du.ac.in",
+    "head@sanskrit.du.ac.in",
+    "head@stats.du.ac.in",
+    "head@urdu.du.ac.in",
+    "mnkhandu@gmail.com",
+    "office@dpess.du.ac.in",
+    "office@fot.du.ac.in",
+    "ombudsperson@du.ac.in",
+    "sangeeta.talwar@gmail.com",
+    "st@istics.du.ac.in",
+    "st@s.du.ac.in"
+  ],
+  "all_phones": [
+    "9810320645"
+  ],
+  "errors": [],
+  "total_professors": 7,
+  "total_emails": 32,
+  "total_phones": 1
+}

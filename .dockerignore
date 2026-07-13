@@ -1,0 +1,10 @@
+.git
+.gitignore
+*.md
+*.py
+scraper/
+scraper_output/
+
+__pycache__/
+*.pyc
+.env

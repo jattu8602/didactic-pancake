@@ -1,0 +1,125 @@
+{
+  "university": "NLU_Delhi",
+  "url": "https://nludelhi.ac.in",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Admission Procedure",
+      "email": "sunil@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Assistant Registrar",
+      "email": "vijay.pandey@nludelhi.ac.in; vsnegi@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Department\tContact Number\tEmail",
+      "email": "vcoffice@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Executive Director",
+      "email": "risham.garg@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Guest House",
+      "email": "examination@nludelhi.ac.in; finance@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Immigration India",
+      "email": "internationalrelations@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Principal Private Secretary",
+      "email": "deputyregistrar@nludelhi.ac.in; asm@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Prof. Roopa Madhav",
+      "email": "roopa.madhav@nludelhi.ac.in; pcullet@soas.ac.uk",
+      "phone": ""
+    },
+    {
+      "name": "Sangita Singh",
+      "email": "sangita.singh@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Section Officer",
+      "email": "reena@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Students Services",
+      "email": "moolchand.paliwal@nludelhi.ac.in; narender.singh@nludelhi.ac.in; ravi.kanojia@nludelhi.ac.in; bhawna.mainali@nludelhi.ac.in; sj@nludelhi.ac.in; jyoti.antil@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Technical Officer",
+      "email": "sriram.v@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Telephone\u00a0Directory",
+      "email": "registrar@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vandana Bhotia",
+      "email": "vandana.bhotia@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Victim Justice",
+      "email": "vc@nludelhi.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Vijay Prakash Pandey",
+      "email": "gurjinder.singh@nludelhi.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "administration@nludelhi.ac.in",
+    "admission@nludelhi.ac.in",
+    "asm@nludelhi.ac.in",
+    "bhawna.mainali@nludelhi.ac.in",
+    "deputyregistrar@nludelhi.ac.in",
+    "examination@nludelhi.ac.in",
+    "finance@nludelhi.ac.in",
+    "gurjinder.singh@nludelhi.ac.in",
+    "internationaloffice@nludelhi.ac.in",
+    "internationalrelations@nludelhi.ac.in",
+    "jyoti.antil@nludelhi.ac.in",
+    "moolchand.paliwal@nludelhi.ac.in",
+    "narender.singh@nludelhi.ac.in",
+    "pcullet@soas.ac.uk",
+    "ravi.kanojia@nludelhi.ac.in",
+    "reena.khatri@nludelhi.ac.in",
+    "reena@nludelhi.ac.in",
+    "registrar@nludelhi.ac.in",
+    "risham.garg@nludelhi.ac.in",
+    "roopa.madhav@nludelhi.ac.in",
+    "sangita.singh@nludelhi.ac.in",
+    "sj@nludelhi.ac.in",
+    "sriram.v@nludelhi.ac.in",
+    "sunil@nludelhi.ac.in",
+    "vandana.bhotia@nludelhi.ac.in",
+    "vc@nludelhi.ac.in",
+    "vcoffice@nludelhi.ac.in",
+    "vijay.pandey@nludelhi.ac.in",
+    "vsnegi@nludelhi.ac.in"
+  ],
+  "all_phones": [
+    "8145000001"
+  ],
+  "errors": [],
+  "total_professors": 16,
+  "total_emails": 29,
+  "total_phones": 1
+}

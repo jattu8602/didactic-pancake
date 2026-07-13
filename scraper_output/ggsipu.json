@@ -1,0 +1,34 @@
+{
+  "university": "GGSIPU",
+  "url": "http://www.ipu.ac.in",
+  "pages_scraped": 41,
+  "professors": [
+    {
+      "name": "Accounts Branch",
+      "email": "icc@ipu.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Spoken Tutoria",
+      "email": "legalaidcentre@ipu.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "icc@ipu.ac.in",
+    "legalaidcentre@ipu.ac.in"
+  ],
+  "all_phones": [
+    "7041330272",
+    "7516490024",
+    "8022213542",
+    "8182219982",
+    "8442219981",
+    "8625502720",
+    "9614802821"
+  ],
+  "errors": [],
+  "total_professors": 2,
+  "total_emails": 2,
+  "total_phones": 7
+}
