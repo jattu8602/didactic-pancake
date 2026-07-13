@@ -568,6 +568,7 @@ async function signup() {
     localStorage.setItem('auth_token', token);
     hideSignup();
     await loadFavorites();
+    await loadCollegeMarks();
     updateAuthUI();
   } catch(e) { errEl.textContent = 'Network error'; }
 }
@@ -590,6 +591,7 @@ async function login() {
     localStorage.setItem('auth_token', token);
     hideLogin();
     await loadFavorites();
+    await loadCollegeMarks();
     updateAuthUI();
   } catch(e) { errEl.textContent = 'Network error'; }
 }
@@ -620,7 +622,7 @@ async function checkAuth() {
 async function loadCollegeMarks() {
   try {
     const res = await fetch('/api/marks');
-    if (!res.ok) return;
+    if (!res.ok) { return; }
     const data = await res.json();
     collegeMarks = new Map();
     for (const m of (data.marks || [])) {
@@ -742,8 +744,8 @@ function showMarkedBy(collegeId) {
 }
 
 async function init() {
-  await checkAuth();
   await loadCollegeMarks();
+  await checkAuth();
   const res = await fetch('data/colleges.json');
   const data = await res.json();
   colleges = data.colleges;
