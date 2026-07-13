@@ -1,13 +1,10 @@
 """
-Clean and merge all scraper results into colleges.json
+Clean and merge all scraper results -> colleges.json + MongoDB
 """
 import json, glob, re, os
+from db import get_collection, upsert_many
 
-# Load existing data
-with open('public/data/colleges.json') as f:
-    data = json.load(f)
-
-colleges = data['colleges']
+MONGO_URL = "mongodb+srv://anchal:anchal@anchal.hospij1.mongodb.net/dbcolleges?appName=anchal"
 
 # University name -> state mapping
 UNI_MAP = {
@@ -27,7 +24,6 @@ UNI_MAP = {
 
 def is_real_professor(name):
     name_lower = name.lower().strip()
-    # Remove entries that are clearly not professor names
     skip = [
         'academic affairs', 'academics affairs', 'assistant warden', 'student welfare',
         'examinations affairs', 'faculty affairs', 'information technology',
@@ -47,48 +43,52 @@ def is_real_professor(name):
         'kashmere gate', 'madrasa road opposite',
         'placements facilities careers', 'portal anvenshan',
         'head of department', 'head of the department', 'head of dept',
+        'admission schedule', 'dean students', 'faculty members', 'last updated',
+        'please visit', 'admission procedure', 'assistant registrar',
+        'executive director', 'guest house',
     ]
     for s in skip:
         if s in name_lower:
             return False
-    # Must have at least one capital letter followed by lowercase
     if not re.match(r'^[A-Z][a-z]', name):
         return False
-    # Must be between 5 and 50 chars
     if len(name) < 5 or len(name) > 50:
         return False
-    # Skip names with tabs or multiple spaces
     if '\t' in name or '  ' in name:
         return False
     return True
 
 def clean_name(name):
-    """Clean up truncated names from IGDTUW format."""
     name = name.strip()
-    # Remove trailing tab-text
     if '\t' in name:
         name = name.split('\t')[0].strip()
     return name
 
+# Load existing data from MongoDB
+col = get_collection()
+colleges = list(col.find({}))
+print(f"Loaded {len(colleges)} colleges from MongoDB")
+
 # Process each scraper output file
 scraper_dir = 'scraper_output'
 total_profs_added = 0
+upserts = []
 
 for fpath in sorted(glob.glob(os.path.join(scraper_dir, '*.json'))):
     base = os.path.basename(fpath).replace('.json', '')
     if base not in UNI_MAP:
         print(f"  Skipping unknown: {base}")
         continue
-    
+
     uni_name, state = UNI_MAP[base]
-    
+
     with open(fpath) as f:
         result = json.load(f)
-    
+
     professors = result.get('professors', [])
     all_emails = result.get('all_emails', [])
     all_phones = result.get('all_phones', [])
-    
+
     # Clean professors
     clean_profs = []
     for p in professors:
@@ -100,46 +100,35 @@ for fpath in sorted(glob.glob(os.path.join(scraper_dir, '*.json'))):
             'email': p.get('email', ''),
             'phone': p.get('phone', '')
         })
-    
+
     if not clean_profs:
         print(f"  {uni_name:25s} -> 0 professors (all filtered)")
         continue
-    
-    # Find or create the entry in colleges.json
+
+    # Find existing entry by name + state
     matched = None
     for c in colleges:
         if uni_name.lower() in c.get('name', '').lower() and c.get('state', '') == state:
             matched = c
             break
-    
-    if not matched:
-        # Also try partial match
-        for c in colleges:
-            c_name = c.get('name', '').lower()
-            if state in c.get('state', '') and (uni_name.lower().replace('_', ' ') in c_name or 
-                c_name.startswith(uni_name.lower().replace('_', ' ')[:5])):
-                matched = c
-                break
-    
+
+    all_college_emails = set()
+    for p in clean_profs:
+        for e in p.get('email', '').split('; '):
+            e = e.strip()
+            if e and '@' in e:
+                all_college_emails.add(e)
+
     if matched:
         matched['professors'] = clean_profs
-        # Update college-level contact if we have better data
         if not matched.get('phone_numbers') and all_phones:
             matched['phone_numbers'] = '; '.join(sorted(all_phones)[:3])
-        # Deduplicate emails
-        all_college_emails = set()
-        for p in clean_profs:
-            for e in p.get('email', '').split('; '):
-                e = e.strip()
-                if e and '@' in e:
-                    all_college_emails.add(e)
         if all_college_emails:
             matched['emails'] = '; '.join(sorted(all_college_emails)[:20])
+        upserts.append(matched)
         print(f"  {uni_name:25s} -> UPDATED ({len(clean_profs)} profs, {len(all_college_emails)} emails)")
     else:
-        # Create new entry
         new_entry = {
-            'id': str(max(int(c.get('id', 0) or 0) for c in colleges) + 1),
             'state': state,
             'name': uni_name,
             'address_line1': '',
@@ -149,22 +138,35 @@ for fpath in sorted(glob.glob(os.path.join(scraper_dir, '*.json'))):
             'pin_code': '',
             'website': result.get('url', ''),
             'phone_numbers': '; '.join(sorted(all_phones)[:3]) if all_phones else '',
-            'emails': '; '.join(sorted(set(
-                e for p in clean_profs for e in p.get('email', '').split('; ') if e and '@' in e
-            ))[:20]),
+            'emails': '; '.join(sorted(all_college_emails)[:20]),
             'professors': clean_profs
         }
         colleges.append(new_entry)
+        upserts.append(new_entry)
         print(f"  {uni_name:25s} -> ADDED ({len(clean_profs)} profs)")
-    
+
     total_profs_added += len(clean_profs)
 
-# Save
+# Push to MongoDB
+if upserts:
+    result = upsert_many(upserts)
+    print(f"\nMongoDB: {result.bulk_api_result['nUpserted'] + result.bulk_api_result['nModified']} docs affected")
+
+# Save local JSON (strip _id for cleaner JSON, and convert ObjectId)
+import datetime
+from bson import ObjectId
+class MongoEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, ObjectId):
+            return str(obj)
+        return super().default(obj)
+
 with open('public/data/colleges.json', 'w') as f:
-    json.dump({'colleges': colleges}, f, indent=2)
+    json.dump({'colleges': colleges}, f, indent=2, cls=MongoEncoder)
 
 print(f"\n{'='*50}")
 print(f"Total professors added/updated: {total_profs_added}")
-print(f"Total colleges now: {len(colleges)}")
+print(f"Total colleges now (JSON): {len(colleges)}")
+print(f"MongoDB count: {col.count_documents({})}")
 states = set(c.get('state', '') for c in colleges)
 print(f"States: {len(states)}")

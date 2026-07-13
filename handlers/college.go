@@ -1,77 +1,63 @@
 package handlers
 
 import (
+	"context"
 	"net/http"
 	"strconv"
 	"strings"
 	"time"
 
 	"golang.org/x/time/rate"
+
 	"github.com/PriyanKishoreMS/colleges-list-api/config"
 	"github.com/PriyanKishoreMS/colleges-list-api/entities"
 	"github.com/gofiber/fiber/v2"
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-type APIhandler struct{
+type APIhandler struct {
 	rateLimiter *rate.Limiter
 }
+
 func NewAPIhandler() *APIhandler {
 	return &APIhandler{
-		//bucket size 10 and refill rate is 3/sec
-		rateLimiter: rate.NewLimiter(rate.Every(time.Second)*3,10),
+		rateLimiter: rate.NewLimiter(rate.Every(time.Second)*3, 10),
 	}
 }
 
-func(handlerObj *APIhandler) GetAllStates(c *fiber.Ctx) error {
-
-	err := handlerObj.rateLimiter.Wait(c.Context())
-	if  err != nil{
+func (h *APIhandler) GetAllStates(c *fiber.Ctx) error {
+	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
 	}
-
-	var states []string
-
-	// sort alphabetically
-	result := config.Db.Model(&entities.College{}).Distinct("state").Order("state").Find(&states)
-
-	if result.Error != nil {
-		return c.Status(http.StatusNotFound).JSON(fiber.Map{
-			"message": "States not found",
-		})
+	ctx := context.Background()
+	states, err := config.MongoCollection.Distinct(ctx, "state", bson.M{})
+	if err != nil {
+		return c.Status(http.StatusNotFound).JSON(fiber.Map{"message": "States not found"})
 	}
-
 	return c.Status(http.StatusOK).JSON(states)
 }
 
-func(handlerObj *APIhandler) GetDistrictsByState(c *fiber.Ctx) error {
-
-	err := handlerObj.rateLimiter.Wait(c.Context())
-	if  err != nil{
+func (h *APIhandler) GetDistrictsByState(c *fiber.Ctx) error {
+	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
 	}
-
-	state := c.Params("state")
-	var districts []string
-
-	state = strings.ReplaceAll(state, "%20", " ")
-	result := config.Db.Model(&entities.College{}).Distinct("district").Where("state = ?", state).Order("district").Find(&districts)
-	if result.Error != nil {
-		return c.Status(http.StatusNotFound).JSON(fiber.Map{
-			"message": "Districts not found",
-		})
+	state := strings.ReplaceAll(c.Params("state"), "%20", " ")
+	state = strings.Title(strings.ToLower(state))
+	ctx := context.Background()
+	districts, err := config.MongoCollection.Distinct(ctx, "district", bson.M{"state": state})
+	if err != nil {
+		return c.Status(http.StatusNotFound).JSON(fiber.Map{"message": "Districts not found"})
 	}
-
 	return c.Status(http.StatusOK).JSON(districts)
 }
 
-func(handlerObj *APIhandler) GetAllCollegesInState(c *fiber.Ctx) error {
-
-	err := handlerObj.rateLimiter.Wait(c.Context())
-	if  err != nil{
+func (h *APIhandler) GetAllCollegesInState(c *fiber.Ctx) error {
+	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
 	}
-
-	state := c.Params("state")
+	state := strings.ReplaceAll(c.Params("state"), "%20", " ")
+	state = strings.Title(strings.ToLower(state))
 	page, _ := strconv.Atoi(c.Query("page", "1"))
 	limit, _ := strconv.Atoi(c.Query("limit", "10"))
 	search := c.Query("search")
@@ -80,28 +66,32 @@ func(handlerObj *APIhandler) GetAllCollegesInState(c *fiber.Ctx) error {
 		page = 1
 	}
 
-	var colleges []entities.College
-	state = strings.ReplaceAll(state, "%20", " ")
-
-	result := config.Db.Where("state = ?", state).Limit(limit).Order("name").Offset((page - 1) * limit).Find(&colleges)
-
-	var total int64
-	config.Db.Model(&entities.College{}).Where("state = ?", state).Count(&total)
-	totalPages := int(total) / limit
+	ctx := context.Background()
+	filter := bson.M{"state": state}
 
 	if search != "" {
-		result = config.Db.Where("state = ? AND name LIKE ?", state, search+"%").Limit(limit).Order("name").Offset((page - 1) * limit).Find(&colleges)
-
-		config.Db.Model(&entities.College{}).Where("state = ? AND name LIKE ?", state, search+"%").Count(&total)
-		totalPages = int(total) / limit
-
-	}
-	if result.Error != nil {
-		return c.Status(http.StatusNotFound).JSON(fiber.Map{
-			"message": "College not found",
-		})
+		filter["name"] = bson.M{"$regex": search, "$options": "i"}
 	}
 
+	total, _ := config.MongoCollection.CountDocuments(ctx, filter)
+
+	findOpts := options.Find().
+		SetSort(bson.M{"name": 1}).
+		SetSkip(int64((page - 1) * limit)).
+		SetLimit(int64(limit))
+
+	cursor, err := config.MongoCollection.Find(ctx, filter, findOpts)
+	if err != nil {
+		return c.Status(http.StatusNotFound).JSON(fiber.Map{"message": "College not found"})
+	}
+	defer cursor.Close(ctx)
+
+	var colleges []entities.College
+	if err := cursor.All(ctx, &colleges); err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{"message": "Error decoding colleges"})
+	}
+
+	totalPages := int(total) / limit
 	return c.Status(http.StatusOK).JSON(fiber.Map{
 		"count":       total,
 		"currentPage": page,
@@ -110,15 +100,14 @@ func(handlerObj *APIhandler) GetAllCollegesInState(c *fiber.Ctx) error {
 	})
 }
 
-func (handlerObj *APIhandler) GetAllCollegesInDistrict(c *fiber.Ctx) error {
-
-	err := handlerObj.rateLimiter.Wait(c.Context())
-	if  err != nil{
+func (h *APIhandler) GetAllCollegesInDistrict(c *fiber.Ctx) error {
+	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
-	}	
-
-	state := c.Params("state")
-	district := c.Params("district")
+	}
+	state := strings.ReplaceAll(c.Params("state"), "%20", " ")
+	state = strings.Title(strings.ToLower(state))
+	district := strings.ReplaceAll(c.Params("district"), "%20", " ")
+	district = strings.Title(strings.ToLower(district))
 	page, _ := strconv.Atoi(c.Query("page", "1"))
 	limit, _ := strconv.Atoi(c.Query("limit", "10"))
 	search := c.Query("search")
@@ -127,45 +116,44 @@ func (handlerObj *APIhandler) GetAllCollegesInDistrict(c *fiber.Ctx) error {
 		page = 1
 	}
 
-	var colleges []entities.College
-	state = strings.ReplaceAll(state, "%20", " ")
-	district = strings.ReplaceAll(district, "%20", " ")
-
-	result := config.Db.Where("state = ? AND district = ?", state, district).Limit(limit).Order("name").Offset((page - 1) * limit).Find(&colleges)
-
-	var total int64
-	config.Db.Model(&entities.College{}).Where("state = ? AND district = ?", state, district).Count(&total)
-	totalPages := int(total) / limit
+	ctx := context.Background()
+	filter := bson.M{"state": state, "district": district}
 
 	if search != "" {
-		result = config.Db.Where("state = ? AND district = ? AND name LIKE ?", state, district, search+"%").Limit(limit).Order("name").Offset((page - 1) * limit).Find(&colleges)
-
-		config.Db.Model(&entities.College{}).Where("state = ? AND district = ? AND name LIKE ?", state, district, search+"%").Count(&total)
-		totalPages = int(total) / limit
+		filter["name"] = bson.M{"$regex": search, "$options": "i"}
 	}
 
-	if result.Error != nil {
-		return c.Status(http.StatusNotFound).JSON(fiber.Map{
-			"message": "College not found",
-		})
+	total, _ := config.MongoCollection.CountDocuments(ctx, filter)
+
+	findOpts := options.Find().
+		SetSort(bson.M{"name": 1}).
+		SetSkip(int64((page - 1) * limit)).
+		SetLimit(int64(limit))
+
+	cursor, err := config.MongoCollection.Find(ctx, filter, findOpts)
+	if err != nil {
+		return c.Status(http.StatusNotFound).JSON(fiber.Map{"message": "College not found"})
+	}
+	defer cursor.Close(ctx)
+
+	var colleges []entities.College
+	if err := cursor.All(ctx, &colleges); err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{"message": "Error decoding colleges"})
 	}
 
+	totalPages := int(total) / limit
 	return c.Status(http.StatusOK).JSON(fiber.Map{
 		"count":       total,
 		"currentPage": page,
 		"pages":       totalPages + 1,
 		"colleges":    colleges,
 	})
-
 }
 
-func (handlerObj *APIhandler) SearchCollege(c *fiber.Ctx) error {
-
-	err := handlerObj.rateLimiter.Wait(c.Context())
-	if  err != nil{
+func (h *APIhandler) SearchCollege(c *fiber.Ctx) error {
+	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
-	}	
-
+	}
 	search := c.Query("search")
 	page, _ := strconv.Atoi(c.Query("page", "1"))
 	limit, _ := strconv.Atoi(c.Query("limit", "10"))
@@ -174,20 +162,28 @@ func (handlerObj *APIhandler) SearchCollege(c *fiber.Ctx) error {
 		page = 1
 	}
 
+	ctx := context.Background()
+	filter := bson.M{"name": bson.M{"$regex": search, "$options": "i"}}
+
+	total, _ := config.MongoCollection.CountDocuments(ctx, filter)
+
+	findOpts := options.Find().
+		SetSort(bson.M{"name": 1}).
+		SetSkip(int64((page - 1) * limit)).
+		SetLimit(int64(limit))
+
+	cursor, err := config.MongoCollection.Find(ctx, filter, findOpts)
+	if err != nil {
+		return c.Status(http.StatusNotFound).JSON(fiber.Map{"message": "College not found"})
+	}
+	defer cursor.Close(ctx)
+
 	var colleges []entities.College
-
-	result := config.Db.Where("name LIKE ?", search+"%").Order("name").Limit(limit).Offset((page - 1) * limit).Find(&colleges)
-
-	var total int64
-	config.Db.Model(&entities.College{}).Where("name LIKE ?", search+"%").Count(&total)
-	totalPages := int(total) / limit
-
-	if result.Error != nil {
-		return c.Status(http.StatusNotFound).JSON(fiber.Map{
-			"message": "College not found",
-		})
+	if err := cursor.All(ctx, &colleges); err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{"message": "Error decoding colleges"})
 	}
 
+	totalPages := int(total) / limit
 	return c.Status(http.StatusOK).JSON(fiber.Map{
 		"count":       total,
 		"currentPage": page,
