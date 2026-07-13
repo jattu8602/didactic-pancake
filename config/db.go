@@ -13,9 +13,10 @@ import (
 )
 
 var (
-	MongoCollection    *mongo.Collection
-	UserCollection     *mongo.Collection
-	FavoriteCollection *mongo.Collection
+	MongoCollection      *mongo.Collection
+	UserCollection       *mongo.Collection
+	FavoriteCollection   *mongo.Collection
+	CollegeMarksCollection *mongo.Collection
 )
 
 func Connect() error {
@@ -39,6 +40,7 @@ func Connect() error {
 	MongoCollection = client.Database("dbcolleges").Collection("colleges")
 	UserCollection = client.Database("dbcolleges").Collection("users")
 	FavoriteCollection = client.Database("dbcolleges").Collection("favorites")
+	CollegeMarksCollection = client.Database("dbcolleges").Collection("college_marks")
 
 	// Verify data exists
 	count, err := MongoCollection.CountDocuments(ctx, bson.M{})

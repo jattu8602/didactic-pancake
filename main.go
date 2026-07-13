@@ -121,6 +121,7 @@ func main() {
 		api.Post("/auth/logout", handlerObj.Logout)
 		api.Post("/favorites/toggle", handlerObj.ToggleFavorite)
 		api.Get("/favorites", handlerObj.GetFavorites)
+		api.Get("/marks", handlerObj.GetAllCollegeMarks)
 
 		log.Println("Database connected – DB API routes enabled")
 	} else {
