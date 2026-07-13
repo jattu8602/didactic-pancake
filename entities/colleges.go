@@ -20,3 +20,23 @@ type Professor struct {
 	Email string `json:"email" bson:"email"`
 	Phone string `json:"phone" bson:"phone"`
 }
+
+type User struct {
+	ID        string   `json:"id" bson:"_id,omitempty"`
+	Name      string   `json:"name" bson:"name"`
+	Email     string   `json:"email" bson:"email"`
+	Password  string   `json:"-" bson:"password"`
+	Token     string   `json:"token,omitempty" bson:"token,omitempty"`
+	Favorites []string `json:"favorites,omitempty" bson:"favorites,omitempty"`
+}
+
+type SignupRequest struct {
+	Name     string `json:"name"`
+	Email    string `json:"email"`
+	Password string `json:"password"`
+}
+
+type LoginRequest struct {
+	Email    string `json:"email"`
+	Password string `json:"password"`
+}

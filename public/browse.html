@@ -247,6 +247,76 @@
     body.dark-mode td.prof-col .item:hover, body.dark-mode td.website-col a, body.dark-mode .theme-toggle:hover { color: #60a5fa; }
     body.dark-mode td.website-col a:hover { color: #93c5fd; }
     body.dark-mode .copy-toast { background: #e0e0e0; color: #121212; }
+
+    /* Auth Buttons */
+    .auth-btn {
+      padding: 7px 16px;
+      border: 1px solid #d0d5dd;
+      border-radius: 6px;
+      background: #fff;
+      color: #1a1a2e;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .auth-btn:hover { border-color: #2563eb; color: #2563eb; }
+    .auth-signup { background: #2563eb; color: #fff; border-color: #2563eb; }
+    .auth-signup:hover { background: #1d4ed8; border-color: #1d4ed8; color: #fff; }
+    body.dark-mode .auth-btn { background: #1e1e1e; border-color: #333; color: #e0e0e0; }
+    body.dark-mode .auth-btn:hover { border-color: #3b82f6; color: #60a5fa; }
+    body.dark-mode .auth-signup { background: #2563eb; border-color: #2563eb; color: #fff; }
+    body.dark-mode .auth-signup:hover { background: #1d4ed8; border-color: #1d4ed8; color: #fff; }
+    body.dark-mode #user-email-display { color: #a0a0a0 !important; }
+
+    /* Modals */
+    .modal {
+      position: fixed; top:0; left:0; width:100%; height:100%;
+      background: rgba(0,0,0,.5); z-index:1000;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .modal-content {
+      background: #fff; border-radius: 12px; padding: 28px;
+      width: 380px; max-width: 90vw; position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,.2);
+    }
+    body.dark-mode .modal-content { background: #1e1e1e; }
+    .modal-close {
+      position: absolute; top: 12px; right: 16px;
+      font-size: 24px; cursor: pointer; color: #999; line-height: 1;
+    }
+    .modal-close:hover { color: #333; }
+    body.dark-mode .modal-close { color: #666; }
+    body.dark-mode .modal-close:hover { color: #ccc; }
+    .modal-input {
+      width: 100%; padding: 10px 14px; margin-bottom: 12px;
+      border: 1px solid #d0d5dd; border-radius: 8px;
+      font-size: 14px; outline: none; box-sizing: border-box;
+      transition: border .15s;
+    }
+    .modal-input:focus { border-color: #2563eb; box-shadow: 0 0 0 2px rgba(37,99,235,.15); }
+    body.dark-mode .modal-input { background: #2a2a2a; border-color: #444; color: #e0e0e0; }
+    body.dark-mode .modal-input:focus { border-color: #3b82f6; box-shadow: 0 0 0 2px rgba(59,130,246,.2); }
+    .modal-btn {
+      width: 100%; padding: 10px; border: none; border-radius: 8px;
+      background: #2563eb; color: #fff; font-size: 15px; font-weight: 600;
+      cursor: pointer; transition: background .15s;
+    }
+    .modal-btn:hover { background: #1d4ed8; }
+    .auth-error {
+      color: #dc2626; font-size: 13px; margin-bottom: 10px; min-height: 20px;
+    }
+    body.dark-mode .auth-error { color: #f87171; }
+
+    /* Favorite Checkbox */
+    .fav-check {
+      width: 18px; height: 18px; cursor: pointer; accent-color: #2563eb;
+      display: block; margin: 0 auto;
+    }
+    .fav-col { width: 36px; text-align: center; }
+    th.fav-col { cursor: default; }
+    th.fav-col:hover { color: #555; }
   </style>
 </head>
 <body>
@@ -256,10 +326,51 @@
       <h1>Colleges Directory</h1>
       <p class="subtitle" style="margin-bottom:0;">Browse and filter colleges across India</p>
     </div>
-    <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
-      <svg id="theme-icon-dark" style="display: none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-      <svg id="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-    </button>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <div id="auth-area">
+        <button id="show-login-btn" class="auth-btn" onclick="showLogin()">Login</button>
+        <button id="show-signup-btn" class="auth-btn auth-signup" onclick="showSignup()">Sign Up</button>
+        <div id="user-info" style="display:none;align-items:center;gap:10px;">
+          <span id="user-email-display" style="font-size:13px;color:#555;"></span>
+          <button class="auth-btn" onclick="logout()">Logout</button>
+        </div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+        <svg id="theme-icon-dark" style="display: none;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg id="theme-icon-light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="login-modal" class="modal" style="display:none;" onclick="if(event.target===this){hideLogin()}">
+    <div class="modal-content">
+      <span class="modal-close" onclick="hideLogin()">&times;</span>
+      <h3 style="margin-bottom:16px;">Login</h3>
+      <input id="login-email" class="modal-input" type="email" placeholder="Email" autocomplete="email">
+      <input id="login-password" class="modal-input" type="password" placeholder="Password" autocomplete="current-password">
+      <div id="login-error" class="auth-error"></div>
+      <button class="modal-btn" onclick="login()">Login</button>
+      <p style="margin-top:12px;font-size:13px;color:#666;text-align:center;">
+        Don't have an account? <a href="#" onclick="event.preventDefault();hideLogin();showSignup();" style="color:#2563eb;cursor:pointer;">Sign up</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Signup Modal -->
+  <div id="signup-modal" class="modal" style="display:none;" onclick="if(event.target===this){hideSignup()}">
+    <div class="modal-content">
+      <span class="modal-close" onclick="hideSignup()">&times;</span>
+      <h3 style="margin-bottom:16px;">Create Account</h3>
+      <input id="signup-name" class="modal-input" type="text" placeholder="Name" autocomplete="name">
+      <input id="signup-email" class="modal-input" type="email" placeholder="Email" autocomplete="email">
+      <input id="signup-password" class="modal-input" type="password" placeholder="Password" autocomplete="new-password">
+      <div id="signup-error" class="auth-error"></div>
+      <button class="modal-btn" onclick="signup()">Sign Up</button>
+      <p style="margin-top:12px;font-size:13px;color:#666;text-align:center;">
+        Already have an account? <a href="#" onclick="event.preventDefault();hideSignup();showLogin();" style="color:#2563eb;cursor:pointer;">Login</a>
+      </p>
+    </div>
   </div>
 
   <div class="filters">
@@ -296,6 +407,7 @@
     <table>
       <thead>
         <tr>
+          <th class="fav-col"></th>
           <th data-sort="name">Name <span class="sort-icon">▲</span></th>
           <th data-sort="city">City</th>
           <th data-sort="district">District</th>
@@ -342,7 +454,124 @@ let currentPage = 1;
 let sortKey = 'name';
 let sortAsc = true;
 
+// Auth state
+let currentUser = null;
+let token = localStorage.getItem('auth_token');
+let favoritedIds = new Set();
+
+// Auth UI
+function showLogin() { document.getElementById('login-modal').style.display = 'flex'; document.getElementById('login-error').textContent = ''; }
+function hideLogin() { document.getElementById('login-modal').style.display = 'none'; }
+function showSignup() { document.getElementById('signup-modal').style.display = 'flex'; document.getElementById('signup-error').textContent = ''; }
+function hideSignup() { document.getElementById('signup-modal').style.display = 'none'; }
+
+function updateAuthUI() {
+  const loggedIn = currentUser && token;
+  document.getElementById('show-login-btn').style.display = loggedIn ? 'none' : '';
+  document.getElementById('show-signup-btn').style.display = loggedIn ? 'none' : '';
+  document.getElementById('user-info').style.display = loggedIn ? 'flex' : 'none';
+  if (loggedIn) {
+    document.getElementById('user-email-display').textContent = currentUser.email;
+  }
+  render();
+}
+
+async function signup() {
+  const name = document.getElementById('signup-name').value.trim();
+  const email = document.getElementById('signup-email').value.trim();
+  const password = document.getElementById('signup-password').value;
+  const errEl = document.getElementById('signup-error');
+  errEl.textContent = '';
+  if (!name || !email || !password) { errEl.textContent = 'All fields are required'; return; }
+  try {
+    const res = await fetch('/api/auth/signup', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({name, email, password})
+    });
+    const data = await res.json();
+    if (!res.ok) { errEl.textContent = data.error || 'Signup failed'; return; }
+    token = data.token;
+    currentUser = data.user;
+    localStorage.setItem('auth_token', token);
+    hideSignup();
+    await loadFavorites();
+    updateAuthUI();
+  } catch(e) { errEl.textContent = 'Network error'; }
+}
+
+async function login() {
+  const email = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+  const errEl = document.getElementById('login-error');
+  errEl.textContent = '';
+  if (!email || !password) { errEl.textContent = 'All fields are required'; return; }
+  try {
+    const res = await fetch('/api/auth/login', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({email, password})
+    });
+    const data = await res.json();
+    if (!res.ok) { errEl.textContent = data.error || 'Login failed'; return; }
+    token = data.token;
+    currentUser = data.user;
+    localStorage.setItem('auth_token', token);
+    hideLogin();
+    await loadFavorites();
+    updateAuthUI();
+  } catch(e) { errEl.textContent = 'Network error'; }
+}
+
+async function logout() {
+  try {
+    await fetch('/api/auth/logout', { method: 'POST', headers: {'Authorization': 'Bearer '+token} });
+  } catch(e) {}
+  token = null;
+  currentUser = null;
+  favoritedIds = new Set();
+  localStorage.removeItem('auth_token');
+  updateAuthUI();
+}
+
+async function checkAuth() {
+  if (!token) { updateAuthUI(); return; }
+  try {
+    const res = await fetch('/api/auth/me', { headers: {'Authorization': 'Bearer '+token} });
+    if (!res.ok) { token = null; currentUser = null; localStorage.removeItem('auth_token'); updateAuthUI(); return; }
+    const data = await res.json();
+    currentUser = data.user;
+    await loadFavorites();
+    updateAuthUI();
+  } catch(e) { updateAuthUI(); }
+}
+
+async function loadFavorites() {
+  if (!token) { favoritedIds = new Set(); return; }
+  try {
+    const res = await fetch('/api/favorites', { headers: {'Authorization': 'Bearer '+token} });
+    if (!res.ok) return;
+    const data = await res.json();
+    favoritedIds = new Set(data.favorites || []);
+  } catch(e) {}
+}
+
+async function toggleFav(el) {
+  if (!token) return;
+  const collegeId = el.dataset.id;
+  const checked = el.checked;
+  try {
+    const res = await fetch('/api/favorites/toggle', {
+      method: 'POST', headers: {'Content-Type':'application/json', 'Authorization': 'Bearer '+token},
+      body: JSON.stringify({collegeId})
+    });
+    if (!res.ok) { el.checked = !checked; return; }
+    const data = await res.json();
+    if (data.favorited) favoritedIds.add(collegeId);
+    else favoritedIds.delete(collegeId);
+  } catch(e) { el.checked = !checked; }
+}
+
 async function init() {
+  await checkAuth();
   const res = await fetch('data/colleges.json');
   const data = await res.json();
   colleges = data.colleges;
@@ -423,7 +652,7 @@ function render() {
 
   const tbody = document.getElementById('table-body');
   if (!page.length) {
-    tbody.innerHTML = '<tr><td colspan="11" style="text-align:center;padding:40px;color:#999;">No colleges found</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="12" style="text-align:center;padding:40px;color:#999;">No colleges found</td></tr>';
   } else {
     tbody.innerHTML = page.map(c => {
       const profs = c.professors || [];
@@ -445,8 +674,10 @@ function render() {
         if (!arr.length) return '<span class="empty">—</span>';
         return arr.map(p => `<span class="item">${esc(p)}</span>`).join('');
       };
+      const isFav = currentUser && favoritedIds.has(c.id);
       return `
       <tr>
+        <td class="fav-col">${currentUser ? `<input type="checkbox" class="fav-check" data-id="${esc(c.id)}" ${isFav ? 'checked' : ''} onchange="toggleFav(this)">` : ''}</td>
         <td class="name-col">${esc(c.name)}</td>
         <td>${esc(c.city)}</td>
         <td>${esc(c.district)}</td>

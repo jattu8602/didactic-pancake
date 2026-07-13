@@ -12,7 +12,11 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-var MongoCollection *mongo.Collection
+var (
+	MongoCollection    *mongo.Collection
+	UserCollection     *mongo.Collection
+	FavoriteCollection *mongo.Collection
+)
 
 func Connect() error {
 	uri := os.Getenv("MONGODB_URI")
@@ -33,6 +37,8 @@ func Connect() error {
 	}
 
 	MongoCollection = client.Database("dbcolleges").Collection("colleges")
+	UserCollection = client.Database("dbcolleges").Collection("users")
+	FavoriteCollection = client.Database("dbcolleges").Collection("favorites")
 
 	// Verify data exists
 	count, err := MongoCollection.CountDocuments(ctx, bson.M{})
