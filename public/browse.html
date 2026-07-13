@@ -348,9 +348,9 @@
     body.dark-mode .marks-popup-close:hover { color: #ccc; }
 
     /* User view banner */
-    #user-view-banner { display:none; align-items:center; gap:12px; padding:10px 16px; background:#e8f4fd; border-radius:8px; margin-bottom:12px; font-size:14px; }
-    body.dark-mode #user-view-banner { background:#1a2a3a; }
-    #user-view-label { font-weight:500; }
+    #user-view-page { display:none; }
+    body.dark-mode #user-view-page { color:#e0e0e0; }
+    #user-view-label { font-weight:600; }
 
     /* Users list */
     .user-item {
@@ -434,10 +434,12 @@
     </div>
   </div>
 
-  <!-- User-colleges banner (shown when viewing a specific user's marks) -->
-  <div id="user-view-banner" style="display:none;align-items:center;gap:12px;padding:10px 16px;background:#e8f4fd;border-radius:8px;margin-bottom:12px;font-size:14px;">
-    <span id="user-view-label"></span>
-    <button class="auth-btn" onclick="clearUserView()" style="margin-left:auto;">Back to All</button>
+  <!-- User-colleges page (shown instead of main view when viewing a user's marks) -->
+  <div id="user-view-page" style="display:none;">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+      <button class="auth-btn" onclick="clearUserView()" style="padding:6px 14px;">← Back to All</button>
+      <span style="font-size:18px;font-weight:600;" id="user-view-label"></span>
+    </div>
   </div>
 
   <div class="filters">
@@ -689,13 +691,14 @@ async function loadUsers() {
 
 async function viewUserColleges(email, name) {
   viewingUser = {email, name};
-  document.getElementById('user-view-banner').style.display = 'flex';
+  document.getElementById('user-view-page').style.display = 'block';
+  document.querySelector('.filters').style.display = 'none';
+  document.querySelector('.toolbar').style.display = 'none';
   document.getElementById('user-view-label').textContent = `Colleges marked by ${esc(name)}`;
   try {
     const res = await fetch(`/api/users/${encodeURIComponent(email)}/colleges`);
     const data = await res.json();
     const cols = data.colleges || [];
-    // Replace the filtered list with this user's colleges
     filtered = cols;
     sortData();
     currentPage = 1;
@@ -708,7 +711,9 @@ async function viewUserColleges(email, name) {
 
 function clearUserView() {
   viewingUser = null;
-  document.getElementById('user-view-banner').style.display = 'none';
+  document.getElementById('user-view-page').style.display = 'none';
+  document.querySelector('.filters').style.display = 'flex';
+  document.querySelector('.toolbar').style.display = 'flex';
   applyFilters();
 }
 
@@ -774,7 +779,9 @@ function populateDistricts(state) {
 
 function applyFilters() {
   viewingUser = null;
-  document.getElementById('user-view-banner').style.display = 'none';
+  document.getElementById('user-view-page').style.display = 'none';
+  document.querySelector('.filters').style.display = 'flex';
+  document.querySelector('.toolbar').style.display = 'flex';
   const state = document.getElementById('state-filter').value;
   const district = document.getElementById('district-filter').value;
   const search = document.getElementById('search-input').value.toLowerCase().trim();
