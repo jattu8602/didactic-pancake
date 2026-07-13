@@ -1,0 +1,23 @@
+FROM golang:1.25-alpine AS builder
+
+WORKDIR /build
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . .
+
+RUN CGO_ENABLED=0 GOOS=linux go build -o colleges-server .
+
+FROM alpine:3.20
+
+RUN apk add --no-cache ca-certificates tzdata
+
+WORKDIR /app
+
+COPY --from=builder /build/colleges-server .
+COPY --from=builder /build/public ./public
+
+EXPOSE 3000
+
+CMD ["./colleges-server"]
