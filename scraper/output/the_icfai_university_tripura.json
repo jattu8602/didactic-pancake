@@ -1,0 +1,22 @@
+{
+  "university": "The ICFAI University Tripura",
+  "url": "https://www.iutripura.edu.in/",
+  "pages_scraped": 5,
+  "professors": [
+    {
+      "name": "Fax No",
+      "email": "admissions@iutripura.edu.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "admissions@iutripura.edu.in"
+  ],
+  "all_phones": [
+    "8003453673"
+  ],
+  "errors": [],
+  "total_professors": 1,
+  "total_emails": 1,
+  "total_phones": 1
+}

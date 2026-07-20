@@ -1,0 +1,30 @@
+{
+  "university": "Techno India University Tripura",
+  "url": "https://www.tiut.ac.in/",
+  "pages_scraped": 4,
+  "professors": [
+    {
+      "name": "Get In Touch",
+      "email": "info@tiut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Google Tag Manager",
+      "email": "info@tiut.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "Social Science",
+      "email": "info@tiut.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "info@tiut.ac.in"
+  ],
+  "all_phones": [],
+  "errors": [],
+  "total_professors": 3,
+  "total_emails": 1,
+  "total_phones": 0
+}

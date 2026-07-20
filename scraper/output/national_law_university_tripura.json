@@ -1,0 +1,26 @@
+{
+  "university": "National Law University Tripura",
+  "url": "https://nlutripura.ac.in/",
+  "pages_scraped": 5,
+  "professors": [
+    {
+      "name": "Get Directions",
+      "email": "contact@nlutripura.ac.in; registrar@nlutripura.ac.in",
+      "phone": ""
+    },
+    {
+      "name": "National Law University Tripura",
+      "email": "contact@nlutripura.ac.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "contact@nlutripura.ac.in",
+    "registrar@nlutripura.ac.in"
+  ],
+  "all_phones": [],
+  "errors": [],
+  "total_professors": 2,
+  "total_emails": 2,
+  "total_phones": 0
+}

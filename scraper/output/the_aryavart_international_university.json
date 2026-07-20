@@ -1,0 +1,27 @@
+{
+  "university": "The Aryavart International University",
+  "url": "https://aiuniversity.edu.in/",
+  "pages_scraped": 4,
+  "professors": [
+    {
+      "name": "Mail Us",
+      "email": "info@aiuniversity.edu.in; registrar@aiuniversity.edu.in; vc@aiuniversity.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "North Tripura",
+      "email": "registrar@aiuniversity.edu.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "info@aiuniversity.edu.in",
+    "registrar@aiuniversity.edu.in",
+    "vc@aiuniversity.edu.in"
+  ],
+  "all_phones": [],
+  "errors": [],
+  "total_professors": 2,
+  "total_emails": 3,
+  "total_phones": 0
+}

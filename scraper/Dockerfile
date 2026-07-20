@@ -19,6 +19,6 @@ WORKDIR /app
 # The scraped output will be mounted at /output
 VOLUME /output
 
-COPY scrape_generic.py .
+COPY scrape_generic.py scrape_tripura.py .
 
 ENTRYPOINT ["python3", "scrape_generic.py"]

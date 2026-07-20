@@ -456,6 +456,17 @@
       <input id="search-input" type="text" placeholder="Type college name...">
     </div>
     <div class="filter-group has-email-group">
+      <label for="tier-filter">Tier</label>
+      <select id="tier-filter" onchange="applyFilters()" style="min-width:100px;">
+        <option value="">All Tiers</option>
+        <option value="1">Tier 1 ⭐</option>
+        <option value="2">Tier 2 ⭐⭐</option>
+        <option value="3">Tier 3 ⭐⭐⭐</option>
+        <option value="4">Tier 4 ⭐⭐⭐⭐</option>
+        <option value="5">Tier 5 ⭐⭐⭐⭐⭐</option>
+      </select>
+    </div>
+    <div class="filter-group has-email-group">
       <label style="opacity:0;">Filter</label>
       <label style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:500;cursor:pointer;text-transform:none;letter-spacing:0;color:#1a1a2e;white-space:nowrap;">
         <input type="checkbox" id="has-email-filter" onchange="applyFilters()" style="width:16px;height:16px;cursor:pointer;">
@@ -478,6 +489,7 @@
         <tr>
           <th class="fav-col"></th>
           <th data-sort="name">Name <span class="sort-icon">▲</span></th>
+          <th data-sort="tier">Tier</th>
           <th data-sort="city">City</th>
           <th data-sort="district">District</th>
           <th data-sort="pin_code">Pin</th>
@@ -786,12 +798,14 @@ function applyFilters() {
   const district = document.getElementById('district-filter').value;
   const search = document.getElementById('search-input').value.toLowerCase().trim();
   const hasEmail = document.getElementById('has-email-filter').checked;
+  const tier = document.getElementById('tier-filter').value;
 
   filtered = colleges.filter(c => {
     if (state && c.state !== state) return false;
     if (district && c.district !== district) return false;
     if (search && !c.name.toLowerCase().includes(search)) return false;
     if (hasEmail && !c.emails) return false;
+    if (tier && (c.tier === undefined || c.tier === null || String(c.tier) !== tier)) return false;
     return true;
   });
 
@@ -806,6 +820,11 @@ function sortData() {
     if (sortKey === 'professors_count') {
       va = (a.professors || []).length;
       vb = (b.professors || []).length;
+      return sortAsc ? va - vb : vb - va;
+    }
+    if (sortKey === 'tier') {
+      va = a.tier || 5;
+      vb = b.tier || 5;
       return sortAsc ? va - vb : vb - va;
     }
     if (sortKey === 'professor_names') {
@@ -835,7 +854,7 @@ function render() {
 
   const tbody = document.getElementById('table-body');
   if (!page.length) {
-    tbody.innerHTML = '<tr><td colspan="12" style="text-align:center;padding:40px;color:#999;">No colleges found</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="13" style="text-align:center;padding:40px;color:#999;">No colleges found</td></tr>';
   } else {
     tbody.innerHTML = page.map(c => {
       const profs = c.professors || [];
@@ -871,10 +890,14 @@ function render() {
       } else if (currentUser) {
         tickHtml = `<input type="checkbox" class="fav-check" data-id="${esc(c.id)}" onchange="toggleFav(this)">`;
       }
+      const tierColors = {1:'#dc2626',2:'#ea580c',3:'#ca8a04',4:'#2563eb',5:'#6b7280'};
+      const tierLabel = c.tier ? `T${c.tier}` : '';
+      const tierColor = c.tier ? tierColors[c.tier] || '#6b7280' : 'transparent';
       return `
       <tr>
         <td class="fav-col">${tickHtml}</td>
         <td class="name-col">${esc(c.name)}</td>
+        <td>${tierLabel ? `<span style="display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;color:#fff;background:${tierColor};">${tierLabel}</span>` : ''}</td>
         <td>${esc(c.city)}</td>
         <td>${esc(c.district)}</td>
         <td>${esc(c.pin_code)}</td>

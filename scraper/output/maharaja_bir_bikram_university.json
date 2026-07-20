@@ -1,0 +1,20 @@
+{
+  "university": "Maharaja Bir Bikram University",
+  "url": "https://mbbuniversity.ac.in/",
+  "pages_scraped": 5,
+  "professors": [
+    {
+      "name": "Information Technology",
+      "email": "email@email.com",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "email@email.com"
+  ],
+  "all_phones": [],
+  "errors": [],
+  "total_professors": 1,
+  "total_emails": 1,
+  "total_phones": 0
+}

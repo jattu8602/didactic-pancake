@@ -13,6 +13,7 @@ type College struct {
 	PhoneNumbers string        `json:"phone_numbers" bson:"phone_numbers"`
 	Emails       string        `json:"emails" bson:"emails"`
 	Professors   []Professor   `json:"professors" bson:"professors"`
+	Tier         int           `json:"tier" bson:"tier"`
 }
 
 type Professor struct {

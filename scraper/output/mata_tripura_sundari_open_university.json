@@ -1,0 +1,46 @@
+{
+  "university": "Mata Tripura Sundari Open University",
+  "url": "https://www.mtsou.edu.in/",
+  "pages_scraped": 5,
+  "professors": [
+    {
+      "name": "English Coordinator",
+      "email": "info@mtsou.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "Main Section Ends",
+      "email": "info@mtsou.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "Political Coordinator",
+      "email": "helpdesk@mtsou.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "Section Ends",
+      "email": "info@mtsou.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "Sociology Coordinator",
+      "email": "info@mtsou.edu.in; helpdesk@mtsou.edu.in",
+      "phone": ""
+    },
+    {
+      "name": "Village Chandrapur Colony",
+      "email": "helpdesk@mtsou.edu.in; info@mtsou.edu.in",
+      "phone": ""
+    }
+  ],
+  "all_emails": [
+    "helpdesk@mtsou.edu.in",
+    "info@mtsou.edu.in"
+  ],
+  "all_phones": [],
+  "errors": [],
+  "total_professors": 6,
+  "total_emails": 2,
+  "total_phones": 0
+}

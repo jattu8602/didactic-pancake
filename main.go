@@ -31,6 +31,7 @@ type College struct {
 	PhoneNumbers string      `json:"phone_numbers"`
 	Emails       string      `json:"emails"`
 	Professors   []Professor `json:"professors"`
+	Tier         int         `json:"tier"`
 }
 
 type CollegesData struct {

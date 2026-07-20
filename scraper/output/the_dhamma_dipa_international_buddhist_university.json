@@ -1,0 +1,32 @@
+{
+  "university": "The Dhamma Dipa International Buddhist University",
+  "url": "https://www.ddibu.in/",
+  "pages_scraped": 2,
+  "professors": [
+    {
+      "name": "Manu Bankul",
+      "email": "verification@ddibu.in",
+      "phone": "9245048372"
+    }
+  ],
+  "all_emails": [
+    "bhet.org@gmail.com",
+    "registrar@ddibu.inphone",
+    "vc@ddibu.inphone",
+    "verification@ddibu.in"
+  ],
+  "all_phones": [
+    "6207230956",
+    "8178283850",
+    "9234601480",
+    "9245048371",
+    "9245048372",
+    "9245048373",
+    "9245048374",
+    "9885415228"
+  ],
+  "errors": [],
+  "total_professors": 1,
+  "total_emails": 4,
+  "total_phones": 8
+}
