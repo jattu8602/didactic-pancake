@@ -100,8 +100,8 @@ for file_name in sorted(os.listdir(OUTDIR)):
                 }
 
     # Update college
-    college['emails'] = sorted(all_emails)
-    college['phone_numbers'] = sorted(all_phones)
+    college['emails'] = '; '.join(sorted(all_emails)) if all_emails else ''
+    college['phone_numbers'] = '; '.join(sorted(all_phones)) if all_phones else ''
     college['professors'] = list(existing_profs.values())
     college['tier'] = college.get('tier', 0)
 
