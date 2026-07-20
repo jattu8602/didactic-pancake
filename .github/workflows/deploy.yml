@@ -1,0 +1,40 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Go binary
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+      - run: go build -o colleges-server .
+
+      - name: Deploy via SSH
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          source: "colleges-server,public/"
+          target: ${{ secrets.DEPLOY_PATH }}
+          strip_components: 0
+          rm: false
+
+      - name: Restart server
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            cd ${{ secrets.DEPLOY_PATH }}
+            chmod +x colleges-server
+            systemctl restart colleges-server 2>/dev/null || docker restart colleges-server 2>/dev/null || supervisorctl restart colleges-server 2>/dev/null || pkill colleges-server; nohup ./colleges-server > server.log 2>&1 &
