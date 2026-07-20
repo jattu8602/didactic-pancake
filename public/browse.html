@@ -763,7 +763,7 @@ function showMarkedBy(collegeId) {
 async function init() {
   await loadCollegeMarks();
   await checkAuth();
-  const res = await fetch('data/colleges.json');
+  const res = await fetch('/api/colleges?limit=500');
   const data = await res.json();
   colleges = data.colleges;
   populateStates();

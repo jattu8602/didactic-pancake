@@ -116,6 +116,7 @@ func main() {
 		app.Get("colleges/:state/:district", handlerObj.GetAllCollegesInDistrict)
 
 		api := app.Group("/api")
+		api.Get("/colleges", handlerObj.ListColleges)
 		api.Post("/auth/signup", handlerObj.Signup)
 		api.Post("/auth/login", handlerObj.Login)
 		api.Get("/auth/me", handlerObj.GetMe)

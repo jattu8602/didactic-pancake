@@ -150,6 +150,46 @@ func (h *APIhandler) GetAllCollegesInDistrict(c *fiber.Ctx) error {
 	})
 }
 
+func (h *APIhandler) ListColleges(c *fiber.Ctx) error {
+	ctx := context.Background()
+	state := c.Query("state")
+	search := c.Query("search")
+	limitStr := c.Query("limit", "500")
+
+	limit, err := strconv.Atoi(limitStr)
+	if err != nil || limit < 1 {
+		limit = 500
+	}
+
+	filter := bson.M{}
+	if state != "" {
+		filter["state"] = bson.M{"$regex": state, "$options": "i"}
+	}
+	if search != "" {
+		filter["name"] = bson.M{"$regex": search, "$options": "i"}
+	}
+
+	findOpts := options.Find().
+		SetSort(bson.M{"name": 1}).
+		SetLimit(int64(limit))
+
+	cursor, err := config.MongoCollection.Find(ctx, filter, findOpts)
+	if err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{"error": "Failed to fetch colleges"})
+	}
+	defer cursor.Close(ctx)
+
+	var colleges []entities.College
+	if err := cursor.All(ctx, &colleges); err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{"error": "Failed to decode colleges"})
+	}
+
+	return c.JSON(fiber.Map{
+		"total":    len(colleges),
+		"colleges": colleges,
+	})
+}
+
 func (h *APIhandler) SearchCollege(c *fiber.Ctx) error {
 	if err := h.rateLimiter.Wait(c.Context()); err != nil {
 		return err
