@@ -154,11 +154,11 @@ func (h *APIhandler) ListColleges(c *fiber.Ctx) error {
 	ctx := context.Background()
 	state := c.Query("state")
 	search := c.Query("search")
-	limitStr := c.Query("limit", "500")
+	limitStr := c.Query("limit", "10000")
 
 	limit, err := strconv.Atoi(limitStr)
 	if err != nil || limit < 1 {
-		limit = 500
+		limit = 10000
 	}
 
 	filter := bson.M{}
