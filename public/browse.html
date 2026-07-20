@@ -326,8 +326,17 @@
     .global-tick:hover { background: rgba(37,99,235,.1); }
     body.dark-mode .global-tick { color: #60a5fa; }
     body.dark-mode .global-tick:hover { background: rgba(96,165,250,.15); }
+    .mark-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 18px; height: 18px; padding: 0 5px;
+      border-radius: 10px; background: #2563eb; color: #fff;
+      font-size: 11px; font-weight: 700; cursor: pointer;
+      margin-left: 4px; vertical-align: middle; line-height: 1;
+    }
+    .mark-badge:hover { background: #1d4ed8; }
+    body.dark-mode .mark-badge { background: #3b82f6; }
+    body.dark-mode .mark-badge:hover { background: #2563eb; }
 
-    /* Marked-by tooltip/popup */
     .marks-popup {
       position: fixed; z-index: 1100;
       background: #fff; border-radius: 8px; padding: 12px 16px;
@@ -881,15 +890,15 @@ function render() {
       const isMarkedGlobally = markedBy.length > 0;
       const userMarked = currentUser && favoritedIds.has(c.id);
       const markNames = markedBy.map(u => u.name).join(', ');
+      const markCount = markedBy.length;
       let tickHtml = '';
-      if (isMarkedGlobally) {
-        if (currentUser) {
-          tickHtml = `<input type="checkbox" class="fav-check" data-id="${esc(c.id)}" ${userMarked ? 'checked' : ''} onchange="toggleFav(this)" title="Marked by: ${esc(markNames)}">`;
-        } else {
-          tickHtml = `<span class="global-tick" onclick="showMarkedBy('${esc(c.id)}')" title="Marked by: ${esc(markNames)}">✓</span>`;
-        }
-      } else if (currentUser) {
-        tickHtml = `<input type="checkbox" class="fav-check" data-id="${esc(c.id)}" onchange="toggleFav(this)">`;
+      if (currentUser) {
+        tickHtml = `<input type="checkbox" class="fav-check" data-id="${esc(c.id)}" ${userMarked ? 'checked' : ''} onchange="toggleFav(this)" title="${markCount > 0 ? 'Marked by: '+esc(markNames) : 'Click to mark'}">`;
+      } else if (isMarkedGlobally) {
+        tickHtml = `<span class="global-tick" onclick="showMarkedBy('${esc(c.id)}')" title="Marked by: ${esc(markNames)}">✓</span>`;
+      }
+      if (markCount > 0) {
+        tickHtml += `<span class="mark-badge" onclick="showMarkedBy('${esc(c.id)}')" title="Marked by: ${esc(markNames)}">${markCount}</span>`;
       }
       const tierColors = {1:'#dc2626',2:'#ea580c',3:'#ca8a04',4:'#2563eb',5:'#6b7280'};
       const tierLabel = c.tier ? `T${c.tier}` : '';
